@@ -116,6 +116,8 @@ export const LangEn = {
         setting_relayPower:  "Relay Power",
         setting_safeword:    "Safeword:",
         setting_useSafeword: "Allow Safeword Use?",
+        setting_useJasX: "Allow JasX game commands?",
+        setting_useProjectClothing: "Allow Project Arousal commands?",
     },
     permissions:{},
     settings:{
