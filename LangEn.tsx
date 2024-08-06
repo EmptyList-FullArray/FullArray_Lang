@@ -117,7 +117,7 @@ export const LangEn = {
         setting_safeword:    "Safeword:",
         setting_useSafeword: "Allow Safeword Use?",
         setting_useJasX: "Allow JasX game commands?",
-        setting_useProjectClothing: "Allow Project Arousal commands?",
+        setting_useProjectClothing: "Allow Project Clothing commands?",
     },
     permissions:{},
     settings:{
