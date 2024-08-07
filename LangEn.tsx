@@ -179,7 +179,7 @@ export const LangEn = {
             defaultNavState:        "Toggles whether the navbar is open or closed by default.",
             defaultActiveCardState: "Toggles whether the active card for a Module is shown or hidden by default.",
             defaultDollState:       "Toggles whether the interact doll is shown or hidden by default.",
-            showAfk:                "Toggles whether the akf screen will show after a few seconds.",
+            showAfk:                "Toggles whether the afk screen will show after a few seconds.",
             linkOnCreate:           "Toggles whether to automatically link newly created entries to your active Profile.",
             hud_verbose:            "Toggles whether the HUD will say information during startup.",
             // API
