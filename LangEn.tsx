@@ -203,7 +203,7 @@ export const LangEn = {
             // Shoe
             autoWearShoe:           "Toggles whether the HUD will automatically wear the last worn Shoes when loading a Outfit.",
             // Accessory
-            autoWearAccessories:    "Toggles whether the HUD will automatically weal the last worn Accessories when loading a Profile.",
+            autoWearAccessories:    "Toggles whether the HUD will automatically wear the last worn Accessories when loading a Profile.",
             // Auto Group
             autoGroup_power:        "Toggles the Auto Group feature on / off.",
             autoGroup_useNone:      "Toggles Auto Group to set your group to 'none' if no group is set.",
@@ -223,4 +223,7 @@ export const LangEn = {
         delete: "Delete this {MODULE}",
     },
     customAccessLevel: "Custom Access Level",
+    pantyRaid:{
+        noTrophySelected: "Select a Trophy from below."
+    }
 }
