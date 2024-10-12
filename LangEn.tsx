@@ -155,6 +155,7 @@ export const LangEn = {
             autoGroup_autoHuds:     "Auto wear Huds folder.",
             hud_verbose:            "Verbose HUD messages?",
             log_permissions:        "Verbose Permission error logging.",
+            protectedFolderLock:    "Lock the Protected Folder.",
         },
         save:{
             hudPos: "Save HUD Position",
@@ -182,6 +183,7 @@ export const LangEn = {
             showAfk:                "Toggles whether the afk screen will show after a few seconds.",
             linkOnCreate:           "Toggles whether to automatically link newly created entries to your active Profile.",
             hud_verbose:            "Toggles whether the HUD will say information during startup.",
+            protectedFolderLock:    "Toggles whether the Protected folder will be locked at all times.",
             // API
             apiKey:                 "Your API key for products you create.<br/><br/>DON'T SHARE THIS!<br/><br/>If you re roll this key all previous content will break that used the old key.",
             api_message:            "Toggles whether the HUD should send API message on channel: 698008",
