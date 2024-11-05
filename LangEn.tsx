@@ -103,7 +103,27 @@ export const LangEn = {
         floaty:          "Is Buoyant?",
         speed:           "Swim Speed: ",
         useLM:           "Allow LockMeister to control?",
-        useOC:           "Allow OpenCollar to control?"
+        useOC:           "Allow OpenCollar to control?",
+            tooltip: {
+                name: "The name of this Ao.",
+                img: "The UUID or URL of the image of this Ao.",
+                customAccessLevel: "Set the access level for this Ao.<br>This value will override the access level set in the permission menu.",
+                power: "Toggle the Ao on or off.",
+                doTyping: "Toggle the Ao typing animation on or off.",
+                doCycle: "Toggle whether the Ao should cycle standing animations.",
+                cycleTime: "Time in seconds between cycling animations.",
+                sitHeight: "Float value for the Ao to adjust your hover height while sitting.",
+                crouchHeight: "Float value for the Ao to adjust your hover height while crouching.",
+                groundSitHeight: "Float value for the Ao to adjust your hover height while sitting on the ground.",
+                gravity: "Float value for the Ao's gravity.",
+                flightSpeed: "Float value for the Ao's flight speed.",
+                doSwimming: "Toggle the swimming feature of the Ao.",
+                dampen: "Float value for the Ao's dampen speed in water.",
+                floaty: "Toggle whether the swimming feature should slowly float you to the water surface.",
+                speed: "Float value for the Ao's swim speed.",
+                useLM: "Toggle if the Ao should listen to LockMiester power commands.",
+                useOC: "Toggle if the Ao should listen to the OpenCollar power commands."
+            }
     },
     skin:{},
     bom:{},
