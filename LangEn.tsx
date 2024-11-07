@@ -160,7 +160,7 @@ export const LangEn = {
             autoWearShoe:           "Auto wear Shoes?",
             autoWearHair:           "Auto wear Hair?",
             allowHairBald:          "Allow Hair bald state?",
-            autoWearAccessories:    "Auto wear Accessories?",
+            autoWearAccessories:    "Auto wear / detach Accessories?",
             autoPG:                 "Do PG region check on teleport?",
             shoeReplaceFeet:        "Shoes replace Outerwear Feet?",
             playOutfitAnimations:   "Global Outfit animation toggle.",
@@ -231,7 +231,7 @@ export const LangEn = {
             // Shoe
             autoWearShoe:           "Toggles whether the HUD will automatically wear the last worn Shoes when loading a Outfit.",
             // Accessory
-            autoWearAccessories:    "Toggles whether the HUD will automatically wear the last worn Accessories when loading a Profile.",
+            autoWearAccessories:    "Toggles whether the HUD will automatically wear and detach Accessories when loading a Profile.",
             // Auto Group
             autoGroup_power:        "Toggles the Auto Group feature on / off.",
             autoGroup_useNone:      "Toggles Auto Group to set your group to 'none' if no group is set.",
