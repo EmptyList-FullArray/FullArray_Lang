@@ -12,6 +12,10 @@ export const LangEn = {
     outfit:{
     },
     accessory:{
+        detachAll: "Detach all Accessories",
+        tooltip:{
+            detachAll: "Detaches and sets all Accessories from your active Profile as non active.",
+        }
     },
     hair:{
     },
