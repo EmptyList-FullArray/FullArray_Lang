@@ -7,9 +7,50 @@ export const LangEn = {
         shoe:        "Shoe",
         relay:       "Relay",
     },
+    home:{
+        tooltip:{
+            doll: {
+                outerwear: "Sets the !~SLOT~! slot of your Outfit to the Outerwear state.<br><br>Command: @!~STATE~! !~SLOT~!",
+                underwear: "Sets the !~SLOT~! slot of your Outfit to the Underwear state.<br><br>Command: @!~STATE~! !~SLOT~!",
+                nude:      "Sets the !~SLOT~! slot of your Outfit to the Nude state.<br><br>Command: @!~STATE~! !~SLOT~!",
+                rip:       "Rips the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it.<br><br>Command: @Set Outfit Effect !~SLOT~! Rip",
+                steal:     "Steals the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it if you do not bump the avatar that stole your Outfit.<br><br>Command: @Set Outfit Effect !~SLOT~! Steal",  
+                throw:     "Throws the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it if you can not get it back.<br>Throw will rez out a prim that any one can pickup and steal, you can knock it from their hands via bump or click and then click it on the ground to take it back.<br><br>Command: @Set Outfit Effect !~SLOT~! Throw",
+            },
+            outfitOuterwear: "Sets your Outfit to the Outerwear state.<br><br>Command: @o (slot name)",
+            outfitUnderwear: "Sets your Outfit to the Underwear state.<br><br>Command: @u (slot name)",
+            outfitNude:      "Sets your Outfit to the Nude state.<br><br>Command: @n (slot name)<br><br>The finger scissor icon will set your Outfit to nude without Genitals.<br><br>Command: @nc",
+            tempHuds: "Attach [+] or Detach [-] the Temp HUDs folder for a module.<br><br>Command: @&lt;module&gt; huds &lt;+/-&gt;",
+        },
+    },
     profile:{
     },
     outfit:{
+        states:{
+            outerwear: "Outerwear",
+            underwear: "Underwear",
+            nude:      "Nude",
+        },
+        slots:{
+            head:      "Head",
+            torso:     "Torso",
+            arms:      "Arms",
+            hands:     "Hands",
+            legs:      "Legs",
+            feet:      "Feet", 
+            waist:     "Waist",
+            crotch:    "Crotch",
+            tail:      "Tail",
+            wings:     "Wings",
+            ears:      "Ears",
+        },
+        effects:{
+            rip:       "Rip",
+            steal:     "Steal",
+            throw:     "Throw",
+        },
+        tooltip:{
+        }
     },
     accessory:{
         detachAll: "Detach all Accessories",
