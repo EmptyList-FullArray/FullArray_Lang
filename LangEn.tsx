@@ -7,25 +7,16 @@ export const LangEn = {
         shoe:        "Shoe",
         relay:       "Relay",
     },
-    home:{
+    misc:{
+        settings: "Settings",
+        customAccessLevel: "Custom Access Level",
+        delete: "Delete this !~MODULE~!?",
+        chatCommands: "Chat Commands",
+        chatCommandsChannel: "Channel...",
+        chatCommandsCommand: "Command...",
         tooltip:{
-            doll: {
-                outerwear: "Sets the !~SLOT~! slot of your Outfit to the Outerwear state.<br><br>Command: @!~STATE~! !~SLOT~!",
-                underwear: "Sets the !~SLOT~! slot of your Outfit to the Underwear state.<br><br>Command: @!~STATE~! !~SLOT~!",
-                nude:      "Sets the !~SLOT~! slot of your Outfit to the Nude state.<br><br>Command: @!~STATE~! !~SLOT~!",
-                rip:       "Rips the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it.<br><br>Command: @Set Outfit Effect !~SLOT~! Rip",
-                steal:     "Steals the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it if you do not bump the avatar that stole your Outfit.<br><br>Command: @Set Outfit Effect !~SLOT~! Steal",  
-                throw:     "Throws the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it if you can not get it back.<br>Throw will rez out a prim that any one can pickup and steal, you can knock it from their hands via bump or click and then click it on the ground to take it back.<br><br>Command: @Set Outfit Effect !~SLOT~! Throw",
-            },
-            outfitOuterwear: "Sets your Outfit to the Outerwear state.<br><br>Command: @o (slot name)",
-            outfitUnderwear: "Sets your Outfit to the Underwear state.<br><br>Command: @u (slot name)",
-            outfitNude:      "Sets your Outfit to the Nude state.<br><br>Command: @n (slot name)<br><br>The finger scissor icon will set your Outfit to nude without Genitals.<br><br>Command: @nc",
-            tempHuds: "Attach [+] or Detach [-] the Temp HUDs folder for a module.<br><br>Command: @&lt;module&gt; huds &lt;+/-&gt;",
+            customAccessLevel: "Sets a access level that will override the access level set in the permission menu.",
         },
-    },
-    profile:{
-    },
-    outfit:{
         states:{
             outerwear: "Outerwear",
             underwear: "Underwear",
@@ -49,6 +40,53 @@ export const LangEn = {
             steal:     "Steal",
             throw:     "Throw",
         },
+    },
+    home:{
+        tooltip:{
+            doll: {
+                outerwear: "Sets the !~SLOT~! slot of your Outfit to the Outerwear state.<br><br>Command: @!~STATE~! !~SLOT~!",
+                underwear: "Sets the !~SLOT~! slot of your Outfit to the Underwear state.<br><br>Command: @!~STATE~! !~SLOT~!",
+                nude:      "Sets the !~SLOT~! slot of your Outfit to the Nude state.<br><br>Command: @!~STATE~! !~SLOT~!",
+                rip:       "Rips the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it.<br><br>Command: @Set Outfit Effect !~SLOT~! Rip",
+                steal:     "Steals the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it if you do not bump the avatar that stole your Outfit.<br><br>Command: @Set Outfit Effect !~SLOT~! Steal",  
+                throw:     "Throws the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it if you can not get it back.<br>Throw will rez out a prim that any one can pickup and steal, you can knock it from their hands via bump or click and then click it on the ground to take it back.<br><br>Command: @Set Outfit Effect !~SLOT~! Throw",
+            },
+            outfitOuterwear: "Sets your Outfit to the Outerwear state.<br><br>Command: @o (slot name)",
+            outfitUnderwear: "Sets your Outfit to the Underwear state.<br><br>Command: @u (slot name)",
+            outfitNude:      "Sets your Outfit to the Nude state.<br><br>Command: @n (slot name)<br><br>The finger scissor icon will set your Outfit to nude without Genitals.<br><br>Command: @nc",
+            tempHuds: "Attach [+] or Detach [-] the Temp HUDs folder for a module.<br><br>Command: @&lt;module&gt; huds &lt;+/-&gt;",
+        },
+    },
+    profile:{
+        isAdult:              "Is this Profile adult?",
+        playOutfitAnimations: "Play Outfit Animations?",
+        chatReplacer:         "Allow RLV chat replacer?",
+        bodyType:             "Body Type",
+        bodyParts:{
+            human:       "Human",
+            furry:       "Furry",
+            noBoob:      "No Boob",
+            boob:        "Boob",
+            plantigrade: "Plantigrade",
+            digigrade:   "Digigrade",
+            noTail:      "No Tail",
+            tail:        "Tail",
+            feminine:    "Feminine",
+            masculine:   "Masculine",
+        },
+        tooltip:{
+            name:                 "The name of this Profile.",
+            img:                  "The UUID or URL of the image of this Profile.",
+            rlvName:              "The name of this Profile when RLV chat replacer is enabled.",
+            imgSelect:            "Select a image file from disk to use for this Profile.<br>png, jpg, webp, etc...",
+            isAdult:              "If the Profile is adult, used with the PG on teleport feature.",
+            playOutfitAnimations: "Toggle whether to play Outfit changing animations for this Profile.",
+            chatReplacer:         "Toggle whether to allow RLV chat replacer can be used with this Profile.",
+            bodyParts:            "Select what type of body parts this Profile has.<br>It will alter the appearance of the interact doll on the home page.<br>They will also be used in future modules.",
+            commands:             "Chat commands that will execute after the Profile is loaded.<br>Chat commands for FullArray will NOT work!",
+        }
+    },
+    outfit:{
         tooltip:{
         }
     },
@@ -152,7 +190,6 @@ export const LangEn = {
         tooltip: {
             name: "The name of this Ao.",
             img: "The UUID or URL of the image of this Ao.",
-            customAccessLevel: "Set the access level for this Ao.<br>This value will override the access level set in the permission menu.",
             power: "Toggle the Ao on or off.",
             doTyping: "Toggle the Ao typing animation on or off.",
             doCycle: "Toggle whether the Ao should cycle standing animations.",
@@ -297,7 +334,6 @@ export const LangEn = {
         create: "Create a new {MODULE}",
         delete: "Delete this {MODULE}",
     },
-    customAccessLevel: "Custom Access Level",
     pantyRaid:{
         noTrophySelected: "Select a Trophy from below."
     }
