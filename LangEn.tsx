@@ -16,6 +16,11 @@ export const LangEn = {
         chatCommandsCommand: "Command...",
         tooltip:{
             customAccessLevel: "Sets a access level that will override the access level set in the permission menu.",
+            name:      "The name of this !~MODULE~!.",
+            img:       "The UUID or URL of the image of this !~MODULE~!.",
+            imgSelect: "Select a image file from disk to use for this Profile.<br>png, jpg, webp, etc...",
+            isAdult:   "If the Profile is adult, used with the PG on teleport feature.",
+            delete:    "Deletes this !~MODULE~! and all of its links, this can not be undone.",
         },
         states:{
             outerwear: "Outerwear",
@@ -40,6 +45,28 @@ export const LangEn = {
             steal:     "Steal",
             throw:     "Throw",
         },
+    },
+    cardActive:{
+        id:     "ID",
+        reload: "Reload this !~MODULE~!",
+        detach: "Detach this !~MODULE~!",
+        edit:   "Edit this !~MODULE~!",
+        create: "Create a new !~MODULE~!",
+        tooltip:{
+            reload: "Reloads the !~MODULE~!.<br>This will detach and reattach the !~MODULE~! folder.",
+            detach: "Detaches the !~MODULE~! folder.<br>Other modules may be set to un-active aswell.",
+            edit:   "Edits the settings of this !~MODULE~!.",
+        }
+    },
+    popups:{
+        create:{
+            errorName: "Name must not be empty!",
+            newPrefix: "New Prefix",
+            prefix:    "Prefix...",
+            name:      "Name...",
+            image:     "Image...",
+            create:    "Create",
+        }
     },
     home:{
         tooltip:{
@@ -75,11 +102,7 @@ export const LangEn = {
             masculine:   "Masculine",
         },
         tooltip:{
-            name:                 "The name of this Profile.",
-            img:                  "The UUID or URL of the image of this Profile.",
             rlvName:              "The name of this Profile when RLV chat replacer is enabled.",
-            imgSelect:            "Select a image file from disk to use for this Profile.<br>png, jpg, webp, etc...",
-            isAdult:              "If the Profile is adult, used with the PG on teleport feature.",
             playOutfitAnimations: "Toggle whether to play Outfit changing animations for this Profile.",
             chatReplacer:         "Toggle whether to allow RLV chat replacer can be used with this Profile.",
             bodyParts:            "Select what type of body parts this Profile has.<br>It will alter the appearance of the interact doll on the home page.<br>They will also be used in future modules.",
@@ -87,7 +110,22 @@ export const LangEn = {
         }
     },
     outfit:{
+        isAdult:                    "Is this Outfit adult?",
+        setDefaultOutfit:           "Set as Default Outfit",
+        outfitType:                 "Outfit Type",
+        outfitTypeAdvanced:         "Advanced",
+        outfitTypeBasic:            "Basic",   
+        outfitTypeSimple:           "Simple",
+        linkMode:                   "Link Mode",
+        linkModeNone:               "None", 
+        linkModeTorso_Crotch:       "Torso & Crotch",
+        linkModeTorso_Crotch_Waist: "Torso & Crotch & Waist",
         tooltip:{
+            setDefaultOutfit: "Sets this Outfit as your default Outfit.<br>If set this Outfit will be loaded on Profile change.",
+            outfitType: "Select the type of the Outfit.<br><br>Advanced: Uses all of the Outfit slots and the 3 states.<br><br>Basic: is like Advanced but you do not have use the Outfit slots.<br><br>Simple: you only use the Outerwear state, its a simple attached or detached",
+            linkMode: "Select the link mode of the Outfit, linked slots will attach and detach together.<br><br>None: Does not link the Outfit.<br><br>Torso & Crotch: Only links the Torso and Crotch.<br><br>Torso & Crotch & Waist: Links the Torso, Crotch and Waist.",
+            genitalsCrotch: "Will attach and detach the genitalsCrotch folder in your Profile depending on the state of your Outfit.",
+            genitalsTorso: "Will attach and detach the genitalsTorso folder in your Profile depending on the state of your Outfit.",
         }
     },
     accessory:{
@@ -188,8 +226,6 @@ export const LangEn = {
         useLM:           "Allow LockMeister to control?",
         useOC:           "Allow OpenCollar to control?",
         tooltip: {
-            name: "The name of this Ao.",
-            img: "The UUID or URL of the image of this Ao.",
             power: "Toggle the Ao on or off.",
             doTyping: "Toggle the Ao typing animation on or off.",
             doCycle: "Toggle whether the Ao should cycle standing animations.",
@@ -325,14 +361,6 @@ export const LangEn = {
             isOldHair:              "PERMANENT TOGGLE to change your Hair Module to use the updated folder structure.",
             isOldShoe:              "PERMANENT TOGGLE to change your Shoe Module to use the updated folder structure.",            
         }
-    },
-    cardActive:{
-        id:     "ID",
-        reload: "Reload this {MODULE}",
-        detach: "Detach this {MODULE}",
-        edit:   "Edit this {MODULE}",
-        create: "Create a new {MODULE}",
-        delete: "Delete this {MODULE}",
     },
     pantyRaid:{
         noTrophySelected: "Select a Trophy from below."
