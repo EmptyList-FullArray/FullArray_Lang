@@ -11,9 +11,12 @@ export const LangEn = {
         settings: "Settings",
         customAccessLevel: "Custom Access Level",
         delete: "Delete this !~MODULE~!?",
+        isAdult: "Is this !~MODULE~! adult?",
         chatCommands: "Chat Commands",
         chatCommandsChannel: "Channel...",
         chatCommandsCommand: "Command...",
+        moduleName: "!~MODULE~! name...",
+        moduleImage: "!~MODULE~! image...",
         tooltip:{
             customAccessLevel: "Sets a access level that will override the access level set in the permission menu.",
             name:      "The name of this !~MODULE~!.",
@@ -110,7 +113,6 @@ export const LangEn = {
         }
     },
     outfit:{
-        isAdult:                    "Is this Outfit adult?",
         setDefaultOutfit:           "Set as Default Outfit",
         outfitType:                 "Outfit Type",
         outfitTypeAdvanced:         "Advanced",
@@ -251,7 +253,12 @@ export const LangEn = {
     },
     skin:{},
     bom:{},
-    autoGroup:{},
+    autoGroup:{
+        isDefault: "Is Default Group?",
+        tooltip:{
+            isDefault: "Toggle if this group is the default group to use if none is set for a region.",    
+        }
+    },
     relay:{
         hudLock:             "Lock your HUD?",
         resetRestrictions:   "Reset RLV Restrictions",
