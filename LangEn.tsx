@@ -132,8 +132,16 @@ export const LangEn = {
     },
     accessory:{
         detachAll: "Detach all Accessories",
+        genitalSlotHeader: "Genital slot override.",
+        genitalSlot:{
+            none:    "None",
+            crotch:  "Crotch",
+            torso:   "Torso",
+            both:    "Both",
+        },
         tooltip:{
             detachAll: "Detaches and sets all Accessories from your active Profile as non active.",
+            genitalSlot: "Gives the Accessory the ability to override the genital control of your Outfit.",
         }
     },
     hair:{
