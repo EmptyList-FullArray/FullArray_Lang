@@ -141,7 +141,7 @@ export const LangEn = {
         },
         tooltip:{
             detachAll: "Detaches and sets all Accessories from your active Profile as non active.",
-            genitalSlot: "Gives the Accessory the ability to override the genital control of your Outfit.",
+            genitalSlot: "Gives the Accessory the ability to detach your genitals when its attached.",
         }
     },
     hair:{
