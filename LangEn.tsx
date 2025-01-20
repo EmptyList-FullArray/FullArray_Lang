@@ -316,6 +316,7 @@ export const LangEn = {
             log_permissions:        "Verbose Permission error logging.",
             protectedFolderLock:    "Lock the Protected Folder.",
             defaultTempHudState:    "Default state for TempHUDs.",
+            jasx_bareAutoDress:      "Auto Dress after Bare Game?",
         },
         save:{
             hudPos: "Save HUD Position",
@@ -375,6 +376,7 @@ export const LangEn = {
             isOldAccessory:         "PERMANENT TOGGLE to change your Accessories Module to use the updated folder structure.",
             isOldHair:              "PERMANENT TOGGLE to change your Hair Module to use the updated folder structure.",
             isOldShoe:              "PERMANENT TOGGLE to change your Shoe Module to use the updated folder structure.",            
+            jasx_bareAutoDress:     "Toggles wether the HUD will automatically dress after a Bare Game.",
         }
     },
     pantyRaid:{
