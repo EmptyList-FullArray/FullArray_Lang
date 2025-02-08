@@ -63,12 +63,13 @@ export const LangEn = {
     },
     popups:{
         create:{
-            errorName: "Name must not be empty!",
-            newPrefix: "New Prefix",
-            prefix:    "Prefix...",
-            name:      "Name...",
-            image:     "Image...",
-            create:    "Create",
+            errorName:       "Name must not be empty!",
+            newPrefix:       "New Prefix",
+            prefix:          "Prefix...",
+            name:            "Name...",
+            image:           "Image...",
+            create:          "Create",
+            folderTemplate: "Folder Template",
         }
     },
     home:{
