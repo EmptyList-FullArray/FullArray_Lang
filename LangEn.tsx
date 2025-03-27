@@ -161,6 +161,10 @@ export const LangEn = {
         showinv:             "View Inventory",
         edit:                "Edit Objects",
         unsharedFoldersLock: "Unshared Folders",
+        addAttach:           "Add Attachments",
+        remAttach:           "Remove Attachments",
+        addOutfit:           "Add BOM Clothes",
+        remOutfit:           "Remove BOM Clothes",
         // Touch
         touchAll:            "Touch All",
         touchAttach:         "Touch Attachments",
