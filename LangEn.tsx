@@ -1,4 +1,10 @@
 export const LangEn = {
+    fallbackError:{
+        line_1: "⚠️ Something went wrong ⚠️",
+        line_2: "If you're seeing this error the HUD has suffered a critical error and will reload in 5 seconds.",
+        line_3: "If you can load the HUD externally the issue is likely due to a outdated viewer.",
+        line_4: "If you can't load the HUD externally please file a support ticket on our Discord.",
+    },
     modules:{
         profile:     "Profile",
         outfit:      "Outfit",
@@ -11,12 +17,14 @@ export const LangEn = {
         settings: "Settings",
         customAccessLevel: "Custom Access Level",
         delete: "Delete this !~MODULE~!?",
+        deleteText: "Are you sure you want to delete this !~MODULE~!: !~NAME~!?",
         isAdult: "Is this !~MODULE~! adult?",
         chatCommands: "Chat Commands",
         chatCommandsChannel: "Channel...",
         chatCommandsCommand: "Command...",
         moduleName: "!~MODULE~! name...",
         moduleImage: "!~MODULE~! image...",
+        moduleGroup: "!~MODULE~! group...",
         tooltip:{
             customAccessLevel: "Sets a access level that will override the access level set in the permission menu.",
             name:      "The name of this !~MODULE~!.",
@@ -47,7 +55,7 @@ export const LangEn = {
             rip:       "Rip",
             steal:     "Steal",
             throw:     "Throw",
-        },
+        }
     },
     cardActive:{
         id:     "ID",
@@ -69,6 +77,7 @@ export const LangEn = {
             name:            "Name...",
             image:           "Image...",
             create:          "Create",
+            slurl:           "Slurl...",
             folderTemplate: "Folder Template",
         }
     },
@@ -111,6 +120,12 @@ export const LangEn = {
             chatReplacer:         "Toggle whether to allow RLV chat replacer can be used with this Profile.",
             bodyParts:            "Select what type of body parts this Profile has.<br>It will alter the appearance of the interact doll on the home page.<br>They will also be used in future modules.",
             commands:             "Chat commands that will execute after the Profile is loaded.<br>Chat commands for FullArray will NOT work!",
+        },
+        placeholders:{
+            relayName: "RelayName...",
+        },
+        errors:{
+
         }
     },
     outfit:{
@@ -150,14 +165,34 @@ export const LangEn = {
     shoe:{
     },
     rlv:{
-       // Leash
-        leashFollowTp:       "Follow Leash Holder On Teleport",
-        leashRecover:        "Recover Leash Target",
-        leashLookatTarget:   "Force Look At The Leash Holder",
-        // Sit
+// Leash
+        categoryLeash:        "Leash",
+        leashFollowTp:        "Follow Leash Holder On Teleport",
+        leashRecover:         "Recover Leash Target",
+        leashLookatTarget:    "Force Look At The Leash Holder",
+        leashGrab:            "Grab Leash",
+        leashRelease:         "Release Leash",
+        leashYank:            "Yank Leash",
+        leashToObject:        "Leash To Object",
+        leashToAvatar:        "Leash To Avatar",
+        headerLeashPatricle:  "Leash Particle",
+        leashColor:           "< Start | Color | End >",
+        leashRibbon:          "Use Ribbon Particle",
+        leashPlaceholderUUID: "Texture UUID...",
+// Sit
+        categorySit:         "Sit",
         sit:                 "Allow Sitting",
         unsit:               "Allow Stand Up",
-        // Inventory
+        placeholderSit:      "Ground Sit Or UUID...",
+        forceSit:            "Sit On A Object",
+        forceUnsit:          "Force Stand Up",
+// Inventory
+        categoryFolders:     "Folders",
+        categoryinventory:   "Inventory",
+        resetFolderView:     "Reset to RLV folder",
+        folderOpen:          "Open Folder",
+        folderAttach:        "Attach Folder",
+        folderDetach:        "Detach Folder",
         showinv:             "View Inventory",
         edit:                "Edit Objects",
         unsharedFoldersLock: "Unshared Folders",
@@ -165,7 +200,8 @@ export const LangEn = {
         remAttach:           "Remove Attachments",
         addOutfit:           "Add BOM Clothes",
         remOutfit:           "Remove BOM Clothes",
-        // Touch
+// Touch
+        categoryTouch:       "Touch",
         touchAll:            "Touch All",
         touchAttach:         "Touch Attachments",
         touchAttachSelf:     "Touch Attachments Self",
@@ -173,7 +209,8 @@ export const LangEn = {
         touchWorld:          "Touch World",
         touchHud:            "Touch Huds",
         fartouch:            "Far Touch",
-        // Chat
+// Chat
+        categoryChat:        "Chat",
         chatExceptions:      "Use Chat Exceptions",
         speak:               "Speak (Chat)",
         recvchat:            "Hear (Chat)",
@@ -183,34 +220,45 @@ export const LangEn = {
         startim:             "Start IMs",
         sendim:              "Send IMs",
         replaceChat:         "Replace Chat",
+        nameOverride:        "Name Override",
         useRlvName:          "Use name override?",
-        // Teleport
+// Teleport
+        categoryTeleport:    "Teleport",
         tp:                  "Teleport",
         tplure:              "Receive Teleports",
         accepttp:            "Force Accept Teleport",
         tprequest:           "Receive Teleport Requests",
         regionBlocklist:     "Region Blocklist",
         summon:              "Force Teleport To Me",
-        // Info
+// Info
+        categoryInfo:        "Info",
         showworldmap:        "Show World Map",
         showminimap:         "Show Mini-Map",
         showloc:             "Show Location",
         shownames:           "Show Names",
         showhovertextworld:  "Show Hovertext (World)",
         showhovertexthud:    "Show Hovertext (Hud)",
-        // View
+// View
+        categoryVision:      "Vision",
         visionLimit:         "Limit Vision",
+        visionType:          "Vision Type",
+        visionTypes:{
+            blind: "Blind",
+            blur:  "Blur",
+        },
         visionMin:           "Min: ",
         visionMax:           "Max: ",
         camunlock:           "Unlocked Camera",
         rlv_lookAt:          "Look at Avatar / UUID",
-        // Movement
+// Movement
+        categoryMovement:    "Movement",
         movement:            "Nudge & Rotate User",
         jump:                "Allow Jumping",
         walk:                "Allow Walking",
         run:                 "Allow Running",
         fly:                 "Allow Flying",
-        // Module Locking
+// Module Locking
+        categoryModuleLock:  "Module Lock",
         lockProfile:   "Lock Profile",
         lockOutfit:    "Lock Outfit",
         lockStripper:  "Lock Stripper",
@@ -219,11 +267,31 @@ export const LangEn = {
         lockShoe:      "Lock Shoe",
         lockAo:        "Lock Ao",
         lockSkin:      "Lock Skin",
-        lockBom:       "Lock Bom",
+        lockBom:       "Lock Bom", 
     },
     huds:{},
-    landmark:{},
-    inventory:{},
+    landmark:{
+        updateLandmark: "Update Landmark",
+    },
+    inventory:{
+        rezInstaller: "Rez Installer",
+        rezEmptyBox: "Rez Empty Box",
+        autoSit: "Automaticly sit when rezzed?",
+        useRotation: "Use Rotation?",
+        position: "Position:",
+        heightOffset: "Height Offset:",
+        rotation: "Rotation:",
+        cleanupTime: "Cleanup Time:",
+        rez: "Rez",
+        rezAtPosition: "Rez At Position",
+        rezAtCamera: "Rez At Camera",
+        derez: "Derez",
+        cleanOnLeave: "Cleanup on Leave",
+        tooltips:{
+            rezInstaller: "Rezzes a Installer box to easly add items to your HUD.",
+            rezEmptyBox: "Rezzes a empty box for use with prefixes.",
+        }
+    },
     ao:{
         power:           "Ao Power",
         doTyping:        "Play Typing Animation?",
@@ -282,9 +350,89 @@ export const LangEn = {
         setting_useSafeword: "Allow Safeword Use?",
         setting_useJasX: "Allow JasX game commands?",
         setting_useProjectClothing: "Allow Project Clothing commands?",
+        rlvBlocklist: "Rlv Blocklist",
+        rlvCommands: "Rlv Commands",
     },
-    permissions:{},
+    permissions:{
+        permissions:{
+            header: "Permissions",
+            isSelfOwner: "Is Self Owner?",
+            isPublic:    "Is Public?",
+            sameRegion:  "Same Region Control",
+            setAccessLevel: "Set Access Level for !~MODULE~!",
+            setSelfAccessLevel: "Set Self Access Level for !~MODULE~!",
+            setPublicAccessLevel: "Set Public Access Level for !~MODULE~!",
+            tooltips:{
+                isSelfOwner: "Toggles the owner status of your own HUD.",
+                isPublic:    "Toggles the public status of your HUD.",
+                sameRegion:  "Toggles if other users need to be in the same region as you to control your HUD.",
+            }
+        },
+        allowlist:{
+            header: "Allowlist",
+            currentLeashHolder: "Current RLV Leash Holder",
+            friends:            "SL Friends",
+            placeholders:{
+                addAllowlistUUID: "UUID to add to your Allowlist...",
+            },
+            tooltips:{
+                currentLeashHolder: "The current RLV Leash Holder of your avatar.",
+                friends:            "The access level for your SL friends list.",
+            }
+        },
+        blocklist:{
+            header: "Blocklist",
+            blocklist: "Block List",
+            placeholders:{
+                addBlocklistUUID: "UUID to add to your Blocklist...",
+            }
+        },
+        ownerlist:{
+            header: "Ownerlist",
+            ownerlist: "Owner List",
+            placeholders:{
+                addOwnerUUID: "UUID to add to your Ownerlist...",
+            }
+        },
+        apiList:{
+            header: "API List",
+        }
+    },
     settings:{
+        uiVersion: "UI Version - ",
+        hudVersion: "HUD Version - ",
+        loginToken: "Login Token",
+        editModuleOrder: "Edit Module Order",
+        serverInventory: "Server Inventory",
+        saveHudPosition: "Save HUD Position",
+        listType: "List Type",
+        listTypes:{
+            list: "List",
+            icon: "Icon",
+            iconSmall: "Icon Small",
+            card: "Card",
+            cardList: "Card List",
+        },
+        uiScale: "UI Scale",
+        uiScales:{
+            small: "Small",
+            default: "Default",
+            large: "Large",
+        },
+        apiKey: "API Key",
+        catagories:{
+            account: "Account",
+            general: "General",
+            ui:      "UI",
+            api:     "API",
+            profile: "Profile",
+            outfit:  "Outfit",
+            hair:    "Hair",
+            shoe:    "Shoe",
+            accessory: "Accessory",
+            autoGroup: "Auto Group",
+            tempHuds: "Temp HUDs",
+        },
         checkbox:{
             useGrid:                "Use Grid Layout?",
             sortListsByName:        "Sort List By Name?",
@@ -324,12 +472,17 @@ export const LangEn = {
             jasx_bareAutoDress:     "Auto Dress after Bare Game?",
             autoCreateFolders:      "Automaticly create folders?"
         },
-        save:{
-            hudPos: "Save HUD Position",
+        textbox:{
+            prefixPlaceholder: "Prefix...",
+            passwordPlaceholder: "Password...",
+            channelPlaceholder: "Channel...",
         },
         popup:{
             setLang:   "Set Language",
             hudColors: "Edit HUD Colors",
+            apiHeader: "API Key Reset",
+            apiText:   "Are you sure you want to reset your API key?\nDoing so will break any script that is using it!",
+            moduleList: "Edit Module List",
         },
         tooltip:{
             // General
@@ -384,9 +537,132 @@ export const LangEn = {
             isOldShoe:              "PERMANENT TOGGLE to change your Shoe Module to use the updated folder structure.",            
             jasx_bareAutoDress:     "Toggles wether the HUD will automatically dress after a Bare Game.",
             autoCreateFolders:      "Toggles wether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",
+        },
+        color:{
+            colorHeader: "Color Settings",
+            categoryPreset:{
+                header: "Preset",
+                presetJsson: "Paste your preset config here....",
+            },
+            preset: "",
+            categoryExample:{
+                header: "Example",
+                button: "Button",
+                buttonActive: "Button Active",
+                static: "Static",
+                textbox: "Textbox",
+                exmpleHeader: "Header",
+                categoryHeader: "Category Header",
+            },
+            categoryConfig:{
+                header: "Config",
+                categoryMisc:{
+                    header: "Misc",
+                    border: "Border",
+                    hudBackground: "HUD Background",
+                    hudAlpha: "HUD Alpha: ",
+                    hudBackgroundImage: "HUD Background Image URL",
+                },
+            },
+            cagegoryButton:{
+                header: "Button",
+                button: "Button",
+                buttonHover: "Button Hover",
+                buttonText: "Button Text",
+                buttonTextHover: "Button Text Hover",
+                button3D: "Button 3D",
+                button3DHover: "Button 3D Hover",
+            },
+            categoryButtonActive:{
+                header: "Button Active",
+                button: "Active Button",
+                buttonHover: "Active Button Hover",
+                buttonText: "Active Button Text",
+                buttonTextHover: "Active Button Text Hover",
+                button3D: "Active Button 3D",
+                button3DHover: "Active Button 3D Hover",
+            },
+            categoryStatic:{
+                header: "Static",
+                static: "Static",
+                staticText: "Static Text",
+            },
+            categoryHeader:{
+                header: "Header",
+                headerText: "Header Text",
+            },
+            categoryCategoryHeader:{
+                header: "Header",
+                headerText: "Header Text",
+            },
+            categoryTextbox:{
+                header: "Textbox",
+                textbox: "Textbox",
+                textboxHover: "Textbox Hover",
+                textboxText: "Textbox Text",
+                textboxTextHover: "Textbox Text Hover",
+                textboxPlaceholder: "Textbox Placeholder",
+            },
+            categoryIcons:{
+                header: "Icons",
+                iconPrimary: "Icon Primary",
+                iconSecondary: "Icon Secondary",
+            },
+            categoryDoll:{
+                header: "Doll",
+                outerwear: "Outerwear",
+                underwear: "Underwear",
+                nude:      "Nude",
+            },
+            categoryScrollbar:{ 
+                header: "Scrollbar",
+                track: "Scrollbar Track",
+                thumb: "Scrollbar Thumb",
+                border: "Scrollbar Border",
+            }
         }
     },
     pantyRaid:{
         noTrophySelected: "Select a Trophy from below."
+    },
+    userSelect:{
+        selectSelf: "Select your own HUD.",
+        useSupportMode: "Use Dev / Support mode?",
+        selectUUID: "Select a UUID.",
+        addUserUUID: "Add to Favorite List",
+        removeUserUUID: "Remove from Favorite List",
+        userUUID: "UUID to select as target...",
+        favoriteUsers: "Favorite Users",
+        regionList: "Region List",
+        hudUsers: "HUD Users",
+        tooltip:{
+            selectSelf: "Selects your own HUD.",
+            useSupportMode: "When enabled, permission checks on your account will be ignored.",
+            loadUserUUID: "Loads the selected user to control their HUD.",
+            addUserUUID: "Adds the UUID you entered to your favorite list.",
+            removeUserUUID: "Removes the UUID you entered from your favorite list.",
+        }
+    },
+    notification:{
+        notifications: "Notifications",
+        changelog: "Changelog",
+        unread: "(Unread)",
+    },
+    camera:{
+        followUser: "Follow User",
+        releaseCamera: "Release Camera",
+        behindnessAngle: "Behindness Angle",
+        behindnessLag: "Behindness Lag",
+        distance: "Distance",
+        focus: "Focus",
+        focusLag: "Focus Lag",
+        focusLocked: "Focus Locked",
+        focusOffset: "Focus Offset",
+        focusThreshold: "Focus Threshold",
+        pitch: "Pitch",
+        position: "Position",
+        positionLag: "Position Lag",
+        positionLocked: "Position Locked",
+        positionThreshold: "Position Threshold",
     }
 }
