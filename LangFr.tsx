@@ -12,6 +12,7 @@ export const LangFr = {
         hair:        "Cheuveux",
         shoe:        "Chaussures",
         relay:       "Relais",
+        autoGroup:   "Groupe Automatique",
     },
     misc:{
         settings: "Options",
@@ -82,6 +83,10 @@ export const LangFr = {
         }
     },
     home:{
+        catagories:{
+            tempHuds: "Huds temporaires",
+            interactDoll: "Interagir avec la poupée ?",
+        },
         tooltip:{
             doll: {
                 outerwear: "Définit le!~SLOT~! emplacement de votre tenue à l'état Vêtements d'extérieur.<br><br>Command: @!~STATE~! !~SLOT~!",

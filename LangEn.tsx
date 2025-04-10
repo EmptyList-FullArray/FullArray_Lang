@@ -12,6 +12,7 @@ export const LangEn = {
         hair:        "Hair",
         shoe:        "Shoe",
         relay:       "Relay",
+        autoGroup:   "Auto Group",
     },
     misc:{
         settings: "Settings",
@@ -82,6 +83,10 @@ export const LangEn = {
         }
     },
     home:{
+        catagories:{
+            tempHuds: "Temp Huds",
+            interactDoll: "Interact Doll",
+        },
         tooltip:{
             doll: {
                 outerwear: "Sets the !~SLOT~! slot of your Outfit to the Outerwear state.<br><br>Command: @!~STATE~! !~SLOT~!",
