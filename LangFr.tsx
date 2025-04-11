@@ -235,6 +235,7 @@ export const LangFr = {
         tprequest:           "Recevoir des demandes de téléportation",
         regionBlocklist:     "Liste noire de régions",
         summon:              "Téléporter de force vers moi",
+        goto:                "Force Teleport Me To Them",
 // Info
         categoryInfo:        "Info",
         showworldmap:        "Afficher la carte du monde",
@@ -368,9 +369,10 @@ export const LangFr = {
             setSelfAccessLevel: "Définir le niveau d'accès personnel pour !~MODULE~!",
             setPublicAccessLevel: "Définir le niveau d'accès public pour !~MODULE~!",
             tooltips:{
-                isSelfOwner: "Active ou désactive le statut de propriétaire de votre propre HUD.",
-                isPublic:    "Active ou désactive le statut public de votre HUD.",
+                isSelfOwner: "Toggles the owner status of your own HUD.\nWhen disabled you will not be able to control your own HUD without being added to your own Allowlist.",
+                isPublic:    "This is the global toggle for all modules that have isPublic checked.\nWhen a module is set to public anyone not on your Blocklist can access it.",
                 sameRegion:  "Active ou désactive si d'autres utilisateurs doivent être dans la même région que vous pour contrôler votre HUD.",
+                location: "Allows users to see and know where you are, and teleport to you.",
             }
         },
         allowlist:{

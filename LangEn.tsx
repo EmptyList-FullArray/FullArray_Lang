@@ -235,6 +235,7 @@ export const LangEn = {
         tprequest:           "Receive Teleport Requests",
         regionBlocklist:     "Region Blocklist",
         summon:              "Force Teleport To Me",
+        goto:                "Force Teleport Me To Them",
 // Info
         categoryInfo:        "Info",
         showworldmap:        "Show World Map",
@@ -368,9 +369,10 @@ export const LangEn = {
             setSelfAccessLevel: "Set Self Access Level for !~MODULE~!",
             setPublicAccessLevel: "Set Public Access Level for !~MODULE~!",
             tooltips:{
-                isSelfOwner: "Toggles the owner status of your own HUD.",
-                isPublic:    "Toggles the public status of your HUD.",
+                isSelfOwner: "Toggles the owner status of your own HUD.\nWhen disabled you will not be able to control your own HUD without being added to your own Allowlist.",
+                isPublic:    "This is the global toggle for all modules that have isPublic checked.\nWhen a module is set to public anyone not on your Blocklist can access it.",
                 sameRegion:  "Toggles if other users need to be in the same region as you to control your HUD.",
+                location:    "Allows users to see and know where you are, and teleport to you.",
             }
         },
         allowlist:{
