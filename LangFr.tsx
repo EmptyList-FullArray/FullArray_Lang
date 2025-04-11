@@ -348,7 +348,7 @@ export const LangFr = {
     },
     relay:{
         hudLock:             "Verrouiller votre HUD ?",
-        resetRestrictions:   "Réinitialiser les restrictions RLV",
+        resetRestrictions:   "Clear RLV Relay Restrictions",
         setting_relayTrust:  "Mode de confiance du relais",
         setting_relayAuto:   "Acceptation automatique du relais",
         setting_relayPower:  "Puissance du relais",
