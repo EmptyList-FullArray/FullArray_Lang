@@ -26,6 +26,7 @@ export const LangFr = {
         moduleName: "Nom du !~MODULE~!...",
         moduleImage: "Image du !~MODULE~!...",
         moduleGroup: "Groupe du !~MODULE~!...",
+        linkMode: "Linking Mode",
         tooltip:{
             customAccessLevel: "Définit un niveau d'accès qui remplacera le niveau d'accès défini dans le menu des permissions.",
             name:      "Le nom de ce !~MODULE~!.",
@@ -33,6 +34,8 @@ export const LangFr = {
             imgSelect: "Sélectionnez un fichier image depuis votre disque pour ce Profil.<br>png, jpg, webp, etc...",
             isAdult:   "Si le Profil est adulte, utilisé avec la fonction PG lors de la téléportation.",
             delete:    "Supprime ce !~MODULE~! et tous ses liens, cette action est irréversible.",
+            linkMode:  "Link mode is how you link/assign things to the currently active Profile.",
+            listMode:  "List mode is were you can change the !~MODULE~! you currently have active/wearing.",
         },
         states:{
             outerwear: "Vêtements extérieurs",
@@ -490,6 +493,7 @@ export const LangFr = {
             apiHeader: "Réinitialisation de la clé API",
             apiText:   "Êtes-vous sûr de vouloir réinitialiser votre clé API ?\nCela cassera tout script qui l'utilise !",
             moduleList: "Modifier la liste des modules",
+            about: "About"
         },
         tooltip:{
             // General

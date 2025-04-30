@@ -26,6 +26,7 @@ export const LangEn = {
         moduleName: "!~MODULE~! name...",
         moduleImage: "!~MODULE~! image...",
         moduleGroup: "!~MODULE~! group...",
+        linkMode: "Linking Mode",
         tooltip:{
             customAccessLevel: "Sets a access level that will override the access level set in the permission menu.",
             name:      "The name of this !~MODULE~!.",
@@ -33,6 +34,8 @@ export const LangEn = {
             imgSelect: "Select a image file from disk to use for this Profile.<br>png, jpg, webp, etc...",
             isAdult:   "If the Profile is adult, used with the PG on teleport feature.",
             delete:    "Deletes this !~MODULE~! and all of its links, this can not be undone.",
+            linkMode:  "Link mode is how you link/assign things to the currently active Profile.",
+            listMode:  "List mode is were you can change the !~MODULE~! you currently have active/wearing.",
         },
         states:{
             outerwear: "Outerwear",
@@ -490,6 +493,7 @@ export const LangEn = {
             apiHeader: "API Key Reset",
             apiText:   "Are you sure you want to reset your API key?\nDoing so will break any script that is using it!",
             moduleList: "Edit Module List",
+            about: "About"
         },
         tooltip:{
             // General
