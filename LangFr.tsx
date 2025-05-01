@@ -480,7 +480,8 @@ export const LangFr = {
             protectedFolderLock:    "Verrouiller le dossier protégé.",
             defaultTempHudState:    "État par défaut des HUDs temporaires.",
             jasx_bareAutoDress:     "S'habiller automatiquement après un jeu Bare ?",
-            autoCreateFolders:      "Créer automatiquement les dossiers ?"
+            autoCreateFolders:      "Créer automatiquement les dossiers ?",
+            hud_sideDock:           "HUDs dock mode.",
         },
         textbox:{
             prefixPlaceholder: "Préfixe...",
@@ -516,6 +517,7 @@ export const LangFr = {
             hud_verbose:            "Définit si le HUD affichera des informations pendant le démarrage.",
             protectedFolderLock:    "Définit si le dossier Protégé sera verrouillé en permanence.",
             defaultTempHudState:    "Définit si les contrôles des HUD temporaires sont cachés par défaut.",
+            hud_sideDock:           "Controls if HUDs will dock below the root prim or inplace were they were moved to.",
             // API
             apiKey:                 "Votre clé API pour les produits que vous créez.<br/><br/>NE LA PARTAGEZ PAS!<br/><br/>Si vous regénérez cette clé, tout contenu précédent qui utilisait l'ancienne clé ne fonctionnera plus.",
             api_message:            "Définit si le HUD doit envoyer des messages API sur le canal: 698008",

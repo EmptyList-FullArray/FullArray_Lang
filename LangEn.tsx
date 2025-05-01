@@ -480,7 +480,8 @@ export const LangEn = {
             protectedFolderLock:    "Lock the Protected Folder.",
             defaultTempHudState:    "Default state for TempHUDs.",
             jasx_bareAutoDress:     "Auto Dress after Bare Game?",
-            autoCreateFolders:      "Automaticly create folders?"
+            autoCreateFolders:      "Automaticly create folders?",
+            hud_sideDock:           "HUDs dock mode.",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",
@@ -516,6 +517,7 @@ export const LangEn = {
             hud_verbose:            "Toggles whether the HUD will say information during startup.",
             protectedFolderLock:    "Toggles whether the Protected folder will be locked at all times.",
             defaultTempHudState:    "Toggles whether the TempHUDs controls are hidden by default.",
+            hud_sideDock:           "Controls if HUDs will dock below the root prim or inplace were they were moved to.",
             // API
             apiKey:                 "Your API key for products you create.<br/><br/>DON'T SHARE THIS!<br/><br/>If you re roll this key all previous content will break that used the old key.",
             api_message:            "Toggles whether the HUD should send API message on channel: 698008",
