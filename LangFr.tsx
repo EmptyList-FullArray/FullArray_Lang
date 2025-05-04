@@ -187,6 +187,8 @@ export const LangFr = {
         leashColor:           "< Début | Couleur | Fin >",
         leashRibbon:          "Utiliser particule de ruban",
         leashPlaceholderUUID: "UUID de texture...",
+        leashFullBright:      "Full Bright",
+        leashGlow:            "Glow",
 // Sit
         categorySit:         "S'asseoir",
         sit:                 "Autoriser à s'asseoir",

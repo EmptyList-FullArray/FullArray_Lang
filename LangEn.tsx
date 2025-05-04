@@ -187,6 +187,8 @@ export const LangEn = {
         leashColor:           "< Start | Color | End >",
         leashRibbon:          "Use Ribbon Particle",
         leashPlaceholderUUID: "Texture UUID...",
+        leashFullBright:      "Full Bright",
+        leashGlow:            "Glow",
 // Sit
         categorySit:         "Sit",
         sit:                 "Allow Sitting",
