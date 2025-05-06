@@ -1,4 +1,4 @@
-export const LangEn = {
+export const LangJa = {
     fallbackError:{
         line_1: "⚠️問題が発生しました⚠️",
         line_2: "このエラーが表示された場合、ＨＵＤに重大なエラーが発生しており、５秒後に再読み込みされます。",
