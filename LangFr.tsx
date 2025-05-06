@@ -496,7 +496,8 @@ export const LangFr = {
             apiHeader: "Réinitialisation de la clé API",
             apiText:   "Êtes-vous sûr de vouloir réinitialiser votre clé API ?\nCela cassera tout script qui l'utilise !",
             moduleList: "Modifier la liste des modules",
-            about: "About"
+            about: "About",
+            lang: "Language Selection",
         },
         tooltip:{
             // General

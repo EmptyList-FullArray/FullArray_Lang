@@ -496,7 +496,8 @@ export const LangEn = {
             apiHeader: "ＡＰＩキーのリセット",
             apiText:   "ＡＰＩキーをリセットしてもよろしいですか？\nリセットすると、そのキーを使用しているスクリプトが壊れてしまいます。",
             moduleList: "モジュールリストの編集",
-            about: "情報"
+            about: "情報",
+            lang: "Language Selection",
         },
         tooltip:{
             // General

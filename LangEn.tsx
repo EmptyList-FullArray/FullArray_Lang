@@ -496,7 +496,8 @@ export const LangEn = {
             apiHeader: "API Key Reset",
             apiText:   "Are you sure you want to reset your API key?\nDoing so will break any script that is using it!",
             moduleList: "Edit Module List",
-            about: "About"
+            about: "About",
+            lang: "Language Selection",
         },
         tooltip:{
             // General
