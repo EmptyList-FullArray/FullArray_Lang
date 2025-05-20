@@ -618,10 +618,6 @@ export const LangFr = {
                 header: "En-tête",
                 headerText: "Texte d'en-tête",
             },
-            categoryCategoryHeader:{
-                header: "En-tête",
-                headerText: "Texte d'en-tête",
-            },
             categoryTextbox:{
                 header: "Zone de texte",
                 textbox: "Zone de texte",

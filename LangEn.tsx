@@ -616,12 +616,8 @@ export const LangEn = {
                 staticText: "Static Text",
             },
             categoryHeader:{
-                header: "Header",
-                headerText: "Header Text",
-            },
-            categoryCategoryHeader:{
-                header: "Header",
-                headerText: "Header Text",
+                header: "Category Header",
+                headerText: "Category Header Text",
             },
             categoryTextbox:{
                 header: "Textbox",

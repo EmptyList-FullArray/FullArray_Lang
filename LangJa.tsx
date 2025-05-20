@@ -618,10 +618,6 @@ export const LangJa = {
                 header: "ヘッダ",
                 headerText: "ヘッダのテキスト",
             },
-            categoryCategoryHeader:{
-                header: "ヘッダ",
-                headerText: "ヘッダのテキスト",
-            },
             categoryTextbox:{
                 header: "テキストボックス",
                 textbox: "テキストボックス",
