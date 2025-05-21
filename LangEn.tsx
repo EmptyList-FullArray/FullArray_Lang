@@ -616,6 +616,10 @@ export const LangEn = {
                 staticText: "Static Text",
             },
             categoryHeader:{
+                header: "Header",
+                headerText: "Header Text",
+            },
+            categoryCategoryHeader:{
                 header: "Category Header",
                 headerText: "Category Header Text",
             },

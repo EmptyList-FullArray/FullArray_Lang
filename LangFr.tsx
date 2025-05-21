@@ -615,8 +615,12 @@ export const LangFr = {
                 staticText: "Texte statique",
             },
             categoryHeader:{
-                header: "En-tête",
-                headerText: "Texte d'en-tête",
+                header: "Header",
+                headerText: "Header Text",
+            },
+            categoryCategoryHeader:{
+                header: "Category Header",
+                headerText: "Category Header Text",
             },
             categoryTextbox:{
                 header: "Zone de texte",

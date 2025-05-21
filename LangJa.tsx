@@ -615,8 +615,12 @@ export const LangJa = {
                 staticText: "静的なテキスト",
             },
             categoryHeader:{
-                header: "ヘッダ",
-                headerText: "ヘッダのテキスト",
+                header: "Header",
+                headerText: "Header Text",
+            },
+            categoryCategoryHeader:{
+                header: "Category Header",
+                headerText: "Category Header Text",
             },
             categoryTextbox:{
                 header: "テキストボックス",
