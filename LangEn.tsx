@@ -692,5 +692,10 @@ export const LangEn = {
         positionLag: "Position Lag",
         positionLocked: "Position Locked",
         positionThreshold: "Position Threshold",
+    },
+    calendar:{
+        tooltip:{
+            addUUID: "Add a user via UUID to track their SL birthday.",
+        }
     }
 }

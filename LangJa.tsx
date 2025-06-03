@@ -691,5 +691,10 @@ export const LangJa = {
         positionLag: "位置の遅延",
         positionLocked: "位置のロック",
         positionThreshold: "位置のしきい値",
+    },
+    calendar:{
+        tooltip:{
+            addUUID: "Add a user via UUID to track their SL birthday.",
+        }
     }
 }
