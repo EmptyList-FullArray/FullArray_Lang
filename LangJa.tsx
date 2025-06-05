@@ -696,5 +696,11 @@ export const LangJa = {
         tooltip:{
             addUUID: "Add a user via UUID to track their SL birthday.",
         }
+    },
+    login:{
+        error:{
+            userPass: "Please check your username and password.",
+            token: "Invalid login token, please reattach the HUD.",
+        }
     }
 }
