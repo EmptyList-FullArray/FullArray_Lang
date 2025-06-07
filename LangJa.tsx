@@ -694,13 +694,13 @@ export const LangJa = {
     },
     calendar:{
         tooltip:{
-            addUUID: "Add a user via UUID to track their SL birthday.",
+            addUUID: "誕生日を追跡したいユーザのＵＵＩＤを追加します。",
         }
     },
     login:{
         error:{
-            userPass: "Please check your username and password.",
-            token: "Invalid login token, please reattach the HUD.",
+            userPass: "ユーザ名とパスワードをご確認ください。",
+            token: "無効なログイントークンです。お手数ですがＨＵＤを装着し直してください。",
         }
     }
 }
