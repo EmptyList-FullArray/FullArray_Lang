@@ -387,7 +387,7 @@ export const LangEn = {
             setPublicAccessLevel: "Set Public Access Level for !~MODULE~!",
             tooltips:{
                 isSelfOwner: "Toggles the owner status of your own HUD.\nWhen disabled you will not be able to control your own HUD without being added to your own Allowlist.",
-                isPublic:    "This is the global toggle for all modules that have isPublic checked.\nWhen a module is set to public anyone not on your Blocklist can access it.",
+                isPublic:    "Toggle public access for all modules marked as public.</br>When enabled, anyone not on your Blocklist can use them.</br>By default all modules are public.",
                 sameRegion:  "Toggles if other users need to be in the same region as you to control your HUD.",
                 location:    "Allows users to see and know where you are, and teleport to you.",
             }
@@ -703,5 +703,15 @@ export const LangEn = {
             userPass: "Please check your username and password.",
             token: "Invalid login token, please reattach the HUD.",
         }
+    },
+    setupPage:{
+        infoText: "Welcome, and thank you for picking up Full Array!<br/>This setup process is intended to help you get the some basic settings configured to your liking. Please take a moment to review the following options, and when you are ready, click \"Finish Setup\" at the end. If you have any questions about what an option does, check if it has a <info icon> to hover over for more information.<br/><br/>Remember that none of these are permanent choices, you can change any of these settings later in the settings menu.",
+        categories:{
+            theme: "Theme Selection",
+            account: "Account Settings & Permissions",
+            hudOwners: "HUD Owners",
+        },
+        buttonSaveTheme: "Save Theme",
+        buttonFinish: "Finish Setup",
     }
 }
