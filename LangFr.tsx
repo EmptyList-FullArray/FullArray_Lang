@@ -399,6 +399,7 @@ export const LangFr = {
                 addAllowlistUUID: "UUID à ajouter à votre liste d'autorisation...",
             },
             tooltips:{
+                about: "The Allowlist is a list of users who are allowed to interact with parts of your HUD.\nEach module and user have their own access level and if the users level is the same or higher than the modules level they can use it.",
                 currentLeashHolder: "Le détenteur actuel de la laisse RLV de votre avatar.",
                 friends:            "Le niveau d'accès pour votre liste d'amis SL.",
             }
@@ -415,6 +416,9 @@ export const LangFr = {
             ownerlist: "Liste des propriétaires",
             placeholders:{
                 addOwnerUUID: "UUID à ajouter à votre liste des propriétaires...",
+            },
+            tooltips:{
+                about: "The Ownerlist is a list of users who are allowed nearly full control over your HUD\nThings in the settings menu are not allowed to be changed by the anyone on your ownerlist.",
             }
         },
         apiList:{
@@ -708,7 +712,6 @@ export const LangFr = {
         categories:{
             theme: "Theme Selection",
             account: "Account Settings & Permissions",
-            hudOwners: "HUD Owners",
         },
         buttonSaveTheme: "Save Theme",
         buttonFinish: "Finish Setup",
