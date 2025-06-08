@@ -710,6 +710,7 @@ export const LangEn = {
     },
     setupPage:{
         infoText: "Welcome, and thank you for picking up Full Array!<br/>This setup process is intended to help you get the some basic settings configured to your liking. Please take a moment to review the following options, and when you are ready, click \"Finish Setup\" at the end. If you have any questions about what an option does, check if it has a <info icon> to hover over for more information.<br/><br/>Remember that none of these are permanent choices, you can change any of these settings later in the settings menu.",
+        themeText: "Apply a predefined HUD theme.\nAll themes can be adjusted later in the settings menu.",
         categories:{
             theme: "Theme Selection",
             account: "Account Settings & Permissions",            
