@@ -399,6 +399,7 @@ export const LangJa = {
                 addAllowlistUUID: "あなたの許可リストに追加したいＵＵＩＤ…",
             },
             tooltips:{
+                about: "The Allowlist is a list of users who are allowed to interact with parts of your HUD.\nEach module and user have their own access level and if the users level is the same or higher than the modules level they can use it.",
                 currentLeashHolder: "現在のあなたのアバターのＲＬＶリーシュのホルダーです。",
                 friends:            "あなたのＳＬのフレンドのアクセスレベルのリストです。",
             }
@@ -415,6 +416,9 @@ export const LangJa = {
             ownerlist: "所有者リスト",
             placeholders:{
                 addOwnerUUID: "あなたの所有者として追加したいＵＵＩＤ…",
+            },
+            tooltips:{
+                about: "The Ownerlist is a list of users who are allowed nearly full control over your HUD\nThings in the settings menu are not allowed to be changed by the anyone on your ownerlist.",
             }
         },
         apiList:{
@@ -702,5 +706,15 @@ export const LangJa = {
             userPass: "ユーザ名とパスワードをご確認ください。",
             token: "無効なログイントークンです。お手数ですがＨＵＤを装着し直してください。",
         }
+    },
+    setupPage:{
+        infoText: "Welcome, and thank you for picking up Full Array!<br/>This setup process is intended to help you get the some basic settings configured to your liking. Please take a moment to review the following options, and when you are ready, click \"Finish Setup\" at the end. If you have any questions about what an option does, check if it has a <info icon> to hover over for more information.<br/><br/>Remember that none of these are permanent choices, you can change any of these settings later in the settings menu.",
+        themeText: "Apply a predefined HUD theme.\nAll themes can be adjusted later in the settings menu.",
+        categories:{
+            theme: "Theme Selection",
+            account: "Account Settings & Permissions",
+        },
+        buttonSaveTheme: "Save Theme",
+        buttonFinish: "Finish Setup",
     }
 }
