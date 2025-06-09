@@ -151,7 +151,7 @@ export const LangJa = {
         setDefaultOutfit:           "デフォルトのアウトフィットとして保存",
         outfitType:                 "アウトフィット種別",
         outfitTypeAdvanced:         "詳細",
-        outfitTypeBasic:            "基本",   
+        outfitTypeBasic:            "基本",
         outfitTypeSimple:           "簡易",
         linkMode:                   "リンクモード",
         linkModeNone:               "なし", 
@@ -386,9 +386,9 @@ export const LangJa = {
             setPublicAccessLevel: "!~MODULE~!のパブリックアクセスレベルを設定",
             tooltips:{
                 isSelfOwner: "自分のＨＵＤの所有者ステータスを切り替えます。\n無効にすると、自分の許可リストに追加されずに自分のＨＵＤを制御できなくなります。",
-                isPublic:    "これは、「パブリック」にチェックが入っているすべてのモジュールのグローバルトグルです。\nモジュールをパブリックに設定すると、ブロックリストに登録されていないユーザーもそのモジュールにアクセスできるようになります。",
-                sameRegion:  "ＨＵＤを制御するために他のユーザーがあなたと同じリージョンにいる必要があるかどうかを切り替えます。",
-                location:    "ユーザーがあなたの現在位置を確認して知ることができ、あなたのところにテレポートできるようになります。",
+                isPublic:    "これは、「パブリック」にチェックが入っているすべてのモジュールのグローバルトグルです。\nモジュールをパブリックに設定すると、ブロックリストに登録されていないユーザもそのモジュールにアクセスできるようになります。",
+                sameRegion:  "ＨＵＤを制御するために他のユーザがあなたと同じリージョンにいる必要があるかどうかを切り替えます。",
+                location:    "ユーザがあなたの現在位置を確認して知ることができ、あなたのところにテレポートできるようになります。",
             }
         },
         allowlist:{
@@ -399,7 +399,7 @@ export const LangJa = {
                 addAllowlistUUID: "あなたの許可リストに追加したいＵＵＩＤ…",
             },
             tooltips:{
-                about: "The Allowlist is a list of users who are allowed to interact with parts of your HUD.\nEach module and user have their own access level and if the users level is the same or higher than the modules level they can use it.",
+                about: "許可リストは、ＨＵＤの一部を操作することが許可されているユーザのリストです。\n各モジュールとユーザには独自のアクセスできるレベルがあり、ユーザのレベルがモジュールのレベルと同じかそれ以上であれば、そのモジュールを使用できます。",
                 currentLeashHolder: "現在のあなたのアバターのＲＬＶリーシュのホルダーです。",
                 friends:            "あなたのＳＬのフレンドのアクセスレベルのリストです。",
             }
@@ -418,7 +418,7 @@ export const LangJa = {
                 addOwnerUUID: "あなたの所有者として追加したいＵＵＩＤ…",
             },
             tooltips:{
-                about: "The Ownerlist is a list of users who are allowed nearly full control over your HUD\nThings in the settings menu are not allowed to be changed by the anyone on your ownerlist.",
+                about: "所有者リストは、ＨＵＤに対するほぼ完全な制御が許可されているユーザのリストです。\n設定メニュー内の項目は、所有者リストのどのユーザも変更できません。",
             }
         },
         apiList:{
@@ -479,7 +479,7 @@ export const LangJa = {
             playOutfitAnimations:   "グローバルのアウトフィットアニメーションを切り替えます。",
             playOutfitSounds:       "グローバルのアウトフィットのサウンドを切り替えます。",
             allowEffects:           "エフェクトを許可しますか？盗む、剥ぎ取るなど…",
-            sameRegion:             "同一リージョン操作をしますか？",
+            sameRegion:             "同一リージョンでのみ操作しますか？",
             showIds:                "リストにＩＤを表示しますか？",
             defaultNavState:        "ホームにナビゲートされたときのデフォルトのステート。",
             defaultActiveCardState: "アクティブなカードのデフォルトのステート。",
@@ -521,7 +521,7 @@ export const LangJa = {
             serverInventory:        "オプションの納品物。",
             hudColors:              "ＨＵＤを美しくする方法。",
             sortListsByName:        "名前またはＩＤでリスト／グリッドモードを並べ替えます。",
-            useTargetColor:         "ＨＵＤで、操作しているユーザーのＨＵＤカラーを使用するかどうかを切り替えます。",
+            useTargetColor:         "ＨＵＤで、操作しているユーザのＨＵＤカラーを使用するかどうかを切り替えます。",
             hudSide:                "ＨＵＤを左に開くか右に開くかを切り替えます。",
             categoryState:          "カテゴリがデフォルトで開いているか閉じているかを切り替えます。",
             saveHudPosition:        "ＨＵＤが現在画面上に表示されている位置を保存します。ＨＵＤ自体を置き換える必要がある場合に便利です。",
@@ -541,10 +541,10 @@ export const LangJa = {
             api_message:            "ＨＵＤがＡＰＩメッセージを送信するかどうかを切り替えるチャンネル：698008",
             api_linkMessage:        "ＨＵＤがllMessageLinkedを使用してＡＰＩメッセージを送信するかどうかを切り替えます。",
             showIds:                "ＨＵＤにエントリのＩＤを表示するかどうかを切り替えます。",
-            log_permissions:        "別のユーザーの権限チェックが失敗した場合に、ＨＵＤでチャットに表示するかどうかを切り替えます。",
+            log_permissions:        "別のユーザの権限チェックが失敗した場合に、ＨＵＤでチャットに表示するかどうかを切り替えます。",
             // Profile
             autoWearOutfit:         "プロファイルを読み込むときに、ＨＵＤが最後に着用したアウトフィットを自動的に着用するかどうかを切り替えます。",
-            profile_replaceAll:     "プロファイルを添付する前に、ＨＵＤがアバター上のすべてのものを切り離すかどうかを切り替えます。<br/>これには、#RLVフォルダ内のものも含まれます。",
+            profile_replaceAll:     "プロファイルを装着する前に、ＨＵＤがアバター上のすべてのものを切り離すかどうかを切り替えます。<br/>これには、#RLVフォルダ内のものも含まれます。",
             // Outfit
             autoPG:                 "ＰＧ／General SIMにテレポートするときに、ＨＵＤが自動的にアウトフィットをアウターウェアに設定するか、非Adult用アウトフィットに変更するかを切り替えます。",
             shoeReplaceFeet:        "ＨＵＤがアウトフィットの足（Foot）をステートに合わせて靴（Shoe）を自動的に取り付けたり取り外したりするかどうかを切り替えます。",
@@ -669,7 +669,7 @@ export const LangJa = {
         tooltip:{
             selectSelf: "自分のＨＵＤを選択してください。",
             useSupportMode: "有効にすると、アカウントの権限チェックは無視されます。",
-            loadUserUUID: "選択したユーザーを読み込んで、ＨＵＤを制御します。",
+            loadUserUUID: "選択したユーザを読み込んで、ＨＵＤを制御します。",
             addUserUUID: "入力したＵＵＩＤをお気に入りリストに追加します。",
             removeUserUUID: "入力したＵＵＩＤをお気に入りリストから削除します。",
         }
@@ -708,13 +708,13 @@ export const LangJa = {
         }
     },
     setupPage:{
-        infoText: "Welcome, and thank you for picking up Full Array!<br/>This setup process is intended to help you get the some basic settings configured to your liking. Please take a moment to review the following options, and when you are ready, click \"Finish Setup\" at the end. If you have any questions about what an option does, check if it has a <info icon> to hover over for more information.<br/><br/>Remember that none of these are permanent choices, you can change any of these settings later in the settings menu.",
-        themeText: "Apply a predefined HUD theme.\nAll themes can be adjusted later in the settings menu.",
+        infoText: "Full Arrayをお買い上げいただきありがとうございます。<br/>このセットアッププロセスは、お客様のお好みに合わせて基本設定を構成するためのものです。以下のオプションをご確認いただき、準備ができたら最後に「セットアップを完了」をクリックしてください。オプションの機能についてご不明な点がある場合は、マウスオーバーで詳細情報が表示される＜情報アイコン＞があるかどうかをご確認ください。<br/><br/>これらの設定はいずれも永続的なものではなく、設定メニューで後から変更できます。",
+        themeText: "定義済みのＨＵＤテーマを適用します。\nすべてのテーマは、後で設定メニューから調整できます。",
         categories:{
-            theme: "Theme Selection",
-            account: "Account Settings & Permissions",
+            theme: "テーマ選択",
+            account: "アカウント設定＆権限",
         },
-        buttonSaveTheme: "Save Theme",
-        buttonFinish: "Finish Setup",
+        buttonSaveTheme: "テーマを保存",
+        buttonFinish: "セットアップ完了",
     }
 }
