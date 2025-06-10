@@ -432,6 +432,7 @@ export const LangPirate = {
             default: "Default",
             large: "Large",
         },
+        uiVolume: "Tis the UI Volume ye be seekin! ",
         apiKey: "API Key",
         catagories:{
             account: "Account",

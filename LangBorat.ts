@@ -432,6 +432,7 @@ export const LangBorat = {
             default: "Default (okay)",
             large: "Large (very wow!)",
         },
+        uiVolume: "UI Volume... how loud is sexy computer talk?!",
         apiKey: "API Key (do not lose!)",
         catagories:{
             account: "Account (who are you?)",

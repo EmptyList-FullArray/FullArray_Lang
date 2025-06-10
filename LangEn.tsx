@@ -447,6 +447,7 @@ export const LangEn = {
             default: "Default",
             large: "Large",
         },
+        uiVolume: "UI Volume",
         apiKey: "API Key",
         catagories:{
             account: "Account",

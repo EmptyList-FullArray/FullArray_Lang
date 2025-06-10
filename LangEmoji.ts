@@ -432,6 +432,7 @@ export const LangEmoji = {
             default: "⚪",
             large: "🔸",
         },
+        uiVolume: "🖥️🔊",
         apiKey: "🔑",
         catagories:{
             account: "👤",

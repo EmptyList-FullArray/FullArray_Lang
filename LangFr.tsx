@@ -446,6 +446,7 @@ export const LangFr = {
             default: "Par défaut",
             large: "Grand",
         },
+        uiVolume: "UI Volume",
         apiKey: "Clé API",
         catagories:{
             account: "Compte",

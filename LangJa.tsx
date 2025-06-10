@@ -446,6 +446,7 @@ export const LangJa = {
             default: "デフォルト",
             large: "大",
         },
+        uiVolume: "UI Volume",
         apiKey: "ＡＰＩキー",
         catagories:{
             account: "アカウント",

@@ -432,6 +432,7 @@ export const LangInfomercial = {
             default: "Default—Just right!",
             large: "Large—Easy to see!",
         },
+        uiVolume: "Call now and make your interface sing! 🔊💻",
         apiKey: "API Key—The secret to it all!",
         catagories:{
             account: "Account—It’s all about YOU!",

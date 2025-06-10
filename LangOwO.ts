@@ -434,6 +434,7 @@ export const LangOwO = {
             default: "Defauwt",
             large: "Wawge",
         },
+        uiVolume: "“UwU Hewwo! Dis is youw UI Vowume~",
         apiKey: "API Key",
         catagories:{
             account: "Account",

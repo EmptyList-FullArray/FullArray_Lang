@@ -432,6 +432,7 @@ export const LangUnhinged = {
             default: "Normal-ish",
             large: "HUGE",
         },
+        uiVolume: "TURN IT UP! TURN IT DOWN! WHO CARES?!",
         apiKey: "MAGIC KEY",
         catagories:{
             account: "YOU",
