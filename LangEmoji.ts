@@ -166,6 +166,7 @@ export const LangEmoji = {
     accessory:{
         detachAll: "🔌🎒",
         genitalSlotHeader: "🚻🍑⚙️",
+        reload: "🔄👒",
         genitalSlot:{
             none:    "🚫",
             crotch:  "🍑",
@@ -175,6 +176,7 @@ export const LangEmoji = {
         tooltip:{
             detachAll: "🔌🎒🛑",
             genitalSlot: "🚻🍑⚙️",
+            reload:"🧲➡️👗",
         }
     },
     hair:{},

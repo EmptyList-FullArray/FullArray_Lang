@@ -166,6 +166,7 @@ export const LangInfomercial = {
     accessory:{
         detachAll: "Detach ALL Accessories—Clean up, fast and EASY™",
         genitalSlotHeader: "Genital Slot Override—Take control NOW™",
+        reload: "Tired of dull accessories? RELOAD THEM IN SECONDS!",
         genitalSlot:{
             none:    "None—Keep it simple!",
             crotch:  "Crotch—Direct and to the point!",
@@ -175,6 +176,7 @@ export const LangInfomercial = {
         tooltip:{
             detachAll: "Detach all accessories—Don’t wait, act now!",
             genitalSlot: "Let accessories control the crotch slot for you—Hands free convenience!",
+            reload: "With just ONE click, remove *and* reattach ALL your accessories—no hassle, no drama! Try it today, operators are standing by!",
         }
     },
     hair:{},

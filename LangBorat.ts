@@ -166,6 +166,7 @@ export const LangBorat = {
     accessory:{
         detachAll: "Remove all Accessory (wife angry!)",
         genitalSlotHeader: "Special place for crotch.",
+        reload: "Make accessories go again, very nice!",
         genitalSlot:{
             none:    "None (very sad)",
             crotch:  "Crotch (spicy!)",
@@ -175,6 +176,7 @@ export const LangBorat = {
         tooltip:{
             detachAll: "Remove all accessory. Make simple, like village life.",
             genitalSlot: "Accessory can remove spicy part. Use with caution.",
+            reload: "Will try to take off and put on all the sexy accessories again. High five!",
         }
     },
     hair:{},

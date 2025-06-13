@@ -168,6 +168,7 @@ export const LangOwO = {
     accessory:{
         detachAll: "Detach aww Accessowies",
         genitalSlotHeader: "Genital slot ovewwide.",
+        reload: "Wewoad youw wittwe accessowies~ ✨👛",
         genitalSlot:{
             none:    "None",
             crotch:  "Cwotch",
@@ -177,6 +178,7 @@ export const LangOwO = {
         tooltip:{
             detachAll: "Detaches and sets aww Accessowies fwom active Pwofiwe as non active.",
             genitalSlot: "Gives Accessowy da abiwity to detach genitals when attached.",
+            reload: "This wiww twy to take off and snuggwy weattach aww youw nyice accessowies, nya~ 💕🎀",
         }
     },
     hair:{},

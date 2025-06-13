@@ -169,6 +169,7 @@ export const LangEn = {
     accessory:{
         detachAll: "Detach all Accessories",
         genitalSlotHeader: "Genital slot override.",
+        reload: "Reload Accessories",
         genitalSlot:{
             none:    "None",
             crotch:  "Crotch",
@@ -178,6 +179,7 @@ export const LangEn = {
         tooltip:{
             detachAll: "Detaches and sets all Accessories from your active Profile as non active.",
             genitalSlot: "Gives the Accessory the ability to detach your genitals when its attached.",
+            reload: "This will attempt to detach and reattach all worn Accessories.",
         }
     },
     hair:{

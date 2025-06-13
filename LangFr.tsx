@@ -168,6 +168,7 @@ export const LangFr = {
     accessory:{
         detachAll: "Détacher tous les Accessoires",
         genitalSlotHeader: "Remplacement d'emplacement génital.",
+        reload: "Reload Accessories",
         genitalSlot:{
             none:    "Aucun",
             crotch:  "Entrejambe",
@@ -177,6 +178,7 @@ export const LangFr = {
         tooltip:{
             detachAll: "Détache et désactive tous les Accessoires de votre Profil actif.",
             genitalSlot: "Donne à l'Accessoire la capacité de détacher vos parties génitales lorsqu'il est attaché.",
+            reload: "This will attempt to detach and reattach all worn Accessories.",
         }
     },
     hair:{

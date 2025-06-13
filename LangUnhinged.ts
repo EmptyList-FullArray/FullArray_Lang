@@ -166,6 +166,7 @@ export const LangUnhinged = {
     accessory:{
         detachAll: "DROP ALL THE WEIRD THINGS",
         genitalSlotHeader: "Override for SPICY AREA",
+        reload: "STRAP IN. ACCESSORIES. GO. BOOM.",
         genitalSlot:{
             none:    "NOPE",
             crotch:  "SPICY",
@@ -175,6 +176,7 @@ export const LangUnhinged = {
         tooltip:{
             detachAll: "Drops all accessories like bad habits.",
             genitalSlot: "Accessory can de-spice you on attach.",
+            reload: "WE'RE YANKING THEM OFF AND SLAMMING THEM BACK ON LIKE A FASHION WHIRLWIND—DON’T ASK QUESTIONS, JUST CLICK.",
         }
     },
     hair:{},

@@ -166,6 +166,7 @@ export const LangPirate = {
     accessory:{
         detachAll: "Unstrap all Booty",
         genitalSlotHeader: "Treasure slot override.",
+        reload: "Hoist the trinkets again, ye scallywag!",
         genitalSlot:{
             none:    "None",
             crotch:  "Treasure",
@@ -175,6 +176,7 @@ export const LangPirate = {
         tooltip:{
             detachAll: "Unstraps and stows all Booty from yer active Mark.",
             genitalSlot: "Lets the Booty detach yer treasure when it's lashed.",
+            reload: "This be attemptin’ to plunder all yer worn booty ‘n strap it back on, arrr!",
         }
     },
     hair:{},
