@@ -168,7 +168,7 @@ export const LangJa = {
     accessory:{
         detachAll: "すべてのアクセサリを取り外す",
         genitalSlotHeader: "性器スロットを上書きします。",
-        reload: "Reload Accessories",
+        reload: "アクセサリをリロードします。",
         genitalSlot:{
             none:    "なし",
             crotch:  "股間",
@@ -178,7 +178,7 @@ export const LangJa = {
         tooltip:{
             detachAll: "アクティブなプロファイルからすべてのアクセサリを切り離し、非アクティブに設定します。",
             genitalSlot: "アクセサリを装着すると、性器を取り外すことができるようになります。",
-            reload: "This will attempt to detach and reattach all worn Accessories.",
+            reload: "これにより、装着しているアクセサリをすべて取り外して再度取り付ける処理が行われます。",
         }
     },
     hair:{
