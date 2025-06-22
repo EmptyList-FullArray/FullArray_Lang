@@ -198,7 +198,7 @@ export const LangEn = {
         leashToObject:        "Leash To Object",
         leashToAvatar:        "Leash To Avatar",
         headerLeashPatricle:  "Leash Particle",
-        leashColor:           "< Start | Color | End >",
+        leashColor:           "< | Color | >",
         leashRibbon:          "Use Ribbon Particle",
         leashPlaceholderUUID: "Texture UUID...",
         leashFullBright:      "Full Bright",
