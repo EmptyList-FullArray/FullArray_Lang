@@ -668,7 +668,7 @@ export const LangEn = {
         removeUserUUID: "Remove from Favorite List",
         userUUID: "UUID to select as target...",
         favoriteUsers: "Favorite Users",
-        regionList: "Region List",
+        regionList: "Region List (HUD Giver)",
         hudUsers: "HUD Users",
         tooltip:{
             selectSelf: "Selects your own HUD.",
