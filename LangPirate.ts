@@ -155,6 +155,7 @@ export const LangPirate = {
         linkModeNone:               "None", 
         linkModeTorso_Crotch:       "Trunk & Treasure",
         linkModeTorso_Crotch_Waist: "Trunk & Treasure & Girdle",
+        linkMode_Crotch_Waist:       "Treasure & Girdle",
         tooltip:{
             setDefaultOutfit: "Set this Garb as yer go-to.<br>It'll be donned on Mark change.",
             outfitType: "Pick Garb class.<br><br>Fancy: All Garb slots and 3 states.<br><br>Basic: Like Fancy but fewer slots.<br><br>Simple: Just a Coat, attach or detach.",

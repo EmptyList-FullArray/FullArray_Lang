@@ -157,6 +157,7 @@ export const LangOwO = {
         linkModeNone:               "None", 
         linkModeTorso_Crotch:       "Towsy & Cwotch",
         linkModeTorso_Crotch_Waist: "Towsy & Cwotch & Waisty",
+        linkMode_Crotch_Waist:       "Cwotch & Waisty",
         tooltip:{
             setDefaultOutfit: "Sets dis Ouwfit as ur defauwt Ouwfit.<br>If set, dis Ouwfit will woad on Pwofiwe change.",
             outfitType: "Sewect da type of Ouwfit.<br><br>Advawnced: Uses aww Ouwfit slots and 3 states.<br><br>Basic: Like advawnced but nu slots.<br><br>Simpwe: Only uses Outeawear, attach/detach.",

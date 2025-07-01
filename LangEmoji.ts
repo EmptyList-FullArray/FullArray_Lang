@@ -155,6 +155,7 @@ export const LangEmoji = {
         linkModeNone:               "🚫🔗", 
         linkModeTorso_Crotch:       "🫀+🍑",
         linkModeTorso_Crotch_Waist: "🫀+🍑+🦺",
+        linkMode_Crotch_Waist:       "🍑+🦺",
         tooltip:{
             setDefaultOutfit: "⭐👗🔁",
             outfitType: "👗🗂️⚙️",

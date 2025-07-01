@@ -158,6 +158,7 @@ export const LangEn = {
         linkModeNone:               "None", 
         linkModeTorso_Crotch:       "Torso & Crotch",
         linkModeTorso_Crotch_Waist: "Torso & Crotch & Waist",
+        linkMode_Crotch_Waist:       "Crotch & Waist",
         tooltip:{
             setDefaultOutfit: "Sets this Outfit as your default Outfit.<br>If set this Outfit will be loaded on Profile change.",
             outfitType: "Select the type of the Outfit.<br><br>Advanced: Uses all of the Outfit slots and the 3 states.<br><br>Basic: is like Advanced but you do not have use the Outfit slots.<br><br>Simple: you only use the Outerwear state, its a simple attached or detached",

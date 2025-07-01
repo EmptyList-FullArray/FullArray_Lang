@@ -155,6 +155,7 @@ export const LangBorat = {
         linkModeNone:               "None",
         linkModeTorso_Crotch:       "Torso and Crotch together",
         linkModeTorso_Crotch_Waist: "Torso, Crotch, Waist all family",
+        linkMode_Crotch_Waist:       "Crotch, Waist all family",
         tooltip:{
             setDefaultOutfit: "This suit always on. Wife cannot take off.",
             outfitType: "Pick type of suit. Many option is for brave man.<br>Simple is for lazy.",
