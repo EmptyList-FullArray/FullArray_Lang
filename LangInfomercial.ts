@@ -155,6 +155,7 @@ export const LangInfomercial = {
         linkModeNone:               "None—Go Solo™", 
         linkModeTorso_Crotch:       "Torso & Crotch—Double the Fun™",
         linkModeTorso_Crotch_Waist: "Torso, Crotch & Waist—The TRIPLE Threat™",
+        linkMode_Crotch_Waist:       "Crotch & Waist—The Dynamic Duo™",
         tooltip:{
             setDefaultOutfit: "This will be your default outfit—Set it and FORGET IT™!",
             outfitType: "Choose your outfit type—Dial up the power or keep it simple!",

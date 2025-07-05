@@ -157,6 +157,7 @@ export const LangFr = {
         linkModeNone:               "Aucun", 
         linkModeTorso_Crotch:       "Torse & Entrejambe",
         linkModeTorso_Crotch_Waist: "Torse & Entrejambe & Taille",
+        linkMode_Crotch_Waist:       "Entrejambe & Taille",
         tooltip:{
             setDefaultOutfit: "Définit cette Tenue comme votre Tenue par défaut.<br>Si définie, cette Tenue sera chargée lors du changement de Profil.",
             outfitType: "Sélectionnez le type de Tenue.<br><br>Avancé: Utilise tous les emplacements de Tenue et les 3 états.<br><br>Basique: est comme Avancé mais vous n'avez pas à utiliser les emplacements de Tenue.<br><br>Simple: vous n'utilisez que l'état Vêtements extérieurs, c'est simplement attaché ou détaché",

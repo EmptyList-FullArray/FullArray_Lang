@@ -157,6 +157,7 @@ export const LangJa = {
         linkModeNone:               "なし", 
         linkModeTorso_Crotch:       "胴＆股",
         linkModeTorso_Crotch_Waist: "胴＆股＆腰",
+        linkMode_Crotch_Waist:       "股間＆腰",
         tooltip:{
             setDefaultOutfit: "このアウトフィットをデフォルトのアウトフィットとして設定します。<br>設定すると、プロファイルの変更時にこのアウトフィットが読み込まれます。",
             outfitType: "アウトフィット種別を選択します。<br><br>詳細：アウトフィットスロットで３種類のステートをすべて使用します。<br><br>基本：「詳細」と似ていますが、アウトフィットスロットを使用する必要はありません。<br><br>簡易：「アウターウェア」のステートのみを使用します。これは、簡単な装着または取り外しです。",

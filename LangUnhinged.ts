@@ -155,6 +155,7 @@ export const LangUnhinged = {
         linkModeNone:               "NOPE",
         linkModeTorso_Crotch:       "CHEST+SPICY",
         linkModeTorso_Crotch_Waist: "CHEST+SPICY+BISCUIT",
+        linkMode_Crotch_Waist:       "SPICY+BISCUIT",
         tooltip:{
             setDefaultOutfit: "Wear this by default. Or don't. I'm not your parent.",
             outfitType: "Pick how complicated the CLOTHES get.<br><br>MAX: All slots, all chaos.<br>BASIC: Fewer slots. Simpler times.<br>SIMPLE: Literally just on or off.",
