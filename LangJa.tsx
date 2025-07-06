@@ -41,7 +41,7 @@ export const LangJa = {
         tooltip:{
             customAccessLevel: "権限メニューで設定されたアクセスレベルを上書きするアクセスレベルを設定します。",
             name:      "この!~MODULE~!の名前です。",
-            img:       "この!~MODULE~!の画像のＵＵＩＤかＵＲＬです。",
+            img:       "この!~MODULE~!の画像のＵＵＩＤかＵＲＬを入力してください。",
             imgSelect: "このプロファイルで使用する画像ファイルをディスクから選択します。<br>png、jpg、webp など…",
             isAdult:   "プロファイルがAdult向けである場合、テレポート機能のＰＧで使用されます。",
             delete:    "この!~MODULE~!とそのすべてのリンクを削除します。元に戻すことはできません。",
@@ -55,13 +55,13 @@ export const LangJa = {
         },
         slots:{
             head:      "頭",
-            torso:     "胴",
+            torso:     "胴体",
             arms:      "腕",
             hands:     "手",
             legs:      "脚",
             feet:      "足", 
             waist:     "腰",
-            crotch:    "股",
+            crotch:    "股間",
             tail:      "尻尾",
             wings:     "翼",
             ears:      "耳",
@@ -103,11 +103,11 @@ export const LangJa = {
         },
         tooltip:{
             doll: {
-                outerwear: "アウトフィットの!~SLOT~!スロットを「アウターウェア」ステートに設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
-                underwear: "アウトフィットの!~SLOT~!スロットを「アンダーウェア」ステートに設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
+                outerwear: "アウトフィットの!~SLOT~!スロットを「アウターウェア」ステートとして設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
+                underwear: "アウトフィットの!~SLOT~!スロットを「アンダーウェア」ステートとして設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
                 nude:      "アウトフィットの!~SLOT~!スロットを「ヌード」ステートに設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
                 rip:       "あなたのアウトフィットの!~SLOT~!スロットを剥ぎ取ります。<br>それを直すには、衣装修復を使用する必要があります。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Rip",
-                steal:     "あなたのアウトフィットの!~SLOT~!スロットを盗みます。<br>あなたのアウトフィットを盗んだアバターをぶつけない場合は、衣装修理を使用して修理する必要があります。<br><br>コマンド；@Set Outfit Effect !~SLOT~! Steal",
+                steal:     "あなたのアウトフィットの!~SLOT~!スロットを盗みます。<br>あなたのアウトフィットを盗んだアバターをぶつけない場合は、衣装修理を使用して修理する必要があります。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Steal",
                 throw:     "あなたのアウトフィットの!~SLOT~!スロットを投げます。<br>元に戻らない場合は、衣類修理を使って修理する必要があります。<br>投げると誰でも拾って盗むことができるプリムが復活します。ぶつかるか、クリックでプリムを相手の手から叩き落とし、地面をクリックすることで取り戻すことができます。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Throw",
             },
             outfitOuterwear: "アウトフィットのステートを「アウターウェア」に設定します。<br><br>コマンド：@o （スロット名）",
@@ -155,9 +155,9 @@ export const LangJa = {
         outfitTypeSimple:           "簡易",
         linkMode:                   "リンクモード",
         linkModeNone:               "なし", 
-        linkModeTorso_Crotch:       "胴＆股",
-        linkModeTorso_Crotch_Waist: "胴＆股＆腰",
-        linkMode_Crotch_Waist:       "股間＆腰",
+        linkModeTorso_Crotch:       "胴体＆股間",
+        linkModeTorso_Crotch_Waist: "胴体＆股間＆腰",
+        linkMode_Crotch_Waist:      "股間＆腰",
         tooltip:{
             setDefaultOutfit: "このアウトフィットをデフォルトのアウトフィットとして設定します。<br>設定すると、プロファイルの変更時にこのアウトフィットが読み込まれます。",
             outfitType: "アウトフィット種別を選択します。<br><br>詳細：アウトフィットスロットで３種類のステートをすべて使用します。<br><br>基本：「詳細」と似ていますが、アウトフィットスロットを使用する必要はありません。<br><br>簡易：「アウターウェア」のステートのみを使用します。これは、簡単な装着または取り外しです。",
@@ -169,7 +169,7 @@ export const LangJa = {
     accessory:{
         detachAll: "すべてのアクセサリを取り外す",
         genitalSlotHeader: "性器スロットを上書きします。",
-        reload: "Reload Accessories",
+        reload: "アクセサリをリロードします。",
         genitalSlot:{
             none:    "なし",
             crotch:  "股間",
@@ -179,7 +179,7 @@ export const LangJa = {
         tooltip:{
             detachAll: "アクティブなプロファイルからすべてのアクセサリを切り離し、非アクティブに設定します。",
             genitalSlot: "アクセサリを装着すると、性器を取り外すことができるようになります。",
-            reload: "This will attempt to detach and reattach all worn Accessories.",
+            reload: "これにより、装着しているアクセサリをすべて取り外して再度取り付ける処理が行われます。",
         }
     },
     hair:{
@@ -198,7 +198,7 @@ export const LangJa = {
         leashToObject:        "オブジェクトにリーシュをつなぐ",
         leashToAvatar:        "アバターにリーシュをつなぐ",
         headerLeashPatricle:  "リーシュのパーティクル",
-        leashColor:           "＜開始｜色｜終了＞",
+        leashColor:           "＜｜色｜＞",
         leashRibbon:          "リボンのパーティクルを使用",
         leashPlaceholderUUID: "テクスチャのＵＵＩＤ…",
         leashFullBright:      "明るさ全開",
@@ -666,9 +666,9 @@ export const LangJa = {
         selectUUID: "ＵＵＩＤを選択してください。",
         addUserUUID: "お気に入りリストに追加",
         removeUserUUID: "お気に入りいるとから削除",
-        userUUID: "選択するターゲットのＵＵＩＤ…",
+        userUUID: "対象のＵＵＩＤを選択…",
         favoriteUsers: "お気に入りのユーザ",
-        regionList: "リージョンリスト",
+        regionList: "リージョンリスト（ＨＵＤギバー）",
         hudUsers: "ＨＵＤユーザ",
         tooltip:{
             selectSelf: "自分のＨＵＤを選択してください。",
