@@ -627,6 +627,7 @@ export const LangOwO = {
                 outerwear: "Outeawear",
                 underwear: "Undeawear",
                 nude:      "Nudie >///<",
+                disabled:  "Disabwed",
             },
             categoryScrollbar:{ 
                 header: "Scwowbaw",

@@ -625,6 +625,7 @@ export const LangUnhinged = {
                 outerwear: "COATS ON",
                 underwear: "SECRET CLOTH",
                 nude:      "FULL MOON",
+                disabled:  "DISABLED",
             },
             categoryScrollbar:{ 
                 header: "Scrollbar",

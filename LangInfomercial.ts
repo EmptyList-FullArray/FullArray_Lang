@@ -625,6 +625,7 @@ export const LangInfomercial = {
                 outerwear: "Outerwear—Dress for success!",
                 underwear: "Underwear—Comfort guaranteed!",
                 nude:      "Nude—Freedom is yours!",
+                disabled:  "Disabled—No worries, we got you!",
             },
             categoryScrollbar:{ 
                 header: "Scrollbar—Move up, move down!",

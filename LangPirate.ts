@@ -625,6 +625,7 @@ export const LangPirate = {
                 outerwear: "Coat",
                 underwear: "Unmentionables",
                 nude:      "Bare Bones",
+                disabled:  "Disabled",
             },
             categoryScrollbar:{ 
                 header: "Scrollbar",

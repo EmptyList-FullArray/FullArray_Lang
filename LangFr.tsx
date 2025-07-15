@@ -648,6 +648,7 @@ export const LangFr = {
                 outerwear: "Vêtements extérieurs",
                 underwear: "Sous-vêtements",
                 nude:      "Nu",
+                disabled:  "Disabled",
             },
             categoryScrollbar:{ 
                 header: "Barre de défilement",

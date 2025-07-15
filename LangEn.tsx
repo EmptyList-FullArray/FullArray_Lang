@@ -649,6 +649,7 @@ export const LangEn = {
                 outerwear: "Outerwear",
                 underwear: "Underwear",
                 nude:      "Nude",
+                disabled:  "Disabled",
             },
             categoryScrollbar:{ 
                 header: "Scrollbar",

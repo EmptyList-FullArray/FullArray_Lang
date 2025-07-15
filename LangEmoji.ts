@@ -625,6 +625,7 @@ export const LangEmoji = {
                 outerwear: "🧥",
                 underwear: "🩲",
                 nude:      "🚫👗",
+                disabled:  "🚫",
             },
             categoryScrollbar:{ 
                 header: "⬇️⬆️",

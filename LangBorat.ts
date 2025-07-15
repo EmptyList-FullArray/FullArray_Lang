@@ -625,6 +625,7 @@ export const LangBorat = {
                 outerwear: "Fancy Jacket",
                 underwear: "Sexy Underpant",
                 nude:      "Naked! (very nice)",
+                disabled:  "Disabled (not working!)",
             },
             categoryScrollbar:{ 
                 header: "Scrollbar (slide up/down)",

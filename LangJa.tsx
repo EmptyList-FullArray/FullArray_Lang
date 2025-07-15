@@ -648,6 +648,7 @@ export const LangJa = {
                 outerwear: "アウターウェア",
                 underwear: "アンダーウェア",
                 nude:      "ヌード",
+                disabled:  "Disabled",
             },
             categoryScrollbar:{ 
                 header: "スクロールバー",
