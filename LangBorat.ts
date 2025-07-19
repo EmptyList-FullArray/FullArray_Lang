@@ -489,6 +489,7 @@ export const LangBorat = {
             jasx_bareAutoDress:     "Auto Dress after Bare Game? (no naked time!)",
             autoCreateFolders:      "Automatic create folders? (auto magic!)",
             hud_sideDock:           "HUDs dock mode. (like boat!)",
+            outfit_pcUseEffect:     "Throw clothing with PC clumsiness? (oops!)",
         },
         textbox:{
             prefixPlaceholder: "Prefix... (start of word)",
@@ -549,6 +550,7 @@ export const LangBorat = {
             isOldShoe:              "PERMANENT TOGGLE for new Shoe style (retro is cool!)",            
             jasx_bareAutoDress:     "Auto dress after Bare Game (no naked time!)",
             autoCreateFolders:      "Auto create folders for new things (magic touch!)",
+            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens (like drunk person!).",
         },
         color:{
             colorHeader: "Color Settings (make pretty)",

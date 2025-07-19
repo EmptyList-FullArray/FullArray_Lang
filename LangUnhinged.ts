@@ -487,8 +487,9 @@ export const LangUnhinged = {
             protectedFolderLock:    "Lock the forbidden folder?",
             defaultTempHudState:    "Default state for spare HUDs",
             jasx_bareAutoDress:     "Auto clothe after bare game?",
-            autoCreateFolders:      "Auto create folders for everything?",
+            autoCreateFolders:      "Auto create folders? (because manual is hard)",
             hud_sideDock:           "HUDs dock mode (whatever that means)",
+            outfit_pcUseEffect:     "Throw clothes when clumsy? (chaos mode)",
         },
         textbox:{
             prefixPlaceholder: "Prefix... or whatever",
@@ -549,6 +550,7 @@ export const LangUnhinged = {
             isOldShoe:              "PERMA-TOGGLE: Use new shoe folder style.",            
             jasx_bareAutoDress:     "Auto-dress after the bare game.",
             autoCreateFolders:      "Auto-create folders for new things.",
+            outfit_pcUseEffect:     "Outfit throws clothes when PC clumsiness hits (embrace the chaos).",
         },
         color:{
             colorHeader: "Colorful Chaos",

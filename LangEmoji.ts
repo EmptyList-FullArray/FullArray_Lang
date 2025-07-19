@@ -489,6 +489,7 @@ export const LangEmoji = {
             jasx_bareAutoDress:     "🩲🎮🤖",
             autoCreateFolders:      "🤖📁",
             hud_sideDock:           "🔲⚓",
+            outfit_pcUseEffect:     "🤏👗❓",
         },
         textbox:{
             prefixPlaceholder: "🔤...",
@@ -549,6 +550,7 @@ export const LangEmoji = {
             isOldShoe:              "👟🏚️",            
             jasx_bareAutoDress:     "🩲🎮🤖",
             autoCreateFolders:      "🤖📁",
+            outfit_pcUseEffect:     "🤏👗💥",
         },
         color:{
             colorHeader: "🎨⚙️",

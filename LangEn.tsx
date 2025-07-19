@@ -504,6 +504,7 @@ export const LangEn = {
             jasx_bareAutoDress:     "Auto Dress after Bare Game?",
             autoCreateFolders:      "Automaticly create folders?",
             hud_sideDock:           "HUDs dock mode.",
+            outfit_pcUseEffect:     "Throw clothing with PC clumsiness?",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",
@@ -571,8 +572,9 @@ export const LangEn = {
             isOldAccessory:         "PERMANENT TOGGLE to change your Accessories Module to use the updated folder structure.",
             isOldHair:              "PERMANENT TOGGLE to change your Hair Module to use the updated folder structure.",
             isOldShoe:              "PERMANENT TOGGLE to change your Shoe Module to use the updated folder structure.",            
-            jasx_bareAutoDress:     "Toggles wether the HUD will automatically dress after a Bare Game.",
-            autoCreateFolders:      "Toggles wether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",
+            jasx_bareAutoDress:     "Toggles whether the HUD will automatically dress after a Bare Game.",
+            autoCreateFolders:      "Toggles whether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",
+            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
         },
         color:{
             colorHeader: "Color Settings",

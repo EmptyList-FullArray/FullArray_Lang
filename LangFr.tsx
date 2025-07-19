@@ -503,6 +503,7 @@ export const LangFr = {
             jasx_bareAutoDress:     "S'habiller automatiquement après un jeu Bare ?",
             autoCreateFolders:      "Créer automatiquement les dossiers ?",
             hud_sideDock:           "HUDs dock mode.",
+            outfit_pcUseEffect:     "Throw clothing with PC clumsiness?",
         },
         textbox:{
             prefixPlaceholder: "Préfixe...",
@@ -572,6 +573,7 @@ export const LangFr = {
             isOldShoe:              "OPTION PERMANENTE pour changer votre Module Chaussures pour utiliser la structure de dossier mise à jour.",            
             jasx_bareAutoDress:     "Définit si le HUD s'habillera automatiquement après un Jeu Nu.",
             autoCreateFolders:      "Définit si le HUD créera automatiquement des dossiers pour les nouvelles entrées comme Profil, Tenue, etc....",
+            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
         },
         color:{
             colorHeader: "Paramètres de Couleur",

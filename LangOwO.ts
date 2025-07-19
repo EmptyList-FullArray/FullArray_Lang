@@ -491,6 +491,7 @@ export const LangOwO = {
             jasx_bareAutoDress:     "Auto Dwess aftew Bawe Game?",
             autoCreateFolders:      "Automaticawwy cweate foldies?",
             hud_sideDock:           "HUDsies dock mode.",
+            outfit_pcUseEffect:     "Thwow cwothing with PC cwumsiness?",
         },
         textbox:{
             prefixPlaceholder: "Pwrefix...",
@@ -551,6 +552,7 @@ export const LangOwO = {
             isOldShoe:              "PEWMANENT TOGGLE: change Shoesies Moduwe to updated foldy stwuctuwe.",            
             jasx_bareAutoDress:     "Toggwie if HUD auto dwesses aftew Bawe Game.",
             autoCreateFolders:      "Toggwie if HUD auto cweates foldies for new entwies.",
+            outfit_pcUseEffect:     "Toggwes whethew the Outfit wiwl thwow cwothing when PC cwumsiness effect happens.",
         },
         color:{
             colorHeader: "Cowow Settins",

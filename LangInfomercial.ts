@@ -487,8 +487,9 @@ export const LangInfomercial = {
             protectedFolderLock:    "Lock Protected Folder—No peeking!",
             defaultTempHudState:    "Default TempHUD State—Hide or show, you’re in control!",
             jasx_bareAutoDress:     "Auto Dress After Bare Game—No more awkward moments!",
-            autoCreateFolders:      "Auto Create Folders—Organization, simplified!",
+            autoCreateFolders:      "Auto-Create Folders? YES—folder magic!",
             hud_sideDock:           "HUDs Dock Mode—Dock and roll!",
+            outfit_pcUseEffect:     "Throw Clothing with PC Clumsiness? Oops!",
         },
         textbox:{
             prefixPlaceholder: "Prefix (start with style)...",
@@ -549,6 +550,7 @@ export const LangInfomercial = {
             isOldShoe:              "Permanent toggle for new shoe style—Step up your game!",            
             jasx_bareAutoDress:     "Auto dress after Bare Game—No waiting!",
             autoCreateFolders:      "Auto-create folders for new entries—Easy organization!",
+            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens—Oops moments!",
         },
         color:{
             colorHeader: "Color Settings—Make it POP!",

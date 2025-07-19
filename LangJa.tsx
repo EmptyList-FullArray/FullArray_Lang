@@ -503,6 +503,7 @@ export const LangJa = {
             jasx_bareAutoDress:     "Bareゲーム後に自動着用しますか？",
             autoCreateFolders:      "フォルダを自動作成しますか？",
             hud_sideDock:           "ＨＵＤはドックモードです。",
+            outfit_pcUseEffect:     "Throw clothing with PC clumsiness?",
         },
         textbox:{
             prefixPlaceholder: "プレフィックス…",
@@ -572,6 +573,7 @@ export const LangJa = {
             isOldShoe:              "更新されたフォルダ構造を使用するように靴モジュールを変更するには、永続的に切り替えます。",
             jasx_bareAutoDress:     "Bareゲーム後にＨＵＤを自動的に装着するかどうかを切り替えます。",
             autoCreateFolders:      "ＨＵＤがプロファイル、衣装などの新しく作成されたエントリのフォルダを自動的に作成するかどうかを切り替えます。",
+            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
         },
         color:{
             colorHeader: "カラー設定",

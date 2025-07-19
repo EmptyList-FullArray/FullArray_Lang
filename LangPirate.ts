@@ -487,8 +487,9 @@ export const LangPirate = {
             protectedFolderLock:    "Lock the Protected Locker.",
             defaultTempHudState:    "Default state for SpareHUDs.",
             jasx_bareAutoDress:     "Auto Dress after Bare Game?",
-            autoCreateFolders:      "Auto create lockers?",
+            autoCreateFolders:      "Auto create treasure chests?",
             hud_sideDock:           "HUDs dock mode.",
+            outfit_pcUseEffect:     "Throw garb with landlubber clumsiness?",
         },
         textbox:{
             prefixPlaceholder: "Figurehead...",
@@ -549,6 +550,7 @@ export const LangPirate = {
             isOldShoe:              "PERMANENT TOGGLE: change yer Boots module to the new locker plan.",            
             jasx_bareAutoDress:     "Toggle if the HUD auto dresses after a Bare Game.",
             autoCreateFolders:      "Toggle if the HUD auto creates lockers for new entries.",
+            outfit_pcUseEffect:     "Toggles whether the Outfit will throw garb when the landlubber clumsiness effect happens.",
         },
         color:{
             colorHeader: "Color Settings",
