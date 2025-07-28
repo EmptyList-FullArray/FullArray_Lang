@@ -237,6 +237,7 @@ export const LangEn = {
 // Chat
         categoryChat:        "Chat",
         chatExceptions:      "Use Chat Exceptions",
+        chatExceptionsTooltip: "Toggles wether Owners and users on your Allowlist with access to RLV_CHAT can still send you chat messages.",
         speak:               "Speak (Chat)",
         recvchat:            "Hear (Chat)",
         sendgesture:         "Use Gestures",

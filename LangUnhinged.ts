@@ -227,6 +227,7 @@ export const LangUnhinged = {
         fartouch:            "Long distance boop",
         categoryChat:        "SCREAMING",
         chatExceptions:      "Chat weirdness",
+        chatExceptionsTooltip: "Toggles whether the big boss people and your special friends with RLV_CHAT powers can STILL yell at you even when chat is broken!",
         speak:               "Speak up",
         recvchat:            "Listen up",
         sendgesture:         "Send a weird wiggle",

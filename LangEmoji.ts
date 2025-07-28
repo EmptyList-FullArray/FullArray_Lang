@@ -227,6 +227,7 @@ export const LangEmoji = {
         fartouch:            "🤲🏹",
         categoryChat:        "💬",
         chatExceptions:      "🚫💬",
+        chatExceptionsTooltip: "🔄👑👥✅📋🔗💬📨",
         speak:               "🗣️💬",
         recvchat:            "👂💬",
         sendgesture:         "🎭",

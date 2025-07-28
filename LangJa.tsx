@@ -236,6 +236,7 @@ export const LangJa = {
 // Chat
         categoryChat:        "チャット",
         chatExceptions:      "チャットの例外を使用",
+        chatExceptionsTooltip: "Toggles wether Owners and users on your Allowlist with access to RLV_CHAT can still send you chat messages.",
         speak:               "話す（チャット）",
         recvchat:            "聞く（チャット）",
         sendgesture:         "ジェスチャーを使用",

@@ -227,6 +227,7 @@ export const LangInfomercial = {
         fartouch:            "Far Touch—No distance too great!",
         categoryChat:        "Chat—Communication made EASY™",
         chatExceptions:      "Chat Exceptions—Filter like a pro!",
+        chatExceptionsTooltip: "Toggle whether Owners and your Allowlist members with RLV_CHAT access can STILL send you messages—even when chat is blocked! It's REVOLUTIONARY™!",
         speak:               "Speak—Be heard!",
         recvchat:            "Hear—Never miss a word!",
         sendgesture:         "Send Gesture—Express yourself!",

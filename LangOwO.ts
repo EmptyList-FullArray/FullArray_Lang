@@ -229,6 +229,7 @@ export const LangOwO = {
         fartouch:            "Faw Touch",
         categoryChat:        "Chattie",
         chatExceptions:      "Use Chattie Exceptions",
+        chatExceptionsTooltip: "Toggwes whethew Ownews and usews on youw Allowlist with access to WLV_CHAT can still send you chattie messages uwu",
         speak:               "Speak (Chattie)",
         recvchat:            "Heaw (Chattie)",
         sendgesture:         "Use Gestuwes",

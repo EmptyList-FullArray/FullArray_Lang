@@ -227,6 +227,7 @@ export const LangPirate = {
         fartouch:            "Far Touch",
         categoryChat:        "Parley",
         chatExceptions:      "Use Parley Exceptions",
+        chatExceptionsTooltip: "Toggles whether Cap'ns and crew on yer Allowlist with RLV_CHAT access can still send ye parley messages, savvy?",
         speak:               "Speak (Parley)",
         recvchat:            "Hear (Parley)",
         sendgesture:         "Use Jigs",

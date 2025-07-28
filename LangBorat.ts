@@ -227,6 +227,7 @@ export const LangBorat = {
         fartouch:            "Far touch (like magic)",
         categoryChat:        "Chat (say hello!)",
         chatExceptions:      "Chat cannot (bad)",
+        chatExceptionsTooltip: "Make switch if Big Boss and nice people on your list with RLV_CHAT can still send you message! Very wow!",
         speak:               "Say (be loud)",
         recvchat:            "Hear (listen good)",
         sendgesture:         "Send gesture (wave hand)",
