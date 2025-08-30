@@ -236,7 +236,7 @@ export const LangJa = {
 // Chat
         categoryChat:        "チャット",
         chatExceptions:      "チャットの例外を使用",
-        chatExceptionsTooltip: "Toggles wether Owners and users on your Allowlist with access to RLV_CHAT can still send you chat messages.",
+        chatExceptionsTooltip: "RLV_CHATへのアクセス権を持つ許可リストの所有者とユーザーが引き続きチャットメッセージを送信できるかどうかを切り替えます。",
         speak:               "話す（チャット）",
         recvchat:            "聞く（チャット）",
         sendgesture:         "ジェスチャーを使用",
@@ -450,7 +450,7 @@ export const LangJa = {
             default: "デフォルト",
             large: "大",
         },
-        uiVolume: "UI Volume",
+        uiVolume: "ＵＩボリューム",
         apiKey: "ＡＰＩキー",
         catagories:{
             account: "アカウント",
@@ -504,7 +504,7 @@ export const LangJa = {
             jasx_bareAutoDress:     "Bareゲーム後に自動着用しますか？",
             autoCreateFolders:      "フォルダを自動作成しますか？",
             hud_sideDock:           "ＨＵＤはドックモードです。",
-            outfit_pcUseEffect:     "Throw clothing with PC clumsiness?",
+            outfit_pcUseEffect:     "ＰＣのドジっ子有効時に衣装を投げますか？",
         },
         textbox:{
             prefixPlaceholder: "プレフィックス…",
@@ -574,7 +574,7 @@ export const LangJa = {
             isOldShoe:              "更新されたフォルダ構造を使用するように靴モジュールを変更するには、永続的に切り替えます。",
             jasx_bareAutoDress:     "Bareゲーム後にＨＵＤを自動的に装着するかどうかを切り替えます。",
             autoCreateFolders:      "ＨＵＤがプロファイル、衣装などの新しく作成されたエントリのフォルダを自動的に作成するかどうかを切り替えます。",
-            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
+            outfit_pcUseEffect:     "Project Clothingのドジっ子モードの効果が発生したときに、アウトフィットが衣装を投げるかどうかを切り替えます。",
         },
         color:{
             colorHeader: "カラー設定",
