@@ -438,6 +438,8 @@ export const LangInfomercial = {
         },
         uiVolume: "Call now and make your interface sing! 🔊💻",
         apiKey: "API Key—The secret to it all!",
+        utility_regionRestart_mode: "Auto teleport on region restart—NEVER get stuck again!™",
+        utility_regionRestart_time: "Teleport delay—Set it and FORGET IT!™",
         catagories:{
             account: "Account—It’s all about YOU!",
             general: "General—Everything else!",
@@ -450,6 +452,7 @@ export const LangInfomercial = {
             accessory: "Accessory—Add some flair!",
             autoGroup: "AutoGroup—Easy grouping!",
             tempHuds: "Temporary HUDs—Switch anytime!",
+            landmark: "Landmark Locator™",
         },
         checkbox:{
             useGrid:                "Use Grid—Organize the EASY way!",
@@ -552,6 +555,8 @@ export const LangInfomercial = {
             jasx_bareAutoDress:     "Auto dress after Bare Game—No waiting!",
             autoCreateFolders:      "Auto-create folders for new entries—Easy organization!",
             outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens—Oops moments!",
+            utility_regionRestart_mode: "Select your region restart mode—It's THAT easy!<br/>Off: Disabled—Stay put!<br/>Ask: Asks if you want to teleport—You're in control!<br/>Auto: Automatically teleports after your delay—Set it and FORGET IT!™<br/>Instant: Instantly teleports to your saved location—LIGHTNING fast results!",
+            utility_regionRestart_time: "The countdown time before you teleport—Precision timing, GUARANTEED!™",
         },
         color:{
             colorHeader: "Color Settings—Make it POP!",

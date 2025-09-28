@@ -452,6 +452,8 @@ export const LangFr = {
         },
         uiVolume: "UI Volume",
         apiKey: "Clé API",
+        utility_regionRestart_mode: "Auto teleport on region restart?",
+        utility_regionRestart_time: "Teleport delay:",
         catagories:{
             account: "Compte",
             general: "Général",
@@ -464,6 +466,7 @@ export const LangFr = {
             accessory: "Accessoire",
             autoGroup: "Groupe Auto",
             tempHuds: "HUDs temporaires",
+            landmark: "Landmark",
         },
         checkbox:{
             useGrid:                "Utiliser la disposition en grille ?",
@@ -575,6 +578,8 @@ export const LangFr = {
             jasx_bareAutoDress:     "Définit si le HUD s'habillera automatiquement après un Jeu Nu.",
             autoCreateFolders:      "Définit si le HUD créera automatiquement des dossiers pour les nouvelles entrées comme Profil, Tenue, etc....",
             outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
+            utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
+            utility_regionRestart_time: "The time in seconds remaining in the restart countdown before you will be teleported.",
         },
         color:{
             colorHeader: "Paramètres de Couleur",

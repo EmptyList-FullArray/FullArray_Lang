@@ -438,6 +438,8 @@ export const LangUnhinged = {
         },
         uiVolume: "TURN IT UP! TURN IT DOWN! WHO CARES?!",
         apiKey: "MAGIC KEY",
+        utility_regionRestart_mode: "Auto WORMHOLE on region explosion?",
+        utility_regionRestart_time: "ESCAPE COUNTDOWN TIMER:",
         catagories:{
             account: "YOU",
             general: "GENERIC",
@@ -450,6 +452,7 @@ export const LangUnhinged = {
             accessory: "TRINKETS",
             autoGroup: "FRIENDS",
             tempHuds: "SPARE HUDS",
+            landmark: "X MARKS THE SPOT",
         },
         checkbox:{
             useGrid:                "Grid world?",
@@ -552,6 +555,8 @@ export const LangUnhinged = {
             jasx_bareAutoDress:     "Auto-dress after the bare game.",
             autoCreateFolders:      "Auto-create folders for new things.",
             outfit_pcUseEffect:     "Outfit throws clothes when PC clumsiness hits (embrace the chaos).",
+            utility_regionRestart_mode: "Pick your chaos response to region death.<br/>Off: Stay and burn with the sim.<br/>Ask: Ask if you want to escape (indecisive much?).<br/>Auto: Auto-teleport after countdown (coward's way out).<br/>Instant: YEET immediately to safety (maximum panic mode).",
+            utility_regionRestart_time: "Seconds left before you chicken out and run from the restart apocalypse.",
         },
         color:{
             colorHeader: "Colorful Chaos",

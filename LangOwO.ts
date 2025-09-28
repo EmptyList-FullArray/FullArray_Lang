@@ -24,6 +24,7 @@ export const LangOwO = {
         telepathy:   "Tewepawthy",
         camera:      "Camy-wa",
         asn:         "ASN",
+
     },
     misc:{
         settings: "Settins~",
@@ -185,6 +186,7 @@ export const LangOwO = {
     hair:{},
     shoe:{},
     rlv:{
+// Leash
         categoryLeash:        "Leash uwu",
         leashFollowTp:        "Fowwow Leash Howdew On Tewepowt",
         leashRecover:         "Wecovew Leash Tawget",
@@ -200,12 +202,14 @@ export const LangOwO = {
         leashPlaceholderUUID: "Textuwe UUID...",
         leashFullBright:      "Fuww Bwigth",
         leashGlow:            "Gwow",
+// Sit
         categorySit:         "Sit uwu",
         sit:                 "Awwow Sitting",
         unsit:               "Awwow Stand Up",
         placeholderSit:      "Gwound Sit Ow UUID...",
         forceSit:            "Sit On Object",
         forceUnsit:          "Fowce Stand Up",
+// Inventory
         categoryFolders:     "Foldies",
         categoryinventory:   "Inventowy",
         resetFolderView:     "Weset to WLV foldy",
@@ -219,6 +223,7 @@ export const LangOwO = {
         remAttach:           "Wemove Attachments",
         addOutfit:           "Add BOM Cwothes",
         remOutfit:           "Wemove BOM Cwothes",
+// Touch
         categoryTouch:       "Touch uwu",
         touchAll:            "Touch Aww",
         touchAttach:         "Touch Attachments",
@@ -227,6 +232,7 @@ export const LangOwO = {
         touchWorld:          "Touch Wowld",
         touchHud:            "Touch HUDs",
         fartouch:            "Faw Touch",
+// Chat
         categoryChat:        "Chattie",
         chatExceptions:      "Use Chattie Exceptions",
         chatExceptionsTooltip: "Toggwes whethew Ownews and usews on youw Allowlist with access to WLV_CHAT can still send you chattie messages uwu",
@@ -240,6 +246,7 @@ export const LangOwO = {
         replaceChat:         "Wepwace Chattie",
         nameOverride:        "Name Ovewwide",
         useRlvName:          "Use name ovewwide?",
+// Teleport
         categoryTeleport:    "Tewepowt",
         tp:                  "Tewepowt",
         tplure:              "Weceive Tewepowts",
@@ -248,6 +255,7 @@ export const LangOwO = {
         regionBlocklist:     "Wegion Bwockwist",
         summon:              "Fowce Tewepowt To Me",
         goto:                "Fowce Tewepowt Me To Them",
+// Info
         categoryInfo:        "Info",
         showworldmap:        "Show Wowld Map",
         showminimap:         "Show Mini-Map",
@@ -255,6 +263,7 @@ export const LangOwO = {
         shownames:           "Show Names",
         showhovertextworld:  "Show Hovewtext (Wowld)",
         showhovertexthud:    "Show Hovewtext (HUD)",
+// View
         categoryVision:      "Vision",
         visionLimit:         "Wimit Vision",
         visionType:          "Vision Type",
@@ -266,12 +275,14 @@ export const LangOwO = {
         visionMax:           "Max: ",
         camunlock:           "Unwocked Cammy",
         rlv_lookAt:          "Wook at Avatwar / UUID",
+// Movement
         categoryMovement:    "Movement",
         movement:            "Nudge & Wotate Usew",
         jump:                "Awwow Jumpin'",
         walk:                "Awwow Walkin'",
         run:                 "Awwow Wunnin'",
         fly:                 "Awwow Fwyin'",
+// Module Locking
         categoryModuleLock:  "Moduwe Wock",
         lockProfile:   "Wock Pwofiwe",
         lockOutfit:    "Wock Ouwfit",
@@ -288,7 +299,7 @@ export const LangOwO = {
         updateLandmark: "Update Landmawk",
     },
     inventory:{
-        rezInstaller: "Wez Instawer",
+        rezInstaller: "Wez Instawew",
         rezEmptyBox: "Wez Empty Box",
         autoSit: "Automaticawwy sit when wezzed?",
         useRotation: "Use Wotation?",
@@ -302,7 +313,7 @@ export const LangOwO = {
         derez: "Dewez",
         cleanOnLeave: "Cweanup on Weave",
         tooltips:{
-            rezInstaller: "Wezzes an Instawer box to easiwy add itwems to ur HUD.",
+            rezInstaller: "Wezzes an Instawew box to easiwy add itwems to ur HUD.",
             rezEmptyBox: "Wezzes an empty box for use wif pwrefixes.",
         }
     },
@@ -410,7 +421,7 @@ export const LangOwO = {
                 addOwnerUUID: "UUID to add to ur Ownewwist...",
             },
             tooltips:{
-                about: "Ownewwist is a wist of usews who awe awwowed neawwy fuww contwow ovew ur HUD\nStuff in settins can't be changed by ownewwist, sowwy.",
+                about: "Ownewwist is a wist of usews who awe awwowed neawwy fuww contwol ovew ur HUD\nStuff in settins can't be changed by ownewwist, sowwy.",
             }
         },
         apiList:{
@@ -438,8 +449,10 @@ export const LangOwO = {
             default: "Defauwt",
             large: "Wawge",
         },
-        uiVolume: "“UwU Hewwo! Dis is youw UI Vowume~",
+        uiVolume: "UwU Hewwo! Dis is youw UI Vowume~",
         apiKey: "API Key",
+        utility_regionRestart_mode: "Auto tewepowt on wegion westawt? OwO",
+        utility_regionRestart_time: "Tewepowt dewawy~ uwu:",
         catagories:{
             account: "Account",
             general: "Genewaw",
@@ -452,6 +465,7 @@ export const LangOwO = {
             accessory: "Accessowy",
             autoGroup: "Auto Gwoup",
             tempHuds: "Temp HUDsies",
+            landmark: "Landmawk",
         },
         checkbox:{
             useGrid:                "Use Gwid Wayout?",
@@ -509,12 +523,13 @@ export const LangOwO = {
             lang: "Wanguage Sewecty",
         },
         tooltip:{
+            // General
             expRlvaFix:             "Toggles if HUD adds dewawy between WLV commands.",
             editModuleOrder:        "Weawange and toggwie Moduwes on navbaw.",
             serverInventory:        "Optionaw dewivewabwes.",
             hudColors:              "Make ur HUD pwetty, nya~",
             sortListsByName:        "Sowt wist/gwid by Name or ID",
-            useTargetColor:         "Toggwie if HUD uses cowows of usew u contwow.",
+            useTargetColor:         "Toggwie if HUD uses cowows of usew u contwol.",
             hudSide:                "Toggwie if HUD opens weft or wight.",
             categoryState:          "Toggwie if categories open/closed by defauwt.",
             saveHudPosition:        "Saves position on scween whewe HUD is now, usefuw if HUD needs wepwacing.",
@@ -529,31 +544,41 @@ export const LangOwO = {
             protectedFolderLock:    "Toggwie if Pwotected foldy awways wocked.",
             defaultTempHudState:    "Toggwie if TempHUDsies contwols hidden by defauwt.",
             hud_sideDock:           "Contwols if HUDsies dock bewow woot pwim ow stay whewe moved.",
+            // API
             apiKey:                 "Ur API key for pwoducts.<br><br>DON'T SHAWE DIS!<br><br>If u wewoww key, owld content bweak.",
             api_message:            "Toggwie if HUD sends API messages on channyew: 698008",
             api_linkMessage:        "Toggwie if HUD sends API messages using llMessageLinked.",
             showIds:                "Toggwie if HUD shows ID of entwies.",
             log_permissions:        "Toggwie if HUD says in chattie if pewmission check faiws.",
+            // Profile
             autoWearOutfit:         "Toggwie if HUD auto weaws wast Ouwfit on Pwofiwe woad.",
             profile_replaceAll:     "Toggwie if HUD detaches evewything befowe attaching Pwofiwe.",
+            // Outfit
             autoPG:                 "Toggwie if HUD auto sets Ouwfit to outeawear or non aduwt on PG sim tewepowt.",
             shoeReplaceFeet:        "Toggwie if HUD auto attaches/detaches Shoesies wif Ouwfit feetsies.",
             playOutfitAnimations:   "Toggwie if HUD pways animation on Ouwfit change.",
             playOutfitSounds:       "Toggwie if HUD pways sounds on Ouwfit change.",
             allowEffects:           "Toggwie if Ouwfit can be steawled or wipped.",
+            // Hair
             autoWearHair:           "Toggwie if HUD auto weaws wast Haiw~ on Pwofiwe woad.",
             allowHairBald:          "Toggwie if Haiw~ can be fuwwy detached.",
+            // Shoe
             autoWearShoe:           "Toggwie if HUD auto weaws wast Shoesies on Ouwfit woad.",
+            // Accessory
             autoWearAccessories:    "Toggwie if HUD auto weaws/detaches Accessowies on Pwofiwe woad.",
+            // Auto Group
             autoGroup_power:        "Toggwie Auto Gwoup featuwe on/off.",
             autoGroup_useNone:      "Toggwie Auto Gwoup to set gwoup to 'none' if none set.",
             autoGroup_autoHuds:     "Toggwie if HUD auto attaches Temp HUDsies on gwoup change.",
+            // Temp HUDs
             isOldAccessory:         "PEWMANENT TOGGLE: change Accessowies Moduwe to updated foldy stwuctuwe.",
             isOldHair:              "PEWMANENT TOGGLE: change Haiw~ Moduwe to updated foldy stwuctuwe.",
             isOldShoe:              "PEWMANENT TOGGLE: change Shoesies Moduwe to updated foldy stwuctuwe.",            
             jasx_bareAutoDress:     "Toggwie if HUD auto dwesses aftew Bawe Game.",
             autoCreateFolders:      "Toggwie if HUD auto cweates foldies for new entwies.",
             outfit_pcUseEffect:     "Toggwes whethew the Outfit wiwl thwow cwothing when PC cwumsiness effect happens.",
+            utility_regionRestart_mode: "Sewect mode for wegion westawt featuwe, nya~<br/>Off: Disabwed (no wun away).<br/>Ask: Asks if u wanna tewepowt (pwease?).<br/>Auto: Auto tewepowts aftew ur dewawy to saved wocation (wike magic!).<br/>Instant: Instantly tewepowts to saved wocation when wegion westawts (whoosh!).",
+            utility_regionRestart_time: "Time in seconds wemaining befowe u get tewepowted, uwu.",
         },
         color:{
             colorHeader: "Cowow Settins",

@@ -438,6 +438,8 @@ export const LangPirate = {
         },
         uiVolume: "Tis the UI Volume ye be seekin! ",
         apiKey: "API Key",
+        utility_regionRestart_mode: "Auto teleport when the port be resetting?",
+        utility_regionRestart_time: "Teleport delay (time to abandon ship):",
         catagories:{
             account: "Account",
             general: "General",
@@ -450,6 +452,7 @@ export const LangPirate = {
             accessory: "Booty",
             autoGroup: "Crew Auto",
             tempHuds: "Spare HUDs",
+            landmark: "Landmark",
         },
         checkbox:{
             useGrid:                "Use Grid Layout?",
@@ -552,6 +555,8 @@ export const LangPirate = {
             jasx_bareAutoDress:     "Toggle if the HUD auto dresses after a Bare Game.",
             autoCreateFolders:      "Toggle if the HUD auto creates lockers for new entries.",
             outfit_pcUseEffect:     "Toggles whether the Outfit will throw garb when the landlubber clumsiness effect happens.",
+            utility_regionRestart_mode: "Choose how ye handle port resets, matey.<br/>Off: Stay and sink with the ship.<br/>Ask: Ask if ye want to abandon ship.<br/>Auto: Automatically sail away after yer set delay to yer saved port.<br/>Instant: Instantly teleport to yer saved port when the reset begins.",
+            utility_regionRestart_time: "Time in seconds before ye abandon ship during restart countdown.",
         },
         color:{
             colorHeader: "Color Settings",

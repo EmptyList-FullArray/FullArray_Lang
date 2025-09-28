@@ -438,6 +438,8 @@ export const LangEmoji = {
         },
         uiVolume: "🖥️🔊",
         apiKey: "🔑",
+        utility_regionRestart_mode: "🤖🚀🔄❓",
+        utility_regionRestart_time: "🚀⏰:",
         catagories:{
             account: "👤",
             general: "🌐",
@@ -450,6 +452,7 @@ export const LangEmoji = {
             accessory: "🎒",
             autoGroup: "🤝",
             tempHuds: "⏱️🔲",
+            landmark: "📍",
         },
         checkbox:{
             useGrid:                "📊⚙️",
@@ -552,6 +555,8 @@ export const LangEmoji = {
             jasx_bareAutoDress:     "🩲🎮🤖",
             autoCreateFolders:      "🤖📁",
             outfit_pcUseEffect:     "🤏👗💥",
+            utility_regionRestart_mode: "🔄🚀⚙️.<br/>🚫: ❌.<br/>❓: ❓🚀.<br/>🤖: 🤖🚀⏰💾📍.<br/>⚡: ⚡🚀📍🔄.",
+            utility_regionRestart_time: "⏰⏳🚀⚠️.",
         },
         color:{
             colorHeader: "🎨⚙️",

@@ -452,6 +452,8 @@ export const LangJa = {
         },
         uiVolume: "ＵＩボリューム",
         apiKey: "ＡＰＩキー",
+        utility_regionRestart_mode: "Auto teleport on region restart?",
+        utility_regionRestart_time: "Teleport delay:",
         catagories:{
             account: "アカウント",
             general: "一般",
@@ -464,6 +466,7 @@ export const LangJa = {
             accessory: "アクセサリ",
             autoGroup: "自動グループ",
             tempHuds: "一時的なＨＵＤ",
+            landmark: "Landmark",
         },
         checkbox:{
             useGrid:                "グリッドレイアウトを使用しますか？",
@@ -575,6 +578,8 @@ export const LangJa = {
             jasx_bareAutoDress:     "Bareゲーム後にＨＵＤを自動的に装着するかどうかを切り替えます。",
             autoCreateFolders:      "ＨＵＤがプロファイル、衣装などの新しく作成されたエントリのフォルダを自動的に作成するかどうかを切り替えます。",
             outfit_pcUseEffect:     "Project Clothingのドジっ子モードの効果が発生したときに、アウトフィットが衣装を投げるかどうかを切り替えます。",
+            utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
+            utility_regionRestart_time: "The time in seconds remaining in the restart countdown before you will be teleported.",
         },
         color:{
             colorHeader: "カラー設定",

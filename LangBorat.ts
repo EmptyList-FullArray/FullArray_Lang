@@ -436,8 +436,10 @@ export const LangBorat = {
             default: "Default (okay)",
             large: "Large (very wow!)",
         },
-        uiVolume: "UI Volume... how loud is sexy computer talk?!",
-        apiKey: "API Key (do not lose!)",
+        uiVolume: "Call now and make your interface sing! 🔊💻",
+        apiKey: "API Key—The secret to it all!",
+        utility_regionRestart_mode: "Auto teleport when region restart? (Like wife coming home!)",
+        utility_regionRestart_time: "Teleport delay (time to escape):",
         catagories:{
             account: "Account (who are you?)",
             general: "General (everything else)",
@@ -450,6 +452,7 @@ export const LangBorat = {
             accessory: "Accessory (bling bling)",
             autoGroup: "Auto Group (make family)",
             tempHuds: "Temporary HUDs (short time)",
+            landmark: "Important Place",
         },
         checkbox:{
             useGrid:                "Use Grid? (many squares)",
@@ -552,6 +555,8 @@ export const LangBorat = {
             jasx_bareAutoDress:     "Auto dress after Bare Game (no naked time!)",
             autoCreateFolders:      "Auto create folders for new things (magic touch!)",
             outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens (like drunk person!).",
+            utility_regionRestart_mode: "Pick how region restart works.<br/>Off: Disabled (stay and suffer).<br/>Ask: Ask if you want teleport (like asking wife).<br/>Auto: Teleport after delay (run from bear!).<br/>Instant: Teleport immediately (very nice!).",
+            utility_regionRestart_time: "Time in seconds before you run away from restart countdown. Like counting to wife arrive.",
         },
         color:{
             colorHeader: "Color Settings (make pretty)",
