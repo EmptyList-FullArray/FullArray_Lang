@@ -283,7 +283,11 @@ export const LangUnhinged = {
     },
     huds:{},
     landmark:{
-        updateLandmark: "Redraw the X",
+        updateLandmark: "UPDATE LANDMARK!!!",
+        utility_useForRestart: "USE THIS LANDMARK FOR A TELEPORT LOCATION WHEN THE REGION YOU'RE IN RESTARTS!!",
+        tooltips:{
+            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts? DO IT NOW BEFORE IT'S TOO LATE!",
+        }
     },
     inventory:{
         rezInstaller: "Spawn install gremlin",

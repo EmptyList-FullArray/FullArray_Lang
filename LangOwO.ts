@@ -296,7 +296,11 @@ export const LangOwO = {
     },
     huds:{},
     landmark:{
-        updateLandmark: "Update Landmawk",
+        updateLandmark: "Update Landmawk~ UwU",
+        utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts? owo",
+        tooltips:{
+            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts? It will keep u safe~",
+        }
     },
     inventory:{
         rezInstaller: "Wez Instawew",

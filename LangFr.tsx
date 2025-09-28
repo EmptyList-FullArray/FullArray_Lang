@@ -297,7 +297,11 @@ export const LangFr = {
     },
     huds:{},
     landmark:{
-        updateLandmark: "Mettre à jour le Landmark",
+        updateLandmark: "Update Landmark",
+        utility_useForRestart: "Use for region restarts?",
+        tooltips:{
+            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?"
+        }
     },
     inventory:{
         rezInstaller: "Créer l'installateur",

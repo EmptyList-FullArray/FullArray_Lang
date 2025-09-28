@@ -283,7 +283,11 @@ export const LangInfomercial = {
     },
     huds:{},
     landmark:{
-        updateLandmark: "Update Landmark—Never get lost again!",
+        updateLandmark: "Update Landmark - But Wait, There's More!",
+        utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts? Call in the next 30 seconds!",
+        tooltips:{
+            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts? Subscribe now and never be lost again!",
+        }
     },
     inventory:{
         rezInstaller: "Rez Installer—Set up in SECONDS™",

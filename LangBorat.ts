@@ -283,7 +283,11 @@ export const LangBorat = {
     },
     huds:{},
     landmark:{
-        updateLandmark: "Update Important Place (maybe new wife?)",
+        updateLandmark: "Update Important Place (very nice)",
+        utility_useForRestart: "Use for region restarts?",
+        tooltips:{
+            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?",
+        }
     },
     inventory:{
         rezInstaller: "Make installer box (magic box)",

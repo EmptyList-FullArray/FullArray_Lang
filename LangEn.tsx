@@ -299,6 +299,10 @@ export const LangEn = {
     huds:{},
     landmark:{
         updateLandmark: "Update Landmark",
+        utility_useForRestart: "Use for region restarts?",
+        tooltips:{
+            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?"
+        }
     },
     inventory:{
         rezInstaller: "Rez Installer",

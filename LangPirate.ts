@@ -283,7 +283,11 @@ export const LangPirate = {
     },
     huds:{},
     landmark:{
-        updateLandmark: "Update Treasure Map",
+        updateLandmark: "Arr! Update Landmark",
+        utility_useForRestart: "Mark this here landmark fer a teleportin' spot when th' region be restartin'.",
+        tooltips:{
+            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts? Mark the spot, matey!",
+        }
     },
     inventory:{
         rezInstaller: "Rez Installer",
