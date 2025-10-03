@@ -283,10 +283,10 @@ export const LangEmoji = {
     },
     huds:{},
     landmark: {
-        updateLandmark: "Update Landmark �️",
-        utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts? ⛳➡️📍",
+        updateLandmark: "�️",
+        utility_useForRestart: "⛳➡️📍",
         tooltips:{
-            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts? 📍🔁",
+            utility_useForRestart: "📍🔁",
         }
     },
     inventory:{
