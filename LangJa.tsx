@@ -297,10 +297,10 @@ export const LangJa = {
     },
     huds:{},
     landmark:{
-        updateLandmark: "Update Landmark",
-        utility_useForRestart: "Use for region restarts?",
+        updateLandmark: "ランドマーク更新",
+        utility_useForRestart: "リージョン再起動時に使用しますか？",
         tooltips:{
-            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?"
+            utility_useForRestart: "現在いるリージョンが再起動したときに、このランドマークをテレポート場所として使用しますか？"
         }
     },
     inventory:{
@@ -456,8 +456,8 @@ export const LangJa = {
         },
         uiVolume: "ＵＩボリューム",
         apiKey: "ＡＰＩキー",
-        utility_regionRestart_mode: "Auto teleport on region restart?",
-        utility_regionRestart_time: "Teleport delay:",
+        utility_regionRestart_mode: "リージョン再起動時に自動テレポートしますか？",
+        utility_regionRestart_time: "テレポートまでの遅延：",
         catagories:{
             account: "アカウント",
             general: "一般",
@@ -470,7 +470,7 @@ export const LangJa = {
             accessory: "アクセサリ",
             autoGroup: "自動グループ",
             tempHuds: "一時的なＨＵＤ",
-            landmark: "Landmark",
+            landmark: "ランドマーク",
         },
         checkbox:{
             useGrid:                "グリッドレイアウトを使用しますか？",
@@ -487,7 +487,7 @@ export const LangJa = {
             allowHairBald:          "薄毛ステートを許可しますか？",
             autoWearAccessories:    "アクセサリを自動装着／取り外しをしますか？",
             autoPG:                 "テレポート時にＰＧリージョンチェックを行いますか？",
-            shoeReplaceFeet:        "靴（Shoe）をアウターウェアの足の代わりにしますか？",
+            shoeReplaceFeet:        "靴（Shoe）をアウターウェアの足（Feet）の代わりにしますか？",
             playOutfitAnimations:   "グローバルのアウトフィットアニメーションを切り替えます。",
             playOutfitSounds:       "グローバルのアウトフィットのサウンドを切り替えます。",
             allowEffects:           "エフェクトを許可しますか？盗む、剥ぎ取るなど…",
@@ -511,7 +511,7 @@ export const LangJa = {
             jasx_bareAutoDress:     "Bareゲーム後に自動着用しますか？",
             autoCreateFolders:      "フォルダを自動作成しますか？",
             hud_sideDock:           "ＨＵＤはドックモードです。",
-            outfit_pcUseEffect:     "ＰＣのドジっ子有効時に衣装を投げますか？",
+            outfit_pcUseEffect:     "Project Clothingのドジっ子有効時に衣装を投げますか？",
         },
         textbox:{
             prefixPlaceholder: "プレフィックス…",
@@ -582,8 +582,8 @@ export const LangJa = {
             jasx_bareAutoDress:     "Bareゲーム後にＨＵＤを自動的に装着するかどうかを切り替えます。",
             autoCreateFolders:      "ＨＵＤがプロファイル、衣装などの新しく作成されたエントリのフォルダを自動的に作成するかどうかを切り替えます。",
             outfit_pcUseEffect:     "Project Clothingのドジっ子モードの効果が発生したときに、アウトフィットが衣装を投げるかどうかを切り替えます。",
-            utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
-            utility_regionRestart_time: "The time in seconds remaining in the restart countdown before you will be teleported.",
+            utility_regionRestart_mode: "リージョン再起動時の機能のモードを選択します。<br/>オフ：無効<br/>質問：テレポートするかどうかを尋ねます。<br/>自動：設定された遅延の後に、保存した場所に自動的にテレポートします。<br/>即時：リージョンが再起動すると、保存した場所に即座にテレポートします。",
+            utility_regionRestart_time: "テレポートするまでの再起動カウントダウンの残り時間（秒）",
         },
         color:{
             colorHeader: "カラー設定",
@@ -660,7 +660,7 @@ export const LangJa = {
                 outerwear: "アウターウェア",
                 underwear: "アンダーウェア",
                 nude:      "ヌード",
-                disabled:  "Disabled",
+                disabled:  "無効",
             },
             categoryScrollbar:{ 
                 header: "スクロールバー",
