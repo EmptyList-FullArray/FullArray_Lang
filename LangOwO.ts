@@ -95,6 +95,7 @@ export const LangOwO = {
             create:          "Cweate",
             slurl:           "Swuwl...",
             folderTemplate:  "Foldy Tempwate",
+            success:         "✨ Cweated successfuwwy! ✨",
         }
     },
     home:{

@@ -94,7 +94,8 @@ export const LangEn = {
             image:           "Image...",
             create:          "Create",
             slurl:           "Slurl...",
-            folderTemplate: "Folder Template",
+            folderTemplate:  "Folder Template",
+            success:         "Created successfully!",
         }
     },
     home:{

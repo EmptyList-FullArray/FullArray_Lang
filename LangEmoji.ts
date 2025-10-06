@@ -93,7 +93,8 @@ export const LangEmoji = {
             image:           "🖼️...",
             create:          "➕",
             slurl:           "🌐...",
-            folderTemplate:  "📁📄",
+                            folderTemplate:  "📁📄",
+                        success:         "🎉👏",
         }
     },
     home:{

@@ -94,6 +94,7 @@ export const LangPirate = {
             create:          "Forge",
             slurl:           "Seaway URL...",
             folderTemplate:  "Locker Template",
+            success:         "Arrr! Forge complete — created successfully!",
         }
     },
     home:{

@@ -94,6 +94,7 @@ export const LangFr = {
             create:          "Créer",
             slurl:           "Slurl...",
             folderTemplate: "Modèle de dossier",
+            success:         "Created successfully!",
         }
     },
     home:{

@@ -94,6 +94,7 @@ export const LangJa = {
             create:          "作成",
             slurl:           "Slurl…",
             folderTemplate: "フォルダのテンプレート",
+            success:         "Created successfully!",
         }
     },
     home:{

@@ -94,6 +94,7 @@ export const LangInfomercial = {
             create:          "CREATE NOW™",
             slurl:           "SLURL—Location, location, location!",
             folderTemplate:  "Folder Template—Organize with ease!",
+                success:         "Created successfully! Order now and feel the joy!",
         }
     },
     home:{

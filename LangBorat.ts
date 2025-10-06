@@ -93,7 +93,8 @@ export const LangBorat = {
             image:           "Image...",
             create:          "Make it!",
             slurl:           "SL link...",
-            folderTemplate:  "Folder Example",
+                folderTemplate:  "Folder Example",
+                success:         "Very nice! Created successfully!",
         }
     },
     home:{

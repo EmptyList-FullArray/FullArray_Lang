@@ -94,6 +94,7 @@ export const LangUnhinged = {
             create:          "MANIFEST",
             slurl:           "Second Life Portal...",
             folderTemplate:  "Box of Templates",
+            success:         "IT LIVES! Created successfully — go wreak havoc!",
         }
     },
     home:{
