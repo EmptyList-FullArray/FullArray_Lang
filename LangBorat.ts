@@ -98,7 +98,7 @@ export const LangBorat = {
         }
     },
     home:{
-        catagories:{
+        categories:{
             tempHuds: "Temporary HUDs (not forever)",
             interactDoll: "Doll for touch (not real wife!)",
         },
@@ -445,7 +445,7 @@ export const LangBorat = {
         apiKey: "API Key—The secret to it all!",
         utility_regionRestart_mode: "Auto teleport when region restart? (Like wife coming home!)",
         utility_regionRestart_time: "Teleport delay (time to escape):",
-        catagories:{
+        categories:{
             account: "Account (who are you?)",
             general: "General (everything else)",
             ui:      "UI (how it look)",

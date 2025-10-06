@@ -98,7 +98,7 @@ export const LangFr = {
         }
     },
     home:{
-        catagories:{
+        categories:{
             tempHuds: "HUDs temporaires",
             interactDoll: "Poupée interactive",
         },
@@ -459,7 +459,7 @@ export const LangFr = {
         apiKey: "Clé API",
         utility_regionRestart_mode: "Auto teleport on region restart?",
         utility_regionRestart_time: "Teleport delay:",
-        catagories:{
+        categories:{
             account: "Compte",
             general: "Général",
             ui:      "UI",

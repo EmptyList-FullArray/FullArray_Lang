@@ -98,7 +98,7 @@ export const LangInfomercial = {
         }
     },
     home:{
-        catagories:{
+        categories:{
             tempHuds: "Temporary HUDs—Switch in a SNAP™",
             interactDoll: "Interact Doll—It’s FUN for the WHOLE FAMILY™",
         },
@@ -445,7 +445,7 @@ export const LangInfomercial = {
         apiKey: "API Key—The secret to it all!",
         utility_regionRestart_mode: "Auto teleport on region restart—NEVER get stuck again!™",
         utility_regionRestart_time: "Teleport delay—Set it and FORGET IT!™",
-        catagories:{
+        categories:{
             account: "Account—It’s all about YOU!",
             general: "General—Everything else!",
             ui:      "UI—Lookin’ good!",

@@ -98,7 +98,7 @@ export const LangEmoji = {
         }
     },
     home:{
-        catagories:{
+        categories:{
             tempHuds: "⏱️🔲",
             interactDoll: "🧸🤝",
         },
@@ -445,7 +445,7 @@ export const LangEmoji = {
         apiKey: "🔑",
         utility_regionRestart_mode: "🤖🚀🔄❓",
         utility_regionRestart_time: "🚀⏰:",
-        catagories:{
+        categories:{
             account: "👤",
             general: "🌐",
             ui:      "🖥️",

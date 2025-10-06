@@ -99,7 +99,7 @@ export const LangOwO = {
         }
     },
     home:{
-        catagories:{
+        categories:{
             tempHuds: "Temp HUDsies",
             interactDoll: "Intewact Dowwy",
         },
@@ -458,7 +458,7 @@ export const LangOwO = {
         apiKey: "API Key",
         utility_regionRestart_mode: "Auto tewepowt on wegion westawt? OwO",
         utility_regionRestart_time: "Tewepowt dewawy~ uwu:",
-        catagories:{
+        categories:{
             account: "Account",
             general: "Genewaw",
             ui:      "UI",

@@ -98,7 +98,7 @@ export const LangPirate = {
         }
     },
     home:{
-        catagories:{
+        categories:{
             tempHuds: "Spare HUDs",
             interactDoll: "Jolly Doll",
         },
@@ -445,7 +445,7 @@ export const LangPirate = {
         apiKey: "API Key",
         utility_regionRestart_mode: "Auto teleport when the port be resetting?",
         utility_regionRestart_time: "Teleport delay (time to abandon ship):",
-        catagories:{
+        categories:{
             account: "Account",
             general: "General",
             ui:      "UI",

@@ -99,7 +99,7 @@ export const LangEn = {
         }
     },
     home:{
-        catagories:{
+        categories:{
             tempHuds: "Temp Huds",
             interactDoll: "Interact Doll",
         },
@@ -460,7 +460,7 @@ export const LangEn = {
         apiKey: "API Key",
         utility_regionRestart_mode: "Auto teleport on region restart?",
         utility_regionRestart_time: "Teleport delay:",
-        catagories:{
+        categories:{
             account: "Account",
             general: "General",
             ui:      "UI",

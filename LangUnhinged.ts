@@ -98,7 +98,7 @@ export const LangUnhinged = {
         }
     },
     home:{
-        catagories:{
+        categories:{
             tempHuds: "SPARE HUD JUNK",
             interactDoll: "WIGGLE DOLL",
         },
@@ -445,7 +445,7 @@ export const LangUnhinged = {
         apiKey: "MAGIC KEY",
         utility_regionRestart_mode: "Auto WORMHOLE on region explosion?",
         utility_regionRestart_time: "ESCAPE COUNTDOWN TIMER:",
-        catagories:{
+        categories:{
             account: "YOU",
             general: "GENERIC",
             ui:      "LOOKS",

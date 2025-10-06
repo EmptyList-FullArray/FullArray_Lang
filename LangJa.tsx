@@ -98,7 +98,7 @@ export const LangJa = {
         }
     },
     home:{
-        catagories:{
+        categories:{
             tempHuds: "一時的なＨＵＤ",
             interactDoll: "インタラクトドール",
         },
@@ -459,7 +459,7 @@ export const LangJa = {
         apiKey: "ＡＰＩキー",
         utility_regionRestart_mode: "リージョン再起動時に自動テレポートしますか？",
         utility_regionRestart_time: "テレポートまでの遅延：",
-        catagories:{
+        categories:{
             account: "アカウント",
             general: "一般",
             ui:      "ＵＩ",
