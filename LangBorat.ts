@@ -711,5 +711,8 @@ export const LangBorat = {
         },
         buttonSaveTheme: "Save Theme (lock it in!)",
         buttonFinish: "Finish Setup (high five!)",
+    },
+    title:{
+        save: "Save Title changes? (Very nice!)",
     }
 }

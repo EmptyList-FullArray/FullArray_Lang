@@ -733,5 +733,8 @@ export const LangOwO = {
         },
         buttonSaveTheme: "Save Theme",
         buttonFinish: "Finish Setup",
+    },
+    title:{
+        save: "Save Tite changes? OwO",
     }
 }

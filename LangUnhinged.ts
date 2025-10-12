@@ -711,5 +711,8 @@ export const LangUnhinged = {
         },
         buttonSaveTheme: "Save Your Mess",
         buttonFinish: "FINISH (for now)",
+    },
+    title:{
+        save: "SAVE TITLE CHANGES OR WATCH IT ALL BURN???",
     }
 }

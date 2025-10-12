@@ -734,5 +734,8 @@ export const LangFr = {
         },
         buttonSaveTheme: "Save Theme",
         buttonFinish: "Finish Setup",
+    },
+    title:{
+        save: "Save Title changes?",
     }
 }

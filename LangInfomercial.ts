@@ -710,6 +710,9 @@ export const LangInfomercial = {
             account: "Account & Permissions—You’re in control!",            
         },
         buttonSaveTheme: "Save Theme—Lock in your style!",
-        buttonFinish: "Finish Setup—Let’s GO!",
+        buttonFinish: "Finish Setup—Let's GO!",
+    },
+    title:{
+        save: "Save Title changes—DON'T WAIT, ACT NOW!",
     }
 }

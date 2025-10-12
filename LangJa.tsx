@@ -734,5 +734,8 @@ export const LangJa = {
         },
         buttonSaveTheme: "テーマを保存",
         buttonFinish: "セットアップ完了",
+    },
+    title:{
+        save: "Save Title changes?",
     }
 }

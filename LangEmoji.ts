@@ -711,5 +711,8 @@ export const LangEmoji = {
         },
         buttonSaveTheme: "💾🎨",
         buttonFinish: "✅⏳",
+    },
+    title:{
+        save: "💾📝✅❓",
     }
 }
