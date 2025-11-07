@@ -384,6 +384,14 @@ export const LangEn = {
         setting_useProjectClothing: "Allow Project Clothing commands?",
         rlvBlocklist: "Rlv Blocklist",
         rlvCommands: "Rlv Commands",
+        checkbox:{
+            pcUseEffect: "Throw clothing with PC clumsiness?",
+            jasXAutoDress: "Auto Dress after Bare Game?",
+        },
+        tooltip:{
+            jasXAutoDress: "Toggles whether the HUD will automatically dress after a Bare Game.",
+            pcUseEffect: "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
+        },
     },
     permissions:{
         permissions:{
@@ -510,10 +518,8 @@ export const LangEn = {
             log_permissions:        "Verbose Permission error logging.",
             protectedFolderLock:    "Lock the Protected Folder.",
             defaultTempHudState:    "Default state for TempHUDs.",
-            jasx_bareAutoDress:     "Auto Dress after Bare Game?",
             autoCreateFolders:      "Automaticly create folders?",
             hud_sideDock:           "HUDs dock mode.",
-            outfit_pcUseEffect:     "Throw clothing with PC clumsiness?",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",
@@ -581,9 +587,7 @@ export const LangEn = {
             isOldAccessory:         "PERMANENT TOGGLE to change your Accessories Module to use the updated folder structure.",
             isOldHair:              "PERMANENT TOGGLE to change your Hair Module to use the updated folder structure.",
             isOldShoe:              "PERMANENT TOGGLE to change your Shoe Module to use the updated folder structure.",            
-            jasx_bareAutoDress:     "Toggles whether the HUD will automatically dress after a Bare Game.",
             autoCreateFolders:      "Toggles whether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",
-            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
             utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
             utility_regionRestart_time: "The time in seconds remaining in the restart countdown before you will be teleported.",
         },

@@ -369,6 +369,14 @@ export const LangEmoji = {
         setting_useProjectClothing: "🧥📡",
         rlvBlocklist: "⛔🔗",
         rlvCommands: "⌨️🔗",
+        checkbox:{
+            pcUseEffect: "🤏👗💥❓",
+            jasXAutoDress: "🤖👗🩲🎮❓",
+        },
+        tooltip:{
+            jasXAutoDress: "🤖👗🩲🎮✅",
+            pcUseEffect: "🔄👗🥏🤏💥⚙️",
+        },
     },
     permissions:{
         permissions:{
@@ -495,10 +503,8 @@ export const LangEmoji = {
             log_permissions:        "🔊🔐",
             protectedFolderLock:    "🔒📁",
             defaultTempHudState:    "⏱️🔲⚙️",
-            jasx_bareAutoDress:     "🩲🎮🤖",
             autoCreateFolders:      "🤖📁",
             hud_sideDock:           "🔲⚓",
-            outfit_pcUseEffect:     "🤏👗❓",
         },
         textbox:{
             prefixPlaceholder: "🔤...",
@@ -557,9 +563,7 @@ export const LangEmoji = {
             isOldAccessory:         "🎒🏚️",
             isOldHair:              "💇🏚️",
             isOldShoe:              "👟🏚️",            
-            jasx_bareAutoDress:     "🩲🎮🤖",
             autoCreateFolders:      "🤖📁",
-            outfit_pcUseEffect:     "🤏👗💥",
             utility_regionRestart_mode: "🔄🚀⚙️.<br/>🚫: ❌.<br/>❓: ❓🚀.<br/>🤖: 🤖🚀⏰💾📍.<br/>⚡: ⚡🚀📍🔄.",
             utility_regionRestart_time: "⏰⏳🚀⚠️.",
         },

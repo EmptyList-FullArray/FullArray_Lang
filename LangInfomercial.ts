@@ -369,6 +369,14 @@ export const LangInfomercial = {
         setting_useProjectClothing: "Project Clothing Commands—Fashion forward!",
         rlvBlocklist: "RLV Blocklist—Block unwanted guests!",
         rlvCommands: "RLV Commands—Your wish is our command!",
+        checkbox:{
+            pcUseEffect: "Throw clothing with PC clumsiness? GET CLUMSY!",
+            jasXAutoDress: "Auto Dress after Bare Game? NEVER BE EMBARRASSED AGAIN™!",
+        },
+        tooltip:{
+            jasXAutoDress: "Toggles whether the HUD will automatically dress after a Bare Game—NO MORE EMBARRASSING MOMENTS!",
+            pcUseEffect: "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens—MAXIMUM CHAOS GUARANTEED™!",
+        },
     },
     permissions:{
         permissions:{
@@ -495,10 +503,8 @@ export const LangInfomercial = {
             log_permissions:        "Log Permission Errors—Stay in the know!",
             protectedFolderLock:    "Lock Protected Folder—No peeking!",
             defaultTempHudState:    "Default TempHUD State—Hide or show, you’re in control!",
-            jasx_bareAutoDress:     "Auto Dress After Bare Game—No more awkward moments!",
             autoCreateFolders:      "Auto-Create Folders? YES—folder magic!",
             hud_sideDock:           "HUDs Dock Mode—Dock and roll!",
-            outfit_pcUseEffect:     "Throw Clothing with PC Clumsiness? Oops!",
         },
         textbox:{
             prefixPlaceholder: "Prefix (start with style)...",
@@ -557,9 +563,7 @@ export const LangInfomercial = {
             isOldAccessory:         "Permanent toggle for new accessory style—Old school, new school, your school!",
             isOldHair:              "Permanent toggle for new hair style—Classic or modern?",
             isOldShoe:              "Permanent toggle for new shoe style—Step up your game!",            
-            jasx_bareAutoDress:     "Auto dress after Bare Game—No waiting!",
             autoCreateFolders:      "Auto-create folders for new entries—Easy organization!",
-            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens—Oops moments!",
             utility_regionRestart_mode: "Select your region restart mode—It's THAT easy!<br/>Off: Disabled—Stay put!<br/>Ask: Asks if you want to teleport—You're in control!<br/>Auto: Automatically teleports after your delay—Set it and FORGET IT!™<br/>Instant: Instantly teleports to your saved location—LIGHTNING fast results!",
             utility_regionRestart_time: "The countdown time before you teleport—Precision timing, GUARANTEED!™",
         },

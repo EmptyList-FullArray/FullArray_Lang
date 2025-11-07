@@ -369,6 +369,14 @@ export const LangBorat = {
         setting_useProjectClothing: "Allow Project Clothing? (fashion show!)",
         rlvBlocklist: "RLV Blocklist (bad people)",
         rlvCommands: "RLV Commands (bossy!)",
+        checkbox:{
+            pcUseEffect: "Throw clothing with PC clumsiness? (like drunk person!)",
+            jasXAutoDress: "Auto Dress after Bare Game? (no naked time, very nice!)",
+        },
+        tooltip:{
+            jasXAutoDress: "Toggles whether the HUD will dress you after Bare Game (no naked time!)",
+            pcUseEffect: "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens. Like when you drink too much vodka!",
+        },
     },
     permissions:{
         permissions:{
@@ -495,10 +503,8 @@ export const LangBorat = {
             log_permissions:        "Verbose Permission error logging. (so many errors!)",
             protectedFolderLock:    "Lock the Protected Folder? (no peeking!)",
             defaultTempHudState:    "Default state for TempHUDs. (hide or show)",
-            jasx_bareAutoDress:     "Auto Dress after Bare Game? (no naked time!)",
             autoCreateFolders:      "Automatic create folders? (auto magic!)",
             hud_sideDock:           "HUDs dock mode. (like boat!)",
-            outfit_pcUseEffect:     "Throw clothing with PC clumsiness? (oops!)",
         },
         textbox:{
             prefixPlaceholder: "Prefix... (start of word)",
@@ -557,9 +563,7 @@ export const LangBorat = {
             isOldAccessory:         "PERMANENT TOGGLE for new Accessory style (old is gold!)",
             isOldHair:              "PERMANENT TOGGLE for new Hair style (classic is best!)",
             isOldShoe:              "PERMANENT TOGGLE for new Shoe style (retro is cool!)",            
-            jasx_bareAutoDress:     "Auto dress after Bare Game (no naked time!)",
             autoCreateFolders:      "Auto create folders for new things (magic touch!)",
-            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens (like drunk person!).",
             utility_regionRestart_mode: "Pick how region restart works.<br/>Off: Disabled (stay and suffer).<br/>Ask: Ask if you want teleport (like asking wife).<br/>Auto: Teleport after delay (run from bear!).<br/>Instant: Teleport immediately (very nice!).",
             utility_regionRestart_time: "Time in seconds before you run away from restart countdown. Like counting to wife arrive.",
         },

@@ -382,6 +382,14 @@ export const LangOwO = {
         setting_useProjectClothing: "Awwow Pwroject Cwothin commands?",
         rlvBlocklist: "WLV Bwockwist",
         rlvCommands: "WLV Commands",
+        checkbox:{
+            pcUseEffect: "Thwow cwothing with PC cwumsiness?",
+            jasXAutoDress: "Auto Dwess aftew Bawe Game?",
+        },
+        tooltip:{
+            jasXAutoDress: "Toggwie if HUD auto dwesses aftew Bawe Game.",
+            pcUseEffect: "Toggwes whethew the Outfit wiwl thwow cwothing when PC cwumsiness effect happens.",
+        },
     },
     permissions:{
         permissions:{
@@ -507,11 +515,9 @@ export const LangOwO = {
             hud_verbose:            "Vewbose HUD messages?",
             log_permissions:        "Vewbose Pewmission ewwow wogging.",
             protectedFolderLock:    "Wock da Pwotected Foldy.",
-            defaultTempHudState:    "Defauwt state for TempHUDsies.",
-            jasx_bareAutoDress:     "Auto Dwess aftew Bawe Game?",
-            autoCreateFolders:      "Automaticawwy cweate foldies?",
-            hud_sideDock:           "HUDsies dock mode.",
-            outfit_pcUseEffect:     "Thwow cwothing with PC cwumsiness?",
+            defaultTempHudState:    "Defauwt state fow TempHUDs.",
+            autoCreateFolders:      "Automaticly cweate fowdews?",
+            hud_sideDock:           "HUDs dock mode.",
         },
         textbox:{
             prefixPlaceholder: "Pwrefix...",
@@ -579,9 +585,7 @@ export const LangOwO = {
             isOldAccessory:         "PEWMANENT TOGGLE: change Accessowies Moduwe to updated foldy stwuctuwe.",
             isOldHair:              "PEWMANENT TOGGLE: change Haiw~ Moduwe to updated foldy stwuctuwe.",
             isOldShoe:              "PEWMANENT TOGGLE: change Shoesies Moduwe to updated foldy stwuctuwe.",            
-            jasx_bareAutoDress:     "Toggwie if HUD auto dwesses aftew Bawe Game.",
             autoCreateFolders:      "Toggwie if HUD auto cweates foldies for new entwies.",
-            outfit_pcUseEffect:     "Toggwes whethew the Outfit wiwl thwow cwothing when PC cwumsiness effect happens.",
             utility_regionRestart_mode: "Sewect mode for wegion westawt featuwe, nya~<br/>Off: Disabwed (no wun away).<br/>Ask: Asks if u wanna tewepowt (pwease?).<br/>Auto: Auto tewepowts aftew ur dewawy to saved wocation (wike magic!).<br/>Instant: Instantly tewepowts to saved wocation when wegion westawts (whoosh!).",
             utility_regionRestart_time: "Time in seconds wemaining befowe u get tewepowted, uwu.",
         },

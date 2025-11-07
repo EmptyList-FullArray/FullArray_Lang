@@ -369,6 +369,14 @@ export const LangPirate = {
         setting_useProjectClothing: "Allow Project Clothing orders?",
         rlvBlocklist: "RLV Blocklist",
         rlvCommands: "RLV Orders",
+        checkbox:{
+            pcUseEffect: "Throw garb with landlubber clumsiness?",
+            jasXAutoDress: "Auto Dress after Bare Game?",
+        },
+        tooltip:{
+            jasXAutoDress: "Toggle if the HUD auto dresses after a Bare Game.",
+            pcUseEffect: "Toggles whether the Outfit will throw garb when the landlubber clumsiness effect happens.",
+        },
     },
     permissions:{
         permissions:{
@@ -495,10 +503,8 @@ export const LangPirate = {
             log_permissions:        "Verbose Permission error logs.",
             protectedFolderLock:    "Lock the Protected Locker.",
             defaultTempHudState:    "Default state for SpareHUDs.",
-            jasx_bareAutoDress:     "Auto Dress after Bare Game?",
-            autoCreateFolders:      "Auto create treasure chests?",
+            autoCreateFolders:      "Automaticly create lockers?",
             hud_sideDock:           "HUDs dock mode.",
-            outfit_pcUseEffect:     "Throw garb with landlubber clumsiness?",
         },
         textbox:{
             prefixPlaceholder: "Figurehead...",
@@ -557,9 +563,7 @@ export const LangPirate = {
             isOldAccessory:         "PERMANENT TOGGLE: change yer Booty module to the new locker plan.",
             isOldHair:              "PERMANENT TOGGLE: change yer Barnacles module to the new locker plan.",
             isOldShoe:              "PERMANENT TOGGLE: change yer Boots module to the new locker plan.",            
-            jasx_bareAutoDress:     "Toggle if the HUD auto dresses after a Bare Game.",
             autoCreateFolders:      "Toggle if the HUD auto creates lockers for new entries.",
-            outfit_pcUseEffect:     "Toggles whether the Outfit will throw garb when the landlubber clumsiness effect happens.",
             utility_regionRestart_mode: "Choose how ye handle port resets, matey.<br/>Off: Stay and sink with the ship.<br/>Ask: Ask if ye want to abandon ship.<br/>Auto: Automatically sail away after yer set delay to yer saved port.<br/>Instant: Instantly teleport to yer saved port when the reset begins.",
             utility_regionRestart_time: "Time in seconds before ye abandon ship during restart countdown.",
         },

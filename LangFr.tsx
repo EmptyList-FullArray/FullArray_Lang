@@ -383,6 +383,14 @@ export const LangFr = {
         setting_useProjectClothing: "Autoriser les commandes Project Clothing ?",
         rlvBlocklist: "Liste noire RLV",
         rlvCommands: "Commandes RLV",
+        checkbox:{
+            pcUseEffect: "Throw clothing with PC clumsiness?",
+            jasXAutoDress: "Auto Dress after Bare Game?",
+        },
+        tooltip:{
+            jasXAutoDress: "Toggles whether the HUD will automatically dress after a Bare Game.",
+            pcUseEffect: "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
+        },
     },
     permissions:{
         permissions:{
@@ -509,10 +517,8 @@ export const LangFr = {
             log_permissions:        "Journalisation détaillée des erreurs de permission.",
             protectedFolderLock:    "Verrouiller le dossier protégé.",
             defaultTempHudState:    "État par défaut des HUDs temporaires.",
-            jasx_bareAutoDress:     "S'habiller automatiquement après un jeu Bare ?",
             autoCreateFolders:      "Créer automatiquement les dossiers ?",
             hud_sideDock:           "HUDs dock mode.",
-            outfit_pcUseEffect:     "Throw clothing with PC clumsiness?",
         },
         textbox:{
             prefixPlaceholder: "Préfixe...",
@@ -580,9 +586,7 @@ export const LangFr = {
             isOldAccessory:         "OPTION PERMANENTE pour changer votre Module Accessoires pour utiliser la structure de dossier mise à jour.",
             isOldHair:              "OPTION PERMANENTE pour changer votre Module Cheveux pour utiliser la structure de dossier mise à jour.",
             isOldShoe:              "OPTION PERMANENTE pour changer votre Module Chaussures pour utiliser la structure de dossier mise à jour.",            
-            jasx_bareAutoDress:     "Définit si le HUD s'habillera automatiquement après un Jeu Nu.",
             autoCreateFolders:      "Définit si le HUD créera automatiquement des dossiers pour les nouvelles entrées comme Profil, Tenue, etc....",
-            outfit_pcUseEffect:     "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
             utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
             utility_regionRestart_time: "The time in seconds remaining in the restart countdown before you will be teleported.",
         },

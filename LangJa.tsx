@@ -383,6 +383,14 @@ export const LangJa = {
         setting_useProjectClothing: "Project Clothingコマンドを許可しますか？",
         rlvBlocklist: "ＲＬＶブラックリスト",
         rlvCommands: "ＲＬＶコマンド",
+        checkbox:{
+            pcUseEffect: "Throw clothing with PC clumsiness?",
+            jasXAutoDress: "Auto Dress after Bare Game?",
+        },
+        tooltip:{
+            jasXAutoDress: "Toggles whether the HUD will automatically dress after a Bare Game.",
+            pcUseEffect: "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
+        },
     },
     permissions:{
         permissions:{
@@ -509,10 +517,8 @@ export const LangJa = {
             log_permissions:        "詳細な権限エラーのログを取ります。",
             protectedFolderLock:    "保護フォルダをロックします。.",
             defaultTempHudState:    "一時的なＨＵＤのデフォルトのステート。",
-            jasx_bareAutoDress:     "Bareゲーム後に自動着用しますか？",
             autoCreateFolders:      "フォルダを自動作成しますか？",
             hud_sideDock:           "ＨＵＤはドックモードです。",
-            outfit_pcUseEffect:     "Project Clothingのドジっ子有効時に衣装を投げますか？",
         },
         textbox:{
             prefixPlaceholder: "プレフィックス…",
@@ -580,9 +586,7 @@ export const LangJa = {
             isOldAccessory:         "更新されたフォルダ構造を使用するようにアクセサリモジュールを変更するには、永続的に切り替えます。",
             isOldHair:              "更新されたフォルダ構造を使用するように髪型モジュールを変更するには、永続的に切り替えます。",
             isOldShoe:              "更新されたフォルダ構造を使用するように靴モジュールを変更するには、永続的に切り替えます。",
-            jasx_bareAutoDress:     "Bareゲーム後にＨＵＤを自動的に装着するかどうかを切り替えます。",
             autoCreateFolders:      "ＨＵＤがプロファイル、衣装などの新しく作成されたエントリのフォルダを自動的に作成するかどうかを切り替えます。",
-            outfit_pcUseEffect:     "Project Clothingのドジっ子モードの効果が発生したときに、アウトフィットが衣装を投げるかどうかを切り替えます。",
             utility_regionRestart_mode: "リージョン再起動時の機能のモードを選択します。<br/>オフ：無効<br/>質問：テレポートするかどうかを尋ねます。<br/>自動：設定された遅延の後に、保存した場所に自動的にテレポートします。<br/>即時：リージョンが再起動すると、保存した場所に即座にテレポートします。",
             utility_regionRestart_time: "テレポートするまでの再起動カウントダウンの残り時間（秒）",
         },

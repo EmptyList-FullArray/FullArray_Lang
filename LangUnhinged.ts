@@ -369,6 +369,14 @@ export const LangUnhinged = {
         setting_useProjectClothing: "Allow Project Clothing shenanigans?",
         rlvBlocklist: "List of banished commands",
         rlvCommands: "YELL AT HUD",
+        checkbox:{
+            pcUseEffect: "Throw clothes when clumsy? (embrace the chaos)",
+            jasXAutoDress: "Auto dress after bare game? (because naked is awkward)",
+        },
+        tooltip:{
+            jasXAutoDress: "Auto-dress after the bare game because being naked is awkward",
+            pcUseEffect: "Toggles whether the Outfit will YEET clothing when the PC clumsiness effect happens. EMBRACE THE MADNESS!",
+        },
     },
     permissions:{
         permissions:{
@@ -495,10 +503,8 @@ export const LangUnhinged = {
             log_permissions:        "Yell about permission failures?",
             protectedFolderLock:    "Lock the forbidden folder?",
             defaultTempHudState:    "Default state for spare HUDs",
-            jasx_bareAutoDress:     "Auto clothe after bare game?",
             autoCreateFolders:      "Auto create folders? (because manual is hard)",
             hud_sideDock:           "HUDs dock mode (whatever that means)",
-            outfit_pcUseEffect:     "Throw clothes when clumsy? (chaos mode)",
         },
         textbox:{
             prefixPlaceholder: "Prefix... or whatever",
@@ -557,9 +563,7 @@ export const LangUnhinged = {
             isOldAccessory:         "PERMA-TOGGLE: Use new accessory folder style.",
             isOldHair:              "PERMA-TOGGLE: Use new hair folder style.",
             isOldShoe:              "PERMA-TOGGLE: Use new shoe folder style.",            
-            jasx_bareAutoDress:     "Auto-dress after the bare game.",
             autoCreateFolders:      "Auto-create folders for new things.",
-            outfit_pcUseEffect:     "Outfit throws clothes when PC clumsiness hits (embrace the chaos).",
             utility_regionRestart_mode: "Pick your chaos response to region death.<br/>Off: Stay and burn with the sim.<br/>Ask: Ask if you want to escape (indecisive much?).<br/>Auto: Auto-teleport after countdown (coward's way out).<br/>Instant: YEET immediately to safety (maximum panic mode).",
             utility_regionRestart_time: "Seconds left before you chicken out and run from the restart apocalypse.",
         },
