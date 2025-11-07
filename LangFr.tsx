@@ -495,7 +495,7 @@ export const LangFr = {
             autoWearHair:           "Porter automatiquement les Cheveux ?",
             allowHairBald:          "Autoriser l'état chauve pour les Cheveux ?",
             autoWearAccessories:    "Porter/détacher automatiquement les Accessoires ?",
-            autoPG:                 "Vérifier la région PG lors de la téléportation ?",
+            autoPG:                 "Prevent Nude in PG/General Sims?",
             shoeReplaceFeet:        "Les Chaussures remplacent les Pieds extérieurs ?",
             playOutfitAnimations:   "Activation globale des animations de Tenue.",
             playOutfitSounds:       "Activation globale des sons de Tenue.",
@@ -566,7 +566,7 @@ export const LangFr = {
             autoWearOutfit:         "Définit si le HUD portera automatiquement la dernière Tenue portée lors du chargement d'un Profil.",
             profile_replaceAll:     "Définit si le HUD détachera tout de votre avatar avant d'attacher un Profil.<br/>Cela inclut les éléments non présents dans le dossier #RLV.",
             // Outfit
-            autoPG:                 "Définit si le HUD définira automatiquement votre Tenue comme vêtement extérieur ou changera pour une Tenue non adulte lors de la téléportation vers un sim PC/General.",
+            autoPG:                 "Toggles whether the HUD will automatically set your Outfit to outerwear or change to a non adult Outfit when teleporting to a PG/General sim.</br>Also will prevent you from going to the Nude state in a PG/General sim.",
             shoeReplaceFeet:        "Définit si le HUD attachera ou détachera automatiquement vos Chaussures en fonction de l'état des pieds de votre Tenue.",
             playOutfitAnimations:   "Définit si le HUD jouera des animations lorsque vous changez vos Tenues ou leur état.",
             playOutfitSounds:       "Définit si le HUD jouera des sons lorsque vous changez votre Tenue ou son état.",

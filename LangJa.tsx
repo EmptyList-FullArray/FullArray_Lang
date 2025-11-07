@@ -495,7 +495,7 @@ export const LangJa = {
             autoWearHair:           "髪型を自動装着しますか？",
             allowHairBald:          "薄毛ステートを許可しますか？",
             autoWearAccessories:    "アクセサリを自動装着／取り外しをしますか？",
-            autoPG:                 "テレポート時にＰＧリージョンチェックを行いますか？",
+            autoPG:                 "Prevent Nude in PG/General Sims?",
             shoeReplaceFeet:        "靴（Shoe）をアウターウェアの足（Feet）の代わりにしますか？",
             playOutfitAnimations:   "グローバルのアウトフィットアニメーションを切り替えます。",
             playOutfitSounds:       "グローバルのアウトフィットのサウンドを切り替えます。",
@@ -566,7 +566,7 @@ export const LangJa = {
             autoWearOutfit:         "プロファイルを読み込むときに、ＨＵＤが最後に着用したアウトフィットを自動的に着用するかどうかを切り替えます。",
             profile_replaceAll:     "プロファイルを装着する前に、ＨＵＤがアバター上のすべてのものを切り離すかどうかを切り替えます。<br/>これには、#RLVフォルダ内のものも含まれます。",
             // Outfit
-            autoPG:                 "ＰＧ／General SIMにテレポートするときに、ＨＵＤが自動的にアウトフィットをアウターウェアに設定するか、非Adult用アウトフィットに変更するかを切り替えます。",
+            autoPG:                 "Toggles whether the HUD will automatically set your Outfit to outerwear or change to a non adult Outfit when teleporting to a PG/General sim.</br>Also will prevent you from going to the Nude state in a PG/General sim.",
             shoeReplaceFeet:        "ＨＵＤがアウトフィットの足（Foot）をステートに合わせて靴（Shoe）を自動的に取り付けたり取り外したりするかどうかを切り替えます。",
             playOutfitAnimations:   "アウトフィットやそのステートを変更したときにＨＵＤでアニメーションを再生するかどうかを切り替えます。",
             playOutfitSounds:       "アウトフィットやそのステートを変更したときにＨＵＤでサウンドを再生するかどうかを切り替えます。",
