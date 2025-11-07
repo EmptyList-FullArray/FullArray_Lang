@@ -567,7 +567,7 @@ export const LangEn = {
             autoWearOutfit:         "Toggles whether the HUD will automatically wear the last worn Outfit when loading a Profile.",
             profile_replaceAll:     "Toggles whether the HUD will detach everything on your avatar before attaching a Profile.<br/>This includes things no in the #RLV folder.",
             // Outfit
-            autoPG:                 "Toggles whether the HUD will automatically set your Outfit to outerwear or change to a non adult Outfit when teleporting to a PC/General sim.",
+            autoPG:                 "Toggles whether the HUD will automatically set your Outfit to outerwear or change to a non adult Outfit when teleporting to a PG/General sim.",
             shoeReplaceFeet:        "Toggles whether the HUD will automatically attach or detach your Shoes with your Outfits feet state.",
             playOutfitAnimations:   "Toggles whether the HUD will play animation when you change your Outfits or its state.",
             playOutfitSounds:       "Toggles whether the HUD will play sounds when you change your Outfit or its state.",
