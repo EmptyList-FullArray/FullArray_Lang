@@ -94,7 +94,7 @@ export const LangJa = {
             create:          "作成",
             slurl:           "Slurl…",
             folderTemplate: "フォルダのテンプレート",
-            success:         "Created successfully!",
+            success:         "作成に成功しました！",
         }
     },
     home:{
@@ -384,12 +384,12 @@ export const LangJa = {
         rlvBlocklist: "ＲＬＶブラックリスト",
         rlvCommands: "ＲＬＶコマンド",
         checkbox:{
-            pcUseEffect: "Throw clothing with PC clumsiness?",
-            jasXAutoDress: "Auto Dress after Bare Game?",
+            pcUseEffect: "ＰＣのドジっ子モードで衣装を投げますか？",
+            jasXAutoDress: "Bareゲーム後に服を自動着用しますか？",
         },
         tooltip:{
-            jasXAutoDress: "Toggles whether the HUD will automatically dress after a Bare Game.",
-            pcUseEffect: "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
+            jasXAutoDress: "Bareゲーム後にＨＵＤが自動的に服を着るかどうかを切り替えます。",
+            pcUseEffect: "Project Clothingのドジっ子効果が発生したときにアウトフィットが衣装を投げるかどうかを切り替えます。",
         },
     },
     permissions:{
@@ -566,7 +566,7 @@ export const LangJa = {
             autoWearOutfit:         "プロファイルを読み込むときに、ＨＵＤが最後に着用したアウトフィットを自動的に着用するかどうかを切り替えます。",
             profile_replaceAll:     "プロファイルを装着する前に、ＨＵＤがアバター上のすべてのものを切り離すかどうかを切り替えます。<br/>これには、#RLVフォルダ内のものも含まれます。",
             // Outfit
-            autoPG:                 "Toggles whether the HUD will automatically set your Outfit to outerwear or change to a non adult Outfit when teleporting to a PG/General sim.</br>Also will prevent you from going to the Nude state in a PG/General sim.",
+            autoPG:                 "ＰＧ／一般ＳＩＭにテレポートするときに、ＨＵＤが自動的にアウトフィットをアウターウェアのステートに設定するか、非Adult用衣装に変更するかを切り替えます。<br/>また、ＰＧ／一般ＳＩＭでヌードのステートになることも防止します。",
             shoeReplaceFeet:        "ＨＵＤがアウトフィットの足（Foot）をステートに合わせて靴（Shoe）を自動的に取り付けたり取り外したりするかどうかを切り替えます。",
             playOutfitAnimations:   "アウトフィットやそのステートを変更したときにＨＵＤでアニメーションを再生するかどうかを切り替えます。",
             playOutfitSounds:       "アウトフィットやそのステートを変更したときにＨＵＤでサウンドを再生するかどうかを切り替えます。",
@@ -740,6 +740,6 @@ export const LangJa = {
         buttonFinish: "セットアップ完了",
     },
     title:{
-        save: "Save Title changes?",
+        save: "タイトルの変更を保存しますか？",
     }
 }
