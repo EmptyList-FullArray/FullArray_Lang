@@ -47,6 +47,7 @@ export const LangFr = {
             delete:    "Supprime ce !~MODULE~! et tous ses liens, cette action est irréversible.",
             linkMode:  "Link mode is how you link/assign things to the currently active Profile.",
             listMode:  "List mode is were you can change the !~MODULE~! you currently have active/wearing.",
+            access:    "Access to the !~MODULE~! module is restricted by permissions."
         },
         states:{
             outerwear: "Vêtements extérieurs",

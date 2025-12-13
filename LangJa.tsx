@@ -47,6 +47,7 @@ export const LangJa = {
             delete:    "この!~MODULE~!とそのすべてのリンクを削除します。元に戻すことはできません。",
             linkMode:  "リンクモードは、現在アクティブなプロファイルにリンク／割り当てる方法です。",
             listMode:  "リストモードでは、現在アクティブな／装着している!~MODULE~!を変更できます。",
+            access:    "Access to the !~MODULE~! module is restricted by permissions."
         },
         states:{
             outerwear: "アウターウェア",

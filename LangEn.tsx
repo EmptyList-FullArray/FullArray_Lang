@@ -48,6 +48,7 @@ export const LangEn = {
             delete:    "Deletes this !~MODULE~! and all of its links, this can not be undone.",
             linkMode:  "Link mode is how you link/assign things to the currently active Profile.",
             listMode:  "List mode is were you can change the !~MODULE~! you currently have active/wearing.",
+            access:    "Access to the !~MODULE~! module is restricted by permissions."
         },
         states:{
             outerwear: "Outerwear",
