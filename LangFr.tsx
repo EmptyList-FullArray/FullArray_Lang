@@ -38,6 +38,8 @@ export const LangFr = {
         moduleImage: "Image du !~MODULE~!...",
         moduleGroup: "Groupe du !~MODULE~!...",
         linkMode: "Linking Mode",
+        fileType: "Invalid file type. Only JPG, PNG, GIF, and WEBP images are allowed.",
+        fileSize: "File size exceeds 5MB limit. File size: ",
         tooltip:{
             customAccessLevel: "Définit un niveau d'accès qui remplacera le niveau d'accès défini dans le menu des permissions.",
             name:      "Le nom de ce !~MODULE~!.",

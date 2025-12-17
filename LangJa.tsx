@@ -38,6 +38,8 @@ export const LangJa = {
         moduleImage: "!~MODULE~!の画像…",
         moduleGroup: "!~MODULE~!のグループ…",
         linkMode: "リンクモード",
+        fileType: "Invalid file type. Only JPG, PNG, GIF, and WEBP images are allowed.",
+        fileSize: "File size exceeds 5MB limit. File size: ",
         tooltip:{
             customAccessLevel: "権限メニューで設定されたアクセスレベルを上書きするアクセスレベルを設定します。",
             name:      "この!~MODULE~!の名前です。",
