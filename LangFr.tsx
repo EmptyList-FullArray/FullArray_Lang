@@ -380,6 +380,7 @@ export const LangFr = {
         setting_relayTrust:  "Mode de confiance du relais",
         setting_relayAuto:   "Acceptation automatique du relais",
         setting_relayPower:  "Puissance du relais",
+        setting_allowAttachmentControl: "Allow Attachment Control?",
         setting_safeword:    "Mot de sécurité :",
         setting_useSafeword: "Autoriser l'utilisation du mot de sécurité ?",
         setting_useJasX: "Autoriser les commandes des jeux JasX ?",

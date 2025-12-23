@@ -381,6 +381,7 @@ export const LangEn = {
         setting_relayTrust:  "Relay Trust Mode",
         setting_relayAuto:   "Relay Auto Accept",
         setting_relayPower:  "Relay Power",
+        setting_allowAttachmentControl: "Allow Attachment Control?",
         setting_safeword:    "Safeword:",
         setting_useSafeword: "Allow Safeword Use?",
         setting_useJasX: "Allow JasX game commands?",

@@ -380,6 +380,7 @@ export const LangJa = {
         setting_relayTrust:  "トラストモードをリレー",
         setting_relayAuto:   "自動承認をリレー",
         setting_relayPower:  "リレーの電源",
+        setting_allowAttachmentControl: "Allow Attachment Control?",
         setting_safeword:    "セーフワード：",
         setting_useSafeword: "セーフワードの使用を許可しますか？",
         setting_useJasX: "JasXゲームコマンドを許可しますか？",
