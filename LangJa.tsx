@@ -304,7 +304,8 @@ export const LangJa = {
         updateLandmark: "ランドマーク更新",
         utility_useForRestart: "リージョン再起動時に使用しますか？",
         tooltips:{
-            utility_useForRestart: "現在いるリージョンが再起動したときに、このランドマークをテレポート場所として使用しますか？"
+            utility_useForRestart: "現在いるリージョンが再起動したときに、このランドマークをテレポート場所として使用しますか？",
+            asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
         }
     },
     inventory:{
