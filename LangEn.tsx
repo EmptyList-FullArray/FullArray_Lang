@@ -304,6 +304,7 @@ export const LangEn = {
     landmark:{
         updateLandmark: "Update Landmark",
         utility_useForRestart: "Use for region restarts?",
+        asn: "Scan for nearby ASN gate?",
         tooltips:{
             utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?",
             asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
