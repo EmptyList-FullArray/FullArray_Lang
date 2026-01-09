@@ -522,6 +522,7 @@ export const LangJa = {
             defaultTempHudState:    "一時的なＨＵＤのデフォルトのステート。",
             autoCreateFolders:      "フォルダを自動作成しますか？",
             hud_sideDock:           "ＨＵＤはドックモードです。",
+            landmark_asnFirst:      "Try ASN scan before teleport?",
         },
         textbox:{
             prefixPlaceholder: "プレフィックス…",
@@ -589,6 +590,7 @@ export const LangJa = {
             autoCreateFolders:      "ＨＵＤがプロファイル、衣装などの新しく作成されたエントリのフォルダを自動的に作成するかどうかを切り替えます。",
             utility_regionRestart_mode: "リージョン再起動時の機能のモードを選択します。<br/>オフ：無効<br/>質問：テレポートするかどうかを尋ねます。<br/>自動：設定された遅延の後に、保存した場所に自動的にテレポートします。<br/>即時：リージョンが再起動すると、保存した場所に即座にテレポートします。",
             utility_regionRestart_time: "テレポートするまでの再起動カウントダウンの残り時間（秒）",
+            landmark_asnFirst:      "If enabled when using a Landmark to teleport the HUD will first scan for a nearby ASN gate and use that to teleport if found.",
         },
         color:{
             colorHeader: "カラー設定",

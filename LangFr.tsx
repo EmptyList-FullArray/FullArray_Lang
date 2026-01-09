@@ -522,6 +522,7 @@ export const LangFr = {
             defaultTempHudState:    "État par défaut des HUDs temporaires.",
             autoCreateFolders:      "Créer automatiquement les dossiers ?",
             hud_sideDock:           "HUDs dock mode.",
+            landmark_asnFirst:      "Try ASN scan before teleport?",
         },
         textbox:{
             prefixPlaceholder: "Préfixe...",
@@ -589,6 +590,7 @@ export const LangFr = {
             autoCreateFolders:      "Définit si le HUD créera automatiquement des dossiers pour les nouvelles entrées comme Profil, Tenue, etc....",
             utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
             utility_regionRestart_time: "The time in seconds remaining in the restart countdown before you will be teleported.",
+            landmark_asnFirst:      "If enabled when using a Landmark to teleport the HUD will first scan for a nearby ASN gate and use that to teleport if found.",
         },
         color:{
             colorHeader: "Paramètres de Couleur",
