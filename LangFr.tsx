@@ -375,6 +375,9 @@ export const LangFr = {
         tooltip:{
             isDefault: "Active ou désactive si ce groupe est le groupe par défaut à utiliser si aucun n'est défini pour une région.",    
             roleName: "Role name (not title) to use for this group.", 
+        },
+        placeholder:{
+            roleName: "Role name...",
         }
     },
     relay:{

@@ -375,6 +375,9 @@ export const LangJa = {
         tooltip:{
             isDefault: "リージョンに何も設定されていない場合は、このグループをデフォルトのグループとして使用するかどうかを切り替えます。",
             roleName: "Role name (not title) to use for this group.", 
+        },
+        placeholder:{
+            roleName: "Role name...",
         }
     },
     relay:{
