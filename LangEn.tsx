@@ -374,7 +374,8 @@ export const LangEn = {
     autoGroup:{
         isDefault: "Is Default Group?",
         tooltip:{
-            isDefault: "Toggle if this group is the default group to use if none is set for a region.",    
+            isDefault: "Toggle if this group is the default group to use if none is set for a region.",
+            roleName: "Role name (not title) to use for this group.", 
         }
     },
     relay:{
