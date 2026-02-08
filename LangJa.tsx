@@ -93,6 +93,8 @@ export const LangJa = {
             newPrefix:       "新しいプレフィックス",
             prefix:          "プレフィックス…",
             name:            "名前…",
+            inventoryName:   "Inventory Name...",
+            displayName:     "Display Name...",
             image:           "画像…",
             create:          "作成",
             slurl:           "Slurl…",

@@ -93,6 +93,8 @@ export const LangFr = {
             newPrefix:       "Nouveau préfixe",
             prefix:          "Préfixe...",
             name:            "Nom...",
+            inventoryName:   "Inventory Name...",
+            displayName:     "Display Name...",
             image:           "Image...",
             create:          "Créer",
             slurl:           "Slurl...",

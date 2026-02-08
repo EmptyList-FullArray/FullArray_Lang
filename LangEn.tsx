@@ -94,6 +94,8 @@ export const LangEn = {
             newPrefix:       "New Prefix",
             prefix:          "Prefix...",
             name:            "Name...",
+            inventoryName:   "Inventory Name...",
+            displayName:     "Display Name...",
             image:           "Image...",
             create:          "Create",
             slurl:           "Slurl...",
