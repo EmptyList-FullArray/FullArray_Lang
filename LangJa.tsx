@@ -325,9 +325,11 @@ export const LangJa = {
         rezAtCamera: "カメラにRez",
         derez: "Rez解除",
         cleanOnLeave: "去ったときにクリーンアップ",
+        useForklift: "Use the Tines system to rez items?",
         tooltips:{
             rezInstaller: "インストーラーボックスをRezして、ＨＵＤにアイテムを簡単に追加します。",
             rezEmptyBox: "プレフィックスで使用するために空箱を再生成します。",
+            useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!",
         }
     },
     ao:{

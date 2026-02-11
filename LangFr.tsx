@@ -325,9 +325,11 @@ export const LangFr = {
         rezAtCamera: "Créer à la caméra",
         derez: "Supprimer",
         cleanOnLeave: "Nettoyer au départ",
+        useForklift: "Use the Tines system to rez items?",
         tooltips:{
             rezInstaller: "Crée une boîte d'installation pour ajouter facilement des éléments à votre HUD.",
             rezEmptyBox: "Crée une boîte vide à utiliser avec les préfixes.",
+            useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!",
         }
     },
     ao:{
