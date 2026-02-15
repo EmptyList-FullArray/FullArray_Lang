@@ -535,7 +535,7 @@ export const LangJa = {
         textbox:{
             prefixPlaceholder: "プレフィックス…",
             passwordPlaceholder: "パスワード…",
-            channelPlaceholder: "チャンネル…",
+            userChannelPlaceholder: "チャンネル…",
         },
         popup:{
             setLang:   "言語設定",
@@ -599,6 +599,9 @@ export const LangJa = {
             utility_regionRestart_mode: "リージョン再起動時の機能のモードを選択します。<br/>オフ：無効<br/>質問：テレポートするかどうかを尋ねます。<br/>自動：設定された遅延の後に、保存した場所に自動的にテレポートします。<br/>即時：リージョンが再起動すると、保存した場所に即座にテレポートします。",
             utility_regionRestart_time: "テレポートするまでの再起動カウントダウンの残り時間（秒）",
             landmark_asnFirst:      "If enabled when using a Landmark to teleport the HUD will first scan for a nearby ASN gate and use that to teleport if found.",
+            password:               "The password is used to login to the HUD outside of SL.",
+            prefix:                 "Current prefix: ",
+            userChannel:            "The channel is used to control the HUD via chat commands from other users or your self.<br/><br/>NOTE: if you change this, any old commands you used will no longer work and you will need to use the new channel in them.<br/><br/>Current channel: ",
         },
         color:{
             colorHeader: "カラー設定",
