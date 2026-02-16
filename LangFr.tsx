@@ -531,6 +531,7 @@ export const LangFr = {
             autoCreateFolders:      "Créer automatiquement les dossiers ?",
             hud_sideDock:           "HUDs dock mode.",
             landmark_asnFirst:      "Try ASN scan before teleport?",
+            general_showCategoryAttach: "Show category attach / detach?",
         },
         textbox:{
             prefixPlaceholder: "Préfixe...",
@@ -604,6 +605,7 @@ export const LangFr = {
             userChannel:            "The channel is used to control the HUD via chat commands from other users or your self.<br/><br/>NOTE: if you change this, any old commands you used will no longer work and you will need to use the new channel in them.<br/><br/>Current channel: ",
             // UI
             general_showCategoryAttach: "Toggles whether to show the attach / detach buttons in a category.",
+
         },
         color:{
             colorHeader: "Paramètres de Couleur",

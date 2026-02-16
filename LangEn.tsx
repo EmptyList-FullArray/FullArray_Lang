@@ -532,6 +532,7 @@ export const LangEn = {
             autoCreateFolders:      "Automaticly create folders?",
             hud_sideDock:           "HUDs dock mode.",
             landmark_asnFirst:      "Try ASN scan before teleport?",
+            general_showCategoryAttach: "Show category attach / detach?",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",

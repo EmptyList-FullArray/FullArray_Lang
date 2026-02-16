@@ -531,6 +531,7 @@ export const LangJa = {
             autoCreateFolders:      "フォルダを自動作成しますか？",
             hud_sideDock:           "ＨＵＤはドックモードです。",
             landmark_asnFirst:      "Try ASN scan before teleport?",
+            general_showCategoryAttach: "Show category attach / detach?",
         },
         textbox:{
             prefixPlaceholder: "プレフィックス…",
