@@ -532,6 +532,7 @@ export const LangJa = {
             hud_sideDock:           "ＨＵＤはドックモードです。",
             landmark_asnFirst:      "Try ASN scan before teleport?",
             general_showCategoryAttach: "Show category attach / detach?",
+            outfit_keepSame:        "Keep same Outfit?",
         },
         textbox:{
             prefixPlaceholder: "プレフィックス…",
@@ -584,6 +585,7 @@ export const LangJa = {
             playOutfitAnimations:   "アウトフィットやそのステートを変更したときにＨＵＤでアニメーションを再生するかどうかを切り替えます。",
             playOutfitSounds:       "アウトフィットやそのステートを変更したときにＨＵＤでサウンドを再生するかどうかを切り替えます。",
             allowEffects:           "アウトフィットが盗まれたり剥ぎ取られたりできるようにするかどうかを切り替えます。",
+            outfit_keepSame:        "Toggles whether the HUD will try and keep the same Outfit your wearing when you change Profiles if the new Profile has the same Outfit linked.",
             // Hair
             autoWearHair:           "プロファイルを読み込むときに、ＨＵＤが最後に使用したヘアスタイルを自動的に使用するかどうかを切り替えます。",
             allowHairBald:          "髪型を完全に取り外せるかどうかを切り替えます。",

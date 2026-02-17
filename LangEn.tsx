@@ -533,6 +533,7 @@ export const LangEn = {
             hud_sideDock:           "HUDs dock mode.",
             landmark_asnFirst:      "Try ASN scan before teleport?",
             general_showCategoryAttach: "Show category attach / detach?",
+            outfit_keepSame:        "Keep same Outfit?",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",
@@ -585,6 +586,7 @@ export const LangEn = {
             playOutfitAnimations:   "Toggles whether the HUD will play animation when you change your Outfits or its state.",
             playOutfitSounds:       "Toggles whether the HUD will play sounds when you change your Outfit or its state.",
             allowEffects:           "Toggles whether your Outfit can be stolen or ripped.",
+            outfit_keepSame:        "Toggles whether the HUD will try and keep the same Outfit your wearing when you change Profiles if the new Profile has the same Outfit linked.",
             // Hair
             autoWearHair:           "Toggles whether the HUD will automatically wear the last worn Hair when loading a Profile.",
             allowHairBald:          "Toggles whether your Hair can be fully detached.",
