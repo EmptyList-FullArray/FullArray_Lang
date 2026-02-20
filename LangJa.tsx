@@ -102,6 +102,84 @@ export const LangJa = {
             success:         "作成に成功しました！",
         }
     },
+    tours:{
+        home:{
+            welcome: {
+                title: "FullArray HUD Guide",
+                content: "Welcome to the FullArray HUD! This guide will walk you through the basics of using the HUD and its features.\n\nIf you ever need to access the guide again you can click the ? button at the top of any page.\n\nMost things will have more information if you hover over the ( i ) icon next to it.",
+            },
+            moduleList: {
+                title: "Module List",
+                content: "This is the list of modules you own, clicking one of them will take you to that module's page were you can manage it.",
+            },
+            userSelect: {
+                title: "User Select",
+                content: "This is where you can select the user you want to control.\n\nYou can also add users as favorites for quick access.",
+            },
+            permissions: {
+                title: "Permissions",
+                content: "This is where you can manage permissions for users who can access your HUD, add users as a Owner of your HUD, and block user from accessing your HUD.\n\nThis is also where you can configure the RLVa Relay.",
+            },
+            notifications: {
+                title: "Notifications",
+                content: "This is where you can see system notifications and view the changelog for the HUD.",
+            },
+            settings: {
+                title: "Settings",
+                content: "This is where you can configure the settings for the HUD, there are a LOT of settings in here so take your time to look through them all and configure the HUD to your liking!",
+            }
+        },
+        userSelect:{
+            selectSelf:{
+                title: "Select Yourself",
+                content: "Clicking this will select your own HUD when your controlling another user.",
+            },
+            selectUUID:{
+                title: "Select By UUID",
+                content: "Putting the UUID of another user will select their HUD for control if you have access to it.",
+            },
+            favorite:{
+                title: "Favorite Users",
+                content: "This is the list of users you have added as favorites for quick access, clicking on one of them will select their HUD for control if you have access to it.",
+            },
+            region:{
+                title: "Region Users",
+                content: "This button will scan the area around you for users to show who is wearing a FullArray HUD, this is useful for finding users to interact with or to add as favorites.\n\nAswell it shows users who do not have a FullArray HUD and has the ability to offer them a free copy of it.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)",
+            },
+            hudUsers:{
+                title: "HUD Users",
+                content: "This is the list of users in the region who are wearing a FullArray HUD, clicking on one of them will select their HUD for control if you have access to it.",
+            },
+            regionUsers:{
+                title: "Region List",
+                content: "This is the list of users in the region who are not wearing a FullArray HUD, clicking on one of them will offer them a free copy of the HUD, this is useful for quickly giving the HUD to friends or new people you meet in the region.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)",
+            },
+        },
+        misc:{
+            active:{
+                title: "Active Card",
+                content: "This shows your currently active !~MODULE~!, you can quickly reload, detach, or edit it from here.",
+            },
+            list:{
+                title: "!~MODULE~! List",
+                content: "Here you can see all the !~MODULE~!s you have created.\n\nClicking on a !~MODULE~! name or picture will set it as your active !~MODULE~!.\n\nYour active !~MODULE~! is the one that has a highlight around it.",
+            },
+            settings:{
+                title: "!~MODULE~! Settings",
+                content: "This is where you can edit the settings of your active !~MODULE~!\n\nClicking this button in the list below will open the settings for that !~MODULE~!.",
+            },
+            search:{
+                title: "Search !~MODULE~!s",
+                content: "Use the search box to quickly find a specific !~MODULE~! by name or prefix.",
+            },
+        },
+        profile:{
+            welcome:{
+                title: "Profiles",
+                content: "Profiles are the core of FullArray, they let you manage different personas with unique settings and appearances.\n\nYou can have as many profiles as you want and switch between them at any time, each profile has its own settings, outfits, and more that will change when you switch to it.",
+            },            
+        },
+    },
     home:{
         categories:{
             tempHuds: "一時的なＨＵＤ",
