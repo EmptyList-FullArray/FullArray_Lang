@@ -1,31 +1,31 @@
 export const LangFr = {
-    fallbackError:{
+    fallbackError: {
         line_1: "⚠️ Quelque chose s'est mal passé ⚠️",
         line_2: "Si vous voyez cette erreur, le HUD a rencontré une erreur critique et se rechargera dans 5 secondes.",
         line_3: "Si vous pouvez charger le HUD de façon externe, le problème est probablement dû à un viewer obsolète.",
-        line_4: "Si vous ne pouvez pas charger le HUD de façon externe, veuillez créer un ticket de support sur notre Discord.",
+        line_4: "Si vous ne pouvez pas charger le HUD de façon externe, veuillez créer un ticket de support sur notre Discord."
     },
-    modules:{
-        profile:     "Profil",
-        outfit:      "Tenue",
+    modules: {
+        profile: "Profil",
+        outfit: "Tenue",
         accessories: "Accessoires",
-        hair:        "Cheveux",
-        shoe:        "Chaussures",
-        rlv:         "RLV",
-        hudlets:     "HUDlets",
-        landmark:    "Landmark",
-        inventory:   "Inventory",
-        ao:          "Ao",
-        pantyRaid:   "Panty Raid",
-        skin:        "Skin",
-        bom:         "BOM",
-        autoGroup:   "Groupe Auto",
-        relay:       "Relais",
-        telepathy:   "Telepathy",
-        camera:      "Camera",
-        asn:         "ASN",
+        hair: "Cheveux",
+        shoe: "Chaussures",
+        rlv: "RLV",
+        hudlets: "HUDlets",
+        landmark: "Landmark",
+        inventory: "Inventory",
+        ao: "Ao",
+        pantyRaid: "Panty Raid",
+        skin: "Skin",
+        bom: "BOM",
+        autoGroup: "Groupe Auto",
+        relay: "Relais",
+        telepathy: "Telepathy",
+        camera: "Camera",
+        asn: "ASN"
     },
-    misc:{
+    misc: {
         settings: "Paramètres",
         customAccessLevel: "Niveau d'accès personnalisé",
         delete: "Supprimer ce !~MODULE~! ?",
@@ -40,356 +40,346 @@ export const LangFr = {
         linkMode: "Linking Mode",
         fileType: "Invalid file type. Only JPG, PNG, GIF, and WEBP images are allowed.",
         fileSize: "File size exceeds 5MB limit. File size: ",
-        tooltip:{
+        tooltip: {
             customAccessLevel: "Définit un niveau d'accès qui remplacera le niveau d'accès défini dans le menu des permissions.",
-            name:      "Le nom de ce !~MODULE~!.",
-            img:       "L'UUID ou l'URL de l'image de ce !~MODULE~!.",
+            name: "Le nom de ce !~MODULE~!.",
+            img: "L'UUID ou l'URL de l'image de ce !~MODULE~!.",
             imgSelect: "Sélectionnez un fichier image depuis votre disque pour ce Profil.<br>png, jpg, webp, etc...",
-            isAdult:   "Si le Profil est adulte, utilisé avec la fonction PG lors de la téléportation.",
-            delete:    "Supprime ce !~MODULE~! et tous ses liens, cette action est irréversible.",
-            linkMode:  "Link mode is how you link/assign things to the currently active Profile.",
-            listMode:  "List mode is were you can change the !~MODULE~! you currently have active/wearing.",
-            access:    "Access to the !~MODULE~! module is restricted by permissions."
+            isAdult: "Si le Profil est adulte, utilisé avec la fonction PG lors de la téléportation.",
+            delete: "Supprime ce !~MODULE~! et tous ses liens, cette action est irréversible.",
+            linkMode: "Link mode is how you link/assign things to the currently active Profile.",
+            listMode: "List mode is were you can change the !~MODULE~! you currently have active/wearing.",
+            access: "Access to the !~MODULE~! module is restricted by permissions."
         },
-        states:{
+        states: {
             outerwear: "Vêtements extérieurs",
             underwear: "Sous-vêtements",
-            nude:      "Nu",
+            nude: "Nu"
         },
-        slots:{
-            head:      "Tête",
-            torso:     "Torse",
-            arms:      "Bras",
-            hands:     "Mains",
-            legs:      "Jambes",
-            feet:      "Pieds", 
-            waist:     "Taille",
-            crotch:    "Entrejambe",
-            tail:      "Queue",
-            wings:     "Ailes",
-            ears:      "Oreilles",
+        slots: {
+            head: "Tête",
+            torso: "Torse",
+            arms: "Bras",
+            hands: "Mains",
+            legs: "Jambes",
+            feet: "Pieds",
+            waist: "Taille",
+            crotch: "Entrejambe",
+            tail: "Queue",
+            wings: "Ailes",
+            ears: "Oreilles"
         },
-        effects:{
-            rip:       "Déchirer",
-            steal:     "Voler",
-            throw:     "Lancer",
+        effects: {
+            rip: "Déchirer",
+            steal: "Voler",
+            throw: "Lancer"
         }
     },
-    cardActive:{
-        id:     "ID",
+    cardActive: {
+        id: "ID",
         reload: "Recharger ce !~MODULE~!",
         detach: "Détacher ce !~MODULE~!",
-        edit:   "Modifier ce !~MODULE~!",
+        edit: "Modifier ce !~MODULE~!",
         create: "Créer un nouveau !~MODULE~!",
-        tooltip:{
+        tooltip: {
             reload: "Recharge le !~MODULE~!.<br>Cela détachera et rattachera le dossier du !~MODULE~!.",
             detach: "Détache le dossier du !~MODULE~!.<br>D'autres modules peuvent également être désactivés.",
-            edit:   "Modifie les paramètres de ce !~MODULE~!.",
+            edit: "Modifie les paramètres de ce !~MODULE~!."
         }
     },
-    popups:{
-        create:{
-            errorName:       "Le nom ne doit pas être vide !",
-            newPrefix:       "Nouveau préfixe",
-            prefix:          "Préfixe...",
-            name:            "Nom...",
-            inventoryName:   "Inventory Name...",
-            displayName:     "Display Name...",
-            image:           "Image...",
-            create:          "Créer",
-            slurl:           "Slurl...",
+    popups: {
+        create: {
+            errorName: "Le nom ne doit pas être vide !",
+            newPrefix: "Nouveau préfixe",
+            prefix: "Préfixe...",
+            name: "Nom...",
+            inventoryName: "Inventory Name...",
+            displayName: "Display Name...",
+            image: "Image...",
+            create: "Créer",
+            slurl: "Slurl...",
             folderTemplate: "Modèle de dossier",
-            success:         "Created successfully!",
+            success: "Created successfully!"
         }
     },
-    tours:{
-        home:{
+    tours: {
+        home: {
             welcome: {
                 title: "FullArray HUD Guide",
-                content: "Welcome to the FullArray HUD! This guide will walk you through the basics of using the HUD and its features.\n\nIf you ever need to access the guide again you can click the ? button at the top of any page.\n\nMost things will have more information if you hover over the ( i ) icon next to it.",
+                content: "Welcome to the FullArray HUD! This guide will walk you through the basics of using the HUD and its features.\n\nIf you ever need to access the guide again you can click the ? button at the top of any page.\n\nMost things will have more information if you hover over the ( i ) icon next to it."
             },
             moduleList: {
                 title: "Module List",
-                content: "This is the list of modules you own, clicking one of them will take you to that module's page were you can manage it.",
+                content: "This is the list of modules you own, clicking one of them will take you to that module's page were you can manage it."
             },
             userSelect: {
                 title: "User Select",
-                content: "This is where you can select the user you want to control.\n\nYou can also add users as favorites for quick access.",
+                content: "This is where you can select the user you want to control.\n\nYou can also add users as favorites for quick access."
             },
             permissions: {
                 title: "Permissions",
-                content: "This is where you can manage permissions for users who can access your HUD, add users as a Owner of your HUD, and block user from accessing your HUD.\n\nThis is also where you can configure the RLVa Relay.",
+                content: "This is where you can manage permissions for users who can access your HUD, add users as a Owner of your HUD, and block user from accessing your HUD.\n\nThis is also where you can configure the RLVa Relay."
             },
             notifications: {
                 title: "Notifications",
-                content: "This is where you can see system notifications and view the changelog for the HUD.",
+                content: "This is where you can see system notifications and view the changelog for the HUD."
             },
             settings: {
                 title: "Settings",
-                content: "This is where you can configure the settings for the HUD, there are a LOT of settings in here so take your time to look through them all and configure the HUD to your liking!",
+                content: "This is where you can configure the settings for the HUD, there are a LOT of settings in here so take your time to look through them all and configure the HUD to your liking!"
             }
         },
-        userSelect:{
-            selectSelf:{
+        userSelect: {
+            selectSelf: {
                 title: "Select Yourself",
-                content: "Clicking this will select your own HUD when your controlling another user.",
+                content: "Clicking this will select your own HUD when your controlling another user."
             },
-            selectUUID:{
+            selectUUID: {
                 title: "Select By UUID",
-                content: "Putting the UUID of another user will select their HUD for control if you have access to it.",
+                content: "Putting the UUID of another user will select their HUD for control if you have access to it."
             },
-            favorite:{
+            favorite: {
                 title: "Favorite Users",
-                content: "This is the list of users you have added as favorites for quick access, clicking on one of them will select their HUD for control if you have access to it.",
+                content: "This is the list of users you have added as favorites for quick access, clicking on one of them will select their HUD for control if you have access to it."
             },
-            region:{
+            region: {
                 title: "Region Users",
-                content: "This button will scan the area around you for users to show who is wearing a FullArray HUD, this is useful for finding users to interact with or to add as favorites.\n\nAswell it shows users who do not have a FullArray HUD and has the ability to offer them a free copy of it.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)",
+                content: "This button will scan the area around you for users to show who is wearing a FullArray HUD, this is useful for finding users to interact with or to add as favorites.\n\nAswell it shows users who do not have a FullArray HUD and has the ability to offer them a free copy of it.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)"
             },
-            hudUsers:{
+            hudUsers: {
                 title: "HUD Users",
-                content: "This is the list of users in the region who are wearing a FullArray HUD, clicking on one of them will select their HUD for control if you have access to it.",
+                content: "This is the list of users in the region who are wearing a FullArray HUD, clicking on one of them will select their HUD for control if you have access to it."
             },
-            regionUsers:{
+            regionUsers: {
                 title: "Region List",
-                content: "This is the list of users in the region who are not wearing a FullArray HUD, clicking on one of them will offer them a free copy of the HUD, this is useful for quickly giving the HUD to friends or new people you meet in the region.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)",
-            },
+                content: "This is the list of users in the region who are not wearing a FullArray HUD, clicking on one of them will offer them a free copy of the HUD, this is useful for quickly giving the HUD to friends or new people you meet in the region.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)"
+            }
         },
-        misc:{
-            active:{
+        misc: {
+            active: {
                 title: "Active Card",
-                content: "This shows your currently active !~MODULE~!, you can quickly reload, detach, or edit it from here.",
+                content: "This shows your currently active !~MODULE~!, you can quickly reload, detach, or edit it from here."
             },
-            list:{
+            list: {
                 title: "!~MODULE~! List",
-                content: "Here you can see all the !~MODULE~!s you have created.\n\nClicking on a !~MODULE~! name or picture will set it as your active !~MODULE~!.\n\nYour active !~MODULE~! is the one that has a highlight around it.",
+                content: "Here you can see all the !~MODULE~!s you have created.\n\nClicking on a !~MODULE~! name or picture will set it as your active !~MODULE~!.\n\nYour active !~MODULE~! is the one that has a highlight around it."
             },
-            settings:{
+            settings: {
                 title: "!~MODULE~! Settings",
-                content: "This is where you can edit the settings of your active !~MODULE~!\n\nClicking this button in the list below will open the settings for that !~MODULE~!.",
+                content: "This is where you can edit the settings of your active !~MODULE~!\n\nClicking this button in the list below will open the settings for that !~MODULE~!."
             },
-            search:{
+            search: {
                 title: "Search !~MODULE~!s",
-                content: "Use the search box to quickly find a specific !~MODULE~! by name or prefix.",
-            },
+                content: "Use the search box to quickly find a specific !~MODULE~! by name or prefix."
+            }
         },
-        profile:{
-            welcome:{
+        profile: {
+            welcome: {
                 title: "Profiles",
-                content: "Profiles are the core of FullArray, they let you manage different personas with unique settings and appearances.\n\nYou can have as many profiles as you want and switch between them at any time, each profile has its own settings, outfits, and more that will change when you switch to it.",
-            },            
-        },
+                content: "Profiles are the core of FullArray, they let you manage different personas with unique settings and appearances.\n\nYou can have as many profiles as you want and switch between them at any time, each profile has its own settings, outfits, and more that will change when you switch to it."
+            }
+        }
     },
-    home:{
-        categories:{
+    home: {
+        categories: {
             tempHuds: "HUDs temporaires",
-            interactDoll: "Poupée interactive",
+            interactDoll: "Poupée interactive"
         },
-        tooltip:{
+        tooltip: {
             doll: {
                 outerwear: "Définit l'emplacement !~SLOT~! de votre Tenue à l'état Vêtements extérieurs.<br><br>Commande: @!~STATE~! !~SLOT~!",
                 underwear: "Définit l'emplacement !~SLOT~! de votre Tenue à l'état Sous-vêtements.<br><br>Commande: @!~STATE~! !~SLOT~!",
-                nude:      "Définit l'emplacement !~SLOT~! de votre Tenue à l'état Nu.<br><br>Commande: @!~STATE~! !~SLOT~!",
-                rip:       "Déchire l'emplacement !~SLOT~! de votre Tenue.<br>Vous devrez utiliser le réparateur de vêtements pour le réparer.<br><br>Commande: @Set Outfit Effect !~SLOT~! Rip",
-                steal:     "Vole l'emplacement !~SLOT~! de votre Tenue.<br>Vous devrez utiliser le réparateur de vêtements pour le réparer si vous ne bousculez pas l'avatar qui a volé votre Tenue.<br><br>Commande: @Set Outfit Effect !~SLOT~! Steal",  
-                throw:     "Jette l'emplacement !~SLOT~! de votre Tenue.<br>Vous devrez utiliser le réparateur de vêtements pour le réparer si vous ne pouvez pas le récupérer.<br>Jeter créera un objet que n'importe qui peut ramasser et voler, vous pouvez le faire tomber de leurs mains en les bousculant ou en cliquant dessus, puis cliquez dessus au sol pour le récupérer.<br><br>Commande: @Set Outfit Effect !~SLOT~! Throw",
+                nude: "Définit l'emplacement !~SLOT~! de votre Tenue à l'état Nu.<br><br>Commande: @!~STATE~! !~SLOT~!",
+                rip: "Déchire l'emplacement !~SLOT~! de votre Tenue.<br>Vous devrez utiliser le réparateur de vêtements pour le réparer.<br><br>Commande: @Set Outfit Effect !~SLOT~! Rip",
+                steal: "Vole l'emplacement !~SLOT~! de votre Tenue.<br>Vous devrez utiliser le réparateur de vêtements pour le réparer si vous ne bousculez pas l'avatar qui a volé votre Tenue.<br><br>Commande: @Set Outfit Effect !~SLOT~! Steal",
+                throw: "Jette l'emplacement !~SLOT~! de votre Tenue.<br>Vous devrez utiliser le réparateur de vêtements pour le réparer si vous ne pouvez pas le récupérer.<br>Jeter créera un objet que n'importe qui peut ramasser et voler, vous pouvez le faire tomber de leurs mains en les bousculant ou en cliquant dessus, puis cliquez dessus au sol pour le récupérer.<br><br>Commande: @Set Outfit Effect !~SLOT~! Throw"
             },
             outfitOuterwear: "Définit votre Tenue à l'état Vêtements extérieurs.<br><br>Commande: @o (nom de l'emplacement)",
             outfitUnderwear: "Définit votre Tenue à l'état Sous-vêtements.<br><br>Commande: @u (nom de l'emplacement)",
-            outfitNude:      "Définit votre Tenue à l'état Nu.<br><br>Commande: @n (nom de l'emplacement)<br><br>L'icône des ciseaux de doigts mettra votre Tenue à nu sans les parties génitales.<br><br>Commande: @nc",
-            tempHuds: "Attacher [+] ou Détacher [-] le dossier des HUDs temporaires pour un module.<br><br>Commande: @&lt;module&gt; huds &lt;+/-&gt;",
-        },
-    },
-    profile:{
-        isAdult:              "Ce Profil est-il adulte ?",
-        playOutfitAnimations: "Jouer les animations de tenue ?",
-        chatReplacer:         "Autoriser le remplaçant de chat RLV ?",
-        bodyType:             "Type de corps",
-        bodyParts:{
-            human:       "Humain",
-            furry:       "Furry",
-            noBoob:      "Sans poitrine",
-            boob:        "Avec poitrine",
-            plantigrade: "Plantigrade",
-            digigrade:   "Digitigrade",
-            noTail:      "Sans queue",
-            tail:        "Avec queue",
-            feminine:    "Féminin",
-            masculine:   "Masculin",
-        },
-        tooltip:{
-            rlvName:              "Le nom de ce Profil quand le remplaçant de chat RLV est activé.",
-            playOutfitAnimations: "Active ou désactive la lecture des animations de changement de Tenue pour ce Profil.",
-            chatReplacer:         "Active ou désactive si le remplaçant de chat RLV peut être utilisé avec ce Profil.",
-            bodyParts:            "Sélectionnez le type de parties du corps que ce Profil possède.<br>Cela modifiera l'apparence de la poupée interactive sur la page d'accueil.<br>Ils seront également utilisés dans les modules futurs.",
-            commands:             "Commandes de chat qui s'exécuteront après le chargement du Profil.<br>Les commandes de chat pour FullArray ne fonctionneront PAS !",
-        },
-        placeholders:{
-            relayName: "Nom du relais...",
-        },
-        errors:{
-
+            outfitNude: "Définit votre Tenue à l'état Nu.<br><br>Commande: @n (nom de l'emplacement)<br><br>L'icône des ciseaux de doigts mettra votre Tenue à nu sans les parties génitales.<br><br>Commande: @nc",
+            tempHuds: "Attacher [+] ou Détacher [-] le dossier des HUDs temporaires pour un module.<br><br>Commande: @&lt;module&gt; huds &lt;+/-&gt;"
         }
     },
-    outfit:{
-        setDefaultOutfit:           "Définir comme Tenue par défaut",
-        outfitType:                 "Type de Tenue",
-        outfitTypeAdvanced:         "Avancé",
-        outfitTypeBasic:            "Basique",   
-        outfitTypeSimple:           "Simple",
-        linkMode:                   "Mode de liaison",
-        linkModeNone:               "Aucun", 
-        linkModeTorso_Crotch:       "Torse & Entrejambe",
+    profile: {
+        isAdult: "Ce Profil est-il adulte ?",
+        playOutfitAnimations: "Jouer les animations de tenue ?",
+        chatReplacer: "Autoriser le remplaçant de chat RLV ?",
+        bodyType: "Type de corps",
+        bodyParts: {
+            human: "Humain",
+            furry: "Furry",
+            noBoob: "Sans poitrine",
+            boob: "Avec poitrine",
+            plantigrade: "Plantigrade",
+            digigrade: "Digitigrade",
+            noTail: "Sans queue",
+            tail: "Avec queue",
+            feminine: "Féminin",
+            masculine: "Masculin"
+        },
+        tooltip: {
+            rlvName: "Le nom de ce Profil quand le remplaçant de chat RLV est activé.",
+            playOutfitAnimations: "Active ou désactive la lecture des animations de changement de Tenue pour ce Profil.",
+            chatReplacer: "Active ou désactive si le remplaçant de chat RLV peut être utilisé avec ce Profil.",
+            bodyParts: "Sélectionnez le type de parties du corps que ce Profil possède.<br>Cela modifiera l'apparence de la poupée interactive sur la page d'accueil.<br>Ils seront également utilisés dans les modules futurs.",
+            commands: "Commandes de chat qui s'exécuteront après le chargement du Profil.<br>Les commandes de chat pour FullArray ne fonctionneront PAS !"
+        },
+        placeholders: {
+            relayName: "Nom du relais..."
+        },
+        errors: {
+        }
+    },
+    outfit: {
+        setDefaultOutfit: "Définir comme Tenue par défaut",
+        outfitType: "Type de Tenue",
+        outfitTypeAdvanced: "Avancé",
+        outfitTypeBasic: "Basique",
+        outfitTypeSimple: "Simple",
+        linkMode: "Mode de liaison",
+        linkModeNone: "Aucun",
+        linkModeTorso_Crotch: "Torse & Entrejambe",
         linkModeTorso_Crotch_Waist: "Torse & Entrejambe & Taille",
-        linkMode_Crotch_Waist:       "Entrejambe & Taille",
-        tooltip:{
+        linkMode_Crotch_Waist: "Entrejambe & Taille",
+        tooltip: {
             setDefaultOutfit: "Définit cette Tenue comme votre Tenue par défaut.<br>Si définie, cette Tenue sera chargée lors du changement de Profil.",
             outfitType: "Sélectionnez le type de Tenue.<br><br>Avancé: Utilise tous les emplacements de Tenue et les 3 états.<br><br>Basique: est comme Avancé mais vous n'avez pas à utiliser les emplacements de Tenue.<br><br>Simple: vous n'utilisez que l'état Vêtements extérieurs, c'est simplement attaché ou détaché",
             linkMode: "Sélectionnez le mode de liaison de la Tenue, les emplacements liés s'attacheront et se détacheront ensemble.<br><br>Aucun: Ne lie pas la Tenue.<br><br>Torse & Entrejambe: Lie uniquement le Torse et l'Entrejambe.<br><br>Torse & Entrejambe & Taille: Lie le Torse, l'Entrejambe et la Taille.",
             genitalsCrotch: "Attachera et détachera le dossier genitalsCrotch dans votre Profil en fonction de l'état de votre Tenue.",
-            genitalsTorso: "Attachera et détachera le dossier genitalsTorso dans votre Profil en fonction de l'état de votre Tenue.",
+            genitalsTorso: "Attachera et détachera le dossier genitalsTorso dans votre Profil en fonction de l'état de votre Tenue."
         }
     },
-    accessory:{
+    accessory: {
         detachAll: "Détacher tous les Accessoires",
         genitalSlotHeader: "Remplacement d'emplacement génital.",
         reload: "Reload Accessories",
-        genitalSlot:{
-            none:    "Aucun",
-            crotch:  "Entrejambe",
-            torso:   "Torse",
-            both:    "Les deux",
+        genitalSlot: {
+            none: "Aucun",
+            crotch: "Entrejambe",
+            torso: "Torse",
+            both: "Les deux"
         },
-        tooltip:{
+        tooltip: {
             detachAll: "Détache et désactive tous les Accessoires de votre Profil actif.",
             genitalSlot: "Donne à l'Accessoire la capacité de détacher vos parties génitales lorsqu'il est attaché.",
-            reload: "This will attempt to detach and reattach all worn Accessories.",
+            reload: "This will attempt to detach and reattach all worn Accessories."
         }
     },
-    hair:{
+    hair: {
     },
-    shoe:{
+    shoe: {
     },
-    rlv:{
-// Leash
-        categoryLeash:        "Laisse",
-        leashFollowTp:        "Suivre le porteur de laisse lors de la téléportation",
-        leashRecover:         "Récupérer la cible de la laisse",
-        leashLookatTarget:    "Forcer à regarder le porteur de laisse",
-        leashGrab:            "Prendre la laisse",
-        leashRelease:         "Relâcher la laisse",
-        leashYank:            "Tirer sur la laisse",
-        leashToObject:        "Attacher la laisse à un objet",
-        leashToAvatar:        "Attacher la laisse à un avatar",
-        headerLeashPatricle:  "Particule de laisse",
-        leashColor:           "< Début | Couleur | Fin >",
-        leashRibbon:          "Utiliser particule de ruban",
+    rlv: {
+        categoryLeash: "Laisse",
+        leashFollowTp: "Suivre le porteur de laisse lors de la téléportation",
+        leashRecover: "Récupérer la cible de la laisse",
+        leashLookatTarget: "Forcer à regarder le porteur de laisse",
+        leashGrab: "Prendre la laisse",
+        leashRelease: "Relâcher la laisse",
+        leashYank: "Tirer sur la laisse",
+        leashToObject: "Attacher la laisse à un objet",
+        leashToAvatar: "Attacher la laisse à un avatar",
+        headerLeashPatricle: "Particule de laisse",
+        leashColor: "< Début | Couleur | Fin >",
+        leashRibbon: "Utiliser particule de ruban",
         leashPlaceholderUUID: "UUID de texture...",
-        leashFullBright:      "Full Bright",
-        leashGlow:            "Glow",
-// Sit
-        categorySit:         "S'asseoir",
-        sit:                 "Autoriser à s'asseoir",
-        unsit:               "Autoriser à se lever",
-        placeholderSit:      "S'asseoir au sol ou UUID...",
-        forceSit:            "S'asseoir sur un objet",
-        forceUnsit:          "Forcer à se lever",
-// Inventory
-        categoryFolders:     "Dossiers",
-        categoryinventory:   "Inventaire",
-        resetFolderView:     "Réinitialiser dossier RLV",
-        folderOpen:          "Ouvrir dossier",
-        folderAttach:        "Attacher dossier",
-        folderDetach:        "Détacher dossier",
-        showinv:             "Voir l'inventaire",
-        edit:                "Modifier les objets",
+        leashFullBright: "Full Bright",
+        leashGlow: "Glow",
+        categorySit: "S'asseoir",
+        sit: "Autoriser à s'asseoir",
+        unsit: "Autoriser à se lever",
+        placeholderSit: "S'asseoir au sol ou UUID...",
+        forceSit: "S'asseoir sur un objet",
+        forceUnsit: "Forcer à se lever",
+        categoryFolders: "Dossiers",
+        categoryinventory: "Inventaire",
+        resetFolderView: "Réinitialiser dossier RLV",
+        folderOpen: "Ouvrir dossier",
+        folderAttach: "Attacher dossier",
+        folderDetach: "Détacher dossier",
+        showinv: "Voir l'inventaire",
+        edit: "Modifier les objets",
         unsharedFoldersLock: "Dossiers non partagés",
-        addAttach:           "Ajouter des attachements",
-        remAttach:           "Retirer des attachements",
-        addOutfit:           "Ajouter des vêtements BOM",
-        remOutfit:           "Retirer des vêtements BOM",
-// Touch
-        categoryTouch:       "Toucher",
-        touchAll:            "Toucher tout",
-        touchAttach:         "Toucher les attachements",
-        touchAttachSelf:     "Toucher ses propres attachements",
-        touchAttachOther:    "Toucher les attachements d'autrui",
-        touchWorld:          "Toucher le monde",
-        touchHud:            "Toucher les Huds",
-        fartouch:            "Toucher à distance",
-// Chat
-        categoryChat:        "Chat",
-        chatExceptions:      "Utiliser les exceptions de chat",
+        addAttach: "Ajouter des attachements",
+        remAttach: "Retirer des attachements",
+        addOutfit: "Ajouter des vêtements BOM",
+        remOutfit: "Retirer des vêtements BOM",
+        categoryTouch: "Toucher",
+        touchAll: "Toucher tout",
+        touchAttach: "Toucher les attachements",
+        touchAttachSelf: "Toucher ses propres attachements",
+        touchAttachOther: "Toucher les attachements d'autrui",
+        touchWorld: "Toucher le monde",
+        touchHud: "Toucher les Huds",
+        fartouch: "Toucher à distance",
+        categoryChat: "Chat",
+        chatExceptions: "Utiliser les exceptions de chat",
         chatExceptionsTooltip: "Toggles wether Owners and users on your Allowlist with access to RLV_CHAT can still send you chat messages.",
-        speak:               "Parler (Chat)",
-        recvchat:            "Entendre (Chat)",
-        sendgesture:         "Utiliser les gestes",
-        chatRange:           "Portée du chat",
-        recvim:              "Recevoir des IMs",
-        startim:             "Démarrer des IMs",
-        sendim:              "Envoyer des IMs",
-        replaceChat:         "Remplacer le chat",
-        nameOverride:        "Remplacement de nom",
-        useRlvName:          "Utiliser le remplacement de nom ?",
-// Teleport
-        categoryTeleport:    "Téléportation",
-        tp:                  "Téléportation",
-        tplure:              "Recevoir des téléportations",
-        accepttp:            "Accepter de force la téléportation",
-        tprequest:           "Recevoir des demandes de téléportation",
-        regionBlocklist:     "Liste noire de régions",
-        summon:              "Téléporter de force vers moi",
-        goto:                "Force Teleport Me To Them",
-// Info
-        categoryInfo:        "Info",
-        showworldmap:        "Afficher la carte du monde",
-        showminimap:         "Afficher la mini-carte",
-        showloc:             "Afficher l'emplacement",
-        shownames:           "Afficher les noms",
-        showhovertextworld:  "Afficher le texte flottant (Monde)",
-        showhovertexthud:    "Afficher le texte flottant (Hud)",
-// View
-        categoryVision:      "Vision",
-        visionLimit:         "Limiter la vision",
-        visionType:          "Type de vision",
-        visionTypes:{
+        speak: "Parler (Chat)",
+        recvchat: "Entendre (Chat)",
+        sendgesture: "Utiliser les gestes",
+        chatRange: "Portée du chat",
+        recvim: "Recevoir des IMs",
+        startim: "Démarrer des IMs",
+        sendim: "Envoyer des IMs",
+        replaceChat: "Remplacer le chat",
+        nameOverride: "Remplacement de nom",
+        useRlvName: "Utiliser le remplacement de nom ?",
+        categoryTeleport: "Téléportation",
+        tp: "Téléportation",
+        tplure: "Recevoir des téléportations",
+        accepttp: "Accepter de force la téléportation",
+        tprequest: "Recevoir des demandes de téléportation",
+        regionBlocklist: "Liste noire de régions",
+        summon: "Téléporter de force vers moi",
+        goto: "Force Teleport Me To Them",
+        categoryInfo: "Info",
+        showworldmap: "Afficher la carte du monde",
+        showminimap: "Afficher la mini-carte",
+        showloc: "Afficher l'emplacement",
+        shownames: "Afficher les noms",
+        showhovertextworld: "Afficher le texte flottant (Monde)",
+        showhovertexthud: "Afficher le texte flottant (Hud)",
+        categoryVision: "Vision",
+        visionLimit: "Limiter la vision",
+        visionType: "Type de vision",
+        visionTypes: {
             blind: "Aveugle",
-            blur:  "Flou",
+            blur: "Flou"
         },
-        visionMin:           "Min: ",
-        visionMax:           "Max: ",
-        camunlock:           "Caméra déverrouillée",
-        rlv_lookAt:          "Regarder l'avatar / UUID",
-// Movement
-        categoryMovement:    "Mouvement",
-        movement:            "Pousser & Faire pivoter l'utilisateur",
-        jump:                "Autoriser les sauts",
-        walk:                "Autoriser la marche",
-        run:                 "Autoriser la course",
-        fly:                 "Autoriser le vol",
-// Module Locking
-        categoryModuleLock:  "Verrouillage de module",
-        lockProfile:   "Verrouiller Profil",
-        lockOutfit:    "Verrouiller Tenue",
-        lockStripper:  "Verrouiller Stripper",
+        visionMin: "Min: ",
+        visionMax: "Max: ",
+        camunlock: "Caméra déverrouillée",
+        rlv_lookAt: "Regarder l'avatar / UUID",
+        categoryMovement: "Mouvement",
+        movement: "Pousser & Faire pivoter l'utilisateur",
+        jump: "Autoriser les sauts",
+        walk: "Autoriser la marche",
+        run: "Autoriser la course",
+        fly: "Autoriser le vol",
+        categoryModuleLock: "Verrouillage de module",
+        lockProfile: "Verrouiller Profil",
+        lockOutfit: "Verrouiller Tenue",
+        lockStripper: "Verrouiller Stripper",
         lockAccessory: "Verrouiller Accessoires",
-        lockHair:      "Verrouiller Cheveux",
-        lockShoe:      "Verrouiller Chaussures",
-        lockAo:        "Verrouiller AO",
-        lockSkin:      "Verrouiller Peau",
-        lockBom:       "Verrouiller Bom", 
+        lockHair: "Verrouiller Cheveux",
+        lockShoe: "Verrouiller Chaussures",
+        lockAo: "Verrouiller AO",
+        lockSkin: "Verrouiller Peau",
+        lockBom: "Verrouiller Bom"
     },
-    huds:{},
-    landmark:{
+    huds: {
+    },
+    landmark: {
         updateLandmark: "Update Landmark",
         utility_useForRestart: "Use for region restarts?",
         asn: "Scan for nearby ASN gate?",
-        tooltips:{
+        tooltips: {
             utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?",
             asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
         }
     },
-    inventory:{
+    inventory: {
         rezInstaller: "Créer l'installateur",
         rezEmptyBox: "Créer une boîte vide",
         autoSit: "S'asseoir automatiquement une fois créé ?",
@@ -404,28 +394,28 @@ export const LangFr = {
         derez: "Supprimer",
         cleanOnLeave: "Nettoyer au départ",
         useForklift: "Use the Tines system to rez items?",
-        tooltips:{
+        tooltips: {
             rezInstaller: "Crée une boîte d'installation pour ajouter facilement des éléments à votre HUD.",
             rezEmptyBox: "Crée une boîte vide à utiliser avec les préfixes.",
-            useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!",
+            useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!"
         }
     },
-    ao:{
-        power:           "Puissance AO",
-        doTyping:        "Jouer l'animation de frappe ?",
-        doCycle:         "Alterner les animations ?",
-        cycleTime:       "Temps de cycle : ",
-        sitHeight:       "Hauteur assise : ",
-        crouchHeight:    "Hauteur accroupie : ",
+    ao: {
+        power: "Puissance AO",
+        doTyping: "Jouer l'animation de frappe ?",
+        doCycle: "Alterner les animations ?",
+        cycleTime: "Temps de cycle : ",
+        sitHeight: "Hauteur assise : ",
+        crouchHeight: "Hauteur accroupie : ",
         groundSitHeight: "Hauteur assise au sol : ",
-        gravity:         "Gravité : ",
-        flightSpeed:     "Vitesse de vol : ",
-        doSwimming:      "Activer la natation ?",
-        dampen:          "Amortir la vitesse : ",
-        floaty:          "Est flottant ?",
-        speed:           "Vitesse de nage : ",
-        useLM:           "Autoriser LockMeister à contrôler ?",
-        useOC:           "Autoriser OpenCollar à contrôler ?",
+        gravity: "Gravité : ",
+        flightSpeed: "Vitesse de vol : ",
+        doSwimming: "Activer la natation ?",
+        dampen: "Amortir la vitesse : ",
+        floaty: "Est flottant ?",
+        speed: "Vitesse de nage : ",
+        useLM: "Autoriser LockMeister à contrôler ?",
+        useOC: "Autoriser OpenCollar à contrôler ?",
         tooltip: {
             power: "Active ou désactive l'AO.",
             doTyping: "Active ou désactive l'animation de frappe de l'AO.",
@@ -444,97 +434,108 @@ export const LangFr = {
             useOC: "Active ou désactive si l'AO doit écouter les commandes de puissance d'OpenCollar.",
             doGroundSit: "Active ou désactive si l'AO doit jouer des animations en position assise au sol.",
             doSit: "Active ou désactive si l'AO doit jouer des animations en position assise.",
-            hudMode2: "Active l'ouverture du HUD vers le haut.",    
+            hudMode2: "Active l'ouverture du HUD vers le haut.",
             hudMode3: "Active l'ouverture du HUD vers le bas.",
             hudMode0: "Active l'ouverture du HUD vers la gauche.",
-            hudMode1: "Active l'ouverture du HUD vers la droite.",
+            hudMode1: "Active l'ouverture du HUD vers la droite."
         }
     },
-    skin:{},
-    bom:{},
-    autoGroup:{
+    skin: {
+    },
+    bom: {
+    },
+    autoGroup: {
         isDefault: "Est-ce le groupe par défaut ?",
-        tooltip:{
-            isDefault: "Active ou désactive si ce groupe est le groupe par défaut à utiliser si aucun n'est défini pour une région.",    
-            roleName: "Role name (not title) to use for this group.", 
+        tooltip: {
+            isDefault: "Active ou désactive si ce groupe est le groupe par défaut à utiliser si aucun n'est défini pour une région.",
+            roleName: "Role name (not title) to use for this group."
         },
-        placeholder:{
-            roleName: "Role name...",
+        placeholder: {
+            roleName: "Role name..."
         }
     },
-    relay:{
-        hudLock:             "Verrouiller votre HUD ?",
-        resetRestrictions:   "Clear RLV Relay Restrictions",
-        setting_relayTrust:  "Mode de confiance du relais",
-        setting_relayAuto:   "Acceptation automatique du relais",
-        setting_relayPower:  "Puissance du relais",
+    relay: {
+        hudLock: "Verrouiller votre HUD ?",
+        resetRestrictions: "Clear RLV Relay Restrictions",
+        setting_relayTrust: "Mode de confiance du relais",
+        setting_relayAuto: "Acceptation automatique du relais",
+        setting_relayPower: "Puissance du relais",
         setting_allowAttachmentControl: "Allow Attachment Control?",
-        setting_safeword:    "Mot de sécurité :",
+        setting_safeword: "Mot de sécurité :",
         setting_useSafeword: "Autoriser l'utilisation du mot de sécurité ?",
         setting_useJasX: "Autoriser les commandes des jeux JasX ?",
         setting_useProjectClothing: "Autoriser les commandes Project Clothing ?",
         rlvBlocklist: "Liste noire RLV",
         rlvCommands: "Commandes RLV",
-        checkbox:{
+        checkbox: {
             pcUseEffect: "Throw clothing with PC clumsiness?",
-            jasXAutoDress: "Auto Dress after Bare Game?",
+            jasXAutoDress: "Auto Dress after Bare Game?"
         },
-        tooltip:{
+        tooltip: {
             jasXAutoDress: "Toggles whether the HUD will automatically dress after a Bare Game.",
             pcUseEffect: "Toggles whether the Outfit will throw clothing when the PC clumsiness effect happens.",
-        },
+            hudLock: "When enabled the HUD will not allow itself to be detached.",
+            safeword: "When typed in chat this will clear all restrictions set by the RLV Relay, this is useful if you get stuck or need to quickly remove restrictions.</br>Type one of these below.</br>((!~SAFEWORD~!))</br>(( !~SAFEWORD~! ))</br>/!~CHANNEL~! @safeword !~SAFEWORD~!",
+            relayTrust: "When enabled the relay will automatically accept any requests from objects you own, owned by the parcel owner, or the object is set to the same group as the parcel.",
+            relayAuto: "When enabled the relay will automatically accept all requests.",
+            relayPower: "Turns the relay on or off.",
+            allowAttachmentControl: "When enabled the relay will allow the `@remoutfit`, `@detach`, `@remattach` commands to be used, this can cause issues with some older RLV scripts that were made before mesh bodies, heats, etc...",
+            allowSafeword: "When enabled allows you to use the safeword set above to escape / release all RLV restrictions from the relay.",
+            useJasX: "When enabled the relay will translate JasX game command to HUD commands, allowing games to affect your outfits.",
+            useProjectClothing: "When enabled the relay will translate Project Clothing commands to HUD commands, allowing outfits to be changed by Project Clothing object, traps, etc..."
+        }
     },
-    permissions:{
-        permissions:{
+    permissions: {
+        permissions: {
             header: "Permissions",
             isSelfOwner: "Est propriétaire de soi-même ?",
-            isPublic:    "Est public ?",
-            sameRegion:  "Contrôle de même région",
+            isPublic: "Est public ?",
+            sameRegion: "Contrôle de même région",
             setAccessLevel: "Définir le niveau d'accès pour !~MODULE~!",
             setSelfAccessLevel: "Définir le niveau d'accès personnel pour !~MODULE~!",
             setPublicAccessLevel: "Définir le niveau d'accès public pour !~MODULE~!",
-            tooltips:{
+            tooltips: {
                 isSelfOwner: "Toggles the owner status of your own HUD.\nWhen disabled you will not be able to control your own HUD without being added to your own Allowlist.",
-                isPublic:    "This is the global toggle for all modules that have isPublic checked.\nWhen a module is set to public anyone not on your Blocklist can access it.",
-                sameRegion:  "Active ou désactive si d'autres utilisateurs doivent être dans la même région que vous pour contrôler votre HUD.",
-                location: "Allows users to see and know where you are, and teleport to you.",
+                isPublic: "This is the global toggle for all modules that have isPublic checked.\nWhen a module is set to public anyone not on your Blocklist can access it.",
+                sameRegion: "Active ou désactive si d'autres utilisateurs doivent être dans la même région que vous pour contrôler votre HUD.",
+                location: "Allows users to see and know where you are, and teleport to you."
             }
         },
-        allowlist:{
+        allowlist: {
             header: "Liste d'autorisation",
             currentLeashHolder: "Détenteur actuel de la laisse RLV",
-            friends:            "Amis SL",
-            placeholders:{
-                addAllowlistUUID: "UUID à ajouter à votre liste d'autorisation...",
+            friends: "Amis SL",
+            placeholders: {
+                addAllowlistUUID: "UUID à ajouter à votre liste d'autorisation..."
             },
-            tooltips:{
+            tooltips: {
                 about: "The Allowlist is a list of users who are allowed to interact with parts of your HUD.\nEach module and user have their own access level and if the users level is the same or higher than the modules level they can use it.",
                 currentLeashHolder: "Le détenteur actuel de la laisse RLV de votre avatar.",
-                friends:            "Le niveau d'accès pour votre liste d'amis SL.",
+                friends: "Le niveau d'accès pour votre liste d'amis SL."
             }
         },
-        blocklist:{
+        blocklist: {
             header: "Liste de blocage",
             blocklist: "Liste de blocage",
-            placeholders:{
-                addBlocklistUUID: "UUID à ajouter à votre liste de blocage...",
+            placeholders: {
+                addBlocklistUUID: "UUID à ajouter à votre liste de blocage..."
             }
         },
-        ownerlist:{
+        ownerlist: {
             header: "Liste des propriétaires",
             ownerlist: "Liste des propriétaires",
-            placeholders:{
-                addOwnerUUID: "UUID à ajouter à votre liste des propriétaires...",
+            placeholders: {
+                addOwnerUUID: "UUID à ajouter à votre liste des propriétaires..."
             },
-            tooltips:{
-                about: "The Ownerlist is a list of users who are allowed nearly full control over your HUD\nThings in the settings menu are not allowed to be changed by the anyone on your ownerlist.",
+            tooltips: {
+                about: "The Ownerlist is a list of users who are allowed nearly full control over your HUD\nThings in the settings menu are not allowed to be changed by the anyone on your ownerlist."
             }
         },
-        apiList:{
-            header: "Liste API",
+        apiList: {
+            header: "Liste API"
         }
     },
-    settings:{
+    settings: {
         uiVersion: "Version UI - ",
         hudVersion: "Version HUD - ",
         loginToken: "Jeton de connexion",
@@ -542,240 +543,229 @@ export const LangFr = {
         serverInventory: "Inventaire serveur",
         saveHudPosition: "Sauvegarder la position du HUD",
         listType: "Type de liste",
-        listTypes:{
+        listTypes: {
             list: "Liste",
             icon: "Icône",
             iconSmall: "Petite icône",
             card: "Carte",
-            cardList: "Liste de cartes",
+            cardList: "Liste de cartes"
         },
         uiScale: "Échelle de l'UI",
-        uiScales:{
+        uiScales: {
             small: "Petit",
             default: "Par défaut",
-            large: "Grand",
+            large: "Grand"
         },
         uiVolume: "UI Volume",
         apiKey: "Clé API",
         utility_regionRestart_mode: "Auto teleport on region restart?",
         utility_regionRestart_time: "Teleport delay:",
-        categories:{
+        categories: {
             account: "Compte",
             general: "Général",
-            ui:      "UI",
-            api:     "API",
+            ui: "UI",
+            api: "API",
             profile: "Profil",
-            outfit:  "Tenue",
-            hair:    "Cheveux",
-            shoe:    "Chaussures",
+            outfit: "Tenue",
+            hair: "Cheveux",
+            shoe: "Chaussures",
             accessory: "Accessoire",
             autoGroup: "Groupe Auto",
             tempHuds: "HUDs temporaires",
-            landmark: "Landmark",
+            landmark: "Landmark"
         },
-        checkbox:{
-            useGrid:                "Utiliser la disposition en grille ?",
-            sortListsByName:        "Trier la liste par nom ?",
-            hudSide:                "Changer le côté du HUD",
-            useTargetColor:         "Utiliser les couleurs du HUD cible",
-            categoryState:          "État de catégorie par défaut",
-            api_message:            "Envoyer des messages API ?",
-            api_linkMessage:        "Envoyer des messages API avec llMessageLinked ?",
-            autoWearOutfit:         "Porter automatiquement la Tenue lors du chargement ?",
-            profile_replaceAll:     "Tout remplacer au chargement ?",
-            autoWearShoe:           "Porter automatiquement les Chaussures ?",
-            autoWearHair:           "Porter automatiquement les Cheveux ?",
-            allowHairBald:          "Autoriser l'état chauve pour les Cheveux ?",
-            autoWearAccessories:    "Porter/détacher automatiquement les Accessoires ?",
-            autoPG:                 "Prevent Nude in PG/General Sims?",
-            shoeReplaceFeet:        "Les Chaussures remplacent les Pieds extérieurs ?",
-            playOutfitAnimations:   "Activation globale des animations de Tenue.",
-            playOutfitSounds:       "Activation globale des sons de Tenue.",
-            allowEffects:           "Autoriser les Effets ? Voler, Déchirer, etc...",
-            sameRegion:             "Contrôle de même région ?",
-            showIds:                "Afficher les IDs dans les listes ?",
-            defaultNavState:        "État par défaut de la Nav sur Accueil.",
+        checkbox: {
+            useGrid: "Utiliser la disposition en grille ?",
+            sortListsByName: "Trier la liste par nom ?",
+            hudSide: "Changer le côté du HUD",
+            useTargetColor: "Utiliser les couleurs du HUD cible",
+            categoryState: "État de catégorie par défaut",
+            api_message: "Envoyer des messages API ?",
+            api_linkMessage: "Envoyer des messages API avec llMessageLinked ?",
+            autoWearOutfit: "Porter automatiquement la Tenue lors du chargement ?",
+            profile_replaceAll: "Tout remplacer au chargement ?",
+            autoWearShoe: "Porter automatiquement les Chaussures ?",
+            autoWearHair: "Porter automatiquement les Cheveux ?",
+            allowHairBald: "Autoriser l'état chauve pour les Cheveux ?",
+            autoWearAccessories: "Porter/détacher automatiquement les Accessoires ?",
+            autoPG: "Prevent Nude in PG/General Sims?",
+            shoeReplaceFeet: "Les Chaussures remplacent les Pieds extérieurs ?",
+            playOutfitAnimations: "Activation globale des animations de Tenue.",
+            playOutfitSounds: "Activation globale des sons de Tenue.",
+            allowEffects: "Autoriser les Effets ? Voler, Déchirer, etc...",
+            sameRegion: "Contrôle de même région ?",
+            showIds: "Afficher les IDs dans les listes ?",
+            defaultNavState: "État par défaut de la Nav sur Accueil.",
             defaultActiveCardState: "État par défaut de la carte Active.",
-            defaultDollState:       "État par défaut de la Poupée interactive.",
-            showAfk:                "Afficher l'overlay AFK ?",
-            autoGroup_power:        "Changer automatiquement de groupe lors de la téléportation ?",
-            linkOnCreate:           "Lier automatiquement les nouvelles entrées ?",
-            autoGroup_useNone:      "Par défaut, aucun groupe actif.",
-            autoGroup_autoHuds:     "Porter automatiquement le dossier Huds.",
-            hud_verbose:            "Messages HUD détaillés ?",
-            log_permissions:        "Journalisation détaillée des erreurs de permission.",
-            protectedFolderLock:    "Verrouiller le dossier protégé.",
-            defaultTempHudState:    "État par défaut des HUDs temporaires.",
-            autoCreateFolders:      "Créer automatiquement les dossiers ?",
-            hud_sideDock:           "HUDs dock mode.",
-            landmark_asnFirst:      "Try ASN scan before teleport?",
+            defaultDollState: "État par défaut de la Poupée interactive.",
+            showAfk: "Afficher l'overlay AFK ?",
+            autoGroup_power: "Changer automatiquement de groupe lors de la téléportation ?",
+            linkOnCreate: "Lier automatiquement les nouvelles entrées ?",
+            autoGroup_useNone: "Par défaut, aucun groupe actif.",
+            autoGroup_autoHuds: "Porter automatiquement le dossier Huds.",
+            hud_verbose: "Messages HUD détaillés ?",
+            log_permissions: "Journalisation détaillée des erreurs de permission.",
+            protectedFolderLock: "Verrouiller le dossier protégé.",
+            defaultTempHudState: "État par défaut des HUDs temporaires.",
+            autoCreateFolders: "Créer automatiquement les dossiers ?",
+            hud_sideDock: "HUDs dock mode.",
+            landmark_asnFirst: "Try ASN scan before teleport?",
             general_showCategoryAttach: "Show category attach / detach?",
-            outfit_keepSame:        "Keep same Outfit?",
+            outfit_keepSame: "Keep same Outfit?"
         },
-        textbox:{
+        textbox: {
             prefixPlaceholder: "Préfixe...",
             passwordPlaceholder: "Mot de passe...",
-            userChannelPlaceholder: "Canal...",
+            userChannelPlaceholder: "Canal..."
         },
-        popup:{
-            setLang:   "Définir la langue",
+        popup: {
+            setLang: "Définir la langue",
             hudColors: "Modifier les couleurs du HUD",
             apiHeader: "Réinitialisation de la clé API",
-            apiText:   "Êtes-vous sûr de vouloir réinitialiser votre clé API ?\nCela cassera tout script qui l'utilise !",
+            apiText: "Êtes-vous sûr de vouloir réinitialiser votre clé API ?\nCela cassera tout script qui l'utilise !",
             moduleList: "Modifier la liste des modules",
             about: "About",
-            lang: "Language Selection",
+            lang: "Language Selection"
         },
-        tooltip:{
-            // General
-            expRlvaFix:             "Active ou désactive si le HUD ajoutera un délai entre les commandes RLV.",
-            editModuleOrder:        "Réorganiser et activer/désactiver les Modules sur la barre de navigation.",
-            serverInventory:        "Livrables optionnels.",
-            hudColors:              "La façon de rendre votre HUD joli.",
-            sortListsByName:        "Trier la liste / mode grille par Nom ou ID",
-            useTargetColor:         "Active ou désactive si votre HUD utilisera les couleurs de HUD de l'utilisateur que vous contrôlez.",
-            hudSide:                "Définit si le HUD s'ouvrira à gauche ou à droite.",
-            categoryState:          "Définit si les catégories sont ouvertes ou fermées par défaut.",
-            saveHudPosition:        "Enregistre la position sur votre écran où se trouve actuellement le HUD, utile si vous avez besoin de remplacer le HUD lui-même.",
-            listType:               "Change le style des listes dans les catégories.",
-            uiSize:                 "Change l'échelle de toute l'interface du HUD.",
-            defaultNavState:        "Définit si la barre de navigation est ouverte ou fermée par défaut.",
+        tooltip: {
+            expRlvaFix: "Active ou désactive si le HUD ajoutera un délai entre les commandes RLV.",
+            editModuleOrder: "Réorganiser et activer/désactiver les Modules sur la barre de navigation.",
+            serverInventory: "Livrables optionnels.",
+            hudColors: "La façon de rendre votre HUD joli.",
+            sortListsByName: "Trier la liste / mode grille par Nom ou ID",
+            useTargetColor: "Active ou désactive si votre HUD utilisera les couleurs de HUD de l'utilisateur que vous contrôlez.",
+            hudSide: "Définit si le HUD s'ouvrira à gauche ou à droite.",
+            categoryState: "Définit si les catégories sont ouvertes ou fermées par défaut.",
+            saveHudPosition: "Enregistre la position sur votre écran où se trouve actuellement le HUD, utile si vous avez besoin de remplacer le HUD lui-même.",
+            listType: "Change le style des listes dans les catégories.",
+            uiSize: "Change l'échelle de toute l'interface du HUD.",
+            defaultNavState: "Définit si la barre de navigation est ouverte ou fermée par défaut.",
             defaultActiveCardState: "Définit si la carte active d'un Module est affichée ou cachée par défaut.",
-            defaultDollState:       "Définit si la poupée d'interaction est affichée ou cachée par défaut.",
-            showAfk:                "Définit si l'écran afk s'affichera après quelques secondes.",
-            linkOnCreate:           "Définit si les nouvelles entrées créées seront automatiquement liées à votre Profil actif.",
-            hud_verbose:            "Définit si le HUD affichera des informations pendant le démarrage.",
-            protectedFolderLock:    "Définit si le dossier Protégé sera verrouillé en permanence.",
-            defaultTempHudState:    "Définit si les contrôles des HUD temporaires sont cachés par défaut.",
-            hud_sideDock:           "Controls if HUDs will dock below the root prim or inplace were they were moved to.",
-            // API
-            apiKey:                 "Votre clé API pour les produits que vous créez.<br/><br/>NE LA PARTAGEZ PAS!<br/><br/>Si vous regénérez cette clé, tout contenu précédent qui utilisait l'ancienne clé ne fonctionnera plus.",
-            api_message:            "Définit si le HUD doit envoyer des messages API sur le canal: 698008",
-            api_linkMessage:        "Définit si le HUD doit envoyer des messages API en utilisant llMessageLinked.",
-            showIds:                "Définit si le HUD doit afficher l'ID des entrées.",
-            log_permissions:        "Définit si le HUD indiquera dans le chat si une vérification de permission a échoué pour un autre utilisateur.",
-            // Profile
-            autoWearOutfit:         "Définit si le HUD portera automatiquement la dernière Tenue portée lors du chargement d'un Profil.",
-            profile_replaceAll:     "Définit si le HUD détachera tout de votre avatar avant d'attacher un Profil.<br/>Cela inclut les éléments non présents dans le dossier #RLV.",
-            // Outfit
-            autoPG:                 "Toggles whether the HUD will automatically set your Outfit to outerwear or change to a non adult Outfit when teleporting to a PG/General sim.</br>Also will prevent you from going to the Nude state in a PG/General sim.",
-            shoeReplaceFeet:        "Définit si le HUD attachera ou détachera automatiquement vos Chaussures en fonction de l'état des pieds de votre Tenue.",
-            playOutfitAnimations:   "Définit si le HUD jouera des animations lorsque vous changez vos Tenues ou leur état.",
-            playOutfitSounds:       "Définit si le HUD jouera des sons lorsque vous changez votre Tenue ou son état.",
-            allowEffects:           "Définit si votre Tenue peut être volée ou déchirée.",
-            outfit_keepSame:        "Toggles whether the HUD will try and keep the same Outfit your wearing when you change Profiles if the new Profile has the same Outfit linked.",
-            // Hair
-            autoWearHair:           "Définit si le HUD portera automatiquement les derniers Cheveux portés lors du chargement d'un Profil.",
-            allowHairBald:          "Définit si vos Cheveux peuvent être complètement détachés.",
-            // Shoe
-            autoWearShoe:           "Définit si le HUD portera automatiquement les dernières Chaussures portées lors du chargement d'une Tenue.",
-            // Accessory
-            autoWearAccessories:    "Définit si le HUD portera et détachera automatiquement les Accessoires lors du chargement d'un Profil.",
-            // Auto Group
-            autoGroup_power:        "Active ou désactive la fonction Auto Groupe.",
-            autoGroup_useNone:      "Configure Auto Groupe pour définir votre groupe sur 'aucun' si aucun groupe n'est défini.",
-            autoGroup_autoHuds:     "Définit si le HUD attachera automatiquement le dossier HUD Temporaires lors du changement de groupe.",
-            // Temp HUDs
-            autoCreateFolders:      "Définit si le HUD créera automatiquement des dossiers pour les nouvelles entrées comme Profil, Tenue, etc....",
+            defaultDollState: "Définit si la poupée d'interaction est affichée ou cachée par défaut.",
+            showAfk: "Définit si l'écran afk s'affichera après quelques secondes.",
+            linkOnCreate: "Définit si les nouvelles entrées créées seront automatiquement liées à votre Profil actif.",
+            hud_verbose: "Définit si le HUD affichera des informations pendant le démarrage.",
+            protectedFolderLock: "Définit si le dossier Protégé sera verrouillé en permanence.",
+            defaultTempHudState: "Définit si les contrôles des HUD temporaires sont cachés par défaut.",
+            hud_sideDock: "Controls if HUDs will dock below the root prim or inplace were they were moved to.",
+            apiKey: "Votre clé API pour les produits que vous créez.<br/><br/>NE LA PARTAGEZ PAS!<br/><br/>Si vous regénérez cette clé, tout contenu précédent qui utilisait l'ancienne clé ne fonctionnera plus.",
+            api_message: "Définit si le HUD doit envoyer des messages API sur le canal: 698008",
+            api_linkMessage: "Définit si le HUD doit envoyer des messages API en utilisant llMessageLinked.",
+            showIds: "Définit si le HUD doit afficher l'ID des entrées.",
+            log_permissions: "Définit si le HUD indiquera dans le chat si une vérification de permission a échoué pour un autre utilisateur.",
+            autoWearOutfit: "Définit si le HUD portera automatiquement la dernière Tenue portée lors du chargement d'un Profil.",
+            profile_replaceAll: "Définit si le HUD détachera tout de votre avatar avant d'attacher un Profil.<br/>Cela inclut les éléments non présents dans le dossier #RLV.",
+            autoPG: "Toggles whether the HUD will automatically set your Outfit to outerwear or change to a non adult Outfit when teleporting to a PG/General sim.</br>Also will prevent you from going to the Nude state in a PG/General sim.",
+            shoeReplaceFeet: "Définit si le HUD attachera ou détachera automatiquement vos Chaussures en fonction de l'état des pieds de votre Tenue.",
+            playOutfitAnimations: "Définit si le HUD jouera des animations lorsque vous changez vos Tenues ou leur état.",
+            playOutfitSounds: "Définit si le HUD jouera des sons lorsque vous changez votre Tenue ou son état.",
+            allowEffects: "Définit si votre Tenue peut être volée ou déchirée.",
+            outfit_keepSame: "Toggles whether the HUD will try and keep the same Outfit your wearing when you change Profiles if the new Profile has the same Outfit linked.",
+            autoWearHair: "Définit si le HUD portera automatiquement les derniers Cheveux portés lors du chargement d'un Profil.",
+            allowHairBald: "Définit si vos Cheveux peuvent être complètement détachés.",
+            autoWearShoe: "Définit si le HUD portera automatiquement les dernières Chaussures portées lors du chargement d'une Tenue.",
+            autoWearAccessories: "Définit si le HUD portera et détachera automatiquement les Accessoires lors du chargement d'un Profil.",
+            autoGroup_power: "Active ou désactive la fonction Auto Groupe.",
+            autoGroup_useNone: "Configure Auto Groupe pour définir votre groupe sur 'aucun' si aucun groupe n'est défini.",
+            autoGroup_autoHuds: "Définit si le HUD attachera automatiquement le dossier HUD Temporaires lors du changement de groupe.",
+            autoCreateFolders: "Définit si le HUD créera automatiquement des dossiers pour les nouvelles entrées comme Profil, Tenue, etc....",
             utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
             utility_regionRestart_time: "The time in seconds remaining in the restart countdown before you will be teleported.",
-            landmark_asnFirst:      "If enabled when using a Landmark to teleport the HUD will first scan for a nearby ASN gate and use that to teleport if found.",
-            password:               "The password is used to login to the HUD outside of SL.",
-            prefix:                 "Current prefix: ",
-            userChannel:            "The channel is used to control the HUD via chat commands from other users or your self.<br/><br/>NOTE: if you change this, any old commands you used will no longer work and you will need to use the new channel in them.<br/><br/>Current channel: ",
-            // UI
-            general_showCategoryAttach: "Toggles whether to show the attach / detach buttons in a category.",
-
+            landmark_asnFirst: "If enabled when using a Landmark to teleport the HUD will first scan for a nearby ASN gate and use that to teleport if found.",
+            password: "The password is used to login to the HUD outside of SL.",
+            prefix: "Current prefix: ",
+            userChannel: "The channel is used to control the HUD via chat commands from other users or your self.<br/><br/>NOTE: if you change this, any old commands you used will no longer work and you will need to use the new channel in them.<br/><br/>Current channel: ",
+            general_showCategoryAttach: "Toggles whether to show the attach / detach buttons in a category."
         },
-        color:{
+        color: {
             colorHeader: "Paramètres de Couleur",
-            categoryPreset:{
+            categoryPreset: {
                 header: "Préréglage",
-                presetJsson: "Collez votre configuration préréglée ici....",
+                presetJsson: "Collez votre configuration préréglée ici...."
             },
             preset: "",
-            categoryExample:{
+            categoryExample: {
                 header: "Exemple",
                 button: "Bouton",
                 buttonActive: "Bouton Actif",
                 static: "Statique",
                 textbox: "Zone de texte",
                 exmpleHeader: "En-tête",
-                categoryHeader: "En-tête de Catégorie",
+                categoryHeader: "En-tête de Catégorie"
             },
-            categoryConfig:{
+            categoryConfig: {
                 header: "Configuration",
-                categoryMisc:{
+                categoryMisc: {
                     header: "Divers",
                     border: "Bordure",
                     hudBackground: "Arrière-plan du HUD",
                     hudAlpha: "Transparence du HUD: ",
-                    hudBackgroundImage: "URL de l'image d'arrière-plan du HUD",
-                },
+                    hudBackgroundImage: "URL de l'image d'arrière-plan du HUD"
+                }
             },
-            cagegoryButton:{
+            cagegoryButton: {
                 header: "Bouton",
                 button: "Bouton",
                 buttonHover: "Bouton au survol",
                 buttonText: "Texte du bouton",
                 buttonTextHover: "Texte du bouton au survol",
                 button3D: "Bouton 3D",
-                button3DHover: "Bouton 3D au survol",
+                button3DHover: "Bouton 3D au survol"
             },
-            categoryButtonActive:{
+            categoryButtonActive: {
                 header: "Bouton Actif",
                 button: "Bouton actif",
                 buttonHover: "Bouton actif au survol",
                 buttonText: "Texte du bouton actif",
                 buttonTextHover: "Texte du bouton actif au survol",
                 button3D: "Bouton actif 3D",
-                button3DHover: "Bouton actif 3D au survol",
+                button3DHover: "Bouton actif 3D au survol"
             },
-            categoryStatic:{
+            categoryStatic: {
                 header: "Statique",
                 static: "Statique",
-                staticText: "Texte statique",
+                staticText: "Texte statique"
             },
-            categoryHeader:{
+            categoryHeader: {
                 header: "Header",
-                headerText: "Header Text",
+                headerText: "Header Text"
             },
-            categoryCategoryHeader:{
+            categoryCategoryHeader: {
                 header: "Category Header",
-                headerText: "Category Header Text",
+                headerText: "Category Header Text"
             },
-            categoryTextbox:{
+            categoryTextbox: {
                 header: "Zone de texte",
                 textbox: "Zone de texte",
                 textboxHover: "Zone de texte au survol",
                 textboxText: "Texte de la zone de texte",
                 textboxTextHover: "Texte de la zone de texte au survol",
-                textboxPlaceholder: "Texte indicatif de la zone de texte",
+                textboxPlaceholder: "Texte indicatif de la zone de texte"
             },
-            categoryIcons:{
+            categoryIcons: {
                 header: "Icônes",
                 iconPrimary: "Icône primaire",
-                iconSecondary: "Icône secondaire",
+                iconSecondary: "Icône secondaire"
             },
-            categoryDoll:{
+            categoryDoll: {
                 header: "Poupée",
                 outerwear: "Vêtements extérieurs",
                 underwear: "Sous-vêtements",
-                nude:      "Nu",
-                disabled:  "Disabled",
+                nude: "Nu",
+                disabled: "Disabled"
             },
-            categoryScrollbar:{ 
+            categoryScrollbar: {
                 header: "Barre de défilement",
                 track: "Piste de la barre de défilement",
                 thumb: "Curseur de la barre de défilement",
-                border: "Bordure de la barre de défilement",
+                border: "Bordure de la barre de défilement"
             }
         }
     },
-    pantyRaid:{
+    pantyRaid: {
         noTrophySelected: "Sélectionnez un Trophée ci-dessous."
     },
-    userSelect:{
+    userSelect: {
         selectSelf: "Sélectionnez votre propre HUD.",
         useSupportMode: "Utiliser le mode Dev / Support?",
         selectUUID: "Sélectionner un UUID.",
@@ -785,20 +775,20 @@ export const LangFr = {
         favoriteUsers: "Utilisateurs favoris",
         regionList: "Liste des régions",
         hudUsers: "Utilisateurs du HUD",
-        tooltip:{
+        tooltip: {
             selectSelf: "Sélectionne votre propre HUD.",
             useSupportMode: "Lorsque activé, les vérifications de permission sur votre compte seront ignorées.",
             loadUserUUID: "Charge l'utilisateur sélectionné pour contrôler son HUD.",
             addUserUUID: "Ajoute l'UUID que vous avez saisi à votre liste de favoris.",
-            removeUserUUID: "Retire l'UUID que vous avez saisi de votre liste de favoris.",
+            removeUserUUID: "Retire l'UUID que vous avez saisi de votre liste de favoris."
         }
     },
-    notification:{
+    notification: {
         notifications: "Notifications",
         changelog: "Journal des modifications",
-        unread: "(Non lu)",
+        unread: "(Non lu)"
     },
-    camera:{
+    camera: {
         followUser: "Suivre l'utilisateur",
         releaseCamera: "Libérer la caméra",
         behindnessAngle: "Angle de recul",
@@ -813,30 +803,30 @@ export const LangFr = {
         position: "Position",
         positionLag: "Retard de position",
         positionLocked: "Position verrouillée",
-        positionThreshold: "Seuil de position",
+        positionThreshold: "Seuil de position"
     },
-    calendar:{
-        tooltip:{
-            addUUID: "Add a user via UUID to track their SL birthday.",
+    calendar: {
+        tooltip: {
+            addUUID: "Add a user via UUID to track their SL birthday."
         }
     },
-    login:{
-        error:{
+    login: {
+        error: {
             userPass: "Please check your username and password.",
-            token: "Invalid login token, please reattach the HUD.",
+            token: "Invalid login token, please reattach the HUD."
         }
     },
-    setupPage:{
+    setupPage: {
         infoText: "Welcome, and thank you for picking up Full Array!<br/>This setup process is intended to help you get the some basic settings configured to your liking. Please take a moment to review the following options, and when you are ready, click \"Finish Setup\" at the end. If you have any questions about what an option does, check if it has a <info icon> to hover over for more information.<br/><br/>Remember that none of these are permanent choices, you can change any of these settings later in the settings menu.",
         themeText: "Apply a predefined HUD theme.\nAll themes can be adjusted later in the settings menu.",
-        categories:{
+        categories: {
             theme: "Theme Selection",
-            account: "Account Settings & Permissions",
+            account: "Account Settings & Permissions"
         },
         buttonSaveTheme: "Save Theme",
-        buttonFinish: "Finish Setup",
+        buttonFinish: "Finish Setup"
     },
-    title:{
-        save: "Save Title changes?",
+    title: {
+        save: "Save Title changes?"
     }
 }

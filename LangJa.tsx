@@ -1,31 +1,31 @@
 export const LangJa = {
-    fallbackError:{
+    fallbackError: {
         line_1: "⚠️問題が発生しました⚠️",
         line_2: "このエラーが表示された場合、ＨＵＤに重大なエラーが発生しており、５秒後に再読み込みされます。",
         line_3: "ＨＵＤを外部からロードできる場合、問題はビューアが古いことに起因している可能性があります。",
-        line_4: "ＨＵＤを外部からロードできない場合は、Discordでサポートチケットを提出してください。",
+        line_4: "ＨＵＤを外部からロードできない場合は、Discordでサポートチケットを提出してください。"
     },
-    modules:{
-        profile:     "プロファイル",
-        outfit:      "アウトフィット",
+    modules: {
+        profile: "プロファイル",
+        outfit: "アウトフィット",
         accessories: "アクセサリ",
-        hair:        "髪型",
-        shoe:        "靴",
-        rlv:         "ＲＬＶ",
-        hudlets:     "ＨＵＤレット",
-        landmark:    "ランドマーク",
-        inventory:   "インベントリ",
-        ao:          "ＡＯ",
-        pantyRaid:   "パンティレイド",
-        skin:        "スキン",
-        bom:         "ＢＯＭ",
-        autoGroup:   "自動グループ",
-        relay:       "リレー",
-        telepathy:   "テレパシー",
-        camera:      "カメラ",
-        asn:         "ＡＳＮ",
+        hair: "髪型",
+        shoe: "靴",
+        rlv: "ＲＬＶ",
+        hudlets: "ＨＵＤレット",
+        landmark: "ランドマーク",
+        inventory: "インベントリ",
+        ao: "ＡＯ",
+        pantyRaid: "パンティレイド",
+        skin: "スキン",
+        bom: "ＢＯＭ",
+        autoGroup: "自動グループ",
+        relay: "リレー",
+        telepathy: "テレパシー",
+        camera: "カメラ",
+        asn: "ＡＳＮ"
     },
-    misc:{
+    misc: {
         settings: "設定",
         customAccessLevel: "カスタムアクセスレベル",
         delete: "この!~MODULE~!を削除してもよろしいですか？",
@@ -40,356 +40,346 @@ export const LangJa = {
         linkMode: "リンクモード",
         fileType: "Invalid file type. Only JPG, PNG, GIF, and WEBP images are allowed.",
         fileSize: "File size exceeds 5MB limit. File size: ",
-        tooltip:{
+        tooltip: {
             customAccessLevel: "権限メニューで設定されたアクセスレベルを上書きするアクセスレベルを設定します。",
-            name:      "この!~MODULE~!の名前です。",
-            img:       "この!~MODULE~!の画像のＵＵＩＤかＵＲＬを入力してください。",
+            name: "この!~MODULE~!の名前です。",
+            img: "この!~MODULE~!の画像のＵＵＩＤかＵＲＬを入力してください。",
             imgSelect: "このプロファイルで使用する画像ファイルをディスクから選択します。<br>png、jpg、webp など…",
-            isAdult:   "プロファイルがAdult向けである場合、テレポート機能のＰＧで使用されます。",
-            delete:    "この!~MODULE~!とそのすべてのリンクを削除します。元に戻すことはできません。",
-            linkMode:  "リンクモードは、現在アクティブなプロファイルにリンク／割り当てる方法です。",
-            listMode:  "リストモードでは、現在アクティブな／装着している!~MODULE~!を変更できます。",
-            access:    "Access to the !~MODULE~! module is restricted by permissions."
+            isAdult: "プロファイルがAdult向けである場合、テレポート機能のＰＧで使用されます。",
+            delete: "この!~MODULE~!とそのすべてのリンクを削除します。元に戻すことはできません。",
+            linkMode: "リンクモードは、現在アクティブなプロファイルにリンク／割り当てる方法です。",
+            listMode: "リストモードでは、現在アクティブな／装着している!~MODULE~!を変更できます。",
+            access: "Access to the !~MODULE~! module is restricted by permissions."
         },
-        states:{
+        states: {
             outerwear: "アウターウェア",
             underwear: "アンダーウェア",
-            nude:      "ヌード",
+            nude: "ヌード"
         },
-        slots:{
-            head:      "頭",
-            torso:     "胴体",
-            arms:      "腕",
-            hands:     "手",
-            legs:      "脚",
-            feet:      "足", 
-            waist:     "腰",
-            crotch:    "股間",
-            tail:      "尻尾",
-            wings:     "翼",
-            ears:      "耳",
+        slots: {
+            head: "頭",
+            torso: "胴体",
+            arms: "腕",
+            hands: "手",
+            legs: "脚",
+            feet: "足",
+            waist: "腰",
+            crotch: "股間",
+            tail: "尻尾",
+            wings: "翼",
+            ears: "耳"
         },
-        effects:{
-            rip:       "剥ぎ取る",
-            steal:     "盗む",
-            throw:     "投げる",
+        effects: {
+            rip: "剥ぎ取る",
+            steal: "盗む",
+            throw: "投げる"
         }
     },
-    cardActive:{
-        id:     "ＩＤ",
+    cardActive: {
+        id: "ＩＤ",
         reload: "この!~MODULE~!をリロードする",
         detach: "この!~MODULE~!を取り外す",
-        edit:   "この!~MODULE~!を編集する",
+        edit: "この!~MODULE~!を編集する",
         create: "新しい!~MODULE~!を作成する",
-        tooltip:{
+        tooltip: {
             reload: "!~MODULE~!をリロードする。<br>これにより、!~MODULE~!フォルダーが取り外され、再装着されます。",
             detach: "!~MODULE~!フォルダを取り外す。<br>他のモジュールも非アクティブに設定される可能性があります。",
-            edit:   "この!~MODULE~!の設定を編集します。",
+            edit: "この!~MODULE~!の設定を編集します。"
         }
     },
-    popups:{
-        create:{
-            errorName:       "名前を空白にはできません！",
-            newPrefix:       "新しいプレフィックス",
-            prefix:          "プレフィックス…",
-            name:            "名前…",
-            inventoryName:   "Inventory Name...",
-            displayName:     "Display Name...",
-            image:           "画像…",
-            create:          "作成",
-            slurl:           "Slurl…",
+    popups: {
+        create: {
+            errorName: "名前を空白にはできません！",
+            newPrefix: "新しいプレフィックス",
+            prefix: "プレフィックス…",
+            name: "名前…",
+            inventoryName: "Inventory Name...",
+            displayName: "Display Name...",
+            image: "画像…",
+            create: "作成",
+            slurl: "Slurl…",
             folderTemplate: "フォルダのテンプレート",
-            success:         "作成に成功しました！",
+            success: "作成に成功しました！"
         }
     },
-    tours:{
-        home:{
+    tours: {
+        home: {
             welcome: {
                 title: "FullArray HUD Guide",
-                content: "Welcome to the FullArray HUD! This guide will walk you through the basics of using the HUD and its features.\n\nIf you ever need to access the guide again you can click the ? button at the top of any page.\n\nMost things will have more information if you hover over the ( i ) icon next to it.",
+                content: "Welcome to the FullArray HUD! This guide will walk you through the basics of using the HUD and its features.\n\nIf you ever need to access the guide again you can click the ? button at the top of any page.\n\nMost things will have more information if you hover over the ( i ) icon next to it."
             },
             moduleList: {
                 title: "Module List",
-                content: "This is the list of modules you own, clicking one of them will take you to that module's page were you can manage it.",
+                content: "This is the list of modules you own, clicking one of them will take you to that module's page were you can manage it."
             },
             userSelect: {
                 title: "User Select",
-                content: "This is where you can select the user you want to control.\n\nYou can also add users as favorites for quick access.",
+                content: "This is where you can select the user you want to control.\n\nYou can also add users as favorites for quick access."
             },
             permissions: {
                 title: "Permissions",
-                content: "This is where you can manage permissions for users who can access your HUD, add users as a Owner of your HUD, and block user from accessing your HUD.\n\nThis is also where you can configure the RLVa Relay.",
+                content: "This is where you can manage permissions for users who can access your HUD, add users as a Owner of your HUD, and block user from accessing your HUD.\n\nThis is also where you can configure the RLVa Relay."
             },
             notifications: {
                 title: "Notifications",
-                content: "This is where you can see system notifications and view the changelog for the HUD.",
+                content: "This is where you can see system notifications and view the changelog for the HUD."
             },
             settings: {
                 title: "Settings",
-                content: "This is where you can configure the settings for the HUD, there are a LOT of settings in here so take your time to look through them all and configure the HUD to your liking!",
+                content: "This is where you can configure the settings for the HUD, there are a LOT of settings in here so take your time to look through them all and configure the HUD to your liking!"
             }
         },
-        userSelect:{
-            selectSelf:{
+        userSelect: {
+            selectSelf: {
                 title: "Select Yourself",
-                content: "Clicking this will select your own HUD when your controlling another user.",
+                content: "Clicking this will select your own HUD when your controlling another user."
             },
-            selectUUID:{
+            selectUUID: {
                 title: "Select By UUID",
-                content: "Putting the UUID of another user will select their HUD for control if you have access to it.",
+                content: "Putting the UUID of another user will select their HUD for control if you have access to it."
             },
-            favorite:{
+            favorite: {
                 title: "Favorite Users",
-                content: "This is the list of users you have added as favorites for quick access, clicking on one of them will select their HUD for control if you have access to it.",
+                content: "This is the list of users you have added as favorites for quick access, clicking on one of them will select their HUD for control if you have access to it."
             },
-            region:{
+            region: {
                 title: "Region Users",
-                content: "This button will scan the area around you for users to show who is wearing a FullArray HUD, this is useful for finding users to interact with or to add as favorites.\n\nAswell it shows users who do not have a FullArray HUD and has the ability to offer them a free copy of it.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)",
+                content: "This button will scan the area around you for users to show who is wearing a FullArray HUD, this is useful for finding users to interact with or to add as favorites.\n\nAswell it shows users who do not have a FullArray HUD and has the ability to offer them a free copy of it.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)"
             },
-            hudUsers:{
+            hudUsers: {
                 title: "HUD Users",
-                content: "This is the list of users in the region who are wearing a FullArray HUD, clicking on one of them will select their HUD for control if you have access to it.",
+                content: "This is the list of users in the region who are wearing a FullArray HUD, clicking on one of them will select their HUD for control if you have access to it."
             },
-            regionUsers:{
+            regionUsers: {
                 title: "Region List",
-                content: "This is the list of users in the region who are not wearing a FullArray HUD, clicking on one of them will offer them a free copy of the HUD, this is useful for quickly giving the HUD to friends or new people you meet in the region.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)",
-            },
+                content: "This is the list of users in the region who are not wearing a FullArray HUD, clicking on one of them will offer them a free copy of the HUD, this is useful for quickly giving the HUD to friends or new people you meet in the region.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)"
+            }
         },
-        misc:{
-            active:{
+        misc: {
+            active: {
                 title: "Active Card",
-                content: "This shows your currently active !~MODULE~!, you can quickly reload, detach, or edit it from here.",
+                content: "This shows your currently active !~MODULE~!, you can quickly reload, detach, or edit it from here."
             },
-            list:{
+            list: {
                 title: "!~MODULE~! List",
-                content: "Here you can see all the !~MODULE~!s you have created.\n\nClicking on a !~MODULE~! name or picture will set it as your active !~MODULE~!.\n\nYour active !~MODULE~! is the one that has a highlight around it.",
+                content: "Here you can see all the !~MODULE~!s you have created.\n\nClicking on a !~MODULE~! name or picture will set it as your active !~MODULE~!.\n\nYour active !~MODULE~! is the one that has a highlight around it."
             },
-            settings:{
+            settings: {
                 title: "!~MODULE~! Settings",
-                content: "This is where you can edit the settings of your active !~MODULE~!\n\nClicking this button in the list below will open the settings for that !~MODULE~!.",
+                content: "This is where you can edit the settings of your active !~MODULE~!\n\nClicking this button in the list below will open the settings for that !~MODULE~!."
             },
-            search:{
+            search: {
                 title: "Search !~MODULE~!s",
-                content: "Use the search box to quickly find a specific !~MODULE~! by name or prefix.",
-            },
+                content: "Use the search box to quickly find a specific !~MODULE~! by name or prefix."
+            }
         },
-        profile:{
-            welcome:{
+        profile: {
+            welcome: {
                 title: "Profiles",
-                content: "Profiles are the core of FullArray, they let you manage different personas with unique settings and appearances.\n\nYou can have as many profiles as you want and switch between them at any time, each profile has its own settings, outfits, and more that will change when you switch to it.",
-            },            
-        },
+                content: "Profiles are the core of FullArray, they let you manage different personas with unique settings and appearances.\n\nYou can have as many profiles as you want and switch between them at any time, each profile has its own settings, outfits, and more that will change when you switch to it."
+            }
+        }
     },
-    home:{
-        categories:{
+    home: {
+        categories: {
             tempHuds: "一時的なＨＵＤ",
-            interactDoll: "インタラクトドール",
+            interactDoll: "インタラクトドール"
         },
-        tooltip:{
+        tooltip: {
             doll: {
                 outerwear: "アウトフィットの!~SLOT~!スロットを「アウターウェア」ステートとして設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
                 underwear: "アウトフィットの!~SLOT~!スロットを「アンダーウェア」ステートとして設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
-                nude:      "アウトフィットの!~SLOT~!スロットを「ヌード」ステートに設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
-                rip:       "あなたのアウトフィットの!~SLOT~!スロットを剥ぎ取ります。<br>それを直すには、衣装修復を使用する必要があります。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Rip",
-                steal:     "あなたのアウトフィットの!~SLOT~!スロットを盗みます。<br>あなたのアウトフィットを盗んだアバターをぶつけない場合は、衣装修理を使用して修理する必要があります。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Steal",
-                throw:     "あなたのアウトフィットの!~SLOT~!スロットを投げます。<br>元に戻らない場合は、衣類修理を使って修理する必要があります。<br>投げると誰でも拾って盗むことができるプリムが復活します。ぶつかるか、クリックでプリムを相手の手から叩き落とし、地面をクリックすることで取り戻すことができます。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Throw",
+                nude: "アウトフィットの!~SLOT~!スロットを「ヌード」ステートに設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
+                rip: "あなたのアウトフィットの!~SLOT~!スロットを剥ぎ取ります。<br>それを直すには、衣装修復を使用する必要があります。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Rip",
+                steal: "あなたのアウトフィットの!~SLOT~!スロットを盗みます。<br>あなたのアウトフィットを盗んだアバターをぶつけない場合は、衣装修理を使用して修理する必要があります。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Steal",
+                throw: "あなたのアウトフィットの!~SLOT~!スロットを投げます。<br>元に戻らない場合は、衣類修理を使って修理する必要があります。<br>投げると誰でも拾って盗むことができるプリムが復活します。ぶつかるか、クリックでプリムを相手の手から叩き落とし、地面をクリックすることで取り戻すことができます。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Throw"
             },
             outfitOuterwear: "アウトフィットのステートを「アウターウェア」に設定します。<br><br>コマンド：@o （スロット名）",
             outfitUnderwear: "アウトフィットのステートを「アンダーウェア」に設定します。<br><br>コマンド：@u （スロット名）",
-            outfitNude:      "アウトフィットのステートを「ヌード」に設定します。<br><br>コマンド：@n （スロット名）<br><br>指のはさみアイコンは、性器のないヌードのアウトフィットとして設定します。<br><br>コマンド：@nc",
-            tempHuds: "モジュールの一時的なＨＵＤを取り付け[+]または、取り外し[-]ます。<br><br>コマンド：@&lt;モジュール&gt; huds &lt;+/-&gt;",
-        },
-    },
-    profile:{
-        isAdult:              "このプロファイルはAdultですか？",
-        playOutfitAnimations: "アウトフィットのアニメーションを再生しますか？",
-        chatReplacer:         "ＲＬＶチャットによる置き換えを許可しますか？",
-        bodyType:             "身体種別",
-        bodyParts:{
-            human:       "人間",
-            furry:       "ファリー",
-            noBoob:      "胸なし",
-            boob:        "胸",
-            plantigrade: "蹠行性",
-            digigrade:   "趾行性",
-            noTail:      "尻尾なし",
-            tail:        "尻尾",
-            feminine:    "女性的",
-            masculine:   "男性的",
-        },
-        tooltip:{
-            rlvName:              "ＲＬＶチャットによる置き換えが有効な場合のこのプロファイルの名前を入力します。",
-            playOutfitAnimations: "このプロファイルのアウトフィット変更アニメーションを再生するかどうかを切り替えます。",
-            chatReplacer:         "このプロファイルでＲＬＶチャットによる置き換えの使用を許可するかどうかを切り替えます。",
-            bodyParts:            "このプロファイルの体の部位のタイプを選択します。<br>ホームページ上のインタラクトドールの外観が変更されます。<br>これらは将来のモジュールでも使用されます。",
-            commands:             "プロファイルが読み込まれた後に実行されるチャットコマンドを指定します。<br>FullArrayのチャットコマンドは機能しません。",
-        },
-        placeholders:{
-            relayName: "リレー名…",
-        },
-        errors:{
-
+            outfitNude: "アウトフィットのステートを「ヌード」に設定します。<br><br>コマンド：@n （スロット名）<br><br>指のはさみアイコンは、性器のないヌードのアウトフィットとして設定します。<br><br>コマンド：@nc",
+            tempHuds: "モジュールの一時的なＨＵＤを取り付け[+]または、取り外し[-]ます。<br><br>コマンド：@&lt;モジュール&gt; huds &lt;+/-&gt;"
         }
     },
-    outfit:{
-        setDefaultOutfit:           "デフォルトのアウトフィットとして保存",
-        outfitType:                 "アウトフィット種別",
-        outfitTypeAdvanced:         "詳細",
-        outfitTypeBasic:            "基本",
-        outfitTypeSimple:           "簡易",
-        linkMode:                   "リンクモード",
-        linkModeNone:               "なし", 
-        linkModeTorso_Crotch:       "胴体＆股間",
+    profile: {
+        isAdult: "このプロファイルはAdultですか？",
+        playOutfitAnimations: "アウトフィットのアニメーションを再生しますか？",
+        chatReplacer: "ＲＬＶチャットによる置き換えを許可しますか？",
+        bodyType: "身体種別",
+        bodyParts: {
+            human: "人間",
+            furry: "ファリー",
+            noBoob: "胸なし",
+            boob: "胸",
+            plantigrade: "蹠行性",
+            digigrade: "趾行性",
+            noTail: "尻尾なし",
+            tail: "尻尾",
+            feminine: "女性的",
+            masculine: "男性的"
+        },
+        tooltip: {
+            rlvName: "ＲＬＶチャットによる置き換えが有効な場合のこのプロファイルの名前を入力します。",
+            playOutfitAnimations: "このプロファイルのアウトフィット変更アニメーションを再生するかどうかを切り替えます。",
+            chatReplacer: "このプロファイルでＲＬＶチャットによる置き換えの使用を許可するかどうかを切り替えます。",
+            bodyParts: "このプロファイルの体の部位のタイプを選択します。<br>ホームページ上のインタラクトドールの外観が変更されます。<br>これらは将来のモジュールでも使用されます。",
+            commands: "プロファイルが読み込まれた後に実行されるチャットコマンドを指定します。<br>FullArrayのチャットコマンドは機能しません。"
+        },
+        placeholders: {
+            relayName: "リレー名…"
+        },
+        errors: {
+        }
+    },
+    outfit: {
+        setDefaultOutfit: "デフォルトのアウトフィットとして保存",
+        outfitType: "アウトフィット種別",
+        outfitTypeAdvanced: "詳細",
+        outfitTypeBasic: "基本",
+        outfitTypeSimple: "簡易",
+        linkMode: "リンクモード",
+        linkModeNone: "なし",
+        linkModeTorso_Crotch: "胴体＆股間",
         linkModeTorso_Crotch_Waist: "胴体＆股間＆腰",
-        linkMode_Crotch_Waist:      "股間＆腰",
-        tooltip:{
+        linkMode_Crotch_Waist: "股間＆腰",
+        tooltip: {
             setDefaultOutfit: "このアウトフィットをデフォルトのアウトフィットとして設定します。<br>設定すると、プロファイルの変更時にこのアウトフィットが読み込まれます。",
             outfitType: "アウトフィット種別を選択します。<br><br>詳細：アウトフィットスロットで３種類のステートをすべて使用します。<br><br>基本：「詳細」と似ていますが、アウトフィットスロットを使用する必要はありません。<br><br>簡易：「アウターウェア」のステートのみを使用します。これは、簡単な装着または取り外しです。",
             linkMode: "アウトフィットのリンクモードを選択します。リンクされたスロットは一緒に接続および切断されます。<br><br>なし：アウトフィットをリンクしません。<br><br>胴＆股：胴体と股間のみをリンクします。<br><br>胴＆股＆腰：胴体、股間、腰をリンクします。",
             genitalsCrotch: "アウトフィットのステートに応じて、プロファイル内のgenitalsCrotchフォルダを装着または取り外します。",
-            genitalsTorso: "アウトフィットのステートに応じて、プロファイル内のgenitalsTorsoフォルダを装着または取り外します。",
+            genitalsTorso: "アウトフィットのステートに応じて、プロファイル内のgenitalsTorsoフォルダを装着または取り外します。"
         }
     },
-    accessory:{
+    accessory: {
         detachAll: "すべてのアクセサリを取り外す",
         genitalSlotHeader: "性器スロットを上書きします。",
         reload: "アクセサリをリロードします。",
-        genitalSlot:{
-            none:    "なし",
-            crotch:  "股間",
-            torso:   "胴体",
-            both:    "両方",
+        genitalSlot: {
+            none: "なし",
+            crotch: "股間",
+            torso: "胴体",
+            both: "両方"
         },
-        tooltip:{
+        tooltip: {
             detachAll: "アクティブなプロファイルからすべてのアクセサリを切り離し、非アクティブに設定します。",
             genitalSlot: "アクセサリを装着すると、性器を取り外すことができるようになります。",
-            reload: "これにより、装着しているアクセサリをすべて取り外して再度取り付ける処理が行われます。",
+            reload: "これにより、装着しているアクセサリをすべて取り外して再度取り付ける処理が行われます。"
         }
     },
-    hair:{
+    hair: {
     },
-    shoe:{
+    shoe: {
     },
-    rlv:{
-// Leash
-        categoryLeash:        "リーシュ（鎖）",
-        leashFollowTp:        "テレポートでリーシュホルダーを追跡する",
-        leashRecover:         "リーシュのターゲットを復元する",
-        leashLookatTarget:    "リーシュホルダーを強制的に見る",
-        leashGrab:            "リーシュを掴む",
-        leashRelease:         "リーシュを放つ",
-        leashYank:            "リーシュを引っ張る",
-        leashToObject:        "オブジェクトにリーシュをつなぐ",
-        leashToAvatar:        "アバターにリーシュをつなぐ",
-        headerLeashPatricle:  "リーシュのパーティクル",
-        leashColor:           "＜｜色｜＞",
-        leashRibbon:          "リボンのパーティクルを使用",
+    rlv: {
+        categoryLeash: "リーシュ（鎖）",
+        leashFollowTp: "テレポートでリーシュホルダーを追跡する",
+        leashRecover: "リーシュのターゲットを復元する",
+        leashLookatTarget: "リーシュホルダーを強制的に見る",
+        leashGrab: "リーシュを掴む",
+        leashRelease: "リーシュを放つ",
+        leashYank: "リーシュを引っ張る",
+        leashToObject: "オブジェクトにリーシュをつなぐ",
+        leashToAvatar: "アバターにリーシュをつなぐ",
+        headerLeashPatricle: "リーシュのパーティクル",
+        leashColor: "＜｜色｜＞",
+        leashRibbon: "リボンのパーティクルを使用",
         leashPlaceholderUUID: "テクスチャのＵＵＩＤ…",
-        leashFullBright:      "明るさ全開",
-        leashGlow:            "グロー",
-// Sit
-        categorySit:         "座る",
-        sit:                 "座るのを許可",
-        unsit:               "立つのを許可",
-        placeholderSit:      "地面に座るか、ＵＵＩＤ…",
-        forceSit:            "オブジェクトに座る",
-        forceUnsit:          "強制的に立たせる",
-// Inventory
-        categoryFolders:     "フォルダ",
-        categoryinventory:   "インベントリ",
-        resetFolderView:     "ＲＬＶフォルダをリセット",
-        folderOpen:          "フォルダを開く",
-        folderAttach:        "フォルダを装着",
-        folderDetach:        "フォルダを取り外す",
-        showinv:             "インベントリを見る",
-        edit:                "オブジェクトを編集",
+        leashFullBright: "明るさ全開",
+        leashGlow: "グロー",
+        categorySit: "座る",
+        sit: "座るのを許可",
+        unsit: "立つのを許可",
+        placeholderSit: "地面に座るか、ＵＵＩＤ…",
+        forceSit: "オブジェクトに座る",
+        forceUnsit: "強制的に立たせる",
+        categoryFolders: "フォルダ",
+        categoryinventory: "インベントリ",
+        resetFolderView: "ＲＬＶフォルダをリセット",
+        folderOpen: "フォルダを開く",
+        folderAttach: "フォルダを装着",
+        folderDetach: "フォルダを取り外す",
+        showinv: "インベントリを見る",
+        edit: "オブジェクトを編集",
         unsharedFoldersLock: "共有されていないフォルダ",
-        addAttach:           "装着物を追加",
-        remAttach:           "装着物を削除",
-        addOutfit:           "ＢＯＭ衣装を追加",
-        remOutfit:           "ＢＯＭ衣装を削除",
-// Touch
-        categoryTouch:       "触る",
-        touchAll:            "全てに触る",
-        touchAttach:         "装着物を触る",
-        touchAttachSelf:     "自身の装着物を触る",
-        touchAttachOther:    "他人の装着物を触る",
-        touchWorld:          "ワールドを触る",
-        touchHud:            "ＨＵＤを触る",
-        fartouch:            "遠くを触る",
-// Chat
-        categoryChat:        "チャット",
-        chatExceptions:      "チャットの例外を使用",
+        addAttach: "装着物を追加",
+        remAttach: "装着物を削除",
+        addOutfit: "ＢＯＭ衣装を追加",
+        remOutfit: "ＢＯＭ衣装を削除",
+        categoryTouch: "触る",
+        touchAll: "全てに触る",
+        touchAttach: "装着物を触る",
+        touchAttachSelf: "自身の装着物を触る",
+        touchAttachOther: "他人の装着物を触る",
+        touchWorld: "ワールドを触る",
+        touchHud: "ＨＵＤを触る",
+        fartouch: "遠くを触る",
+        categoryChat: "チャット",
+        chatExceptions: "チャットの例外を使用",
         chatExceptionsTooltip: "RLV_CHATへのアクセス権を持つ許可リストの所有者とユーザーが引き続きチャットメッセージを送信できるかどうかを切り替えます。",
-        speak:               "話す（チャット）",
-        recvchat:            "聞く（チャット）",
-        sendgesture:         "ジェスチャーを使用",
-        chatRange:           "チャット範囲",
-        recvim:              "ＩＭ受信",
-        startim:             "ＩＭ開始",
-        sendim:              "ＩＭ送信",
-        replaceChat:         "チャット置き換え",
-        nameOverride:        "名前の上書き",
-        useRlvName:          "名前を上書きしますか？",
-// Teleport
-        categoryTeleport:    "テレポート",
-        tp:                  "テレポート",
-        tplure:              "テレポートを受け取る",
-        accepttp:            "強制テレポートを承諾する",
-        tprequest:           "テレポートのリクエストを受ける",
-        regionBlocklist:     "リージョンのブラックリスト",
-        summon:              "強制テレポートで自分のところへ",
-        goto:                "強制テレポートで彼らのところへ",
-// Info
-        categoryInfo:        "情報",
-        showworldmap:        "ワールドマップで表示",
-        showminimap:         "ミニマップで表示",
-        showloc:             "場所を表示",
-        shownames:           "名前を表示",
-        showhovertextworld:  "ホバーテキストを表示（ワールド）",
-        showhovertexthud:    "ホバーテキストを表示（ＨＵＤ）",
-// View
-        categoryVision:      "視覚",
-        visionLimit:         "視覚制限",
-        visionType:          "視覚種別",
-        visionTypes:{
+        speak: "話す（チャット）",
+        recvchat: "聞く（チャット）",
+        sendgesture: "ジェスチャーを使用",
+        chatRange: "チャット範囲",
+        recvim: "ＩＭ受信",
+        startim: "ＩＭ開始",
+        sendim: "ＩＭ送信",
+        replaceChat: "チャット置き換え",
+        nameOverride: "名前の上書き",
+        useRlvName: "名前を上書きしますか？",
+        categoryTeleport: "テレポート",
+        tp: "テレポート",
+        tplure: "テレポートを受け取る",
+        accepttp: "強制テレポートを承諾する",
+        tprequest: "テレポートのリクエストを受ける",
+        regionBlocklist: "リージョンのブラックリスト",
+        summon: "強制テレポートで自分のところへ",
+        goto: "強制テレポートで彼らのところへ",
+        categoryInfo: "情報",
+        showworldmap: "ワールドマップで表示",
+        showminimap: "ミニマップで表示",
+        showloc: "場所を表示",
+        shownames: "名前を表示",
+        showhovertextworld: "ホバーテキストを表示（ワールド）",
+        showhovertexthud: "ホバーテキストを表示（ＨＵＤ）",
+        categoryVision: "視覚",
+        visionLimit: "視覚制限",
+        visionType: "視覚種別",
+        visionTypes: {
             blind: "目隠し",
-            blur:  "ぼかし",
+            blur: "ぼかし"
         },
-        visionMin:           "最小：",
-        visionMax:           "最大：",
-        camunlock:           "カメラのアンロック",
-        rlv_lookAt:          "アバター／ＵＵＩＤを見る",
-// Movement
-        categoryMovement:    "移動",
-        movement:            "ユーザを微調整＆回転",
-        jump:                "ジャンプを許可",
-        walk:                "歩行を許可",
-        run:                 "走行を許可",
-        fly:                 "飛行を許可",
-// Module Locking
-        categoryModuleLock:  "モジュールロック",
-        lockProfile:   "プロファイルをロック",
-        lockOutfit:    "アウトフィットをロック",
-        lockStripper:  "ストリッパーをロック",
+        visionMin: "最小：",
+        visionMax: "最大：",
+        camunlock: "カメラのアンロック",
+        rlv_lookAt: "アバター／ＵＵＩＤを見る",
+        categoryMovement: "移動",
+        movement: "ユーザを微調整＆回転",
+        jump: "ジャンプを許可",
+        walk: "歩行を許可",
+        run: "走行を許可",
+        fly: "飛行を許可",
+        categoryModuleLock: "モジュールロック",
+        lockProfile: "プロファイルをロック",
+        lockOutfit: "アウトフィットをロック",
+        lockStripper: "ストリッパーをロック",
         lockAccessory: "アクセサリをロック",
-        lockHair:      "髪型をロック",
-        lockShoe:      "靴をロック",
-        lockAo:        "ＡＯをロック",
-        lockSkin:      "スキンをロック",
-        lockBom:       "ＢＯＭをロック", 
+        lockHair: "髪型をロック",
+        lockShoe: "靴をロック",
+        lockAo: "ＡＯをロック",
+        lockSkin: "スキンをロック",
+        lockBom: "ＢＯＭをロック"
     },
-    huds:{},
-    landmark:{
+    huds: {
+    },
+    landmark: {
         updateLandmark: "ランドマーク更新",
         utility_useForRestart: "リージョン再起動時に使用しますか？",
         asn: "Scan for nearby ASN gate?",
-        tooltips:{
+        tooltips: {
             utility_useForRestart: "現在いるリージョンが再起動したときに、このランドマークをテレポート場所として使用しますか？",
             asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
         }
     },
-    inventory:{
+    inventory: {
         rezInstaller: "インストーラーをRez",
         rezEmptyBox: "空箱をRez",
         autoSit: "Rezしたときに自動的に座りますか？",
@@ -404,28 +394,28 @@ export const LangJa = {
         derez: "Rez解除",
         cleanOnLeave: "去ったときにクリーンアップ",
         useForklift: "Use the Tines system to rez items?",
-        tooltips:{
+        tooltips: {
             rezInstaller: "インストーラーボックスをRezして、ＨＵＤにアイテムを簡単に追加します。",
             rezEmptyBox: "プレフィックスで使用するために空箱を再生成します。",
-            useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!",
+            useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!"
         }
     },
-    ao:{
-        power:           "ＡＯ電源",
-        doTyping:        "入力アニメーションを再生しますか？",
-        doCycle:         "アニメーションをサイクルしますか？",
-        cycleTime:       "サイクル時間：",
-        sitHeight:       "座ったときの高さ：",
-        crouchHeight:    "しゃがんだときの高さ：",
+    ao: {
+        power: "ＡＯ電源",
+        doTyping: "入力アニメーションを再生しますか？",
+        doCycle: "アニメーションをサイクルしますか？",
+        cycleTime: "サイクル時間：",
+        sitHeight: "座ったときの高さ：",
+        crouchHeight: "しゃがんだときの高さ：",
         groundSitHeight: "地面に座ったときの高さ：",
-        gravity:         "重力：",
-        flightSpeed:     "飛行速度：",
-        doSwimming:      "泳ぎますか？",
-        dampen:          "減速：",
-        floaty:          "浮力はありますか？",
-        speed:           "泳ぐ速度：",
-        useLM:           "LockMeisterの操作を許可しますか？",
-        useOC:           "OpenCollarの操作を許可しますか？",
+        gravity: "重力：",
+        flightSpeed: "飛行速度：",
+        doSwimming: "泳ぎますか？",
+        dampen: "減速：",
+        floaty: "浮力はありますか？",
+        speed: "泳ぐ速度：",
+        useLM: "LockMeisterの操作を許可しますか？",
+        useOC: "OpenCollarの操作を許可しますか？",
         tooltip: {
             power: "ＡＯのオン／オフを切り替えます。",
             doTyping: "ＡＯの入力アニメーションのオン／オフを切り替えます。",
@@ -444,97 +434,108 @@ export const LangJa = {
             useOC: "ＡＯがOpenCollar電源コマンドをリッスンするかどうかを切り替えます。",
             doGroundSit: "ＡＯが地面に座っているときのアニメーションを再生するかどうかを切り替えます。",
             doSit: "ＡＯが座っているときのアニメーションを再生するかどうかを切り替えます。",
-            hudMode2: "ＨＵＤを上方向に開くように切り替えます。",    
+            hudMode2: "ＨＵＤを上方向に開くように切り替えます。",
             hudMode3: "ＨＵＤを下方向に開くように切り替えます。",
             hudMode0: "ＨＵＤを左方向に開くように切り替えます。",
-            hudMode1: "ＨＵＤを右方向に開くように切り替えます。",
+            hudMode1: "ＨＵＤを右方向に開くように切り替えます。"
         }
     },
-    skin:{},
-    bom:{},
-    autoGroup:{
+    skin: {
+    },
+    bom: {
+    },
+    autoGroup: {
         isDefault: "デフォルトのグループとしますか？",
-        tooltip:{
+        tooltip: {
             isDefault: "リージョンに何も設定されていない場合は、このグループをデフォルトのグループとして使用するかどうかを切り替えます。",
-            roleName: "Role name (not title) to use for this group.", 
+            roleName: "Role name (not title) to use for this group."
         },
-        placeholder:{
-            roleName: "Role name...",
+        placeholder: {
+            roleName: "Role name..."
         }
     },
-    relay:{
-        hudLock:             "あなたのＨＵＤをロックしますか？",
-        resetRestrictions:   "ＲＬＶリレーの制限をクリア",
-        setting_relayTrust:  "トラストモードをリレー",
-        setting_relayAuto:   "自動承認をリレー",
-        setting_relayPower:  "リレーの電源",
+    relay: {
+        hudLock: "あなたのＨＵＤをロックしますか？",
+        resetRestrictions: "ＲＬＶリレーの制限をクリア",
+        setting_relayTrust: "トラストモードをリレー",
+        setting_relayAuto: "自動承認をリレー",
+        setting_relayPower: "リレーの電源",
         setting_allowAttachmentControl: "Allow Attachment Control?",
-        setting_safeword:    "セーフワード：",
+        setting_safeword: "セーフワード：",
         setting_useSafeword: "セーフワードの使用を許可しますか？",
         setting_useJasX: "JasXゲームコマンドを許可しますか？",
         setting_useProjectClothing: "Project Clothingコマンドを許可しますか？",
         rlvBlocklist: "ＲＬＶブラックリスト",
         rlvCommands: "ＲＬＶコマンド",
-        checkbox:{
+        checkbox: {
             pcUseEffect: "ＰＣのドジっ子モードで衣装を投げますか？",
-            jasXAutoDress: "Bareゲーム後に服を自動着用しますか？",
+            jasXAutoDress: "Bareゲーム後に服を自動着用しますか？"
         },
-        tooltip:{
+        tooltip: {
             jasXAutoDress: "Bareゲーム後にＨＵＤが自動的に服を着るかどうかを切り替えます。",
             pcUseEffect: "Project Clothingのドジっ子効果が発生したときにアウトフィットが衣装を投げるかどうかを切り替えます。",
-        },
+            hudLock: "When enabled the HUD will not allow itself to be detached.",
+            safeword: "When typed in chat this will clear all restrictions set by the RLV Relay, this is useful if you get stuck or need to quickly remove restrictions.</br>Type one of these below.</br>((!~SAFEWORD~!))</br>(( !~SAFEWORD~! ))</br>/!~CHANNEL~! @safeword !~SAFEWORD~!",
+            relayTrust: "When enabled the relay will automatically accept any requests from objects you own, owned by the parcel owner, or the object is set to the same group as the parcel.",
+            relayAuto: "When enabled the relay will automatically accept all requests.",
+            relayPower: "Turns the relay on or off.",
+            allowAttachmentControl: "When enabled the relay will allow the `@remoutfit`, `@detach`, `@remattach` commands to be used, this can cause issues with some older RLV scripts that were made before mesh bodies, heats, etc...",
+            allowSafeword: "When enabled allows you to use the safeword set above to escape / release all RLV restrictions from the relay.",
+            useJasX: "When enabled the relay will translate JasX game command to HUD commands, allowing games to affect your outfits.",
+            useProjectClothing: "When enabled the relay will translate Project Clothing commands to HUD commands, allowing outfits to be changed by Project Clothing object, traps, etc..."
+        }
     },
-    permissions:{
-        permissions:{
+    permissions: {
+        permissions: {
             header: "権限",
             isSelfOwner: "自身の所有者ですか？",
-            isPublic:    "パブリックですか？",
-            sameRegion:  "同一リージョン操作",
+            isPublic: "パブリックですか？",
+            sameRegion: "同一リージョン操作",
             setAccessLevel: "!~MODULE~!のアクセスレベルを設定",
             setSelfAccessLevel: "!~MODULE~!のセルフアクセスレベルを設定",
             setPublicAccessLevel: "!~MODULE~!のパブリックアクセスレベルを設定",
-            tooltips:{
+            tooltips: {
                 isSelfOwner: "自分のＨＵＤの所有者ステータスを切り替えます。\n無効にすると、自分の許可リストに追加されずに自分のＨＵＤを制御できなくなります。",
-                isPublic:    "これは、「パブリック」にチェックが入っているすべてのモジュールのグローバルトグルです。\nモジュールをパブリックに設定すると、ブロックリストに登録されていないユーザもそのモジュールにアクセスできるようになります。",
-                sameRegion:  "ＨＵＤを制御するために他のユーザがあなたと同じリージョンにいる必要があるかどうかを切り替えます。",
-                location:    "ユーザがあなたの現在位置を確認して知ることができ、あなたのところにテレポートできるようになります。",
+                isPublic: "これは、「パブリック」にチェックが入っているすべてのモジュールのグローバルトグルです。\nモジュールをパブリックに設定すると、ブロックリストに登録されていないユーザもそのモジュールにアクセスできるようになります。",
+                sameRegion: "ＨＵＤを制御するために他のユーザがあなたと同じリージョンにいる必要があるかどうかを切り替えます。",
+                location: "ユーザがあなたの現在位置を確認して知ることができ、あなたのところにテレポートできるようになります。"
             }
         },
-        allowlist:{
+        allowlist: {
             header: "許可リスト",
             currentLeashHolder: "現在のＲＬＶリーシュのホルダー",
-            friends:            "ＳＬのフレンド",
-            placeholders:{
-                addAllowlistUUID: "あなたの許可リストに追加したいＵＵＩＤ…",
+            friends: "ＳＬのフレンド",
+            placeholders: {
+                addAllowlistUUID: "あなたの許可リストに追加したいＵＵＩＤ…"
             },
-            tooltips:{
+            tooltips: {
                 about: "許可リストは、ＨＵＤの一部を操作することが許可されているユーザのリストです。\n各モジュールとユーザには独自のアクセスできるレベルがあり、ユーザのレベルがモジュールのレベルと同じかそれ以上であれば、そのモジュールを使用できます。",
                 currentLeashHolder: "現在のあなたのアバターのＲＬＶリーシュのホルダーです。",
-                friends:            "あなたのＳＬのフレンドのアクセスレベルのリストです。",
+                friends: "あなたのＳＬのフレンドのアクセスレベルのリストです。"
             }
         },
-        blocklist:{
+        blocklist: {
             header: "ブロックリスト",
             blocklist: "ブロックリスト",
-            placeholders:{
-                addBlocklistUUID: "あなたのブロックリストに追加したいＵＵＩＤ…",
+            placeholders: {
+                addBlocklistUUID: "あなたのブロックリストに追加したいＵＵＩＤ…"
             }
         },
-        ownerlist:{
+        ownerlist: {
             header: "所有者リスト",
             ownerlist: "所有者リスト",
-            placeholders:{
-                addOwnerUUID: "あなたの所有者として追加したいＵＵＩＤ…",
+            placeholders: {
+                addOwnerUUID: "あなたの所有者として追加したいＵＵＩＤ…"
             },
-            tooltips:{
-                about: "所有者リストは、ＨＵＤに対するほぼ完全な制御が許可されているユーザのリストです。\n設定メニュー内の項目は、所有者リストのどのユーザも変更できません。",
+            tooltips: {
+                about: "所有者リストは、ＨＵＤに対するほぼ完全な制御が許可されているユーザのリストです。\n設定メニュー内の項目は、所有者リストのどのユーザも変更できません。"
             }
         },
-        apiList:{
-            header: "ＡＰＩリスト",
+        apiList: {
+            header: "ＡＰＩリスト"
         }
     },
-    settings:{
+    settings: {
         uiVersion: "ＵＩバージョン－",
         hudVersion: "ＨＵＤバージョン－",
         loginToken: "ログイントークン",
@@ -542,239 +543,229 @@ export const LangJa = {
         serverInventory: "サーバーインベントリ",
         saveHudPosition: "ＨＵＤの位置を保存",
         listType: "リスト種別",
-        listTypes:{
+        listTypes: {
             list: "リスト",
             icon: "アイコン",
             iconSmall: "小アイコン",
             card: "カード",
-            cardList: "カードリスト",
+            cardList: "カードリスト"
         },
         uiScale: "ＵＩスケール",
-        uiScales:{
+        uiScales: {
             small: "小",
             default: "デフォルト",
-            large: "大",
+            large: "大"
         },
         uiVolume: "ＵＩボリューム",
         apiKey: "ＡＰＩキー",
         utility_regionRestart_mode: "リージョン再起動時に自動テレポートしますか？",
         utility_regionRestart_time: "テレポートまでの遅延：",
-        categories:{
+        categories: {
             account: "アカウント",
             general: "一般",
-            ui:      "ＵＩ",
-            api:     "ＡＰＩ",
+            ui: "ＵＩ",
+            api: "ＡＰＩ",
             profile: "プロファイル",
-            outfit:  "アウトフィット",
-            hair:    "髪型",
-            shoe:    "靴",
+            outfit: "アウトフィット",
+            hair: "髪型",
+            shoe: "靴",
             accessory: "アクセサリ",
             autoGroup: "自動グループ",
             tempHuds: "一時的なＨＵＤ",
-            landmark: "ランドマーク",
+            landmark: "ランドマーク"
         },
-        checkbox:{
-            useGrid:                "グリッドレイアウトを使用しますか？",
-            sortListsByName:        "リストを名前順で並べ替えますか？",
-            hudSide:                "ＨＵＤのサイドを切り替える",
-            useTargetColor:         "ターゲットのＨＵＤカラーを使用する",
-            categoryState:          "デフォルトのカテゴリステート",
-            api_message:            "ＡＰＩメッセージを送りますか？",
-            api_linkMessage:        "ＡＰＩのリンクメッセージを送りますか？",
-            autoWearOutfit:         "読み込まれたときにアウトフィットを自動装着しますか？",
-            profile_replaceAll:     "読み込まれた時にすべてを置き換えますか？",
-            autoWearShoe:           "靴を自動装着しますか？",
-            autoWearHair:           "髪型を自動装着しますか？",
-            allowHairBald:          "薄毛ステートを許可しますか？",
-            autoWearAccessories:    "アクセサリを自動装着／取り外しをしますか？",
-            autoPG:                 "Prevent Nude in PG/General Sims?",
-            shoeReplaceFeet:        "靴（Shoe）をアウターウェアの足（Feet）の代わりにしますか？",
-            playOutfitAnimations:   "グローバルのアウトフィットアニメーションを切り替えます。",
-            playOutfitSounds:       "グローバルのアウトフィットのサウンドを切り替えます。",
-            allowEffects:           "エフェクトを許可しますか？盗む、剥ぎ取るなど…",
-            sameRegion:             "同一リージョンでのみ操作しますか？",
-            showIds:                "リストにＩＤを表示しますか？",
-            defaultNavState:        "ホームにナビゲートされたときのデフォルトのステート。",
+        checkbox: {
+            useGrid: "グリッドレイアウトを使用しますか？",
+            sortListsByName: "リストを名前順で並べ替えますか？",
+            hudSide: "ＨＵＤのサイドを切り替える",
+            useTargetColor: "ターゲットのＨＵＤカラーを使用する",
+            categoryState: "デフォルトのカテゴリステート",
+            api_message: "ＡＰＩメッセージを送りますか？",
+            api_linkMessage: "ＡＰＩのリンクメッセージを送りますか？",
+            autoWearOutfit: "読み込まれたときにアウトフィットを自動装着しますか？",
+            profile_replaceAll: "読み込まれた時にすべてを置き換えますか？",
+            autoWearShoe: "靴を自動装着しますか？",
+            autoWearHair: "髪型を自動装着しますか？",
+            allowHairBald: "薄毛ステートを許可しますか？",
+            autoWearAccessories: "アクセサリを自動装着／取り外しをしますか？",
+            autoPG: "Prevent Nude in PG/General Sims?",
+            shoeReplaceFeet: "靴（Shoe）をアウターウェアの足（Feet）の代わりにしますか？",
+            playOutfitAnimations: "グローバルのアウトフィットアニメーションを切り替えます。",
+            playOutfitSounds: "グローバルのアウトフィットのサウンドを切り替えます。",
+            allowEffects: "エフェクトを許可しますか？盗む、剥ぎ取るなど…",
+            sameRegion: "同一リージョンでのみ操作しますか？",
+            showIds: "リストにＩＤを表示しますか？",
+            defaultNavState: "ホームにナビゲートされたときのデフォルトのステート。",
             defaultActiveCardState: "アクティブなカードのデフォルトのステート。",
-            defaultDollState:       "インタラクトドールのデフォルトのステート。",
-            showAfk:                "ＡＦＫのオーバーレイを表示しますか？",
-            autoGroup_power:        "テレポート時にグループを自動変更しますか？",
-            linkOnCreate:           "新しく作成されたエントリを自動リンクしますか？",
-            autoGroup_useNone:      "デフォルトのアクティブなグループが存在しません。",
-            autoGroup_autoHuds:     "ＨＵＤフォルダを自動装着します。",
-            hud_verbose:            "詳細なＨＵＤメッセージを表示しますか？",
-            log_permissions:        "詳細な権限エラーのログを取ります。",
-            protectedFolderLock:    "保護フォルダをロックします。.",
-            defaultTempHudState:    "一時的なＨＵＤのデフォルトのステート。",
-            autoCreateFolders:      "フォルダを自動作成しますか？",
-            hud_sideDock:           "ＨＵＤはドックモードです。",
-            landmark_asnFirst:      "Try ASN scan before teleport?",
+            defaultDollState: "インタラクトドールのデフォルトのステート。",
+            showAfk: "ＡＦＫのオーバーレイを表示しますか？",
+            autoGroup_power: "テレポート時にグループを自動変更しますか？",
+            linkOnCreate: "新しく作成されたエントリを自動リンクしますか？",
+            autoGroup_useNone: "デフォルトのアクティブなグループが存在しません。",
+            autoGroup_autoHuds: "ＨＵＤフォルダを自動装着します。",
+            hud_verbose: "詳細なＨＵＤメッセージを表示しますか？",
+            log_permissions: "詳細な権限エラーのログを取ります。",
+            protectedFolderLock: "保護フォルダをロックします。.",
+            defaultTempHudState: "一時的なＨＵＤのデフォルトのステート。",
+            autoCreateFolders: "フォルダを自動作成しますか？",
+            hud_sideDock: "ＨＵＤはドックモードです。",
+            landmark_asnFirst: "Try ASN scan before teleport?",
             general_showCategoryAttach: "Show category attach / detach?",
-            outfit_keepSame:        "Keep same Outfit?",
+            outfit_keepSame: "Keep same Outfit?"
         },
-        textbox:{
+        textbox: {
             prefixPlaceholder: "プレフィックス…",
             passwordPlaceholder: "パスワード…",
-            userChannelPlaceholder: "チャンネル…",
+            userChannelPlaceholder: "チャンネル…"
         },
-        popup:{
-            setLang:   "言語設定",
+        popup: {
+            setLang: "言語設定",
             hudColors: "ＨＵＤカラーを設定",
             apiHeader: "ＡＰＩキーのリセット",
-            apiText:   "ＡＰＩキーをリセットしてもよろしいですか？\nリセットすると、そのキーを使用しているスクリプトが壊れてしまいます。",
+            apiText: "ＡＰＩキーをリセットしてもよろしいですか？\nリセットすると、そのキーを使用しているスクリプトが壊れてしまいます。",
             moduleList: "モジュールリストの編集",
             about: "情報",
-            lang: "言語選択",
+            lang: "言語選択"
         },
-        tooltip:{
-            // General
-            expRlvaFix:             "ＨＵＤがＲＬＶコマンド間に遅延を追加するかどうかを切り替えます。",
-            editModuleOrder:        "ナビゲーションバーのモジュールを並べ替えたり切り替えたりします。",
-            serverInventory:        "オプションの納品物。",
-            hudColors:              "ＨＵＤを美しくする方法。",
-            sortListsByName:        "名前またはＩＤでリスト／グリッドモードを並べ替えます。",
-            useTargetColor:         "ＨＵＤで、操作しているユーザのＨＵＤカラーを使用するかどうかを切り替えます。",
-            hudSide:                "ＨＵＤを左に開くか右に開くかを切り替えます。",
-            categoryState:          "カテゴリがデフォルトで開いているか閉じているかを切り替えます。",
-            saveHudPosition:        "ＨＵＤが現在画面上に表示されている位置を保存します。ＨＵＤ自体を置き換える必要がある場合に便利です。",
-            listType:               "カテゴリ内のリストのスタイルを変更します。",
-            uiSize:                 "ＨＵＤ全体のＵＩスケールを変更します。",
-            defaultNavState:        "ナビゲーションバーがデフォルトで開いているか閉じているかを切り替えます。",
+        tooltip: {
+            expRlvaFix: "ＨＵＤがＲＬＶコマンド間に遅延を追加するかどうかを切り替えます。",
+            editModuleOrder: "ナビゲーションバーのモジュールを並べ替えたり切り替えたりします。",
+            serverInventory: "オプションの納品物。",
+            hudColors: "ＨＵＤを美しくする方法。",
+            sortListsByName: "名前またはＩＤでリスト／グリッドモードを並べ替えます。",
+            useTargetColor: "ＨＵＤで、操作しているユーザのＨＵＤカラーを使用するかどうかを切り替えます。",
+            hudSide: "ＨＵＤを左に開くか右に開くかを切り替えます。",
+            categoryState: "カテゴリがデフォルトで開いているか閉じているかを切り替えます。",
+            saveHudPosition: "ＨＵＤが現在画面上に表示されている位置を保存します。ＨＵＤ自体を置き換える必要がある場合に便利です。",
+            listType: "カテゴリ内のリストのスタイルを変更します。",
+            uiSize: "ＨＵＤ全体のＵＩスケールを変更します。",
+            defaultNavState: "ナビゲーションバーがデフォルトで開いているか閉じているかを切り替えます。",
             defaultActiveCardState: "モジュールのアクティブカードをデフォルトで表示するか非表示にするかを切り替えます。",
-            defaultDollState:       "インタラクトドールをデフォルトで表示するか非表示にするかを切り替えます。",
-            showAfk:                "数秒後にＡＦＫ画面が表示されるかどうかを切り替えます。",
-            linkOnCreate:           "新しく作成されたエントリをアクティブなプロファイルに自動的にリンクするかどうかを切り替えます。",
-            hud_verbose:            "起動時にＨＵＤに情報を表示するかどうかを切り替えます。",
-            protectedFolderLock:    "保護フォルダを常にロックするかどうかを切り替えます。",
-            defaultTempHudState:    "一時的なＨＵＤコントロールをデフォルトで非表示にするかどうかを切り替えます。",
-            hud_sideDock:           "ＨＵＤをルートプリムの下にドッキングするか、移動先の場所にドッキングするかを制御します。",
-            // API
-            apiKey:                 "作成された製品のＡＰＩキーです。<br/><br/><strong>これを共有しないでください！</strong><br/><br/>このキーを再発行すると、古いキーを使用していた以前のコンテンツがすべて壊れます。",
-            api_message:            "ＨＵＤがＡＰＩメッセージを送信するかどうかを切り替えるチャンネル：698008",
-            api_linkMessage:        "ＨＵＤがllMessageLinkedを使用してＡＰＩメッセージを送信するかどうかを切り替えます。",
-            showIds:                "ＨＵＤにエントリのＩＤを表示するかどうかを切り替えます。",
-            log_permissions:        "別のユーザの権限チェックが失敗した場合に、ＨＵＤでチャットに表示するかどうかを切り替えます。",
-            // Profile
-            autoWearOutfit:         "プロファイルを読み込むときに、ＨＵＤが最後に着用したアウトフィットを自動的に着用するかどうかを切り替えます。",
-            profile_replaceAll:     "プロファイルを装着する前に、ＨＵＤがアバター上のすべてのものを切り離すかどうかを切り替えます。<br/>これには、#RLVフォルダ内のものも含まれます。",
-            // Outfit
-            autoPG:                 "ＰＧ／一般ＳＩＭにテレポートするときに、ＨＵＤが自動的にアウトフィットをアウターウェアのステートに設定するか、非Adult用衣装に変更するかを切り替えます。<br/>また、ＰＧ／一般ＳＩＭでヌードのステートになることも防止します。",
-            shoeReplaceFeet:        "ＨＵＤがアウトフィットの足（Foot）をステートに合わせて靴（Shoe）を自動的に取り付けたり取り外したりするかどうかを切り替えます。",
-            playOutfitAnimations:   "アウトフィットやそのステートを変更したときにＨＵＤでアニメーションを再生するかどうかを切り替えます。",
-            playOutfitSounds:       "アウトフィットやそのステートを変更したときにＨＵＤでサウンドを再生するかどうかを切り替えます。",
-            allowEffects:           "アウトフィットが盗まれたり剥ぎ取られたりできるようにするかどうかを切り替えます。",
-            outfit_keepSame:        "Toggles whether the HUD will try and keep the same Outfit your wearing when you change Profiles if the new Profile has the same Outfit linked.",
-            // Hair
-            autoWearHair:           "プロファイルを読み込むときに、ＨＵＤが最後に使用したヘアスタイルを自動的に使用するかどうかを切り替えます。",
-            allowHairBald:          "髪型を完全に取り外せるかどうかを切り替えます。",
-            // Shoe
-            autoWearShoe:           "アウトフィットを読み込むときに、ＨＵＤが最後に履いた靴を自動的に履くかどうかを切り替えます。",
-            // Accessory
-            autoWearAccessories:    "プロファイルを読み込むときにＨＵＤがアクセサリを自動的に装着および取り外すかどうかを切り替えます。",
-            // Auto Group
-            autoGroup_power:        "自動グループ機能のオン／オフを切り替えます。",
-            autoGroup_useNone:      "グループが設定されていない場合は、自動グループを切り替えてグループを「なし」に設定します。",
-            autoGroup_autoHuds:     "グループを変更するときに、ＨＵＤが一時的なＨＵＤフォルダを自動的に装着するかどうかを切り替えます。",
-            // Temp HUDs
-            autoCreateFolders:      "ＨＵＤがプロファイル、衣装などの新しく作成されたエントリのフォルダを自動的に作成するかどうかを切り替えます。",
+            defaultDollState: "インタラクトドールをデフォルトで表示するか非表示にするかを切り替えます。",
+            showAfk: "数秒後にＡＦＫ画面が表示されるかどうかを切り替えます。",
+            linkOnCreate: "新しく作成されたエントリをアクティブなプロファイルに自動的にリンクするかどうかを切り替えます。",
+            hud_verbose: "起動時にＨＵＤに情報を表示するかどうかを切り替えます。",
+            protectedFolderLock: "保護フォルダを常にロックするかどうかを切り替えます。",
+            defaultTempHudState: "一時的なＨＵＤコントロールをデフォルトで非表示にするかどうかを切り替えます。",
+            hud_sideDock: "ＨＵＤをルートプリムの下にドッキングするか、移動先の場所にドッキングするかを制御します。",
+            apiKey: "作成された製品のＡＰＩキーです。<br/><br/><strong>これを共有しないでください！</strong><br/><br/>このキーを再発行すると、古いキーを使用していた以前のコンテンツがすべて壊れます。",
+            api_message: "ＨＵＤがＡＰＩメッセージを送信するかどうかを切り替えるチャンネル：698008",
+            api_linkMessage: "ＨＵＤがllMessageLinkedを使用してＡＰＩメッセージを送信するかどうかを切り替えます。",
+            showIds: "ＨＵＤにエントリのＩＤを表示するかどうかを切り替えます。",
+            log_permissions: "別のユーザの権限チェックが失敗した場合に、ＨＵＤでチャットに表示するかどうかを切り替えます。",
+            autoWearOutfit: "プロファイルを読み込むときに、ＨＵＤが最後に着用したアウトフィットを自動的に着用するかどうかを切り替えます。",
+            profile_replaceAll: "プロファイルを装着する前に、ＨＵＤがアバター上のすべてのものを切り離すかどうかを切り替えます。<br/>これには、#RLVフォルダ内のものも含まれます。",
+            autoPG: "ＰＧ／一般ＳＩＭにテレポートするときに、ＨＵＤが自動的にアウトフィットをアウターウェアのステートに設定するか、非Adult用衣装に変更するかを切り替えます。<br/>また、ＰＧ／一般ＳＩＭでヌードのステートになることも防止します。",
+            shoeReplaceFeet: "ＨＵＤがアウトフィットの足（Foot）をステートに合わせて靴（Shoe）を自動的に取り付けたり取り外したりするかどうかを切り替えます。",
+            playOutfitAnimations: "アウトフィットやそのステートを変更したときにＨＵＤでアニメーションを再生するかどうかを切り替えます。",
+            playOutfitSounds: "アウトフィットやそのステートを変更したときにＨＵＤでサウンドを再生するかどうかを切り替えます。",
+            allowEffects: "アウトフィットが盗まれたり剥ぎ取られたりできるようにするかどうかを切り替えます。",
+            outfit_keepSame: "Toggles whether the HUD will try and keep the same Outfit your wearing when you change Profiles if the new Profile has the same Outfit linked.",
+            autoWearHair: "プロファイルを読み込むときに、ＨＵＤが最後に使用したヘアスタイルを自動的に使用するかどうかを切り替えます。",
+            allowHairBald: "髪型を完全に取り外せるかどうかを切り替えます。",
+            autoWearShoe: "アウトフィットを読み込むときに、ＨＵＤが最後に履いた靴を自動的に履くかどうかを切り替えます。",
+            autoWearAccessories: "プロファイルを読み込むときにＨＵＤがアクセサリを自動的に装着および取り外すかどうかを切り替えます。",
+            autoGroup_power: "自動グループ機能のオン／オフを切り替えます。",
+            autoGroup_useNone: "グループが設定されていない場合は、自動グループを切り替えてグループを「なし」に設定します。",
+            autoGroup_autoHuds: "グループを変更するときに、ＨＵＤが一時的なＨＵＤフォルダを自動的に装着するかどうかを切り替えます。",
+            autoCreateFolders: "ＨＵＤがプロファイル、衣装などの新しく作成されたエントリのフォルダを自動的に作成するかどうかを切り替えます。",
             utility_regionRestart_mode: "リージョン再起動時の機能のモードを選択します。<br/>オフ：無効<br/>質問：テレポートするかどうかを尋ねます。<br/>自動：設定された遅延の後に、保存した場所に自動的にテレポートします。<br/>即時：リージョンが再起動すると、保存した場所に即座にテレポートします。",
             utility_regionRestart_time: "テレポートするまでの再起動カウントダウンの残り時間（秒）",
-            landmark_asnFirst:      "If enabled when using a Landmark to teleport the HUD will first scan for a nearby ASN gate and use that to teleport if found.",
-            password:               "The password is used to login to the HUD outside of SL.",
-            prefix:                 "Current prefix: ",
-            userChannel:            "The channel is used to control the HUD via chat commands from other users or your self.<br/><br/>NOTE: if you change this, any old commands you used will no longer work and you will need to use the new channel in them.<br/><br/>Current channel: ",
-            // UI
-            general_showCategoryAttach: "Toggles whether to show the attach / detach buttons in a category.",
+            landmark_asnFirst: "If enabled when using a Landmark to teleport the HUD will first scan for a nearby ASN gate and use that to teleport if found.",
+            password: "The password is used to login to the HUD outside of SL.",
+            prefix: "Current prefix: ",
+            userChannel: "The channel is used to control the HUD via chat commands from other users or your self.<br/><br/>NOTE: if you change this, any old commands you used will no longer work and you will need to use the new channel in them.<br/><br/>Current channel: ",
+            general_showCategoryAttach: "Toggles whether to show the attach / detach buttons in a category."
         },
-        color:{
+        color: {
             colorHeader: "カラー設定",
-            categoryPreset:{
+            categoryPreset: {
                 header: "プリセット",
-                presetJsson: "プリセット設定をここにペーストしてください…",
+                presetJsson: "プリセット設定をここにペーストしてください…"
             },
             preset: "",
-            categoryExample:{
+            categoryExample: {
                 header: "例",
                 button: "ボタン",
                 buttonActive: "アクティブなボタン",
                 static: "静的",
                 textbox: "テキストボックス",
                 exmpleHeader: "ヘッダ",
-                categoryHeader: "カテゴリヘッダ",
+                categoryHeader: "カテゴリヘッダ"
             },
-            categoryConfig:{
+            categoryConfig: {
                 header: "設定",
-                categoryMisc:{
+                categoryMisc: {
                     header: "その他",
                     border: "枠",
                     hudBackground: "ＨＵＤの背景",
                     hudAlpha: "ＨＵＤのアルファ：",
-                    hudBackgroundImage: "ＨＵＤの背景画像のＵＲＬ",
-                },
+                    hudBackgroundImage: "ＨＵＤの背景画像のＵＲＬ"
+                }
             },
-            cagegoryButton:{
+            cagegoryButton: {
                 header: "ボタン",
                 button: "ボタン",
                 buttonHover: "ホバー時のボタン",
                 buttonText: "ボタンのテキスト",
                 buttonTextHover: "ホバー時のボタンのテキスト",
                 button3D: "ボタン３Ｄ",
-                button3DHover: "ホバー時のボタン３Ｄ",
+                button3DHover: "ホバー時のボタン３Ｄ"
             },
-            categoryButtonActive:{
+            categoryButtonActive: {
                 header: "アクティブなボタン",
                 button: "アクティブなボタン",
                 buttonHover: "ホバー時のアクティブなボタン",
                 buttonText: "アクティブなボタンのテキスト",
                 buttonTextHover: "ホバー時のアクティブなボタンのテキスト",
                 button3D: "アクティブなボタン３Ｄ",
-                button3DHover: "ホバー時のアクティブなボタン３Ｄ",
+                button3DHover: "ホバー時のアクティブなボタン３Ｄ"
             },
-            categoryStatic:{
+            categoryStatic: {
                 header: "静的",
                 static: "静的",
-                staticText: "静的なテキスト",
+                staticText: "静的なテキスト"
             },
-            categoryHeader:{
+            categoryHeader: {
                 header: "ヘッダ",
-                headerText: "ヘッダのテキスト",
+                headerText: "ヘッダのテキスト"
             },
-            categoryCategoryHeader:{
+            categoryCategoryHeader: {
                 header: "ヘッダ",
-                headerText: "カテゴリのヘッダのテキスト",
+                headerText: "カテゴリのヘッダのテキスト"
             },
-            categoryTextbox:{
+            categoryTextbox: {
                 header: "テキストボックス",
                 textbox: "テキストボックス",
                 textboxHover: "ホバー時のテキストボックス",
                 textboxText: "テキストボックスのテキスト",
                 textboxTextHover: "ホバー時のテキストボックスのテキスト",
-                textboxPlaceholder: "テキストボックスのプレイスホルダ",
+                textboxPlaceholder: "テキストボックスのプレイスホルダ"
             },
-            categoryIcons:{
+            categoryIcons: {
                 header: "アイコン",
                 iconPrimary: "プライマリアイコン",
-                iconSecondary: "セカンダリアイコン",
+                iconSecondary: "セカンダリアイコン"
             },
-            categoryDoll:{
+            categoryDoll: {
                 header: "ドール",
                 outerwear: "アウターウェア",
                 underwear: "アンダーウェア",
-                nude:      "ヌード",
-                disabled:  "無効",
+                nude: "ヌード",
+                disabled: "無効"
             },
-            categoryScrollbar:{ 
+            categoryScrollbar: {
                 header: "スクロールバー",
                 track: "スクロールバーのトラック",
                 thumb: "スクロールバーのつまみ",
-                border: "スクロールバーの枠",
+                border: "スクロールバーの枠"
             }
         }
     },
-    pantyRaid:{
+    pantyRaid: {
         noTrophySelected: "以下からトロフィーを選択してください。"
     },
-    userSelect:{
+    userSelect: {
         selectSelf: "自分のＨＵＤを選択してください。",
         useSupportMode: "開発／サポートモードを使用しますか？",
         selectUUID: "ＵＵＩＤを選択してください。",
@@ -784,20 +775,20 @@ export const LangJa = {
         favoriteUsers: "お気に入りのユーザ",
         regionList: "リージョンリスト（ＨＵＤギバー）",
         hudUsers: "ＨＵＤユーザ",
-        tooltip:{
+        tooltip: {
             selectSelf: "自分のＨＵＤを選択してください。",
             useSupportMode: "有効にすると、アカウントの権限チェックは無視されます。",
             loadUserUUID: "選択したユーザを読み込んで、ＨＵＤを制御します。",
             addUserUUID: "入力したＵＵＩＤをお気に入りリストに追加します。",
-            removeUserUUID: "入力したＵＵＩＤをお気に入りリストから削除します。",
+            removeUserUUID: "入力したＵＵＩＤをお気に入りリストから削除します。"
         }
     },
-    notification:{
+    notification: {
         notifications: "通知",
         changelog: "更新履歴",
-        unread: "（未読）",
+        unread: "（未読）"
     },
-    camera:{
+    camera: {
         followUser: "ユーザをフォロー",
         releaseCamera: "カメラを開放",
         behindnessAngle: "後方角度",
@@ -812,30 +803,30 @@ export const LangJa = {
         position: "位置",
         positionLag: "位置の遅延",
         positionLocked: "位置のロック",
-        positionThreshold: "位置のしきい値",
+        positionThreshold: "位置のしきい値"
     },
-    calendar:{
-        tooltip:{
-            addUUID: "誕生日を追跡したいユーザのＵＵＩＤを追加します。",
+    calendar: {
+        tooltip: {
+            addUUID: "誕生日を追跡したいユーザのＵＵＩＤを追加します。"
         }
     },
-    login:{
-        error:{
+    login: {
+        error: {
             userPass: "ユーザ名とパスワードをご確認ください。",
-            token: "無効なログイントークンです。お手数ですがＨＵＤを装着し直してください。",
+            token: "無効なログイントークンです。お手数ですがＨＵＤを装着し直してください。"
         }
     },
-    setupPage:{
+    setupPage: {
         infoText: "Full Arrayをお買い上げいただきありがとうございます。<br/>このセットアッププロセスは、お客様のお好みに合わせて基本設定を構成するためのものです。以下のオプションをご確認いただき、準備ができたら最後に「セットアップを完了」をクリックしてください。オプションの機能についてご不明な点がある場合は、マウスオーバーで詳細情報が表示される＜情報アイコン＞があるかどうかをご確認ください。<br/><br/>これらの設定はいずれも永続的なものではなく、設定メニューで後から変更できます。",
         themeText: "定義済みのＨＵＤテーマを適用します。\nすべてのテーマは、後で設定メニューから調整できます。",
-        categories:{
+        categories: {
             theme: "テーマ選択",
-            account: "アカウント設定＆権限",
+            account: "アカウント設定＆権限"
         },
         buttonSaveTheme: "テーマを保存",
-        buttonFinish: "セットアップ完了",
+        buttonFinish: "セットアップ完了"
     },
-    title:{
-        save: "タイトルの変更を保存しますか？",
+    title: {
+        save: "タイトルの変更を保存しますか？"
     }
 }
