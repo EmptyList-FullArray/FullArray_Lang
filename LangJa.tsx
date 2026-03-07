@@ -38,18 +38,18 @@ export const LangJa = {
         moduleImage: "!~MODULE~!の画像…",
         moduleGroup: "!~MODULE~!のグループ…",
         linkMode: "リンクモード",
-        fileType: "Invalid file type. Only JPG, PNG, GIF, and WEBP images are allowed.",
-        fileSize: "File size exceeds 5MB limit. File size: ",
+        fileType: "無効なファイル形式です。JPG、PNG、GIF、WEBP 形式の画像のみが許可されます。",
+        fileSize: "ファイルサイズが５㎆の制限を超えています。ファイルサイズ：",
         tooltip: {
             customAccessLevel: "権限メニューで設定されたアクセスレベルを上書きするアクセスレベルを設定します。",
             name: "この!~MODULE~!の名前です。",
             img: "この!~MODULE~!の画像のＵＵＩＤかＵＲＬを入力してください。",
-            imgSelect: "このプロファイルで使用する画像ファイルをディスクから選択します。<br>png、jpg、webp など…",
+            imgSelect: "このプロファイルで使用する画像ファイルをディスクから選択します。<br/>png、jpg、webp など…",
             isAdult: "プロファイルがAdult向けである場合、テレポート機能のＰＧで使用されます。",
             delete: "この!~MODULE~!とそのすべてのリンクを削除します。元に戻すことはできません。",
             linkMode: "リンクモードは、現在アクティブなプロファイルにリンク／割り当てる方法です。",
             listMode: "リストモードでは、現在アクティブな／装着している!~MODULE~!を変更できます。",
-            access: "Access to the !~MODULE~! module is restricted by permissions."
+            access: "!~MODULE~!モジュールへのアクセスは、権限によって制限されています。"
         },
         states: {
             outerwear: "アウターウェア",
@@ -82,8 +82,8 @@ export const LangJa = {
         edit: "この!~MODULE~!を編集する",
         create: "新しい!~MODULE~!を作成する",
         tooltip: {
-            reload: "!~MODULE~!をリロードする。<br>これにより、!~MODULE~!フォルダーが取り外され、再装着されます。",
-            detach: "!~MODULE~!フォルダを取り外す。<br>他のモジュールも非アクティブに設定される可能性があります。",
+            reload: "!~MODULE~!をリロードする。<br/>これにより、!~MODULE~!フォルダが取り外され、再装着されます。",
+            detach: "!~MODULE~!フォルダを取り外す。<br/>他のモジュールも非アクティブに設定される可能性があります。",
             edit: "この!~MODULE~!の設定を編集します。"
         }
     },
@@ -93,8 +93,8 @@ export const LangJa = {
             newPrefix: "新しいプレフィックス",
             prefix: "プレフィックス…",
             name: "名前…",
-            inventoryName: "Inventory Name...",
-            displayName: "Display Name...",
+            inventoryName: "インベントリ名…",
+            displayName: "表示名…",
             image: "画像…",
             create: "作成",
             slurl: "Slurl…",
@@ -105,78 +105,78 @@ export const LangJa = {
     tours: {
         home: {
             welcome: {
-                title: "FullArray HUD Guide",
-                content: "Welcome to the FullArray HUD! This guide will walk you through the basics of using the HUD and its features.\n\nIf you ever need to access the guide again you can click the ? button at the top of any page.\n\nMost things will have more information if you hover over the ( i ) icon next to it."
+                title: "FullArray ＨＵＤガイド",
+                content: "FullArray ＨＵＤへようこそ！このガイドでは、ＨＵＤの基本的な使い方と機能について説明します。\n\nガイドに再度アクセスする必要がある場合は、ページ上部の「？」ボタンをクリックしてください。\n\nほとんどの項目については、横にある「i」アイコンにマウスを合わせると詳細情報が表示されます。"
             },
             moduleList: {
-                title: "Module List",
-                content: "This is the list of modules you own, clicking one of them will take you to that module's page were you can manage it."
+                title: "モジュールリスト",
+                content: "これはあなたが所有するモジュールのリストです。いずれかのモジュールをクリックすると、そのモジュールを管理できるページに移動します。"
             },
             userSelect: {
-                title: "User Select",
-                content: "This is where you can select the user you want to control.\n\nYou can also add users as favorites for quick access."
+                title: "ユーザ選択",
+                content: "ここで、制御したいユーザを選択できます。\n\nまた、すばやくアクセスできるように、ユーザをお気に入りとして追加することもできます。"
             },
             permissions: {
-                title: "Permissions",
-                content: "This is where you can manage permissions for users who can access your HUD, add users as a Owner of your HUD, and block user from accessing your HUD.\n\nThis is also where you can configure the RLVa Relay."
+                title: "権限",
+                content: "ここでは、ＨＵＤにアクセスできるユーザの権限を管理したり、ユーザをＨＵＤの所有者として追加したり、ユーザによるＨＵＤへのアクセスをブロックしたりできます。\n\nＲＬＶａリレーを構成することもできます。"
             },
             notifications: {
-                title: "Notifications",
-                content: "This is where you can see system notifications and view the changelog for the HUD."
+                title: "通知",
+                content: "ここで、システム通知を確認したり、ＨＵＤの更新ログを表示したりできます。"
             },
             settings: {
-                title: "Settings",
-                content: "This is where you can configure the settings for the HUD, there are a LOT of settings in here so take your time to look through them all and configure the HUD to your liking!"
+                title: "設定",
+                content: "ここでＨＵＤの設定を構成できます。多数の設定があるため、時間をかけてすべてを確認し、好みに合わせてＨＵＤを構成してください。"
             }
         },
         userSelect: {
             selectSelf: {
-                title: "Select Yourself",
-                content: "Clicking this will select your own HUD when your controlling another user."
+                title: "自身を選択",
+                content: "これをクリックすると、他のユーザを操作しているときに自分のＨＵＤが選択されます。"
             },
             selectUUID: {
-                title: "Select By UUID",
-                content: "Putting the UUID of another user will select their HUD for control if you have access to it."
+                title: "ＵＵＩＤで選択",
+                content: "別のユーザのＵＵＩＤを入力すると、アクセス権がある場合、そのユーザのＨＵＤが操作用に選択されます。"
             },
             favorite: {
-                title: "Favorite Users",
-                content: "This is the list of users you have added as favorites for quick access, clicking on one of them will select their HUD for control if you have access to it."
+                title: "お気に入りのユーザ",
+                content: "これは、すばやくアクセスできるようにお気に入りとして追加したユーザのリストです。アクセス権がある場合は、そのうちの１人をクリックすると、操作用のＨＵＤが選択されます。"
             },
             region: {
-                title: "Region Users",
-                content: "This button will scan the area around you for users to show who is wearing a FullArray HUD, this is useful for finding users to interact with or to add as favorites.\n\nAswell it shows users who do not have a FullArray HUD and has the ability to offer them a free copy of it.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)"
+                title: "リージョンのユーザ",
+                content: "このボタンは、周囲のエリアをスキャンして、FullArray ＨＵＤを装着しているユーザを表示します。これは、やり取りするユーザや、お気に入りに追加すしたいユーザを見つけるのに役立ちます。\n\nまた、FullArray ＨＵＤを装着していないユーザ表示し、無料のコピーを提供する機能もあります。\n\n（この機能を悪用してスパムを送信しないでください。そうしないと、この機能にアクセスできなくなります。）"
             },
             hudUsers: {
-                title: "HUD Users",
-                content: "This is the list of users in the region who are wearing a FullArray HUD, clicking on one of them will select their HUD for control if you have access to it."
+                title: "ＨＵＤユーザ",
+                content: "これは、FullArray ＨＵＤを装着しているリージョン内のユーザのリストです。そのうちの１人をクリックすると、アクセスできる場合はそのＨＵＤが操作用に選択されます。"
             },
             regionUsers: {
-                title: "Region List",
-                content: "This is the list of users in the region who are not wearing a FullArray HUD, clicking on one of them will offer them a free copy of the HUD, this is useful for quickly giving the HUD to friends or new people you meet in the region.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)"
+                title: "リージョン一覧",
+                content: "これは、FullArray ＨＵＤを装着していないリージョン内のユーザのリストです。そのうちの１人をクリックすると、ＨＵＤの無料コピーが提供されます。これは、リージョン内で出会った友人や新しい人にＨＵＤをすばやく提供するのに便利です。\n\n（この機能をスパム送信に悪用しないでください。そうしないと、この機能にアクセスできなくなります。）"
             }
         },
         misc: {
             active: {
-                title: "Active Card",
-                content: "This shows your currently active !~MODULE~!, you can quickly reload, detach, or edit it from here."
+                title: "アクティブなカード",
+                content: "現在アクティブな!~MODULE~!が表示されます。ここから簡単にリロード、取り外し、または編集ができます。"
             },
             list: {
-                title: "!~MODULE~! List",
-                content: "Here you can see all the !~MODULE~!s you have created.\n\nClicking on a !~MODULE~! name or picture will set it as your active !~MODULE~!.\n\nYour active !~MODULE~! is the one that has a highlight around it."
+                title: "!~MODULE~リスト",
+                content: "ここでは、作成したすべての!~MODULE~!を見ることができます。\n\n!~MODULE~!の名前または画像をクリックすると、アクティブな!~MODULE~!として設定されます。\n\nアクティブな!~MODULE~!は、周囲がハイライト表示されます。"
             },
             settings: {
-                title: "!~MODULE~! Settings",
-                content: "This is where you can edit the settings of your active !~MODULE~!\n\nClicking this button in the list below will open the settings for that !~MODULE~!."
+                title: "!~MODULE~!設定",
+                content: "ここで、アクティブな!~MODULE~!の設定を編集できます。\n\n下のリストでこのボタンをクリックすると、その!~MODULE~!の設定が開きます。"
             },
             search: {
-                title: "Search !~MODULE~!s",
-                content: "Use the search box to quickly find a specific !~MODULE~! by name or prefix."
+                title: "!~MODULE~!を検索",
+                content: "検索ボックスを使用すると、名前またはプレフィックスで特定の!~MODULE~!をすばやく見つけることができます。"
             }
         },
         profile: {
             welcome: {
-                title: "Profiles",
-                content: "Profiles are the core of FullArray, they let you manage different personas with unique settings and appearances.\n\nYou can have as many profiles as you want and switch between them at any time, each profile has its own settings, outfits, and more that will change when you switch to it."
+                title: "プロファイル",
+                content: "プロファイルはFullArrayの中核であり、独自の設定と外観を持つさまざまなペルソナを管理できます。\n\nプロファイルは必要な数だけ作成でき、いつでも切り替えることができます。各プロファイルには独自の設定、アウトフィットなどがあり、切り替えると変更されます。"
             }
         }
     },
@@ -187,17 +187,17 @@ export const LangJa = {
         },
         tooltip: {
             doll: {
-                outerwear: "アウトフィットの!~SLOT~!スロットを「アウターウェア」ステートとして設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
-                underwear: "アウトフィットの!~SLOT~!スロットを「アンダーウェア」ステートとして設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
-                nude: "アウトフィットの!~SLOT~!スロットを「ヌード」ステートに設定します。<br><br>コマンド：@!~STATE~! !~SLOT~!",
-                rip: "あなたのアウトフィットの!~SLOT~!スロットを剥ぎ取ります。<br>それを直すには、衣装修復を使用する必要があります。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Rip",
-                steal: "あなたのアウトフィットの!~SLOT~!スロットを盗みます。<br>あなたのアウトフィットを盗んだアバターをぶつけない場合は、衣装修理を使用して修理する必要があります。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Steal",
-                throw: "あなたのアウトフィットの!~SLOT~!スロットを投げます。<br>元に戻らない場合は、衣類修理を使って修理する必要があります。<br>投げると誰でも拾って盗むことができるプリムが復活します。ぶつかるか、クリックでプリムを相手の手から叩き落とし、地面をクリックすることで取り戻すことができます。<br><br>コマンド：@Set Outfit Effect !~SLOT~! Throw"
+                outerwear: "アウトフィットの!~SLOT~!スロットを「アウターウェア」ステートとして設定します。<br/><br/>コマンド：@!~STATE~! !~SLOT~!",
+                underwear: "アウトフィットの!~SLOT~!スロットを「アンダーウェア」ステートとして設定します。<br/><br/>コマンド：@!~STATE~! !~SLOT~!",
+                nude: "アウトフィットの!~SLOT~!スロットを「ヌード」ステートに設定します。<br/><br/>コマンド：@!~STATE~! !~SLOT~!",
+                rip: "あなたのアウトフィットの!~SLOT~!スロットを剥ぎ取ります。<br/>戻すには、衣装修復を使用する必要があります。<br/><br/>コマンド：@Set Outfit Effect !~SLOT~! Rip",
+                steal: "あなたのアウトフィットの!~SLOT~!スロットを盗みます。<br/>あなたのアウトフィットを盗んだアバターをぶつけない場合は、衣装修理を使用して修理する必要があります。<br/><br/>コマンド：@Set Outfit Effect !~SLOT~! Steal",
+                throw: "あなたのアウトフィットの!~SLOT~!スロットを投げます。<br/>元に戻らない場合は、衣類修理を使って修理する必要があります。<br/>投げると、誰でも拾って盗むことができるプリムが復活します。ぶつかるか、クリックでプリムを相手の手から叩き落とし、地面をクリックすることで取り戻すことができます。<br/><br/>コマンド：@Set Outfit Effect !~SLOT~! Throw"
             },
-            outfitOuterwear: "アウトフィットのステートを「アウターウェア」に設定します。<br><br>コマンド：@o （スロット名）",
-            outfitUnderwear: "アウトフィットのステートを「アンダーウェア」に設定します。<br><br>コマンド：@u （スロット名）",
-            outfitNude: "アウトフィットのステートを「ヌード」に設定します。<br><br>コマンド：@n （スロット名）<br><br>指のはさみアイコンは、性器のないヌードのアウトフィットとして設定します。<br><br>コマンド：@nc",
-            tempHuds: "モジュールの一時的なＨＵＤを取り付け[+]または、取り外し[-]ます。<br><br>コマンド：@&lt;モジュール&gt; huds &lt;+/-&gt;"
+            outfitOuterwear: "アウトフィットのステートを「アウターウェア」に設定します。<br/><br/>コマンド：@o （スロット名）",
+            outfitUnderwear: "アウトフィットのステートを「アンダーウェア」に設定します。<br/><br/>コマンド：@u （スロット名）",
+            outfitNude: "アウトフィットのステートを「ヌード」に設定します。<br/><br/>コマンド：@n （スロット名）<br/><br/>指のはさみアイコンは、性器のないヌードのアウトフィットとして設定します。<br/><br/>コマンド：@nc",
+            tempHuds: "モジュールの一時的なＨＵＤを取り付け[+]または、取り外し[-]ます。<br/><br/>コマンド：@&lt;モジュール&gt; huds &lt;+/-&gt;"
         }
     },
     profile: {
@@ -207,7 +207,7 @@ export const LangJa = {
         bodyType: "身体種別",
         bodyParts: {
             human: "人間",
-            furry: "ファリー",
+            furry: "ケモナー",
             noBoob: "胸なし",
             boob: "胸",
             plantigrade: "蹠行性",
@@ -221,8 +221,8 @@ export const LangJa = {
             rlvName: "ＲＬＶチャットによる置き換えが有効な場合のこのプロファイルの名前を入力します。",
             playOutfitAnimations: "このプロファイルのアウトフィット変更アニメーションを再生するかどうかを切り替えます。",
             chatReplacer: "このプロファイルでＲＬＶチャットによる置き換えの使用を許可するかどうかを切り替えます。",
-            bodyParts: "このプロファイルの体の部位のタイプを選択します。<br>ホームページ上のインタラクトドールの外観が変更されます。<br>これらは将来のモジュールでも使用されます。",
-            commands: "プロファイルが読み込まれた後に実行されるチャットコマンドを指定します。<br>FullArrayのチャットコマンドは機能しません。"
+            bodyParts: "このプロファイルの体の部位のタイプを選択します。<br/>ホームページ上のインタラクトドールの外観が変更されます。<br/>これらは将来のモジュールでも使用されます。",
+            commands: "プロファイルが読み込まれた後に実行されるチャットコマンドを指定します。<br/>FullArrayのチャットコマンドは機能しません。"
         },
         placeholders: {
             relayName: "リレー名…"
@@ -242,11 +242,11 @@ export const LangJa = {
         linkModeTorso_Crotch_Waist: "胴体＆股間＆腰",
         linkMode_Crotch_Waist: "股間＆腰",
         tooltip: {
-            setDefaultOutfit: "このアウトフィットをデフォルトのアウトフィットとして設定します。<br>設定すると、プロファイルの変更時にこのアウトフィットが読み込まれます。",
-            outfitType: "アウトフィット種別を選択します。<br><br>詳細：アウトフィットスロットで３種類のステートをすべて使用します。<br><br>基本：「詳細」と似ていますが、アウトフィットスロットを使用する必要はありません。<br><br>簡易：「アウターウェア」のステートのみを使用します。これは、簡単な装着または取り外しです。",
-            linkMode: "アウトフィットのリンクモードを選択します。リンクされたスロットは一緒に接続および切断されます。<br><br>なし：アウトフィットをリンクしません。<br><br>胴＆股：胴体と股間のみをリンクします。<br><br>胴＆股＆腰：胴体、股間、腰をリンクします。",
-            genitalsCrotch: "アウトフィットのステートに応じて、プロファイル内のgenitalsCrotchフォルダを装着または取り外します。",
-            genitalsTorso: "アウトフィットのステートに応じて、プロファイル内のgenitalsTorsoフォルダを装着または取り外します。"
+            setDefaultOutfit: "このアウトフィットをデフォルトのアウトフィットとして設定します。<br/>設定すると、プロファイルの変更時にこのアウトフィットが読み込まれます。",
+            outfitType: "アウトフィット種別を選択します。<br/><br/>詳細：アウトフィットスロットで３種類のステートをすべて使用します。<br/><br/>基本：「詳細」と似ていますが、アウトフィットスロットを使用する必要はありません。<br/><br/>簡易：「アウターウェア」のステートのみを使用します。これは、簡単な装着または取り外しです。",
+            linkMode: "アウトフィットのリンクモードを選択します。リンクされたスロットは一緒に接続および解除されます。<br/><br/>なし：アウトフィットをリンクしません。<br/><br/>胴体＆股間：胴体と股間のみをリンクします。<br/><br/>胴体＆股間＆腰：胴体、股間、腰をリンクします。",
+            genitalsCrotch: "アウトフィットのステートに応じて、プロファイル内の「genitalsCrotch」フォルダを装着または取り外します。",
+            genitalsTorso: "アウトフィットのステートに応じて、プロファイル内の「genitalsTorso」フォルダを装着または取り外します。"
         }
     },
     accessory: {
@@ -262,7 +262,7 @@ export const LangJa = {
         tooltip: {
             detachAll: "アクティブなプロファイルからすべてのアクセサリを切り離し、非アクティブに設定します。",
             genitalSlot: "アクセサリを装着すると、性器を取り外すことができるようになります。",
-            reload: "これにより、装着しているアクセサリをすべて取り外して再度取り付ける処理が行われます。"
+            reload: "これにより、装着しているアクセサリをすべて取り外して、再装着する処理が行われます。"
         }
     },
     hair: {
@@ -314,7 +314,7 @@ export const LangJa = {
         fartouch: "遠くを触る",
         categoryChat: "チャット",
         chatExceptions: "チャットの例外を使用",
-        chatExceptionsTooltip: "RLV_CHATへのアクセス権を持つ許可リストの所有者とユーザーが引き続きチャットメッセージを送信できるかどうかを切り替えます。",
+        chatExceptionsTooltip: "RLV_CHATへのアクセス権を持つ許可リストの所有者とユーザが、引き続きチャットメッセージを送信できるかどうかを切り替えます。",
         speak: "話す（チャット）",
         recvchat: "聞く（チャット）",
         sendgesture: "ジェスチャーを使用",
@@ -373,10 +373,10 @@ export const LangJa = {
     landmark: {
         updateLandmark: "ランドマーク更新",
         utility_useForRestart: "リージョン再起動時に使用しますか？",
-        asn: "Scan for nearby ASN gate?",
+        asn: "近くのＡＳＮゲートをスキャンしますか？",
         tooltips: {
             utility_useForRestart: "現在いるリージョンが再起動したときに、このランドマークをテレポート場所として使用しますか？",
-            asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
+            asn: "近くにある「Alteran Stargate Network（ＡＳＮ）」ゲートをスキャンし、そのアドレスをこのランドマークに保存しますか？"
         }
     },
     inventory: {
@@ -393,11 +393,11 @@ export const LangJa = {
         rezAtCamera: "カメラにRez",
         derez: "Rez解除",
         cleanOnLeave: "去ったときにクリーンアップ",
-        useForklift: "Use the Tines system to rez items?",
+        useForklift: "アイテムをRezするときTinesシステムを使用しますか？",
         tooltips: {
             rezInstaller: "インストーラーボックスをRezして、ＨＵＤにアイテムを簡単に追加します。",
             rezEmptyBox: "プレフィックスで使用するために空箱を再生成します。",
-            useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!"
+            useForklift: "これにより、Rezされたオブジェクトへの変更を保存できるようになります。ただし、これはすべてに機能するわけではありません。"
         }
     },
     ao: {
@@ -448,10 +448,10 @@ export const LangJa = {
         isDefault: "デフォルトのグループとしますか？",
         tooltip: {
             isDefault: "リージョンに何も設定されていない場合は、このグループをデフォルトのグループとして使用するかどうかを切り替えます。",
-            roleName: "Role name (not title) to use for this group."
+            roleName: "このグループに使用する役割名（タイトルではありません）。"
         },
         placeholder: {
-            roleName: "Role name..."
+            roleName: "役割名…"
         }
     },
     relay: {
@@ -460,7 +460,7 @@ export const LangJa = {
         setting_relayTrust: "トラストモードをリレー",
         setting_relayAuto: "自動承認をリレー",
         setting_relayPower: "リレーの電源",
-        setting_allowAttachmentControl: "Allow Attachment Control?",
+        setting_allowAttachmentControl: "装着物の操作を許可しますか？",
         setting_safeword: "セーフワード：",
         setting_useSafeword: "セーフワードの使用を許可しますか？",
         setting_useJasX: "JasXゲームコマンドを許可しますか？",
@@ -473,16 +473,16 @@ export const LangJa = {
         },
         tooltip: {
             jasXAutoDress: "Bareゲーム後にＨＵＤが自動的に服を着るかどうかを切り替えます。",
-            pcUseEffect: "Project Clothingのドジっ子効果が発生したときにアウトフィットが衣装を投げるかどうかを切り替えます。",
-            hudLock: "When enabled the HUD will not allow itself to be detached.",
-            safeword: "When typed in chat this will clear all restrictions set by the RLV Relay, this is useful if you get stuck or need to quickly remove restrictions.</br>Type one of these below.</br>((!~SAFEWORD~!))</br>(( !~SAFEWORD~! ))</br>/!~CHANNEL~! @safeword !~SAFEWORD~!",
-            relayTrust: "When enabled the relay will automatically accept any requests from objects you own, owned by the parcel owner, or the object is set to the same group as the parcel.",
-            relayAuto: "When enabled the relay will automatically accept all requests.",
-            relayPower: "Turns the relay on or off.",
-            allowAttachmentControl: "When enabled the relay will allow the `@remoutfit`, `@detach`, `@remattach` commands to be used, this can cause issues with some older RLV scripts that were made before mesh bodies, heats, etc...",
-            allowSafeword: "When enabled allows you to use the safeword set above to escape / release all RLV restrictions from the relay.",
-            useJasX: "When enabled the relay will translate JasX game command to HUD commands, allowing games to affect your outfits.",
-            useProjectClothing: "When enabled the relay will translate Project Clothing commands to HUD commands, allowing outfits to be changed by Project Clothing object, traps, etc..."
+            pcUseEffect: "Project Clothingのドジっ子効果が発生したときに、アウトフィットが衣装を投げるかどうかを切り替えます。",
+            hudLock: "有効にすると、ＨＵＤを切り離せなくなります。",
+            safeword: "セーフワードをチャットに入力すると、ＲＬＶリレーによって設定されたすべての制限が解除されます。これは、行き詰まった場合や制限をすばやく解除する必要がある場合に便利です。<br/>下記の次のいずれかを入力します。<br/>((!~SAFEWORD~!))<br/>(( !~SAFEWORD~! ))<br/>/!~CHANNEL~! @safeword !~SAFEWORD~!",
+            relayTrust: "これを有効にすると、リレーは、自分が所有するオブジェクト、区画の所有者が所有するオブジェクト、または区画と同じグループに設定されているオブジェクトからのリクエストを自動的に受け入れます。",
+            relayAuto: "有効にすると、リレーはすべてのリクエストを自動的に受け入れます。",
+            relayPower: "リレーのオン／オフ",
+            allowAttachmentControl: "リレーを有効にすると、`@remoutfit`、`@detach`、`@remattach` コマンドが使用できるようになります。これにより、メッシュボディ、ヒートなどより昔に作成された古いＲＬＶスクリプトで問題が発生する可能性があります。",
+            allowSafeword: "有効にすると、上記で設定したセーフワードを使用して、リレーからすべてのＲＬＶ制限を回避／解除できます。",
+            useJasX: "有効にすると、リレーはJasXのゲームコマンドをＨＵＤコマンドに変換し、ゲームがアウトフィットに影響を与えることができるようになります。",
+            useProjectClothing: "有効にすると、リレーはProject ClothingコマンドをＨＵＤコマンドに変換し、Project Clothingのオブジェクトやトラップなどによって、アウトフィットを変更できるようになります。"
         }
     },
     permissions: {
@@ -497,7 +497,7 @@ export const LangJa = {
             tooltips: {
                 isSelfOwner: "自分のＨＵＤの所有者ステータスを切り替えます。\n無効にすると、自分の許可リストに追加されずに自分のＨＵＤを制御できなくなります。",
                 isPublic: "これは、「パブリック」にチェックが入っているすべてのモジュールのグローバルトグルです。\nモジュールをパブリックに設定すると、ブロックリストに登録されていないユーザもそのモジュールにアクセスできるようになります。",
-                sameRegion: "ＨＵＤを制御するために他のユーザがあなたと同じリージョンにいる必要があるかどうかを切り替えます。",
+                sameRegion: "ＨＵＤを制御するために他のユーザが、あなたと同じリージョンにいる必要があるかどうかを切り替えます。",
                 location: "ユーザがあなたの現在位置を確認して知ることができ、あなたのところにテレポートできるようになります。"
             }
         },
@@ -588,7 +588,7 @@ export const LangJa = {
             autoWearHair: "髪型を自動装着しますか？",
             allowHairBald: "薄毛ステートを許可しますか？",
             autoWearAccessories: "アクセサリを自動装着／取り外しをしますか？",
-            autoPG: "Prevent Nude in PG/General Sims?",
+            autoPG: "ＰＧ／一般ＳＩＭでヌードになってしまうのを抑止しますか？",
             shoeReplaceFeet: "靴（Shoe）をアウターウェアの足（Feet）の代わりにしますか？",
             playOutfitAnimations: "グローバルのアウトフィットアニメーションを切り替えます。",
             playOutfitSounds: "グローバルのアウトフィットのサウンドを切り替えます。",
@@ -605,13 +605,13 @@ export const LangJa = {
             autoGroup_autoHuds: "ＨＵＤフォルダを自動装着します。",
             hud_verbose: "詳細なＨＵＤメッセージを表示しますか？",
             log_permissions: "詳細な権限エラーのログを取ります。",
-            protectedFolderLock: "保護フォルダをロックします。.",
+            protectedFolderLock: "保護フォルダをロックします。",
             defaultTempHudState: "一時的なＨＵＤのデフォルトのステート。",
             autoCreateFolders: "フォルダを自動作成しますか？",
             hud_sideDock: "ＨＵＤはドックモードです。",
-            landmark_asnFirst: "Try ASN scan before teleport?",
-            general_showCategoryAttach: "Show category attach / detach?",
-            outfit_keepSame: "Keep same Outfit?"
+            landmark_asnFirst: "テレポートする前にＡＳＮスキャンしますか？",
+            general_showCategoryAttach: "カテゴリの装着／取り外しを表示しますか？",
+            outfit_keepSame: "アウトフィットを保持しますか？"
         },
         textbox: {
             prefixPlaceholder: "プレフィックス…",
@@ -660,7 +660,7 @@ export const LangJa = {
             playOutfitAnimations: "アウトフィットやそのステートを変更したときにＨＵＤでアニメーションを再生するかどうかを切り替えます。",
             playOutfitSounds: "アウトフィットやそのステートを変更したときにＨＵＤでサウンドを再生するかどうかを切り替えます。",
             allowEffects: "アウトフィットが盗まれたり剥ぎ取られたりできるようにするかどうかを切り替えます。",
-            outfit_keepSame: "Toggles whether the HUD will try and keep the same Outfit your wearing when you change Profiles if the new Profile has the same Outfit linked.",
+            outfit_keepSame: "新しいプロファイルに同じアウトフィットが紐づけられていた場合、プロファイルを変更したときにＨＵＤが着用中の同じアウトフィットを保持しようとするかどうかを切り替えます。",
             autoWearHair: "プロファイルを読み込むときに、ＨＵＤが最後に使用したヘアスタイルを自動的に使用するかどうかを切り替えます。",
             allowHairBald: "髪型を完全に取り外せるかどうかを切り替えます。",
             autoWearShoe: "アウトフィットを読み込むときに、ＨＵＤが最後に履いた靴を自動的に履くかどうかを切り替えます。",
@@ -671,11 +671,11 @@ export const LangJa = {
             autoCreateFolders: "ＨＵＤがプロファイル、衣装などの新しく作成されたエントリのフォルダを自動的に作成するかどうかを切り替えます。",
             utility_regionRestart_mode: "リージョン再起動時の機能のモードを選択します。<br/>オフ：無効<br/>質問：テレポートするかどうかを尋ねます。<br/>自動：設定された遅延の後に、保存した場所に自動的にテレポートします。<br/>即時：リージョンが再起動すると、保存した場所に即座にテレポートします。",
             utility_regionRestart_time: "テレポートするまでの再起動カウントダウンの残り時間（秒）",
-            landmark_asnFirst: "If enabled when using a Landmark to teleport the HUD will first scan for a nearby ASN gate and use that to teleport if found.",
-            password: "The password is used to login to the HUD outside of SL.",
-            prefix: "Current prefix: ",
-            userChannel: "The channel is used to control the HUD via chat commands from other users or your self.<br/><br/>NOTE: if you change this, any old commands you used will no longer work and you will need to use the new channel in them.<br/><br/>Current channel: ",
-            general_showCategoryAttach: "Toggles whether to show the attach / detach buttons in a category."
+            landmark_asnFirst: "有効にすると、ランドマークを使用してテレポートするときにＨＵＤは最初に近くのＡＳＮゲートをスキャンし、見つかった場合はそれを使用してテレポートします。",
+            password: "パスワードはＳＬ外のＨＵＤにログインするために使用されます。",
+            prefix: "現在のプレフィックス：",
+            userChannel: "このチャンネルは、他のユーザまたは自分自身からのチャットコマンドを介してＨＵＤを制御するために使用されます。<br/><br/>注：これを変更すると、以前に使用したコマンドは機能しなくなり、新しいチャンネルを使用する必要があります。<br/><br/>現在のチャンネル：",
+            general_showCategoryAttach: "カテゴリ内の装着／取り外しボタンを表示するかどうかを切り替えます。"
         },
         color: {
             colorHeader: "カラー設定",
