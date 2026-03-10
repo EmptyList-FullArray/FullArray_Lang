@@ -36,6 +36,7 @@ export const LangEn = {
         chatCommandsChannel: "Channel...",
         chatCommandsCommand: "Command...",
         moduleName: "!~MODULE~! name...",
+        moduleDisplayName: "!~MODULE~! display name...",
         moduleImage: "!~MODULE~! image...",
         moduleGroup: "!~MODULE~! group...",
         linkMode: "Linking Mode",
@@ -180,6 +181,12 @@ export const LangEn = {
                 content: "Profiles are the core of FullArray, they let you manage different personas with unique settings and appearances.\n\nYou can have as many profiles as you want and switch between them at any time, each profile has its own settings, outfits, and more that will change when you switch to it.",
             },            
         },
+        inventory:{
+            welcome:{
+                title: "Inventory",
+                content: "Inventory allows you to store and quickly rez them out from the HUD when needed.\n\nThe HUD can save items back to its inventory (if the object is modifiable and wont break with a link change) and save any changes done to the item.",
+            }
+        }
     },
     home:{
         categories:{
