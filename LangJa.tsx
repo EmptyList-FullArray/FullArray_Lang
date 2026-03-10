@@ -73,7 +73,8 @@ export const LangJa = {
             rip: "剥ぎ取る",
             steal: "盗む",
             throw: "投げる"
-        }
+        },
+        moduleDisplayName: "!~MODULE~! display name..."
     },
     cardActive: {
         id: "ＩＤ",
@@ -177,6 +178,12 @@ export const LangJa = {
             welcome: {
                 title: "プロファイル",
                 content: "プロファイルはFullArrayの中核であり、独自の設定と外観を持つさまざまなペルソナを管理できます。\n\nプロファイルは必要な数だけ作成でき、いつでも切り替えることができます。各プロファイルには独自の設定、アウトフィットなどがあり、切り替えると変更されます。"
+            }
+        },
+        inventory: {
+            welcome: {
+                title: "Inventory",
+                content: "Inventory allows you to store and quickly rez them out from the HUD when needed.\n\nThe HUD can save items back to its inventory (if the object is modifiable and wont break with a link change) and save any changes done to the item."
             }
         }
     },
