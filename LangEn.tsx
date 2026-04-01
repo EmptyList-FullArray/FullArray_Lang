@@ -348,6 +348,8 @@ export const LangEn = {
         regionBlocklist:     "Region Blocklist",
         summon:              "Force Teleport To Me",
         goto:                "Force Teleport Me To Them",
+        chainHome:           "Chain Home",
+        chainHome_tooltip:   "This will allow you to force teleport to a SLURL after a set amount of time (seconds).",
 // Info
         categoryInfo:        "Info",
         showworldmap:        "Show World Map",

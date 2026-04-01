@@ -373,7 +373,9 @@ export const LangJa = {
         lockShoe: "靴をロック",
         lockAo: "ＡＯをロック",
         lockSkin: "スキンをロック",
-        lockBom: "ＢＯＭをロック"
+        lockBom: "ＢＯＭをロック",
+        chainHome: "Chain Home",
+        chainHome_tooltip: "This will allow you to force teleport to a SLURL after a set amount of time (seconds)."
     },
     huds: {
     },

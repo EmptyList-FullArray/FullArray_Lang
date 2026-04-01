@@ -373,7 +373,9 @@ export const LangFr = {
         lockShoe: "Verrouiller Chaussures",
         lockAo: "Verrouiller AO",
         lockSkin: "Verrouiller Peau",
-        lockBom: "Verrouiller Bom"
+        lockBom: "Verrouiller Bom",
+        chainHome: "Chain Home",
+        chainHome_tooltip: "This will allow you to force teleport to a SLURL after a set amount of time (seconds)."
     },
     huds: {
     },
