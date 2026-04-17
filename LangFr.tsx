@@ -49,7 +49,12 @@ export const LangFr = {
             delete: "Supprime ce !~MODULE~! et tous ses liens, cette action est irréversible.",
             linkMode: "Link mode is how you link/assign things to the currently active Profile.",
             listMode: "List mode is were you can change the !~MODULE~! you currently have active/wearing.",
-            access: "Access to the !~MODULE~! module is restricted by permissions."
+            access: "Access to the !~MODULE~! module is restricted by permissions.",
+            selectUser: "Select a user to control their HUD.",
+            notifications: "HUD notification center.",
+            accessRelay: "Access & Relay",
+            homePage: "Home page",
+            toggleSidebar: "Toggle Module sidebar"
         },
         states: {
             outerwear: "Vêtements extérieurs",
@@ -74,7 +79,18 @@ export const LangFr = {
             steal: "Voler",
             throw: "Lancer"
         },
-        moduleDisplayName: "!~MODULE~! display name..."
+        moduleDisplayName: "!~MODULE~! display name...",
+        none: "None",
+        unknown: "Unknown",
+        hudUpdateAvailable: "A new update is available for the HUD.",
+        hudUpdateHere: "HERE",
+        hudUpdateReload: " to reload the HUD.",
+        helpHeader: "Help and Information",
+        helpBody: "The Open Wiki button will open the wiki page related to the current module, if available. The Page Guide button will start a guided tour of the current page.",
+        openWiki: "Open Wiki",
+        pageGuide: "Page Guide",
+        loadingWebSocket: "Loading WebSocket module...",
+        loadingSetup: "Loading first time setup..."
     },
     cardActive: {
         id: "ID",
@@ -205,7 +221,12 @@ export const LangFr = {
             outfitUnderwear: "Définit votre Tenue à l'état Sous-vêtements.<br><br>Commande: @u (nom de l'emplacement)",
             outfitNude: "Définit votre Tenue à l'état Nu.<br><br>Commande: @n (nom de l'emplacement)<br><br>L'icône des ciseaux de doigts mettra votre Tenue à nu sans les parties génitales.<br><br>Commande: @nc",
             tempHuds: "Attacher [+] ou Détacher [-] le dossier des HUDs temporaires pour un module.<br><br>Commande: @&lt;module&gt; huds &lt;+/-&gt;"
-        }
+        },
+        hudLock: "Hud Lock",
+        bare: "Bare",
+        bareTemp: "Bare Temp",
+        bald: "Bald",
+        baldTemp: "Bald Temp"
     },
     profile: {
         isAdult: "Ce Profil est-il adulte ?",
@@ -235,7 +256,11 @@ export const LangFr = {
             relayName: "Nom du relais..."
         },
         errors: {
-        }
+        },
+        errorChannelBlank: "Error: Chat channel cannot be blank.",
+        errorCommandBlank: "Error: Chat command cannot be blank.",
+        bodyPartsCategory: "Body parts",
+        titleLabel: "Title"
     },
     outfit: {
         setDefaultOutfit: "Définir comme Tenue par défaut",
@@ -253,8 +278,15 @@ export const LangFr = {
             outfitType: "Sélectionnez le type de Tenue.<br><br>Avancé: Utilise tous les emplacements de Tenue et les 3 états.<br><br>Basique: est comme Avancé mais vous n'avez pas à utiliser les emplacements de Tenue.<br><br>Simple: vous n'utilisez que l'état Vêtements extérieurs, c'est simplement attaché ou détaché",
             linkMode: "Sélectionnez le mode de liaison de la Tenue, les emplacements liés s'attacheront et se détacheront ensemble.<br><br>Aucun: Ne lie pas la Tenue.<br><br>Torse & Entrejambe: Lie uniquement le Torse et l'Entrejambe.<br><br>Torse & Entrejambe & Taille: Lie le Torse, l'Entrejambe et la Taille.",
             genitalsCrotch: "Attachera et détachera le dossier genitalsCrotch dans votre Profil en fonction de l'état de votre Tenue.",
-            genitalsTorso: "Attachera et détachera le dossier genitalsTorso dans votre Profil en fonction de l'état de votre Tenue."
-        }
+            genitalsTorso: "Attachera et détachera le dossier genitalsTorso dans votre Profil en fonction de l'état de votre Tenue.",
+            defaultHair: "Sets the default hair to attach when this outfit is loaded.",
+            defaultShoe: "Sets the default shoe to attach when this outfit is loaded."
+        },
+        defaultHair: "Default Hair",
+        defaultShoe: "Default Shoe",
+        torsoGenitalSettings: "Torso Genital Settings",
+        crotchGenitalSettings: "Crotch Genital Settings",
+        none: "None"
     },
     accessory: {
         detachAll: "Détacher tous les Accessoires",
@@ -375,7 +407,15 @@ export const LangFr = {
         lockSkin: "Verrouiller Peau",
         lockBom: "Verrouiller Bom",
         chainHome: "Chain Home",
-        chainHome_tooltip: "This will allow you to force teleport to a SLURL after a set amount of time (seconds)."
+        chainHome_tooltip: "This will allow you to force teleport to a SLURL after a set amount of time (seconds).",
+        teleportRestrictions: "Teleport / Restrictions",
+        errorNoUuid: "No UUID given.",
+        leashDistance: "Distance",
+        leashSpeed: "Speed",
+        chainHomePlaceholderSlurl: "SLURL",
+        chainHomePlaceholderTime: "Time",
+        regionBlocklistPlaceholder: "Region SLURL To Block...",
+        regionBlocklistErrorBlank: "Region SLURL cannot be blank."
     },
     huds: {
     },
@@ -460,8 +500,14 @@ export const LangFr = {
             roleName: "Role name (not title) to use for this group."
         },
         placeholder: {
-            roleName: "Role name..."
-        }
+            roleName: "Role name...",
+            groupName: "Group Name...",
+            groupUuid: "Group UUID...",
+            groupRole: "Group Role...",
+            regionSlurl: "Region SLURL..."
+        },
+        errorBlank: "SLURL or UUID cannot be blank.",
+        created: "Created."
     },
     relay: {
         hudLock: "Verrouiller votre HUD ?",
@@ -542,6 +588,14 @@ export const LangFr = {
         },
         apiList: {
             header: "Liste API"
+        },
+        tabs: {
+            permissions: "Permissions",
+            ownerlist: "Ownerlist",
+            allowlist: "Allowlist",
+            blocklist: "Blocklist",
+            apiList: "Api List",
+            relay: "Relay"
         }
     },
     settings: {
@@ -768,11 +822,34 @@ export const LangFr = {
                 track: "Piste de la barre de défilement",
                 thumb: "Curseur de la barre de défilement",
                 border: "Bordure de la barre de défilement"
-            }
-        }
+            },
+            colorTitle: "Color",
+            showBorder: "Show Border"
+        },
+        landmark: {
+            off: "Off",
+            ask: "Ask",
+            auto: "Auto",
+            instant: "Instant"
+        },
+        profile: {
+            keepSameNo: "No",
+            keepSame: "Keep",
+            keepSameSimilar: "Keep Similar"
+        },
+        about: {
+            supporters: "Supporters",
+            translators: "Translators"
+        },
+        errorUpdateLocal: "Failed to update settings locally"
     },
     pantyRaid: {
-        noTrophySelected: "Sélectionnez un Trophée ci-dessous."
+        noTrophySelected: "Sélectionnez un Trophée ci-dessous.",
+        level: "Level",
+        attempts: "Attempts",
+        stolen: "Stolen",
+        losses: "Losses",
+        link: "Link"
     },
     userSelect: {
         selectSelf: "Sélectionnez votre propre HUD.",
@@ -795,7 +872,9 @@ export const LangFr = {
     notification: {
         notifications: "Notifications",
         changelog: "Journal des modifications",
-        unread: "(Non lu)"
+        unread: "(Non lu)",
+        markAllNotificationsRead: "Mark all notifications as read.",
+        markAllChangelogsRead: "Mark all changelogs as read."
     },
     camera: {
         followUser: "Suivre l'utilisateur",
@@ -816,7 +895,19 @@ export const LangFr = {
     },
     calendar: {
         tooltip: {
-            addUUID: "Add a user via UUID to track their SL birthday."
+            addUUID: "Add a user via UUID to track their SL birthday.",
+            addGoogleCalendar: "Add a Google Calendar ID."
+        },
+        manageCalendar: "Manage Calendar",
+        links: "Links",
+        openProfile: "Open Profile",
+        openMap: "Open Map",
+        calendars: "Calendars",
+        birthdays: "Birthdays",
+        placeholder: {
+            googleCalendarName: "Google Calendar Name...",
+            googleCalendarId: "Google Calendar ID...",
+            uuid: "UUID..."
         }
     },
     login: {
@@ -836,6 +927,19 @@ export const LangFr = {
         buttonFinish: "Finish Setup"
     },
     title: {
-        save: "Save Title changes?"
+        save: "Save Title changes?",
+        createTitle: "Create Title",
+        titleText: "Title Text",
+        addNewLine: "Add New Line"
+    },
+    asn: {
+        errorGateDetails: "Failed to get gate details",
+        pegasusMode: "Pegasus mode",
+        milkywayMode: "Milkyway mode",
+        quickDial: "Quick dial",
+        slowDial: "Slow dial",
+        guidedMode: "Guided mode",
+        manualMode: "Manual mode",
+        directDial: "Direct Dial"
     }
 }

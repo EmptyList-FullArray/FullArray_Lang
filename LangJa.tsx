@@ -49,7 +49,12 @@ export const LangJa = {
             delete: "この!~MODULE~!とそのすべてのリンクを削除します。元に戻すことはできません。",
             linkMode: "リンクモードは、現在アクティブなプロファイルにリンク／割り当てる方法です。",
             listMode: "リストモードでは、現在アクティブな／装着している!~MODULE~!を変更できます。",
-            access: "!~MODULE~!モジュールへのアクセスは、権限によって制限されています。"
+            access: "!~MODULE~!モジュールへのアクセスは、権限によって制限されています。",
+            selectUser: "Select a user to control their HUD.",
+            notifications: "HUD notification center.",
+            accessRelay: "Access & Relay",
+            homePage: "Home page",
+            toggleSidebar: "Toggle Module sidebar"
         },
         states: {
             outerwear: "アウターウェア",
@@ -74,7 +79,18 @@ export const LangJa = {
             steal: "盗む",
             throw: "投げる"
         },
-        moduleDisplayName: "!~MODULE~! display name..."
+        moduleDisplayName: "!~MODULE~! display name...",
+        none: "None",
+        unknown: "Unknown",
+        hudUpdateAvailable: "A new update is available for the HUD.",
+        hudUpdateHere: "HERE",
+        hudUpdateReload: " to reload the HUD.",
+        helpHeader: "Help and Information",
+        helpBody: "The Open Wiki button will open the wiki page related to the current module, if available. The Page Guide button will start a guided tour of the current page.",
+        openWiki: "Open Wiki",
+        pageGuide: "Page Guide",
+        loadingWebSocket: "Loading WebSocket module...",
+        loadingSetup: "Loading first time setup..."
     },
     cardActive: {
         id: "ＩＤ",
@@ -205,7 +221,12 @@ export const LangJa = {
             outfitUnderwear: "アウトフィットのステートを「アンダーウェア」に設定します。<br/><br/>コマンド：@u （スロット名）",
             outfitNude: "アウトフィットのステートを「ヌード」に設定します。<br/><br/>コマンド：@n （スロット名）<br/><br/>指のはさみアイコンは、性器のないヌードのアウトフィットとして設定します。<br/><br/>コマンド：@nc",
             tempHuds: "モジュールの一時的なＨＵＤを取り付け[+]または、取り外し[-]ます。<br/><br/>コマンド：@&lt;モジュール&gt; huds &lt;+/-&gt;"
-        }
+        },
+        hudLock: "Hud Lock",
+        bare: "Bare",
+        bareTemp: "Bare Temp",
+        bald: "Bald",
+        baldTemp: "Bald Temp"
     },
     profile: {
         isAdult: "このプロファイルはAdultですか？",
@@ -235,7 +256,11 @@ export const LangJa = {
             relayName: "リレー名…"
         },
         errors: {
-        }
+        },
+        errorChannelBlank: "Error: Chat channel cannot be blank.",
+        errorCommandBlank: "Error: Chat command cannot be blank.",
+        bodyPartsCategory: "Body parts",
+        titleLabel: "Title"
     },
     outfit: {
         setDefaultOutfit: "デフォルトのアウトフィットとして保存",
@@ -253,8 +278,15 @@ export const LangJa = {
             outfitType: "アウトフィット種別を選択します。<br/><br/>詳細：アウトフィットスロットで３種類のステートをすべて使用します。<br/><br/>基本：「詳細」と似ていますが、アウトフィットスロットを使用する必要はありません。<br/><br/>簡易：「アウターウェア」のステートのみを使用します。これは、簡単な装着または取り外しです。",
             linkMode: "アウトフィットのリンクモードを選択します。リンクされたスロットは一緒に接続および解除されます。<br/><br/>なし：アウトフィットをリンクしません。<br/><br/>胴体＆股間：胴体と股間のみをリンクします。<br/><br/>胴体＆股間＆腰：胴体、股間、腰をリンクします。",
             genitalsCrotch: "アウトフィットのステートに応じて、プロファイル内の「genitalsCrotch」フォルダを装着または取り外します。",
-            genitalsTorso: "アウトフィットのステートに応じて、プロファイル内の「genitalsTorso」フォルダを装着または取り外します。"
-        }
+            genitalsTorso: "アウトフィットのステートに応じて、プロファイル内の「genitalsTorso」フォルダを装着または取り外します。",
+            defaultHair: "Sets the default hair to attach when this outfit is loaded.",
+            defaultShoe: "Sets the default shoe to attach when this outfit is loaded."
+        },
+        defaultHair: "Default Hair",
+        defaultShoe: "Default Shoe",
+        torsoGenitalSettings: "Torso Genital Settings",
+        crotchGenitalSettings: "Crotch Genital Settings",
+        none: "None"
     },
     accessory: {
         detachAll: "すべてのアクセサリを取り外す",
@@ -375,7 +407,15 @@ export const LangJa = {
         lockSkin: "スキンをロック",
         lockBom: "ＢＯＭをロック",
         chainHome: "Chain Home",
-        chainHome_tooltip: "This will allow you to force teleport to a SLURL after a set amount of time (seconds)."
+        chainHome_tooltip: "This will allow you to force teleport to a SLURL after a set amount of time (seconds).",
+        teleportRestrictions: "Teleport / Restrictions",
+        errorNoUuid: "No UUID given.",
+        leashDistance: "Distance",
+        leashSpeed: "Speed",
+        chainHomePlaceholderSlurl: "SLURL",
+        chainHomePlaceholderTime: "Time",
+        regionBlocklistPlaceholder: "Region SLURL To Block...",
+        regionBlocklistErrorBlank: "Region SLURL cannot be blank."
     },
     huds: {
     },
@@ -460,8 +500,14 @@ export const LangJa = {
             roleName: "このグループに使用する役割名（タイトルではありません）。"
         },
         placeholder: {
-            roleName: "役割名…"
-        }
+            roleName: "役割名…",
+            groupName: "Group Name...",
+            groupUuid: "Group UUID...",
+            groupRole: "Group Role...",
+            regionSlurl: "Region SLURL..."
+        },
+        errorBlank: "SLURL or UUID cannot be blank.",
+        created: "Created."
     },
     relay: {
         hudLock: "あなたのＨＵＤをロックしますか？",
@@ -542,6 +588,14 @@ export const LangJa = {
         },
         apiList: {
             header: "ＡＰＩリスト"
+        },
+        tabs: {
+            permissions: "Permissions",
+            ownerlist: "Ownerlist",
+            allowlist: "Allowlist",
+            blocklist: "Blocklist",
+            apiList: "Api List",
+            relay: "Relay"
         }
     },
     settings: {
@@ -768,11 +822,34 @@ export const LangJa = {
                 track: "スクロールバーのトラック",
                 thumb: "スクロールバーのつまみ",
                 border: "スクロールバーの枠"
-            }
-        }
+            },
+            colorTitle: "Color",
+            showBorder: "Show Border"
+        },
+        landmark: {
+            off: "Off",
+            ask: "Ask",
+            auto: "Auto",
+            instant: "Instant"
+        },
+        profile: {
+            keepSameNo: "No",
+            keepSame: "Keep",
+            keepSameSimilar: "Keep Similar"
+        },
+        about: {
+            supporters: "Supporters",
+            translators: "Translators"
+        },
+        errorUpdateLocal: "Failed to update settings locally"
     },
     pantyRaid: {
-        noTrophySelected: "以下からトロフィーを選択してください。"
+        noTrophySelected: "以下からトロフィーを選択してください。",
+        level: "Level",
+        attempts: "Attempts",
+        stolen: "Stolen",
+        losses: "Losses",
+        link: "Link"
     },
     userSelect: {
         selectSelf: "自分のＨＵＤを選択してください。",
@@ -795,7 +872,9 @@ export const LangJa = {
     notification: {
         notifications: "通知",
         changelog: "更新履歴",
-        unread: "（未読）"
+        unread: "（未読）",
+        markAllNotificationsRead: "Mark all notifications as read.",
+        markAllChangelogsRead: "Mark all changelogs as read."
     },
     camera: {
         followUser: "ユーザをフォロー",
@@ -816,7 +895,19 @@ export const LangJa = {
     },
     calendar: {
         tooltip: {
-            addUUID: "誕生日を追跡したいユーザのＵＵＩＤを追加します。"
+            addUUID: "誕生日を追跡したいユーザのＵＵＩＤを追加します。",
+            addGoogleCalendar: "Add a Google Calendar ID."
+        },
+        manageCalendar: "Manage Calendar",
+        links: "Links",
+        openProfile: "Open Profile",
+        openMap: "Open Map",
+        calendars: "Calendars",
+        birthdays: "Birthdays",
+        placeholder: {
+            googleCalendarName: "Google Calendar Name...",
+            googleCalendarId: "Google Calendar ID...",
+            uuid: "UUID..."
         }
     },
     login: {
@@ -836,6 +927,19 @@ export const LangJa = {
         buttonFinish: "セットアップ完了"
     },
     title: {
-        save: "タイトルの変更を保存しますか？"
+        save: "タイトルの変更を保存しますか？",
+        createTitle: "Create Title",
+        titleText: "Title Text",
+        addNewLine: "Add New Line"
+    },
+    asn: {
+        errorGateDetails: "Failed to get gate details",
+        pegasusMode: "Pegasus mode",
+        milkywayMode: "Milkyway mode",
+        quickDial: "Quick dial",
+        slowDial: "Slow dial",
+        guidedMode: "Guided mode",
+        manualMode: "Manual mode",
+        directDial: "Direct Dial"
     }
 }
