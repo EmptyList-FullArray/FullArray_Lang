@@ -930,7 +930,8 @@ export const LangFr = {
         save: "Save Title changes?",
         createTitle: "Create Title",
         titleText: "Title Text",
-        addNewLine: "Add New Line"
+        addNewLine: "Add New Line",
+        titleLabel: "Title"
     },
     asn: {
         errorGateDetails: "Failed to get gate details",
