@@ -262,7 +262,6 @@ export const LangEn = {
         errorChannelBlank: "Error: Chat channel cannot be blank.",
         errorCommandBlank: "Error: Chat command cannot be blank.",
         bodyPartsCategory: "Body parts",
-        titleLabel:        "Title",
     },
     outfit:{
         setDefaultOutfit:           "Set as Default Outfit",
@@ -957,6 +956,7 @@ export const LangEn = {
         buttonFinish: "Finish Setup",
     },
     title:{
+        titleLabel: "Title",
         save:        "Save Title changes?",
         createTitle: "Create Title",
         titleText:   "Title Text",
