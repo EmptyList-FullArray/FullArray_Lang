@@ -2,7 +2,7 @@ export const LangEn = {
     fallbackError:{
         line_1: "⚠️ Something went wrong ⚠️",
         line_2: "If you're seeing this error the HUD has suffered a critical error and will reload in 5 seconds.",
-        line_3: "If you can load the HUD externally the issue is likely due to a outdated viewer.",
+        line_3: "If you can load the HUD externally the issue is likely due to an outdated viewer.",
         line_4: "If you can't load the HUD externally please file a support ticket on our Discord.",
     },
     modules:{
@@ -61,7 +61,7 @@ export const LangEn = {
             isAdult:   "If the Profile is adult, used with the PG on teleport feature.",
             delete:    "Deletes this !~MODULE~! and all of its links, this can not be undone.",
             linkMode:  "Link mode is how you link/assign things to the currently active Profile.",
-            listMode:  "List mode is were you can change the !~MODULE~! you currently have active/wearing.",
+            listMode:  "List mode is where you can change the !~MODULE~! you currently have active/wearing.",
             access:    "Access to the !~MODULE~! module is restricted by permissions.",
             selectUser: "Select a user to control their HUD.",
             notifications: "HUD notification center.",
@@ -101,7 +101,7 @@ export const LangEn = {
         create: "Create a new !~MODULE~!",
         tooltip:{
             reload: "Reloads the !~MODULE~!.<br>This will detach and reattach the !~MODULE~! folder.",
-            detach: "Detaches the !~MODULE~! folder.<br>Other modules may be set to un-active aswell.",
+            detach: "Detaches the !~MODULE~! folder.<br>Other modules may be set to un-active as well.",
             edit:   "Edits the settings of this !~MODULE~!.",
         }
     },
@@ -128,7 +128,7 @@ export const LangEn = {
             },
             moduleList: {
                 title: "Module List",
-                content: "This is the list of modules you own, clicking one of them will take you to that module's page were you can manage it.",
+                content: "This is the list of modules you own, clicking one of them will take you to that module's page where you can manage it.",
             },
             userSelect: {
                 title: "User Select",
@@ -150,7 +150,7 @@ export const LangEn = {
         userSelect:{
             selectSelf:{
                 title: "Select Yourself",
-                content: "Clicking this will select your own HUD when your controlling another user.",
+                content: "Clicking this will select your own HUD when you're controlling another user.",
             },
             selectUUID:{
                 title: "Select By UUID",
@@ -162,7 +162,7 @@ export const LangEn = {
             },
             region:{
                 title: "Region Users",
-                content: "This button will scan the area around you for users to show who is wearing a FullArray HUD, this is useful for finding users to interact with or to add as favorites.\n\nAswell it shows users who do not have a FullArray HUD and has the ability to offer them a free copy of it.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)",
+                content: "This button will scan the area around you for users to show who is wearing a FullArray HUD, this is useful for finding users to interact with or to add as favorites.\n\nAs well it shows users who do not have a FullArray HUD and has the ability to offer them a free copy of it.\n\n(Do NOT abuse this feature to spam people, or you will lose access to it.)",
             },
             hudUsers:{
                 title: "HUD Users",
@@ -200,7 +200,7 @@ export const LangEn = {
         inventory:{
             welcome:{
                 title: "Inventory",
-                content: "Inventory allows you to store and quickly rez them out from the HUD when needed.\n\nThe HUD can save items back to its inventory (if the object is modifiable and wont break with a link change) and save any changes done to the item.",
+                content: "Inventory allows you to store and quickly rez them out from the HUD when needed.\n\nThe HUD can save items back to its inventory (if the object is modifiable and won't break with a link change) and save any changes done to the item.",
             }
         }
     },
@@ -256,9 +256,6 @@ export const LangEn = {
         placeholders:{
             relayName: "RelayName...",
         },
-        errors:{
-
-        },
         errorChannelBlank: "Error: Chat channel cannot be blank.",
         errorCommandBlank: "Error: Chat command cannot be blank.",
         bodyPartsCategory: "Body parts",
@@ -270,7 +267,6 @@ export const LangEn = {
         outfitTypeBasic:            "Basic",   
         outfitTypeSimple:           "Simple",
         linkMode:                   "Link Mode",
-        linkModeNone:               "None", 
         linkModeTorso_Crotch:       "Torso & Crotch",
         linkModeTorso_Crotch_Waist: "Torso & Crotch & Waist",
         linkMode_Crotch_Waist:       "Crotch & Waist",
@@ -278,7 +274,6 @@ export const LangEn = {
         defaultShoe:              "Default Shoe",
         torsoGenitalSettings:     "Torso Genital Settings",
         crotchGenitalSettings:    "Crotch Genital Settings",
-        none:                     "None",
         tooltip:{
             setDefaultOutfit: "Sets this Outfit as your default Outfit.<br>If set this Outfit will be loaded on Profile change.",
             outfitType: "Select the type of the Outfit.<br><br>Advanced: Uses all of the Outfit slots and the 3 states.<br><br>Basic: is like Advanced but you do not have use the Outfit slots.<br><br>Simple: you only use the Outerwear state, its a simple attached or detached",
@@ -294,9 +289,6 @@ export const LangEn = {
         genitalSlotHeader: "Genital slot override.",
         reload: "Reload Accessories",
         genitalSlot:{
-            none:    "None",
-            crotch:  "Crotch",
-            torso:   "Torso",
             both:    "Both",
         },
         tooltip:{
@@ -304,10 +296,6 @@ export const LangEn = {
             genitalSlot: "Gives the Accessory the ability to detach your genitals when its attached.",
             reload: "This will attempt to detach and reattach all worn Accessories.",
         }
-    },
-    hair:{
-    },
-    shoe:{
     },
     rlv:{
 // Leash
@@ -320,7 +308,7 @@ export const LangEn = {
         leashYank:            "Yank Leash",
         leashToObject:        "Leash To Object",
         leashToAvatar:        "Leash To Avatar",
-        headerLeashPatricle:  "Leash Particle",
+        headerLeashParticle:  "Leash Particle",
         leashColor:           "< | Color | >",
         leashRibbon:          "Use Ribbon Particle",
         leashPlaceholderUUID: "Texture UUID...",
@@ -335,7 +323,7 @@ export const LangEn = {
         forceUnsit:          "Force Stand Up",
 // Inventory
         categoryFolders:     "Folders",
-        categoryinventory:   "Inventory",
+        categoryInventory:   "Inventory",
         resetFolderView:     "Reset to RLV folder",
         folderOpen:          "Open Folder",
         folderAttach:        "Attach Folder",
@@ -359,7 +347,7 @@ export const LangEn = {
 // Chat
         categoryChat:        "Chat",
         chatExceptions:      "Use Chat Exceptions",
-        chatExceptionsTooltip: "Toggles wether Owners and users on your Allowlist with access to RLV_CHAT can still send you chat messages.",
+        chatExceptionsTooltip: "Toggles whether Owners and users on your Allowlist with access to RLV_CHAT can still send you chat messages.",
         speak:               "Speak (Chat)",
         recvchat:            "Hear (Chat)",
         sendgesture:         "Use Gestures",
@@ -429,12 +417,11 @@ export const LangEn = {
         regionBlocklistPlaceholder: "Region SLURL To Block...",
         regionBlocklistErrorBlank:  "Region SLURL cannot be blank.",
     },
-    huds:{},
     landmark:{
         updateLandmark: "Update Landmark",
         utility_useForRestart: "Use for region restarts?",
         asn: "Scan for nearby ASN gate?",
-        tooltips:{
+        tooltip:{
             utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?",
             asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
         }
@@ -442,7 +429,7 @@ export const LangEn = {
     inventory:{
         rezInstaller: "Rez Installer",
         rezEmptyBox: "Rez Empty Box",
-        autoSit: "Automaticly sit when rezzed?",
+        autoSit: "Automatically sit when rezzed?",
         useRotation: "Use Rotation?",
         position: "Position:",
         heightOffset: "Height Offset:",
@@ -454,9 +441,9 @@ export const LangEn = {
         derez: "Derez",
         cleanOnLeave: "Cleanup on Leave",
         useForklift: "Use the Tines system to rez items?",
-        tooltips:{
-            rezInstaller: "Rezzes a Installer box to easly add items to your HUD.",
-            rezEmptyBox: "Rezzes a empty box for use with prefixes.",
+        tooltip:{
+            rezInstaller: "Rezzes an Installer box to easily add items to your HUD.",
+            rezEmptyBox: "Rezzes an empty box for use with prefixes.",
             useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!",
         }
     },
@@ -490,7 +477,7 @@ export const LangEn = {
             dampen: "Float value for the Ao's dampen speed in water.",
             floaty: "Toggle whether the swimming feature should slowly float you to the water surface.",
             speed: "Float value for the Ao's swim speed.",
-            useLM: "Toggle if the Ao should listen to LockMiester power commands.",
+            useLM: "Toggle if the Ao should listen to LockMeister power commands.",
             useOC: "Toggle if the Ao should listen to the OpenCollar power commands.",
             doGroundSit: "Toggle if the Ao should play animations while sitting on the ground.",
             doSit: "Toggle if the Ao should play animations while sitting.",
@@ -500,8 +487,6 @@ export const LangEn = {
             hudMode1: "Toggles the HUD to open in the right direction.",
         }
     },
-    skin:{},
-    bom:{},
     autoGroup:{
         isDefault:  "Is Default Group?",
         errorBlank: "SLURL or UUID cannot be blank.",
@@ -510,7 +495,7 @@ export const LangEn = {
             isDefault: "Toggle if this group is the default group to use if none is set for a region.",
             roleName: "Role name (not title) to use for this group.", 
         },
-        placeholder:{
+        placeholders:{
             roleName:    "Role name...",
             groupName:   "Group Name...",
             groupUuid:   "Group UUID...",
@@ -558,7 +543,7 @@ export const LangEn = {
             setAccessLevel: "Set Access Level for !~MODULE~!",
             setSelfAccessLevel: "Set Self Access Level for !~MODULE~!",
             setPublicAccessLevel: "Set Public Access Level for !~MODULE~!",
-            tooltips:{
+            tooltip:{
                 isSelfOwner: "Toggles the owner status of your own HUD.\nWhen disabled you will not be able to control your own HUD without being added to your own Allowlist.",
                 isPublic:    "Toggle public access for all modules marked as public.</br>When enabled, anyone not on your Blocklist can use them.</br>By default all modules are public.",
                 sameRegion:  "Toggles if other users need to be in the same region as you to control your HUD.",
@@ -572,7 +557,7 @@ export const LangEn = {
             placeholders:{
                 addAllowlistUUID: "UUID to add to your Allowlist...",
             },
-            tooltips:{
+            tooltip:{
                 about: "The Allowlist is a list of users who are allowed to interact with parts of your HUD.\nEach module and user have their own access level and if the users level is the same or higher than the modules level they can use it.",
                 currentLeashHolder: "The current RLV Leash Holder of your avatar.",
                 friends:            "The access level for your SL friends list.",
@@ -591,7 +576,7 @@ export const LangEn = {
             placeholders:{
                 addOwnerUUID: "UUID to add to your Ownerlist...",
             },
-            tooltips:{
+            tooltip:{
                 about: "The Ownerlist is a list of users who are allowed nearly full control over your HUD\nThings in the settings menu are not allowed to be changed by the anyone on your ownerlist.",
             }
         },
@@ -679,7 +664,7 @@ export const LangEn = {
             log_permissions:        "Verbose Permission error logging.",
             protectedFolderLock:    "Lock the Protected Folder.",
             defaultTempHudState:    "Default state for TempHUDs.",
-            autoCreateFolders:      "Automaticly create folders?",
+            autoCreateFolders:      "Automatically create folders?",
             hud_sideDock:           "HUDs dock mode.",
             landmark_asnFirst:      "Try ASN scan before teleport?",
             general_showCategoryAttach: "Show category attach / detach?",
@@ -709,7 +694,7 @@ export const LangEn = {
             useTargetColor:         "Toggles whether your HUD will use the HUD colors of the user you are controlling.",
             hudSide:                "Toggles if the HUD will open to the left or the right.",
             categoryState:          "Toggle whether categories are open or closed by default.",
-            saveHudPosition:        "Saves the position on your screen were the HUD currently is, useful if you need to replace the HUD its self.",
+            saveHudPosition:        "Saves the position on your screen where the HUD currently is, useful if you need to replace the HUD its self.",
             listType:               "Changes the style of the lists in categories.",
             uiSize:                 "Changes the scale of the entire HUD ui.",
             defaultNavState:        "Toggles whether the navbar is open or closed by default.",
@@ -720,7 +705,7 @@ export const LangEn = {
             hud_verbose:            "Toggles whether the HUD will say information during startup.",
             protectedFolderLock:    "Toggles whether the Protected folder will be locked at all times.",
             defaultTempHudState:    "Toggles whether the TempHUDs controls are hidden by default.",
-            hud_sideDock:           "Controls if HUDs will dock below the root prim or inplace were they were moved to.",
+            hud_sideDock:           "Controls if HUDs will dock below the root prim or in place where they were moved to.",
             // API
             apiKey:                 "Your API key for products you create.<br/><br/>DON'T SHARE THIS!<br/><br/>If you re roll this key all previous content will break that used the old key.",
             api_message:            "Toggles whether the HUD should send API message on channel: 698008",
@@ -729,7 +714,7 @@ export const LangEn = {
             log_permissions:        "Toggles whether the HUD will say in chat if a permission check has failed for another user.",
             // Profile
             autoWearOutfit:         "Toggles whether the HUD will automatically wear the last worn Outfit when loading a Profile.",
-            profile_replaceAll:     "Toggles whether the HUD will detach everything on your avatar before attaching a Profile.<br/>This includes things no in the #RLV folder.",
+            profile_replaceAll:     "Toggles whether the HUD will detach everything on your avatar before attaching a Profile.<br/>This includes things not in the #RLV folder.",
             // Outfit
             autoPG:                 "Toggles whether the HUD will automatically set your Outfit to outerwear or change to a non adult Outfit when teleporting to a PG/General sim.</br>Also will prevent you from going to the Nude state in a PG/General sim.",
             shoeReplaceFeet:        "Toggles whether the HUD will automatically attach or detach your Shoes with your Outfits feet state.",
@@ -765,7 +750,7 @@ export const LangEn = {
             showBorder:   "Show Border",
             categoryPreset:{
                 header: "Preset",
-                presetJsson: "Paste your preset config here....",
+                presetJson: "Paste your preset config here....",
             },
             preset: "",
             categoryExample:{
@@ -774,7 +759,7 @@ export const LangEn = {
                 buttonActive: "Button Active",
                 static: "Static",
                 textbox: "Textbox",
-                exmpleHeader: "Header",
+                exampleHeader: "Header",
                 categoryHeader: "Category Header",
             },
             categoryConfig:{
@@ -787,7 +772,7 @@ export const LangEn = {
                     hudBackgroundImage: "HUD Background Image URL",
                 },
             },
-            cagegoryButton:{
+            categoryButton:{
                 header: "Button",
                 button: "Button",
                 buttonHover: "Button Hover",
@@ -833,9 +818,6 @@ export const LangEn = {
             },
             categoryDoll:{
                 header: "Doll",
-                outerwear: "Outerwear",
-                underwear: "Underwear",
-                nude:      "Nude",
                 disabled:  "Disabled",
             },
             categoryScrollbar:{ 
@@ -929,7 +911,7 @@ export const LangEn = {
         openMap:        "Open Map",
         calendars:      "Calendars",
         birthdays:      "Birthdays",
-        placeholder:{
+        placeholders:{
             googleCalendarName: "Google Calendar Name...",
             googleCalendarId:   "Google Calendar ID...",
             uuid:               "UUID...",

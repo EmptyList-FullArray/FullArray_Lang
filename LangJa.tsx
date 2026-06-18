@@ -415,7 +415,9 @@ export const LangJa = {
         chainHomePlaceholderSlurl: "SLURL",
         chainHomePlaceholderTime: "Time",
         regionBlocklistPlaceholder: "Region SLURL To Block...",
-        regionBlocklistErrorBlank: "Region SLURL cannot be blank."
+        regionBlocklistErrorBlank: "Region SLURL cannot be blank.",
+        headerLeashParticle: "Leash Particle",
+        categoryInventory: "Inventory"
     },
     huds: {
     },
@@ -426,6 +428,10 @@ export const LangJa = {
         tooltips: {
             utility_useForRestart: "現在いるリージョンが再起動したときに、このランドマークをテレポート場所として使用しますか？",
             asn: "近くにある「Alteran Stargate Network（ＡＳＮ）」ゲートをスキャンし、そのアドレスをこのランドマークに保存しますか？"
+        },
+        tooltip: {
+            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?",
+            asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
         }
     },
     inventory: {
@@ -447,6 +453,11 @@ export const LangJa = {
             rezInstaller: "インストーラーボックスをRezして、ＨＵＤにアイテムを簡単に追加します。",
             rezEmptyBox: "プレフィックスで使用するために空箱を再生成します。",
             useForklift: "これにより、Rezされたオブジェクトへの変更を保存できるようになります。ただし、これはすべてに機能するわけではありません。"
+        },
+        tooltip: {
+            rezInstaller: "Rezzes an Installer box to easily add items to your HUD.",
+            rezEmptyBox: "Rezzes an empty box for use with prefixes.",
+            useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!"
         }
     },
     ao: {
@@ -507,7 +518,14 @@ export const LangJa = {
             regionSlurl: "Region SLURL..."
         },
         errorBlank: "SLURL or UUID cannot be blank.",
-        created: "Created."
+        created: "Created.",
+        placeholders: {
+            roleName: "Role name...",
+            groupName: "Group Name...",
+            groupUuid: "Group UUID...",
+            groupRole: "Group Role...",
+            regionSlurl: "Region SLURL..."
+        }
     },
     relay: {
         hudLock: "あなたのＨＵＤをロックしますか？",
@@ -554,6 +572,12 @@ export const LangJa = {
                 isPublic: "これは、「パブリック」にチェックが入っているすべてのモジュールのグローバルトグルです。\nモジュールをパブリックに設定すると、ブロックリストに登録されていないユーザもそのモジュールにアクセスできるようになります。",
                 sameRegion: "ＨＵＤを制御するために他のユーザが、あなたと同じリージョンにいる必要があるかどうかを切り替えます。",
                 location: "ユーザがあなたの現在位置を確認して知ることができ、あなたのところにテレポートできるようになります。"
+            },
+            tooltip: {
+                isSelfOwner: "Toggles the owner status of your own HUD.\nWhen disabled you will not be able to control your own HUD without being added to your own Allowlist.",
+                isPublic: "Toggle public access for all modules marked as public.</br>When enabled, anyone not on your Blocklist can use them.</br>By default all modules are public.",
+                sameRegion: "Toggles if other users need to be in the same region as you to control your HUD.",
+                location: "Allows users to see and know where you are, and teleport to you."
             }
         },
         allowlist: {
@@ -567,6 +591,11 @@ export const LangJa = {
                 about: "許可リストは、ＨＵＤの一部を操作することが許可されているユーザのリストです。\n各モジュールとユーザには独自のアクセスできるレベルがあり、ユーザのレベルがモジュールのレベルと同じかそれ以上であれば、そのモジュールを使用できます。",
                 currentLeashHolder: "現在のあなたのアバターのＲＬＶリーシュのホルダーです。",
                 friends: "あなたのＳＬのフレンドのアクセスレベルのリストです。"
+            },
+            tooltip: {
+                about: "The Allowlist is a list of users who are allowed to interact with parts of your HUD.\nEach module and user have their own access level and if the users level is the same or higher than the modules level they can use it.",
+                currentLeashHolder: "The current RLV Leash Holder of your avatar.",
+                friends: "The access level for your SL friends list."
             }
         },
         blocklist: {
@@ -584,6 +613,9 @@ export const LangJa = {
             },
             tooltips: {
                 about: "所有者リストは、ＨＵＤに対するほぼ完全な制御が許可されているユーザのリストです。\n設定メニュー内の項目は、所有者リストのどのユーザも変更できません。"
+            },
+            tooltip: {
+                about: "The Ownerlist is a list of users who are allowed nearly full control over your HUD\nThings in the settings menu are not allowed to be changed by the anyone on your ownerlist."
             }
         },
         apiList: {
@@ -744,7 +776,8 @@ export const LangJa = {
             colorHeader: "カラー設定",
             categoryPreset: {
                 header: "プリセット",
-                presetJsson: "プリセット設定をここにペーストしてください…"
+                presetJsson: "プリセット設定をここにペーストしてください…",
+                presetJson: "Paste your preset config here...."
             },
             preset: "",
             categoryExample: {
@@ -754,7 +787,8 @@ export const LangJa = {
                 static: "静的",
                 textbox: "テキストボックス",
                 exmpleHeader: "ヘッダ",
-                categoryHeader: "カテゴリヘッダ"
+                categoryHeader: "カテゴリヘッダ",
+                exampleHeader: "Header"
             },
             categoryConfig: {
                 header: "設定",
@@ -824,7 +858,16 @@ export const LangJa = {
                 border: "スクロールバーの枠"
             },
             colorTitle: "Color",
-            showBorder: "Show Border"
+            showBorder: "Show Border",
+            categoryButton: {
+                header: "Button",
+                button: "Button",
+                buttonHover: "Button Hover",
+                buttonText: "Button Text",
+                buttonTextHover: "Button Text Hover",
+                button3D: "Button 3D",
+                button3DHover: "Button 3D Hover"
+            }
         },
         landmark: {
             off: "Off",
@@ -905,6 +948,11 @@ export const LangJa = {
         calendars: "Calendars",
         birthdays: "Birthdays",
         placeholder: {
+            googleCalendarName: "Google Calendar Name...",
+            googleCalendarId: "Google Calendar ID...",
+            uuid: "UUID..."
+        },
+        placeholders: {
             googleCalendarName: "Google Calendar Name...",
             googleCalendarId: "Google Calendar ID...",
             uuid: "UUID..."

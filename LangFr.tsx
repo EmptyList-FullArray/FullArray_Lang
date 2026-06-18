@@ -415,7 +415,9 @@ export const LangFr = {
         chainHomePlaceholderSlurl: "SLURL",
         chainHomePlaceholderTime: "Time",
         regionBlocklistPlaceholder: "Region SLURL To Block...",
-        regionBlocklistErrorBlank: "Region SLURL cannot be blank."
+        regionBlocklistErrorBlank: "Region SLURL cannot be blank.",
+        headerLeashParticle: "Leash Particle",
+        categoryInventory: "Inventory"
     },
     huds: {
     },
@@ -424,6 +426,10 @@ export const LangFr = {
         utility_useForRestart: "Use for region restarts?",
         asn: "Scan for nearby ASN gate?",
         tooltips: {
+            utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?",
+            asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
+        },
+        tooltip: {
             utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?",
             asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
         }
@@ -446,6 +452,11 @@ export const LangFr = {
         tooltips: {
             rezInstaller: "Crée une boîte d'installation pour ajouter facilement des éléments à votre HUD.",
             rezEmptyBox: "Crée une boîte vide à utiliser avec les préfixes.",
+            useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!"
+        },
+        tooltip: {
+            rezInstaller: "Rezzes an Installer box to easily add items to your HUD.",
+            rezEmptyBox: "Rezzes an empty box for use with prefixes.",
             useForklift: "This will allow you to save changes to a rezzed object, NOTE! this will not work on everything!"
         }
     },
@@ -507,7 +518,14 @@ export const LangFr = {
             regionSlurl: "Region SLURL..."
         },
         errorBlank: "SLURL or UUID cannot be blank.",
-        created: "Created."
+        created: "Created.",
+        placeholders: {
+            roleName: "Role name...",
+            groupName: "Group Name...",
+            groupUuid: "Group UUID...",
+            groupRole: "Group Role...",
+            regionSlurl: "Region SLURL..."
+        }
     },
     relay: {
         hudLock: "Verrouiller votre HUD ?",
@@ -554,6 +572,12 @@ export const LangFr = {
                 isPublic: "This is the global toggle for all modules that have isPublic checked.\nWhen a module is set to public anyone not on your Blocklist can access it.",
                 sameRegion: "Active ou désactive si d'autres utilisateurs doivent être dans la même région que vous pour contrôler votre HUD.",
                 location: "Allows users to see and know where you are, and teleport to you."
+            },
+            tooltip: {
+                isSelfOwner: "Toggles the owner status of your own HUD.\nWhen disabled you will not be able to control your own HUD without being added to your own Allowlist.",
+                isPublic: "Toggle public access for all modules marked as public.</br>When enabled, anyone not on your Blocklist can use them.</br>By default all modules are public.",
+                sameRegion: "Toggles if other users need to be in the same region as you to control your HUD.",
+                location: "Allows users to see and know where you are, and teleport to you."
             }
         },
         allowlist: {
@@ -567,6 +591,11 @@ export const LangFr = {
                 about: "The Allowlist is a list of users who are allowed to interact with parts of your HUD.\nEach module and user have their own access level and if the users level is the same or higher than the modules level they can use it.",
                 currentLeashHolder: "Le détenteur actuel de la laisse RLV de votre avatar.",
                 friends: "Le niveau d'accès pour votre liste d'amis SL."
+            },
+            tooltip: {
+                about: "The Allowlist is a list of users who are allowed to interact with parts of your HUD.\nEach module and user have their own access level and if the users level is the same or higher than the modules level they can use it.",
+                currentLeashHolder: "The current RLV Leash Holder of your avatar.",
+                friends: "The access level for your SL friends list."
             }
         },
         blocklist: {
@@ -583,6 +612,9 @@ export const LangFr = {
                 addOwnerUUID: "UUID à ajouter à votre liste des propriétaires..."
             },
             tooltips: {
+                about: "The Ownerlist is a list of users who are allowed nearly full control over your HUD\nThings in the settings menu are not allowed to be changed by the anyone on your ownerlist."
+            },
+            tooltip: {
                 about: "The Ownerlist is a list of users who are allowed nearly full control over your HUD\nThings in the settings menu are not allowed to be changed by the anyone on your ownerlist."
             }
         },
@@ -744,7 +776,8 @@ export const LangFr = {
             colorHeader: "Paramètres de Couleur",
             categoryPreset: {
                 header: "Préréglage",
-                presetJsson: "Collez votre configuration préréglée ici...."
+                presetJsson: "Collez votre configuration préréglée ici....",
+                presetJson: "Paste your preset config here...."
             },
             preset: "",
             categoryExample: {
@@ -754,7 +787,8 @@ export const LangFr = {
                 static: "Statique",
                 textbox: "Zone de texte",
                 exmpleHeader: "En-tête",
-                categoryHeader: "En-tête de Catégorie"
+                categoryHeader: "En-tête de Catégorie",
+                exampleHeader: "Header"
             },
             categoryConfig: {
                 header: "Configuration",
@@ -824,7 +858,16 @@ export const LangFr = {
                 border: "Bordure de la barre de défilement"
             },
             colorTitle: "Color",
-            showBorder: "Show Border"
+            showBorder: "Show Border",
+            categoryButton: {
+                header: "Button",
+                button: "Button",
+                buttonHover: "Button Hover",
+                buttonText: "Button Text",
+                buttonTextHover: "Button Text Hover",
+                button3D: "Button 3D",
+                button3DHover: "Button 3D Hover"
+            }
         },
         landmark: {
             off: "Off",
@@ -905,6 +948,11 @@ export const LangFr = {
         calendars: "Calendars",
         birthdays: "Birthdays",
         placeholder: {
+            googleCalendarName: "Google Calendar Name...",
+            googleCalendarId: "Google Calendar ID...",
+            uuid: "UUID..."
+        },
+        placeholders: {
             googleCalendarName: "Google Calendar Name...",
             googleCalendarId: "Google Calendar ID...",
             uuid: "UUID..."
