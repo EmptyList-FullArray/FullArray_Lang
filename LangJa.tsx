@@ -800,7 +800,7 @@ export const LangJa = {
                     hudBackgroundImage: "ＨＵＤの背景画像のＵＲＬ"
                 }
             },
-            cagegoryButton: {
+            categoryButton: {
                 header: "ボタン",
                 button: "ボタン",
                 buttonHover: "ホバー時のボタン",
@@ -858,16 +858,7 @@ export const LangJa = {
                 border: "スクロールバーの枠"
             },
             colorTitle: "Color",
-            showBorder: "Show Border",
-            categoryButton: {
-                header: "Button",
-                button: "Button",
-                buttonHover: "Button Hover",
-                buttonText: "Button Text",
-                buttonTextHover: "Button Text Hover",
-                button3D: "Button 3D",
-                button3DHover: "Button 3D Hover"
-            }
+            showBorder: "Show Border"
         },
         landmark: {
             off: "Off",

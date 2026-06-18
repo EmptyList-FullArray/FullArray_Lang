@@ -800,7 +800,7 @@ export const LangFr = {
                     hudBackgroundImage: "URL de l'image d'arrière-plan du HUD"
                 }
             },
-            cagegoryButton: {
+            categoryButton: {
                 header: "Bouton",
                 button: "Bouton",
                 buttonHover: "Bouton au survol",
@@ -858,16 +858,7 @@ export const LangFr = {
                 border: "Bordure de la barre de défilement"
             },
             colorTitle: "Color",
-            showBorder: "Show Border",
-            categoryButton: {
-                header: "Button",
-                button: "Button",
-                buttonHover: "Button Hover",
-                buttonText: "Button Text",
-                buttonTextHover: "Button Text Hover",
-                button3D: "Button 3D",
-                button3DHover: "Button 3D Hover"
-            }
+            showBorder: "Show Border"
         },
         landmark: {
             off: "Off",
