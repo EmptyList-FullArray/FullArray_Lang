@@ -943,5 +943,15 @@ export const LangEn = {
         createTitle: "Create Title",
         titleText:   "Title Text",
         addNewLine:  "Add New Line",
+    },
+    bom:{
+        outfitLinks:   "Outfit Links",
+        profileLinks:  "Profile Links",
+        profileButton: "Profile",
+        outfitButton:  "Outfit",
+        tooltip:{
+            profileLinks: "BOMs linked to active profile",
+            outfitLinks:  "BOMs linked to active outfit",
+        }
     }
 }

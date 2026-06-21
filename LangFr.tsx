@@ -503,6 +503,14 @@ export const LangFr = {
     skin: {
     },
     bom: {
+        outfitLinks: "Outfit Links",
+        profileLinks: "Profile Links",
+        profileButton: "Profile",
+        outfitButton: "Outfit",
+        tooltip: {
+            profileLinks: "BOMs linked to active profile",
+            outfitLinks: "BOMs linked to active outfit"
+        }
     },
     autoGroup: {
         isDefault: "Est-ce le groupe par défaut ?",
