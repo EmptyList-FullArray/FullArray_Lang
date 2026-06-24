@@ -803,54 +803,54 @@ export const LangJa = {
                 categoryMisc: {
                     header: "その他",
                     border: "枠",
-                    hudBackground: "ＨＵＤの背景",
-                    hudAlpha: "ＨＵＤのアルファ：",
-                    hudBackgroundImage: "ＨＵＤの背景画像のＵＲＬ"
+                    hudBackground: "背景",
+                    hudAlpha: "アルファ：",
+                    hudBackgroundImage: "背景画像のＵＲＬ"
                 }
             },
             categoryButton: {
                 header: "ボタン",
-                button: "ボタン",
-                buttonHover: "ホバー時のボタン",
-                buttonText: "ボタンのテキスト",
-                buttonTextHover: "ホバー時のボタンのテキスト",
-                button3D: "ボタン３Ｄ",
-                button3DHover: "ホバー時のボタン３Ｄ"
+                button: "ベース",
+                buttonHover: "ホバー",
+                buttonText: "テキスト",
+                buttonTextHover: "テキスト（ホバー）",
+                button3D: "３Ｄ",
+                button3DHover: "３Ｄ（ホバー）"
             },
             categoryButtonActive: {
                 header: "アクティブなボタン",
-                button: "アクティブなボタン",
-                buttonHover: "ホバー時のアクティブなボタン",
-                buttonText: "アクティブなボタンのテキスト",
-                buttonTextHover: "ホバー時のアクティブなボタンのテキスト",
-                button3D: "アクティブなボタン３Ｄ",
-                button3DHover: "ホバー時のアクティブなボタン３Ｄ"
+                button: "ベース",
+                buttonHover: "ホバー",
+                buttonText: "テキスト",
+                buttonTextHover: "テキスト（ホバー）",
+                button3D: "３Ｄ",
+                button3DHover: "３Ｄ（ホバー）"
             },
             categoryStatic: {
                 header: "静的",
-                static: "静的",
-                staticText: "静的なテキスト"
+                static: "ベース",
+                staticText: "テキスト"
             },
             categoryHeader: {
                 header: "ヘッダ",
-                headerText: "ヘッダのテキスト"
+                headerText: "テキスト"
             },
             categoryCategoryHeader: {
                 header: "ヘッダ",
-                headerText: "カテゴリのヘッダのテキスト"
+                headerText: "テキスト"
             },
             categoryTextbox: {
                 header: "テキストボックス",
-                textbox: "テキストボックス",
-                textboxHover: "ホバー時のテキストボックス",
-                textboxText: "テキストボックスのテキスト",
-                textboxTextHover: "ホバー時のテキストボックスのテキスト",
-                textboxPlaceholder: "テキストボックスのプレイスホルダ"
+                textbox: "ベース",
+                textboxHover: "ホバー",
+                textboxText: "テキスト",
+                textboxTextHover: "テキスト（ホバー）",
+                textboxPlaceholder: "プレイスホルダ"
             },
             categoryIcons: {
                 header: "アイコン",
-                iconPrimary: "プライマリアイコン",
-                iconSecondary: "セカンダリアイコン"
+                iconPrimary: "プライマリ",
+                iconSecondary: "セカンダリ"
             },
             categoryDoll: {
                 header: "ドール",
@@ -861,9 +861,9 @@ export const LangJa = {
             },
             categoryScrollbar: {
                 header: "スクロールバー",
-                track: "スクロールバーのトラック",
-                thumb: "スクロールバーのつまみ",
-                border: "スクロールバーの枠"
+                track: "トラック",
+                thumb: "つまみ",
+                border: "枠"
             },
             colorTitle: "Color",
             showBorder: "Show Border"

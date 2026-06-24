@@ -803,54 +803,54 @@ export const LangFr = {
                 categoryMisc: {
                     header: "Divers",
                     border: "Bordure",
-                    hudBackground: "Arrière-plan du HUD",
-                    hudAlpha: "Transparence du HUD: ",
-                    hudBackgroundImage: "URL de l'image d'arrière-plan du HUD"
+                    hudBackground: "Arrière-plan",
+                    hudAlpha: "Transparence: ",
+                    hudBackgroundImage: "URL de l'image"
                 }
             },
             categoryButton: {
                 header: "Bouton",
-                button: "Bouton",
-                buttonHover: "Bouton au survol",
-                buttonText: "Texte du bouton",
-                buttonTextHover: "Texte du bouton au survol",
-                button3D: "Bouton 3D",
-                button3DHover: "Bouton 3D au survol"
+                button: "Base",
+                buttonHover: "Au survol",
+                buttonText: "Texte",
+                buttonTextHover: "Texte au survol",
+                button3D: "3D",
+                button3DHover: "3D au survol"
             },
             categoryButtonActive: {
                 header: "Bouton Actif",
-                button: "Bouton actif",
-                buttonHover: "Bouton actif au survol",
-                buttonText: "Texte du bouton actif",
-                buttonTextHover: "Texte du bouton actif au survol",
-                button3D: "Bouton actif 3D",
-                button3DHover: "Bouton actif 3D au survol"
+                button: "Base",
+                buttonHover: "Au survol",
+                buttonText: "Texte",
+                buttonTextHover: "Texte au survol",
+                button3D: "3D",
+                button3DHover: "3D au survol"
             },
             categoryStatic: {
                 header: "Statique",
-                static: "Statique",
-                staticText: "Texte statique"
+                static: "Base",
+                staticText: "Texte"
             },
             categoryHeader: {
                 header: "Header",
-                headerText: "Header Text"
+                headerText: "Texte"
             },
             categoryCategoryHeader: {
                 header: "Category Header",
-                headerText: "Category Header Text"
+                headerText: "Texte"
             },
             categoryTextbox: {
                 header: "Zone de texte",
-                textbox: "Zone de texte",
-                textboxHover: "Zone de texte au survol",
-                textboxText: "Texte de la zone de texte",
-                textboxTextHover: "Texte de la zone de texte au survol",
-                textboxPlaceholder: "Texte indicatif de la zone de texte"
+                textbox: "Base",
+                textboxHover: "Au survol",
+                textboxText: "Texte",
+                textboxTextHover: "Texte au survol",
+                textboxPlaceholder: "Indicatif"
             },
             categoryIcons: {
                 header: "Icônes",
-                iconPrimary: "Icône primaire",
-                iconSecondary: "Icône secondaire"
+                iconPrimary: "Primaire",
+                iconSecondary: "Secondaire"
             },
             categoryDoll: {
                 header: "Poupée",
@@ -861,9 +861,9 @@ export const LangFr = {
             },
             categoryScrollbar: {
                 header: "Barre de défilement",
-                track: "Piste de la barre de défilement",
-                thumb: "Curseur de la barre de défilement",
-                border: "Bordure de la barre de défilement"
+                track: "Piste",
+                thumb: "Curseur",
+                border: "Bordure"
             },
             colorTitle: "Color",
             showBorder: "Show Border"
