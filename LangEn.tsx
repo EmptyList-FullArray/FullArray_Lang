@@ -441,6 +441,7 @@ export const LangEn = {
         derez: "Derez",
         cleanOnLeave: "Cleanup on Leave",
         useForklift: "Use the Tines system to rez items?",
+        deleteInworld: "Delete inworld inventory item aswell?",
         tooltip:{
             rezInstaller: "Rezzes an Installer box to easily add items to your HUD.",
             rezEmptyBox: "Rezzes an empty box for use with prefixes.",
