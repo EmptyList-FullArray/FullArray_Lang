@@ -826,6 +826,11 @@ export const LangEn = {
                 track: "Track",
                 thumb: "Thumb",
                 border: "Border",
+            },
+            categoryUserSelect:{
+                header: "User Select",
+                name: "Name",
+                outfit: "Profile / Outfit",
             }
         },
         landmark:{

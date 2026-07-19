@@ -867,7 +867,12 @@ export const LangJa = {
                 border: "枠"
             },
             colorTitle: "色",
-            showBorder: "枠を表示"
+            showBorder: "枠を表示",
+            categoryUserSelect: {
+                header: "User Select",
+                name: "Name",
+                outfit: "Profile / Outfit"
+            }
         },
         landmark: {
             off: "オフ",

@@ -867,7 +867,12 @@ export const LangFr = {
                 border: "Bordure"
             },
             colorTitle: "Color",
-            showBorder: "Show Border"
+            showBorder: "Show Border",
+            categoryUserSelect: {
+                header: "User Select",
+                name: "Name",
+                outfit: "Profile / Outfit"
+            }
         },
         landmark: {
             off: "Off",
