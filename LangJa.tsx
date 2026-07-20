@@ -301,8 +301,12 @@ export const LangJa = {
         tooltip: {
             detachAll: "アクティブなプロファイルからすべてのアクセサリを切り離し、非アクティブに設定します。",
             genitalSlot: "アクセサリを装着すると、性器を取り外すことができるようになります。",
-            reload: "これにより、装着しているアクセサリをすべて取り外して、再装着する処理が行われます。"
-        }
+            reload: "これにより、装着しているアクセサリをすべて取り外して、再装着する処理が行われます。",
+            profileLinks: "Accessories linked to active profile",
+            outfitLinks: "Accessories linked to active outfit"
+        },
+        outfitLinks: "Outfit Links",
+        profileLinks: "Profile Links"
     },
     hair: {
     },

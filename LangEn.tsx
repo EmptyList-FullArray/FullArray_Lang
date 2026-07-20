@@ -288,6 +288,8 @@ export const LangEn = {
         detachAll: "Detach all Accessories",
         genitalSlotHeader: "Genital slot override.",
         reload: "Reload Accessories",
+        outfitLinks:   "Outfit Links",
+        profileLinks:  "Profile Links",
         genitalSlot:{
             both:    "Both",
         },
@@ -295,6 +297,8 @@ export const LangEn = {
             detachAll: "Detaches and sets all Accessories from your active Profile as non active.",
             genitalSlot: "Gives the Accessory the ability to detach your genitals when its attached.",
             reload: "This will attempt to detach and reattach all worn Accessories.",
+            profileLinks: "Accessories linked to active profile",
+            outfitLinks:  "Accessories linked to active outfit",
         }
     },
     rlv:{

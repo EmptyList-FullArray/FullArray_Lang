@@ -301,8 +301,12 @@ export const LangFr = {
         tooltip: {
             detachAll: "Détache et désactive tous les Accessoires de votre Profil actif.",
             genitalSlot: "Donne à l'Accessoire la capacité de détacher vos parties génitales lorsqu'il est attaché.",
-            reload: "This will attempt to detach and reattach all worn Accessories."
-        }
+            reload: "This will attempt to detach and reattach all worn Accessories.",
+            profileLinks: "Accessories linked to active profile",
+            outfitLinks: "Accessories linked to active outfit"
+        },
+        outfitLinks: "Outfit Links",
+        profileLinks: "Profile Links"
     },
     hair: {
     },
