@@ -680,6 +680,9 @@ export const LangEn = {
             passwordPlaceholder: "Password...",
             userChannelPlaceholder: "Channel...",
         },
+        button:{
+            logout: "Logout",
+        },
         popup:{
             setLang:   "Set Language",
             hudColors: "Edit HUD Colors",
@@ -746,6 +749,7 @@ export const LangEn = {
             password:               "The password is used to login to the HUD outside of SL.",
             prefix:                 "Current prefix: ",
             userChannel:            "The channel is used to control the HUD via chat commands from other users or your self.<br/><br/>NOTE: if you change this, any old commands you used will no longer work and you will need to use the new channel in them.<br/><br/>Current channel: ",
+            logout:                 "Log out of the HUD website on this device.",
             // UI
             general_showCategoryAttach: "Toggles whether to show the attach / detach buttons in a category.",
         },

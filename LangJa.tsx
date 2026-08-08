@@ -783,7 +783,8 @@ export const LangJa = {
             password: "パスワードはＳＬ外のＨＵＤにログインするために使用されます。",
             prefix: "現在のプレフィックス：",
             userChannel: "このチャンネルは、他のユーザまたは自分自身からのチャットコマンドを介してＨＵＤを制御するために使用されます。<br/><br/>注：これを変更すると、以前に使用したコマンドは機能しなくなり、新しいチャンネルを使用する必要があります。<br/><br/>現在のチャンネル：",
-            general_showCategoryAttach: "カテゴリ内の装着／取り外しボタンを表示するかどうかを切り替えます。"
+            general_showCategoryAttach: "カテゴリ内の装着／取り外しボタンを表示するかどうかを切り替えます。",
+            logout: "Log out of the HUD website on this device."
         },
         color: {
             colorHeader: "カラー設定",
@@ -893,7 +894,10 @@ export const LangJa = {
             supporters: "サポーター",
             translators: "翻訳者"
         },
-        errorUpdateLocal: "ローカルでの設定の更新に失敗しました。"
+        errorUpdateLocal: "ローカルでの設定の更新に失敗しました。",
+        button: {
+            logout: "Logout"
+        }
     },
     pantyRaid: {
         noTrophySelected: "以下からトロフィーを選択してください。",
