@@ -622,6 +622,7 @@ export const LangEn = {
         apiKey: "API Key",
         utility_regionRestart_mode: "Auto teleport on region restart?",
         utility_regionRestart_time: "Teleport delay:",
+        outfitDefaultsHeader: "New Outfit Defaults",
         categories:{
             account: "Account",
             general: "General",
@@ -674,6 +675,7 @@ export const LangEn = {
             landmark_asnFirst:      "Try ASN scan before teleport?",
             general_showCategoryAttach: "Show category attach / detach?",
             outfit_keepSame:        "Keep same Outfit?",
+            outfit_defaultIsAdult:  "New Outfits default to Adult?",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",
@@ -730,6 +732,8 @@ export const LangEn = {
             playOutfitSounds:       "Toggles whether the HUD will play sounds when you change your Outfit or its state.",
             allowEffects:           "Toggles whether your Outfit can be stolen or ripped.",
             outfit_keepSame:        "Toggles whether the HUD will try and keep the same Outfit your wearing when you change Profiles if the new Profile has the same Outfit linked.",
+            outfit_defaultIsAdult:  "Toggles whether newly created Outfits will have the Adult flag set by default.",
+            outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits.",
             // Hair
             autoWearHair:           "Toggles whether the HUD will automatically wear the last worn Hair when loading a Profile.",
             allowHairBald:          "Toggles whether your Hair can be fully detached.",

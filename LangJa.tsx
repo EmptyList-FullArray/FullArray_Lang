@@ -719,7 +719,8 @@ export const LangJa = {
             hud_sideDock: "ＨＵＤはドックモードです。",
             landmark_asnFirst: "テレポートする前にＡＳＮスキャンしますか？",
             general_showCategoryAttach: "カテゴリの装着／取り外しを表示しますか？",
-            outfit_keepSame: "アウトフィットを保持しますか？"
+            outfit_keepSame: "アウトフィットを保持しますか？",
+            outfit_defaultIsAdult: "New Outfits default to Adult?"
         },
         textbox: {
             prefixPlaceholder: "プレフィックス…",
@@ -784,7 +785,9 @@ export const LangJa = {
             prefix: "現在のプレフィックス：",
             userChannel: "このチャンネルは、他のユーザまたは自分自身からのチャットコマンドを介してＨＵＤを制御するために使用されます。<br/><br/>注：これを変更すると、以前に使用したコマンドは機能しなくなり、新しいチャンネルを使用する必要があります。<br/><br/>現在のチャンネル：",
             general_showCategoryAttach: "カテゴリ内の装着／取り外しボタンを表示するかどうかを切り替えます。",
-            logout: "Log out of the HUD website on this device."
+            logout: "Log out of the HUD website on this device.",
+            outfit_defaultIsAdult: "Toggles whether newly created Outfits will have the Adult flag set by default.",
+            outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits."
         },
         color: {
             colorHeader: "カラー設定",
@@ -897,7 +900,8 @@ export const LangJa = {
         errorUpdateLocal: "ローカルでの設定の更新に失敗しました。",
         button: {
             logout: "Logout"
-        }
+        },
+        outfitDefaultsHeader: "New Outfit Defaults"
     },
     pantyRaid: {
         noTrophySelected: "以下からトロフィーを選択してください。",

@@ -719,7 +719,8 @@ export const LangFr = {
             hud_sideDock: "HUDs dock mode.",
             landmark_asnFirst: "Try ASN scan before teleport?",
             general_showCategoryAttach: "Show category attach / detach?",
-            outfit_keepSame: "Keep same Outfit?"
+            outfit_keepSame: "Keep same Outfit?",
+            outfit_defaultIsAdult: "New Outfits default to Adult?"
         },
         textbox: {
             prefixPlaceholder: "Préfixe...",
@@ -784,7 +785,9 @@ export const LangFr = {
             prefix: "Current prefix: ",
             userChannel: "The channel is used to control the HUD via chat commands from other users or your self.<br/><br/>NOTE: if you change this, any old commands you used will no longer work and you will need to use the new channel in them.<br/><br/>Current channel: ",
             general_showCategoryAttach: "Toggles whether to show the attach / detach buttons in a category.",
-            logout: "Log out of the HUD website on this device."
+            logout: "Log out of the HUD website on this device.",
+            outfit_defaultIsAdult: "Toggles whether newly created Outfits will have the Adult flag set by default.",
+            outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits."
         },
         color: {
             colorHeader: "Paramètres de Couleur",
@@ -897,7 +900,8 @@ export const LangFr = {
         errorUpdateLocal: "Failed to update settings locally",
         button: {
             logout: "Logout"
-        }
+        },
+        outfitDefaultsHeader: "New Outfit Defaults"
     },
     pantyRaid: {
         noTrophySelected: "Sélectionnez un Trophée ci-dessous.",
