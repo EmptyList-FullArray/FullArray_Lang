@@ -16,7 +16,6 @@ export const LangEn = {
             submit: "Submit",
             missing: "Please fill in a subject and description.",
             success: "Ticket submitted!",
-            viewTicket: "View Ticket",
         },
     },
     modules:{
