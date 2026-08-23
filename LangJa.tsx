@@ -1007,5 +1007,19 @@ export const LangJa = {
         guidedMode: "ガイドモード",
         manualMode: "手動モード",
         directDial: "直接ダイアル"
+    },
+    help: {
+        submitTicket: "Submit a Ticket",
+        ticketPopup: {
+            header: "Submit a Ticket",
+            typeSupport: "Bug / Support Issue",
+            typeRequest: "Feature Request",
+            subjectPlaceholder: "Subject",
+            bodyPlaceholder: "Describe the issue or request in detail...",
+            submit: "Submit",
+            missing: "Please fill in a subject and description.",
+            success: "Ticket submitted!",
+            viewTicket: "View Ticket"
+        }
     }
 }

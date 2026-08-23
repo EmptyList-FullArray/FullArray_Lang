@@ -5,6 +5,20 @@ export const LangEn = {
         line_3: "If you can load the HUD externally the issue is likely due to an outdated viewer.",
         line_4: "If you can't load the HUD externally please file a support ticket on our Discord.",
     },
+    help:{
+        submitTicket: "New Ticket",
+        ticketPopup:{
+            header: "Submit a Ticket",
+            typeSupport: "Bug / Support Issue",
+            typeRequest: "Feature Request",
+            subjectPlaceholder: "Subject",
+            bodyPlaceholder: "Describe the issue or request in detail...",
+            submit: "Submit",
+            missing: "Please fill in a subject and description.",
+            success: "Ticket submitted!",
+            viewTicket: "View Ticket",
+        },
+    },
     modules:{
         profile:     "Profile",
         outfit:      "Outfit",

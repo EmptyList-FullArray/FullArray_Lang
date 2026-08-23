@@ -1007,5 +1007,19 @@ export const LangFr = {
         guidedMode: "Guided mode",
         manualMode: "Manual mode",
         directDial: "Direct Dial"
+    },
+    help: {
+        submitTicket: "Submit a Ticket",
+        ticketPopup: {
+            header: "Submit a Ticket",
+            typeSupport: "Bug / Support Issue",
+            typeRequest: "Feature Request",
+            subjectPlaceholder: "Subject",
+            bodyPlaceholder: "Describe the issue or request in detail...",
+            submit: "Submit",
+            missing: "Please fill in a subject and description.",
+            success: "Ticket submitted!",
+            viewTicket: "View Ticket"
+        }
     }
 }
