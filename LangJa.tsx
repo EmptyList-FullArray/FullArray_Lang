@@ -521,7 +521,9 @@ export const LangJa = {
         isDefault: "デフォルトのグループとしますか？",
         tooltip: {
             isDefault: "リージョンに何も設定されていない場合は、このグループをデフォルトのグループとして使用するかどうかを切り替えます。",
-            roleName: "このグループに使用する役割名（タイトルではありません）。"
+            roleName: "このグループに使用する役割名（タイトルではありません）。",
+            profile: "Profile to switch to when this Auto Group triggers.",
+            outfit: "Outfit to switch to when this Auto Group triggers."
         },
         placeholder: {
             roleName: "役割名…",
@@ -538,7 +540,9 @@ export const LangJa = {
             groupUuid: "グループのＵＵＩＤ…",
             groupRole: "グループの役割…",
             regionSlurl: "リージョンのＳＬＵＲＬ…"
-        }
+        },
+        profileLabel: "Profile",
+        outfitLabel: "Outfit"
     },
     relay: {
         hudLock: "あなたのＨＵＤをロックしますか？",

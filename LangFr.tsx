@@ -521,7 +521,9 @@ export const LangFr = {
         isDefault: "Est-ce le groupe par défaut ?",
         tooltip: {
             isDefault: "Active ou désactive si ce groupe est le groupe par défaut à utiliser si aucun n'est défini pour une région.",
-            roleName: "Role name (not title) to use for this group."
+            roleName: "Role name (not title) to use for this group.",
+            profile: "Profile to switch to when this Auto Group triggers.",
+            outfit: "Outfit to switch to when this Auto Group triggers."
         },
         placeholder: {
             roleName: "Role name...",
@@ -538,7 +540,9 @@ export const LangFr = {
             groupUuid: "Group UUID...",
             groupRole: "Group Role...",
             regionSlurl: "Region SLURL..."
-        }
+        },
+        profileLabel: "Profile",
+        outfitLabel: "Outfit"
     },
     relay: {
         hudLock: "Verrouiller votre HUD ?",

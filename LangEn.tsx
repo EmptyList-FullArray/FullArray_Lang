@@ -509,9 +509,13 @@ export const LangEn = {
         isDefault:  "Is Default Group?",
         errorBlank: "SLURL or UUID cannot be blank.",
         created:    "Created.",
+        profileLabel: "Profile",
+        outfitLabel:  "Outfit",
         tooltip:{
             isDefault: "Toggle if this group is the default group to use if none is set for a region.",
-            roleName: "Role name (not title) to use for this group.", 
+            roleName: "Role name (not title) to use for this group.",
+            profile: "Profile to switch to when this Auto Group triggers.",
+            outfit:  "Outfit to switch to when this Auto Group triggers.",
         },
         placeholders:{
             roleName:    "Role name...",
