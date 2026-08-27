@@ -421,7 +421,10 @@ export const LangFr = {
         regionBlocklistPlaceholder: "Region SLURL To Block...",
         regionBlocklistErrorBlank: "Region SLURL cannot be blank.",
         headerLeashParticle: "Leash Particle",
-        categoryInventory: "Inventory"
+        categoryInventory: "Inventory",
+        leashLinkStartEnd: "Link Start/End",
+        leashScale: "Scale",
+        leashAlpha: "Alpha"
     },
     huds: {
     },

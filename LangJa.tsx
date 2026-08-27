@@ -421,7 +421,10 @@ export const LangJa = {
         regionBlocklistPlaceholder: "ブロックしたいリージョンのＳＬＵＲＬ…",
         regionBlocklistErrorBlank: "リージョンのＳＬＵＲＬは空白にできません。",
         headerLeashParticle: "鎖のパーティクル",
-        categoryInventory: "インベントリ"
+        categoryInventory: "インベントリ",
+        leashLinkStartEnd: "Link Start/End",
+        leashScale: "Scale",
+        leashAlpha: "Alpha"
     },
     huds: {
     },

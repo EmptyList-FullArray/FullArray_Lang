@@ -331,6 +331,9 @@ export const LangEn = {
         leashPlaceholderUUID: "Texture UUID...",
         leashFullBright:      "Full Bright",
         leashGlow:            "Glow",
+        leashLinkStartEnd:    "Link Start/End",
+        leashScale:           "Scale",
+        leashAlpha:           "Alpha",
 // Sit
         categorySit:         "Sit",
         sit:                 "Allow Sitting",
