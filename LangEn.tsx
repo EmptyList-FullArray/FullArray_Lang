@@ -514,11 +514,13 @@ export const LangEn = {
         created:    "Created.",
         profileLabel: "Profile",
         outfitLabel:  "Outfit",
+        outfitPartialNameOption: "Partial Name...",
         tooltip:{
             isDefault: "Toggle if this group is the default group to use if none is set for a region.",
             roleName: "Role name (not title) to use for this group.",
             profile: "Profile to switch to when this Auto Group triggers.",
             outfit:  "Outfit to switch to when this Auto Group triggers.",
+            outfitPartialName: "Finds the outfit on your current profile whose name best matches this text and wears it when this Auto Group triggers. Skipped if no outfit matches.",
         },
         placeholders:{
             roleName:    "Role name...",
@@ -526,6 +528,7 @@ export const LangEn = {
             groupUuid:   "Group UUID...",
             groupRole:   "Group Role...",
             regionSlurl: "Region SLURL...",
+            outfitPartialName: "Outfit name contains...",
         }
     },
     relay:{

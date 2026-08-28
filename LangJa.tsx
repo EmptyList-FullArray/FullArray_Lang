@@ -526,7 +526,8 @@ export const LangJa = {
             isDefault: "リージョンに何も設定されていない場合は、このグループをデフォルトのグループとして使用するかどうかを切り替えます。",
             roleName: "このグループに使用する役割名（タイトルではありません）。",
             profile: "Profile to switch to when this Auto Group triggers.",
-            outfit: "Outfit to switch to when this Auto Group triggers."
+            outfit: "Outfit to switch to when this Auto Group triggers.",
+            outfitPartialName: "Finds the outfit on your current profile whose name best matches this text and wears it when this Auto Group triggers. Skipped if no outfit matches."
         },
         placeholder: {
             roleName: "役割名…",
@@ -542,10 +543,12 @@ export const LangJa = {
             groupName: "グループ名…",
             groupUuid: "グループのＵＵＩＤ…",
             groupRole: "グループの役割…",
-            regionSlurl: "リージョンのＳＬＵＲＬ…"
+            regionSlurl: "リージョンのＳＬＵＲＬ…",
+            outfitPartialName: "Outfit name contains..."
         },
         profileLabel: "Profile",
-        outfitLabel: "Outfit"
+        outfitLabel: "Outfit",
+        outfitPartialNameOption: "Partial Name..."
     },
     relay: {
         hudLock: "あなたのＨＵＤをロックしますか？",

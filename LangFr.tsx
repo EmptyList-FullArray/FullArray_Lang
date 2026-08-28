@@ -526,7 +526,8 @@ export const LangFr = {
             isDefault: "Active ou désactive si ce groupe est le groupe par défaut à utiliser si aucun n'est défini pour une région.",
             roleName: "Role name (not title) to use for this group.",
             profile: "Profile to switch to when this Auto Group triggers.",
-            outfit: "Outfit to switch to when this Auto Group triggers."
+            outfit: "Outfit to switch to when this Auto Group triggers.",
+            outfitPartialName: "Finds the outfit on your current profile whose name best matches this text and wears it when this Auto Group triggers. Skipped if no outfit matches."
         },
         placeholder: {
             roleName: "Role name...",
@@ -542,10 +543,12 @@ export const LangFr = {
             groupName: "Group Name...",
             groupUuid: "Group UUID...",
             groupRole: "Group Role...",
-            regionSlurl: "Region SLURL..."
+            regionSlurl: "Region SLURL...",
+            outfitPartialName: "Outfit name contains..."
         },
         profileLabel: "Profile",
-        outfitLabel: "Outfit"
+        outfitLabel: "Outfit",
+        outfitPartialNameOption: "Partial Name..."
     },
     relay: {
         hudLock: "Verrouiller votre HUD ?",
