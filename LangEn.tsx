@@ -37,6 +37,7 @@ export const LangEn = {
         telepathy:   "Telepathy",
         camera:      "Camera",
         asn:         "ASN",
+        kidnap:      "Kidnap",
 
     },
     misc:{
@@ -894,6 +895,18 @@ export const LangEn = {
         guidedMode:       "Guided mode",
         manualMode:       "Manual mode",
         directDial:       "Direct Dial",
+    },
+    kidnap:{
+        searchPlaceholder: "Search by name...",
+        searchButton: "Search",
+        refresh: "Show recently active",
+        none: "No matching users. You can only see people who let you teleport them.",
+        grab: "Grab them to you",
+        chase: "Teleport yourself to them",
+        enabled: "Enabled",
+        enabledTip: "Let other people find and kidnap you.",
+        allowTeleport: "Allow teleporting",
+        allowTeleportTip: "Allow being force-teleported by people who can kidnap you.",
     },
     pantyRaid:{
         noTrophySelected: "Select a Trophy from below.",

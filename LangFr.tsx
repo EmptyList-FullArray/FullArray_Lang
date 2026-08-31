@@ -23,7 +23,8 @@ export const LangFr = {
         relay: "Relais",
         telepathy: "Telepathy",
         camera: "Camera",
-        asn: "ASN"
+        asn: "ASN",
+        kidnap: "Kidnap"
     },
     misc: {
         settings: "Paramètres",
@@ -1031,5 +1032,17 @@ export const LangFr = {
             success: "Ticket submitted!",
             viewTicket: "View Ticket"
         }
+    },
+    kidnap: {
+        searchPlaceholder: "Search by name...",
+        none: "No matching users. You can only see people who let you teleport them.",
+        grab: "Grab them to you",
+        chase: "Teleport yourself to them",
+        searchButton: "Search",
+        refresh: "Show recently active",
+        enabled: "Enabled",
+        enabledTip: "Let other people find and kidnap you.",
+        allowTeleport: "Allow teleporting",
+        allowTeleportTip: "Allow being force-teleported by people who can kidnap you."
     }
 }

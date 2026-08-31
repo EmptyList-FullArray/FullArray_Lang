@@ -23,7 +23,8 @@ export const LangJa = {
         relay: "リレー",
         telepathy: "テレパシー",
         camera: "カメラ",
-        asn: "ＡＳＮ"
+        asn: "ＡＳＮ",
+        kidnap: "Kidnap"
     },
     misc: {
         settings: "設定",
@@ -1031,5 +1032,17 @@ export const LangJa = {
             success: "Ticket submitted!",
             viewTicket: "View Ticket"
         }
+    },
+    kidnap: {
+        searchPlaceholder: "Search by name...",
+        none: "No matching users. You can only see people who let you teleport them.",
+        grab: "Grab them to you",
+        chase: "Teleport yourself to them",
+        searchButton: "Search",
+        refresh: "Show recently active",
+        enabled: "Enabled",
+        enabledTip: "Let other people find and kidnap you.",
+        allowTeleport: "Allow teleporting",
+        allowTeleportTip: "Allow being force-teleported by people who can kidnap you."
     }
 }
