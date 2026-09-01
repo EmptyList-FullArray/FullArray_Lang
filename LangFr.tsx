@@ -1045,6 +1045,8 @@ export const LangFr = {
         allowTeleport: "Allow teleporting",
         allowTeleportTip: "Allow being force-teleported by people who can kidnap you.",
         busy: "Busy",
-        busyTip: "Block everyone from kidnapping or teleporting you. Whoever kidnaps you sets this automatically. Turning it off also frees you from your current captor."
+        busyTip: "Block everyone from kidnapping or teleporting you. Whoever kidnaps you sets this automatically. Turning it off also frees you from your current captor.",
+        grabDisabled: "This user does not allow being teleported",
+        busyDisabled: "This user is busy right now"
     }
 }
