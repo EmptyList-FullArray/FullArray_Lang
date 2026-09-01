@@ -907,6 +907,8 @@ export const LangEn = {
         enabledTip: "Let other people find and kidnap you.",
         allowTeleport: "Allow teleporting",
         allowTeleportTip: "Allow being force-teleported by people who can kidnap you.",
+        busy: "Busy",
+        busyTip: "Block everyone from kidnapping or teleporting you. Whoever kidnaps you sets this automatically. Turning it off also frees you from your current captor.",
     },
     pantyRaid:{
         noTrophySelected: "Select a Trophy from below.",
