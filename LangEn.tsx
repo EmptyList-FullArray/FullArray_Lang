@@ -921,6 +921,8 @@ export const LangEn = {
         grabConfirmBody: "This force-teleports %s to your location right now.",
         chaseConfirmHeader: "Chase %s?",
         chaseConfirmBody: "This teleports you to %s right now.",
+        viewRp: "View roleplay info",
+        rpNone: "No roleplay info set.",
     },
     pantyRaid:{
         noTrophySelected: "Select a Trophy from below.",

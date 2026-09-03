@@ -1057,6 +1057,8 @@ export const LangFr = {
         grabConfirmHeader: "Grab %s?",
         grabConfirmBody: "This force-teleports %s to your location right now.",
         chaseConfirmHeader: "Chase %s?",
-        chaseConfirmBody: "This teleports you to %s right now."
+        chaseConfirmBody: "This teleports you to %s right now.",
+        viewRp: "View roleplay info",
+        rpNone: "No roleplay info set."
     }
 }
