@@ -619,8 +619,10 @@ export const LangJa = {
             tooltip: {
                 about: "許可リストは、ＨＵＤの一部を操作することが許可されているユーザーのリストです。\n各モジュールとユーザーには独自のアクセスレベルがあり、ユーザーのレベルがモジュールのレベルと同じかそれ以上であれば、そのモジュールを使用できます。",
                 currentLeashHolder: "現在のあなたのアバターのＲＬＶリーシュ保持者です。",
-                friends: "あなたのＳＬフレンドリストへのアクセスレベル。"
-            }
+                friends: "あなたのＳＬフレンドリストへのアクセスレベル。",
+                kidnapper: "The access level for the avatar currently holding you kidnapped."
+            },
+            kidnapper: "Current Kidnapper"
         },
         blocklist: {
             header: "ブロックリスト",

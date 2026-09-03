@@ -583,6 +583,7 @@ export const LangEn = {
             header: "Allowlist",
             currentLeashHolder: "Current RLV Leash Holder",
             friends:            "SL Friends",
+            kidnapper:          "Current Kidnapper",
             placeholders:{
                 addAllowlistUUID: "UUID to add to your Allowlist...",
             },
@@ -590,6 +591,7 @@ export const LangEn = {
                 about: "The Allowlist is a list of users who are allowed to interact with parts of your HUD.\nEach module and user have their own access level and if the users level is the same or higher than the modules level they can use it.",
                 currentLeashHolder: "The current RLV Leash Holder of your avatar.",
                 friends:            "The access level for your SL friends list.",
+                kidnapper:          "The access level for the avatar currently holding you kidnapped.",
             }
         },
         blocklist:{
