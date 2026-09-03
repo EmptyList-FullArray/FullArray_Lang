@@ -1051,6 +1051,10 @@ export const LangJa = {
         heldBy: "Held by %s",
         heldNoName: "You have been kidnapped.",
         breakFree: "Break free",
-        breakFreeTip: "End the kidnapping and free yourself."
+        breakFreeTip: "End the kidnapping and free yourself.",
+        grabConfirmHeader: "Grab %s?",
+        grabConfirmBody: "This force-teleports %s to your location right now.",
+        chaseConfirmHeader: "Chase %s?",
+        chaseConfirmBody: "This teleports you to %s right now."
     }
 }
