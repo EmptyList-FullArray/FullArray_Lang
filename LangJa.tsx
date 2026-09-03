@@ -1044,9 +1044,13 @@ export const LangJa = {
         enabledTip: "Let other people find and kidnap you.",
         allowTeleport: "Allow teleporting",
         allowTeleportTip: "Allow being force-teleported by people who can kidnap you.",
-        busy: "Busy",
-        busyTip: "Block everyone from kidnapping or teleporting you. Whoever kidnaps you sets this automatically. Turning it off also frees you from your current captor.",
         grabDisabled: "This user does not allow being teleported",
-        busyDisabled: "This user is busy right now"
+        lockedDisabled: "This user can't be grabbed right now",
+        dnd: "Do Not Disturb",
+        dndTip: "Stop anyone from kidnapping or teleporting you. Does not release a captor who already holds you - use Break Free for that.",
+        heldBy: "Held by %s",
+        heldNoName: "You have been kidnapped.",
+        breakFree: "Break free",
+        breakFreeTip: "End the kidnapping and free yourself."
     }
 }
