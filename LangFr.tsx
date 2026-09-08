@@ -24,7 +24,8 @@ export const LangFr = {
         telepathy: "Telepathy",
         camera: "Camera",
         asn: "ASN",
-        kidnap: "Kidnap"
+        kidnap: "Kidnap",
+        command: "Commands"
     },
     misc: {
         settings: "Paramètres",
@@ -1060,5 +1061,30 @@ export const LangFr = {
         chaseConfirmBody: "This teleports you to %s right now.",
         viewRp: "View roleplay info",
         rpNone: "No roleplay info set."
+    },
+    command: {
+        title: "Chat Commands",
+        manage: "Manage chat commands",
+        namePlaceholder: "Name...",
+        channelPlaceholder: "Channel...",
+        messagePlaceholder: "Message to say...",
+        empty: "No chat commands yet.",
+        linkTitle: "Chat Commands",
+        linkTooltip: "Chat commands fired when this is worn or removed. FullArray commands will NOT work here.",
+        addLink: "Link a command",
+        onWear: "On wear",
+        onRemove: "On remove",
+        errorNameBlank: "Error: Command name cannot be blank.",
+        errorChannelBlank: "Error: Channel cannot be blank.",
+        errorMessageBlank: "Error: Message cannot be blank.",
+        errorPickCommand: "Error: Pick a command to link.",
+        onOuterwear: "Fire when the outfit changes to Outerwear",
+        onUnderwear: "Fire when the outfit changes to Underwear",
+        onNude: "Fire when the outfit changes to Nude",
+        trigWear: "Wear",
+        trigRemove: "Remove",
+        trigOuterwear: "Outer",
+        trigUnderwear: "Under",
+        trigNude: "Nude"
     }
 }
