@@ -1086,5 +1086,12 @@ export const LangJa = {
         trigOuterwear: "Outer",
         trigUnderwear: "Under",
         trigNude: "Nude"
+    },
+    tag: {
+        title: "Exclusive Tag",
+        tooltip: "Items sharing a tag are mutually exclusive - attaching one detaches the others.",
+        none: "No tag",
+        placeholder: "New tag name...",
+        errorNameBlank: "Error: Tag name cannot be blank."
     }
 }

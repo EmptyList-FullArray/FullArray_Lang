@@ -30,6 +30,13 @@ export const LangEn = {
         errorMessageBlank: "Error: Message cannot be blank.",
         errorPickCommand: "Error: Pick a command to link.",
     },
+    tag:{
+        title: "Exclusive Tag",
+        tooltip: "Items sharing a tag are mutually exclusive - attaching one detaches the others.",
+        none: "No tag",
+        placeholder: "New tag name...",
+        errorNameBlank: "Error: Tag name cannot be blank.",
+    },
     help:{
         submitTicket: "New Ticket",
         ticketPopup:{
