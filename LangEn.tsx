@@ -544,6 +544,10 @@ export const LangEn = {
         }
     },
     environment:{
+        tabs:{
+            zones:   "Zones",
+            presets: "Presets",
+        },
         presets:  "Environment Presets",
         region:   "Region",
         cornerA:  "Corner A (down/south/west)",
@@ -554,6 +558,8 @@ export const LangEn = {
         public:   "Public",
         errorBlank: "Fill in a name, a region (use the location buttons) and an environment.",
         created:  "Environment zone created.",
+        save:     "Save",
+        updated:  "Preset updated.",
         placeholders:{
             zoneName:      "Zone name...",
             presetName:    "Preset name...",

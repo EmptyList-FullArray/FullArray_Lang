@@ -1113,6 +1113,12 @@ export const LangFr = {
             presetName: "Preset name...",
             presetAssetId: "Environment asset UUID..."
         },
-        public: "Public (visible to everyone in the region)"
+        public: "Public (visible to everyone in the region)",
+        tabs: {
+            zones: "Zones",
+            presets: "Presets"
+        },
+        save: "Save",
+        updated: "Preset updated."
     }
 }
