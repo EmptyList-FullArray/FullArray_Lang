@@ -25,7 +25,8 @@ export const LangFr = {
         camera: "Camera",
         asn: "ASN",
         kidnap: "Kidnap",
-        command: "Commands"
+        command: "Commands",
+        environment: "Environment"
     },
     misc: {
         settings: "Paramètres",
@@ -694,7 +695,8 @@ export const LangFr = {
             accessory: "Accessoire",
             autoGroup: "Groupe Auto",
             tempHuds: "HUDs temporaires",
-            landmark: "Landmark"
+            landmark: "Landmark",
+            environment: "Environment"
         },
         checkbox: {
             useGrid: "Utiliser la disposition en grille ?",
@@ -734,7 +736,8 @@ export const LangFr = {
             landmark_asnFirst: "Try ASN scan before teleport?",
             general_showCategoryAttach: "Show category attach / detach?",
             outfit_keepSame: "Keep same Outfit?",
-            outfit_defaultIsAdult: "New Outfits default to Adult?"
+            outfit_defaultIsAdult: "New Outfits default to Adult?",
+            environment_usePublicZones: "Apply other users' public Environment zones?"
         },
         textbox: {
             prefixPlaceholder: "Préfixe...",
@@ -801,7 +804,8 @@ export const LangFr = {
             general_showCategoryAttach: "Toggles whether to show the attach / detach buttons in a category.",
             logout: "Log out of the HUD website on this device.",
             outfit_defaultIsAdult: "Toggles whether newly created Outfits will have the Adult flag set by default.",
-            outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits."
+            outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits.",
+            environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting."
         },
         color: {
             colorHeader: "Paramètres de Couleur",
@@ -1093,5 +1097,22 @@ export const LangFr = {
         none: "No tag",
         placeholder: "New tag name...",
         errorNameBlank: "Error: Tag name cannot be blank."
+    },
+    environment: {
+        presets: "Environment Presets",
+        region: "Region",
+        cornerA: "Corner A (down/south/west)",
+        cornerB: "Corner B (up/north/east)",
+        preset: "Environment preset",
+        priority: "Priority",
+        enabled: "Enabled",
+        errorBlank: "Fill in a name, a region (use the location buttons) and an environment.",
+        created: "Environment zone created.",
+        placeholders: {
+            zoneName: "Zone name...",
+            presetName: "Preset name...",
+            presetAssetId: "Environment asset UUID..."
+        },
+        public: "Public (visible to everyone in the region)"
     }
 }

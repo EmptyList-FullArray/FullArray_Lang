@@ -25,7 +25,8 @@ export const LangJa = {
         camera: "カメラ",
         asn: "ＡＳＮ",
         kidnap: "Kidnap",
-        command: "Commands"
+        command: "Commands",
+        environment: "Environment"
     },
     misc: {
         settings: "設定",
@@ -694,7 +695,8 @@ export const LangJa = {
             accessory: "アクセサリ",
             autoGroup: "自動グループ",
             tempHuds: "一時的なＨＵＤ",
-            landmark: "ランドマーク"
+            landmark: "ランドマーク",
+            environment: "Environment"
         },
         checkbox: {
             useGrid: "グリッドレイアウトを使用しますか？",
@@ -734,7 +736,8 @@ export const LangJa = {
             landmark_asnFirst: "テレポートする前にＡＳＮスキャンしますか？",
             general_showCategoryAttach: "カテゴリの装着／取り外しを表示しますか？",
             outfit_keepSame: "アウトフィットを保持しますか？",
-            outfit_defaultIsAdult: "New Outfits default to Adult?"
+            outfit_defaultIsAdult: "New Outfits default to Adult?",
+            environment_usePublicZones: "Apply other users' public Environment zones?"
         },
         textbox: {
             prefixPlaceholder: "プレフィックス…",
@@ -801,7 +804,8 @@ export const LangJa = {
             general_showCategoryAttach: "カテゴリ内の装着／取り外しボタンを表示するかどうかを切り替えます。",
             logout: "Log out of the HUD website on this device.",
             outfit_defaultIsAdult: "Toggles whether newly created Outfits will have the Adult flag set by default.",
-            outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits."
+            outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits.",
+            environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting."
         },
         color: {
             colorHeader: "カラー設定",
@@ -1093,5 +1097,22 @@ export const LangJa = {
         none: "No tag",
         placeholder: "New tag name...",
         errorNameBlank: "Error: Tag name cannot be blank."
+    },
+    environment: {
+        presets: "Environment Presets",
+        region: "Region",
+        cornerA: "Corner A (down/south/west)",
+        cornerB: "Corner B (up/north/east)",
+        preset: "Environment preset",
+        priority: "Priority",
+        enabled: "Enabled",
+        errorBlank: "Fill in a name, a region (use the location buttons) and an environment.",
+        created: "Environment zone created.",
+        placeholders: {
+            zoneName: "Zone name...",
+            presetName: "Preset name...",
+            presetAssetId: "Environment asset UUID..."
+        },
+        public: "Public (visible to everyone in the region)"
     }
 }

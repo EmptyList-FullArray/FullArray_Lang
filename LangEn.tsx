@@ -71,6 +71,7 @@ export const LangEn = {
         asn:         "ASN",
         kidnap:      "Kidnap",
         command:     "Commands",
+        environment: "Environment",
 
     },
     misc:{
@@ -542,6 +543,23 @@ export const LangEn = {
             hudMode1: "Toggles the HUD to open in the right direction.",
         }
     },
+    environment:{
+        presets:  "Environment Presets",
+        region:   "Region",
+        cornerA:  "Corner A (down/south/west)",
+        cornerB:  "Corner B (up/north/east)",
+        preset:   "Environment preset",
+        priority: "Priority",
+        enabled:  "Enabled",
+        public:   "Public",
+        errorBlank: "Fill in a name, a region (use the location buttons) and an environment.",
+        created:  "Environment zone created.",
+        placeholders:{
+            zoneName:      "Zone name...",
+            presetName:    "Preset name...",
+            presetAssetId: "Environment asset UUID...",
+        },
+    },
     autoGroup:{
         isDefault:  "Is Default Group?",
         errorBlank: "SLURL or UUID cannot be blank.",
@@ -695,6 +713,7 @@ export const LangEn = {
             autoGroup: "Auto Group",
             tempHuds: "Temp HUDs",
             landmark: "Landmark",
+            environment: "Environment",
         },
         checkbox:{
             useGrid:                "Use Grid Layout?",
@@ -735,6 +754,7 @@ export const LangEn = {
             general_showCategoryAttach: "Show category attach / detach?",
             outfit_keepSame:        "Keep same Outfit?",
             outfit_defaultIsAdult:  "New Outfits default to Adult?",
+            environment_usePublicZones: "Apply others' public zones?",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",
@@ -804,6 +824,8 @@ export const LangEn = {
             autoGroup_power:        "Toggles the Auto Group feature on / off.",
             autoGroup_useNone:      "Toggles Auto Group to set your group to 'none' if no group is set.",
             autoGroup_autoHuds:     "Toggles whether the HUD will automatically attach the Temp HUDs folder when changing your group.",
+            // Environment
+            environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting.",
             // Temp HUDs
             autoCreateFolders:      "Toggles whether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",
             utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
