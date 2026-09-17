@@ -805,7 +805,8 @@ export const LangFr = {
             logout: "Log out of the HUD website on this device.",
             outfit_defaultIsAdult: "Toggles whether newly created Outfits will have the Adult flag set by default.",
             outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits.",
-            environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting."
+            environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting.",
+            homeTheme: "Switches between the classic Home layout and the widget-grid Home layout."
         },
         color: {
             colorHeader: "Paramètres de Couleur",
@@ -919,7 +920,12 @@ export const LangFr = {
         button: {
             logout: "Logout"
         },
-        outfitDefaultsHeader: "New Outfit Defaults"
+        outfitDefaultsHeader: "New Outfit Defaults",
+        homeTheme: "Home Screen Style",
+        homeThemes: {
+            classic: "Classic",
+            grid: "Widget Grid"
+        }
     },
     pantyRaid: {
         noTrophySelected: "Sélectionnez un Trophée ci-dessous.",

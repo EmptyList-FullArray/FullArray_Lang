@@ -253,28 +253,19 @@ export const LangEn = {
         }
     },
     home:{
-        hudLock:  "Hud Lock",
         bare:     "Bare",
         bareTemp: "Bare Temp",
         bald:     "Bald",
         baldTemp: "Bald Temp",
-        categories:{
-            tempHuds: "Temp Huds",
-            interactDoll: "Interact Doll",
-        },
         tooltip:{
             doll: {
                 outerwear: "Sets the !~SLOT~! slot of your Outfit to the Outerwear state.<br><br>Command: @!~STATE~! !~SLOT~!",
                 underwear: "Sets the !~SLOT~! slot of your Outfit to the Underwear state.<br><br>Command: @!~STATE~! !~SLOT~!",
                 nude:      "Sets the !~SLOT~! slot of your Outfit to the Nude state.<br><br>Command: @!~STATE~! !~SLOT~!",
                 rip:       "Rips the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it.<br><br>Command: @Set Outfit Effect !~SLOT~! Rip",
-                steal:     "Steals the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it if you do not bump the avatar that stole your Outfit.<br><br>Command: @Set Outfit Effect !~SLOT~! Steal",  
+                steal:     "Steals the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it if you do not bump the avatar that stole your Outfit.<br><br>Command: @Set Outfit Effect !~SLOT~! Steal",
                 throw:     "Throws the !~SLOT~! slot of your Outfit.<br>You will need to use the clothing fixer to fix it if you can not get it back.<br>Throw will rez out a prim that any one can pickup and steal, you can knock it from their hands via bump or click and then click it on the ground to take it back.<br><br>Command: @Set Outfit Effect !~SLOT~! Throw",
             },
-            outfitOuterwear: "Sets your Outfit to the Outerwear state.<br><br>Command: @o (slot name)",
-            outfitUnderwear: "Sets your Outfit to the Underwear state.<br><br>Command: @u (slot name)",
-            outfitNude:      "Sets your Outfit to the Nude state.<br><br>Command: @n (slot name)<br><br>The finger scissor icon will set your Outfit to nude without Genitals.<br><br>Command: @nc",
-            tempHuds: "Attach [+] or Detach [-] the Temp HUDs folder for a module.<br><br>Command: @&lt;module&gt; huds &lt;+/-&gt;",
         },
     },
     profile:{
@@ -744,7 +735,6 @@ export const LangEn = {
             showIds:                "Show IDs in lists?",
             defaultNavState:        "Default state for Nav on Home.",
             defaultActiveCardState: "Default state for Active card.",
-            defaultDollState:       "Default state for Interact Doll.",
             showAfk:                "Show AFK overlay?",
             autoGroup_power:        "Auto change groups on teleport?",
             linkOnCreate:           "Auto link newly created entries?",
@@ -753,7 +743,6 @@ export const LangEn = {
             hud_verbose:            "Verbose HUD messages?",
             log_permissions:        "Verbose Permission error logging.",
             protectedFolderLock:    "Lock the Protected Folder.",
-            defaultTempHudState:    "Default state for TempHUDs.",
             autoCreateFolders:      "Automatically create folders?",
             hud_sideDock:           "HUDs dock mode.",
             landmark_asnFirst:      "Try ASN scan before teleport?",
@@ -794,12 +783,10 @@ export const LangEn = {
             uiSize:                 "Changes the scale of the entire HUD ui.",
             defaultNavState:        "Toggles whether the navbar is open or closed by default.",
             defaultActiveCardState: "Toggles whether the active card for a Module is shown or hidden by default.",
-            defaultDollState:       "Toggles whether the interact doll is shown or hidden by default.",
             showAfk:                "Toggles whether the afk screen will show after a few seconds.",
             linkOnCreate:           "Toggles whether to automatically link newly created entries to your active Profile.",
             hud_verbose:            "Toggles whether the HUD will say information during startup.",
             protectedFolderLock:    "Toggles whether the Protected folder will be locked at all times.",
-            defaultTempHudState:    "Toggles whether the TempHUDs controls are hidden by default.",
             hud_sideDock:           "Controls if HUDs will dock below the root prim or in place where they were moved to.",
             // API
             apiKey:                 "Your API key for products you create.<br/><br/>DON'T SHARE THIS!<br/><br/>If you re roll this key all previous content will break that used the old key.",
