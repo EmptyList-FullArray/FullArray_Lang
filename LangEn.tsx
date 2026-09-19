@@ -1002,6 +1002,7 @@ export const LangEn = {
         notifications: "Notifications",
         changelog: "Changelog",
         unread: "(Unread)",
+        dismiss: "Mark as read and close.",
         markAllNotificationsRead: "Mark all notifications as read.",
         markAllChangelogsRead:    "Mark all changelogs as read.",
     },

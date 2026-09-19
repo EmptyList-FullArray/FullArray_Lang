@@ -958,7 +958,8 @@ export const LangJa = {
         changelog: "更新履歴",
         unread: "（未読）",
         markAllNotificationsRead: "すべての通知を既読にします。",
-        markAllChangelogsRead: "すべての更新ログを既読にします。"
+        markAllChangelogsRead: "すべての更新ログを既読にします。",
+        dismiss: "Mark as read and close."
     },
     camera: {
         followUser: "ユーザをフォロー",

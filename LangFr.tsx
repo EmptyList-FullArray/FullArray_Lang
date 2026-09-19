@@ -958,7 +958,8 @@ export const LangFr = {
         changelog: "Journal des modifications",
         unread: "(Non lu)",
         markAllNotificationsRead: "Mark all notifications as read.",
-        markAllChangelogsRead: "Mark all changelogs as read."
+        markAllChangelogsRead: "Mark all changelogs as read.",
+        dismiss: "Mark as read and close."
     },
     camera: {
         followUser: "Suivre l'utilisateur",
