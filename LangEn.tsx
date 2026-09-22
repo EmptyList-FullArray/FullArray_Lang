@@ -38,7 +38,12 @@ export const LangEn = {
         errorNameBlank: "Error: Tag name cannot be blank.",
     },
     help:{
-        submitTicket: "New Ticket",
+        header: "Help and Information",
+        sectionLearn: "Learn",
+        wiki: "Open Wiki",
+        wikiTooltip: "Opens the wiki page for the module you're currently on, if one exists.",
+        guide: "Page Guide",
+        guideTooltip: "Starts a guided walkthrough of the current page.",
         ticketPopup:{
             header: "Submit a Ticket",
             typeSupport: "Bug / Support Issue",

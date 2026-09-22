@@ -1034,7 +1034,6 @@ export const LangFr = {
         directDial: "Direct Dial"
     },
     help: {
-        submitTicket: "Submit a Ticket",
         ticketPopup: {
             header: "Submit a Ticket",
             typeSupport: "Bug / Support Issue",
@@ -1045,7 +1044,13 @@ export const LangFr = {
             missing: "Please fill in a subject and description.",
             success: "Ticket submitted!",
             viewTicket: "View Ticket"
-        }
+        },
+        header: "Help and Information",
+        sectionLearn: "Learn",
+        wiki: "Open Wiki",
+        wikiTooltip: "Opens the wiki page for the module you're currently on, if one exists.",
+        guide: "Page Guide",
+        guideTooltip: "Starts a guided walkthrough of the current page."
     },
     kidnap: {
         searchPlaceholder: "Search by name...",
