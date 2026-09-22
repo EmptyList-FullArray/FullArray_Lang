@@ -696,7 +696,8 @@ export const LangJa = {
             autoGroup: "自動グループ",
             tempHuds: "一時的なＨＵＤ",
             landmark: "ランドマーク",
-            environment: "Environment"
+            environment: "Environment",
+            advanced: "Advanced"
         },
         checkbox: {
             useGrid: "グリッドレイアウトを使用しますか？",
@@ -925,7 +926,9 @@ export const LangJa = {
         homeThemes: {
             classic: "Classic",
             grid: "Widget Grid"
-        }
+        },
+        search: "Search settings...",
+        noResults: "No settings found."
     },
     pantyRaid: {
         noTrophySelected: "以下からトロフィーを選択してください。",

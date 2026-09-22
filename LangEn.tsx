@@ -698,6 +698,8 @@ export const LangEn = {
             large: "Large",
         },
         uiVolume: "UI Volume",
+        search: "Search settings...",
+        noResults: "No settings found.",
         apiKey: "API Key",
         utility_regionRestart_mode: "Auto teleport on region restart?",
         utility_regionRestart_time: "Teleport delay:",
@@ -716,6 +718,7 @@ export const LangEn = {
             tempHuds: "Temp HUDs",
             landmark: "Landmark",
             environment: "Environment",
+            advanced: "Advanced",
         },
         checkbox:{
             useGrid:                "Use Grid Layout?",

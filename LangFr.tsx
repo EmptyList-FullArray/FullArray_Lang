@@ -696,7 +696,8 @@ export const LangFr = {
             autoGroup: "Groupe Auto",
             tempHuds: "HUDs temporaires",
             landmark: "Landmark",
-            environment: "Environment"
+            environment: "Environment",
+            advanced: "Advanced"
         },
         checkbox: {
             useGrid: "Utiliser la disposition en grille ?",
@@ -925,7 +926,9 @@ export const LangFr = {
         homeThemes: {
             classic: "Classic",
             grid: "Widget Grid"
-        }
+        },
+        search: "Search settings...",
+        noResults: "No settings found."
     },
     pantyRaid: {
         noTrophySelected: "Sélectionnez un Trophée ci-dessous.",
