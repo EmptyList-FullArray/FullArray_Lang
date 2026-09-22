@@ -757,7 +757,7 @@ export const LangEn = {
             general_showCategoryAttach: "Show category attach / detach?",
             outfit_keepSame:        "Keep same Outfit?",
             outfit_defaultIsAdult:  "New Outfits default to Adult?",
-            environment_usePublicZones: "Apply other users' public Environment zones to me?",
+            environment_usePublicZones: "Apply others' public zones?",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",
