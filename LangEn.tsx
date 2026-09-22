@@ -757,7 +757,7 @@ export const LangEn = {
             general_showCategoryAttach: "Show category attach / detach?",
             outfit_keepSame:        "Keep same Outfit?",
             outfit_defaultIsAdult:  "New Outfits default to Adult?",
-            environment_usePublicZones: "Apply others' public zones?",
+            environment_usePublicZones: "Apply other users' public Environment zones to me?",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",
@@ -826,7 +826,7 @@ export const LangEn = {
             autoGroup_useNone:      "Toggles Auto Group to set your group to 'none' if no group is set.",
             autoGroup_autoHuds:     "Toggles whether the HUD will automatically attach the Temp HUDs folder when changing your group.",
             // Environment
-            environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting.",
+            environment_usePublicZones: "When you walk into another user's Environment zone that they marked Public, it will change your sky/lighting to match. Turn this off to ignore other users' public zones. Your own zones always apply regardless of this setting.",
             // Temp HUDs
             autoCreateFolders:      "Toggles whether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",
             utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
