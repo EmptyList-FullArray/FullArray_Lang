@@ -738,7 +738,8 @@ export const LangJa = {
             general_showCategoryAttach: "カテゴリの装着／取り外しを表示しますか？",
             outfit_keepSame: "アウトフィットを保持しますか？",
             outfit_defaultIsAdult: "New Outfits default to Adult?",
-            environment_usePublicZones: "Apply other users' public Environment zones?"
+            environment_usePublicZones: "Apply other users' public Environment zones?",
+            environment_keepIfNoMatch: "Keep environment if none found?"
         },
         textbox: {
             prefixPlaceholder: "プレフィックス…",
@@ -807,7 +808,8 @@ export const LangJa = {
             outfit_defaultIsAdult: "Toggles whether newly created Outfits will have the Adult flag set by default.",
             outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits.",
             environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting.",
-            homeTheme: "Switches between the classic Home layout and the widget-grid Home layout."
+            homeTheme: "Switches between the classic Home layout and the widget-grid Home layout.",
+            environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead."
         },
         color: {
             colorHeader: "カラー設定",
@@ -1134,6 +1136,9 @@ export const LangJa = {
             presets: "Presets"
         },
         save: "Save",
-        updated: "Preset updated."
+        updated: "Preset updated.",
+        byHeight: "Height zone (whole parcel, just set bottom/top height)",
+        heightBottom: "Bottom height",
+        heightTop: "Top height"
     }
 }

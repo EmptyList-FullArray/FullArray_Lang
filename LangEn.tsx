@@ -548,6 +548,9 @@ export const LangEn = {
         region:   "Region",
         cornerA:  "Corner A (down/south/west)",
         cornerB:  "Corner B (up/north/east)",
+        byHeight: "Height zone (whole region, just set bottom/top height)",
+        heightBottom: "Bottom height",
+        heightTop:    "Top height",
         preset:   "Environment preset",
         priority: "Priority",
         enabled:  "Enabled",
@@ -758,6 +761,7 @@ export const LangEn = {
             outfit_keepSame:        "Keep same Outfit?",
             outfit_defaultIsAdult:  "New Outfits default to Adult?",
             environment_usePublicZones: "Apply others' public zones?",
+            environment_keepIfNoMatch: "Keep environment if none found?",
         },
         textbox:{
             prefixPlaceholder: "Prefix...",
@@ -827,6 +831,7 @@ export const LangEn = {
             autoGroup_autoHuds:     "Toggles whether the HUD will automatically attach the Temp HUDs folder when changing your group.",
             // Environment
             environment_usePublicZones: "When you walk into another user's Environment zone that they marked Public, it will change your sky/lighting to match. Turn this off to ignore other users' public zones. Your own zones always apply regardless of this setting.",
+            environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead.",
             // Temp HUDs
             autoCreateFolders:      "Toggles whether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",
             utility_regionRestart_mode: "Selects the mode for the region restart feature.<br/>Off: Disabled.<br/>Ask: Asks you if you want to teleport.<br/>Auto: Automatically teleports you after your set delay to your saved location.<br/>Instant: Instantly teleports you to your saved location when the region restarts.",
