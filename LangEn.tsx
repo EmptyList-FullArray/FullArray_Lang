@@ -958,6 +958,9 @@ export const LangEn = {
         guidedMode:       "Guided mode",
         manualMode:       "Manual mode",
         directDial:       "Direct Dial",
+        selectLandmark:   "Select landmark",
+        landmarks:        "Landmarks",
+        errorLandmarkAddress: "Failed to read landmark gate address",
     },
     kidnap:{
         searchPlaceholder: "Search by name...",

@@ -1036,7 +1036,10 @@ export const LangFr = {
         slowDial: "Slow dial",
         guidedMode: "Guided mode",
         manualMode: "Manual mode",
-        directDial: "Direct Dial"
+        directDial: "Direct Dial",
+        selectLandmark: "Select landmark",
+        landmarks: "Landmarks",
+        errorLandmarkAddress: "Failed to read landmark gate address"
     },
     help: {
         ticketPopup: {

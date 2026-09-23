@@ -1036,7 +1036,10 @@ export const LangJa = {
         slowDial: "スローダイアル",
         guidedMode: "ガイドモード",
         manualMode: "手動モード",
-        directDial: "直接ダイアル"
+        directDial: "直接ダイアル",
+        selectLandmark: "Select landmark",
+        landmarks: "Landmarks",
+        errorLandmarkAddress: "Failed to read landmark gate address"
     },
     help: {
         ticketPopup: {
