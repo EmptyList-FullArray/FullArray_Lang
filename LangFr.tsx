@@ -1003,7 +1003,8 @@ export const LangFr = {
             googleCalendarName: "Google Calendar Name...",
             googleCalendarId: "Google Calendar ID...",
             uuid: "UUID..."
-        }
+        },
+        teleport: "Teleport"
     },
     login: {
         error: {

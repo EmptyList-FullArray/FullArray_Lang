@@ -1003,7 +1003,8 @@ export const LangJa = {
             googleCalendarName: "Googlカレンダー名…",
             googleCalendarId: "GooglカレンダーＩＤ…",
             uuid: "ＵＵＩＤ…"
-        }
+        },
+        teleport: "Teleport"
     },
     login: {
         error: {

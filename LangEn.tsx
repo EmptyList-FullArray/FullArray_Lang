@@ -1044,6 +1044,7 @@ export const LangEn = {
         links:          "Links",
         openProfile:    "Open Profile",
         openMap:        "Open Map",
+        teleport:       "Teleport",
         calendars:      "Calendars",
         birthdays:      "Birthdays",
         placeholders:{
