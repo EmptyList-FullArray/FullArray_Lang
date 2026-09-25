@@ -306,10 +306,25 @@ export const LangFr = {
             genitalSlot: "Donne à l'Accessoire la capacité de détacher vos parties génitales lorsqu'il est attaché.",
             reload: "This will attempt to detach and reattach all worn Accessories.",
             profileLinks: "Accessories linked to active profile",
-            outfitLinks: "Accessories linked to active outfit"
+            outfitLinks: "Accessories linked to active outfit",
+            outfitLinkSettings: "Settings for this Accessory's link to the active outfit. With no states ticked it is worn whenever the outfit is worn.",
+            profileOnly: "Only use this link while the active profile is loaded. Off applies it to every profile wearing this outfit.",
+            outfitStates: "Only wear this Accessory when this slot is in a ticked state. Every slot with a tick must match.",
+            profileLinkSettings: "Wear this Accessory with every outfit of this profile when the ticked states match. Nothing ticked turns it off. The active outfit can override it.",
+            profileStates: "Only wear this Accessory when this slot is in a ticked state. Every slot with a tick must match.",
+            outfitMode: "Follow Profile Default uses the Profile Default States. Wear and Never Wear override them for this outfit."
         },
         outfitLinks: "Outfit Links",
-        profileLinks: "Profile Links"
+        profileLinks: "Profile Links",
+        outfitLinkSettings: "Outfit Link",
+        profileOnly: "Only for this Profile",
+        profileLinkSettings: "Profile Default States",
+        outfitMode: "This Outfit",
+        outfitModes: {
+            none: "Follow Profile Default",
+            wear: "Wear",
+            never: "Never Wear"
+        }
     },
     hair: {
     },

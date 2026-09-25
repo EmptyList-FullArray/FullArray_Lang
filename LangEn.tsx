@@ -334,6 +334,15 @@ export const LangEn = {
         reload: "Reload Accessories",
         outfitLinks:   "Outfit Links",
         profileLinks:  "Profile Links",
+        outfitLinkSettings: "Outfit Link",
+        profileLinkSettings: "Profile Default States",
+        profileOnly:   "Only for this Profile",
+        outfitMode:    "This Outfit",
+        outfitModes:{
+            none:  "Follow Profile Default",
+            wear:  "Wear",
+            never: "Never Wear",
+        },
         genitalSlot:{
             both:    "Both",
         },
@@ -343,6 +352,10 @@ export const LangEn = {
             reload: "This will attempt to detach and reattach all worn Accessories.",
             profileLinks: "Accessories linked to active profile",
             outfitLinks:  "Accessories linked to active outfit",
+            outfitLinkSettings: "Override for the active outfit. Wear links it to the outfit, click a body part to pick the states it is worn at, nothing ticked means whenever the outfit is worn. Never Wear keeps it off with this outfit.",
+            profileLinkSettings: "Wear this Accessory with every outfit of this profile when the states match. Click a body part to pick its states, every ticked part must match. Nothing ticked turns it off. The active outfit can override it.",
+            outfitMode:   "Follow Profile Default uses the Profile Default States. Wear and Never Wear override them for this outfit.",
+            profileOnly:  "Only use this link while the active profile is loaded. Off applies it to every profile wearing this outfit.",
         }
     },
     rlv:{
