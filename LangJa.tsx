@@ -1152,12 +1152,24 @@ export const LangJa = {
         public: "Public (visible to everyone in the region)",
         tabs: {
             zones: "Zones",
-            presets: "Presets"
+            presets: "Presets",
+            region: "Region"
         },
         save: "Save",
         updated: "Preset updated.",
         byHeight: "Height zone (whole parcel, just set bottom/top height)",
         heightBottom: "Bottom height",
-        heightTop: "Top height"
+        heightTop: "Top height",
+        filters: {
+            all: "All",
+            mine: "Mine",
+            public: "Public",
+            private: "Private"
+        },
+        noZones: "No zones found.",
+        disabled: "Disabled",
+        landDelete: "Delete this zone from your land?",
+        landDeleteText: "Are you sure you want to delete !~NAME~! owned by !~OWNER~!?",
+        showZone: "Show zone bounds"
     }
 }
