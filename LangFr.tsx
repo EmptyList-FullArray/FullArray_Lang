@@ -456,8 +456,10 @@ export const LangFr = {
         },
         tooltip: {
             utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?",
-            asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
-        }
+            asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?",
+            refreshImage: "Get the parcel image again from Second Life. You must be in the Landmark region first."
+        },
+        refreshImage: "Refresh Landmark image"
     },
     inventory: {
         rezInstaller: "Créer l'installateur",

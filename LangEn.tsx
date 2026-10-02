@@ -482,11 +482,13 @@ export const LangEn = {
         regionBlocklistErrorBlank:  "Region SLURL cannot be blank.",
     },
     landmark:{
-        updateLandmark: "Update Landmark",
+        updateLandmark: "Update Landmark location",
+        refreshImage: "Update Landmark image",
         utility_useForRestart: "Use for region restarts?",
         asn: "Scan for nearby ASN gate?",
         tooltip:{
             utility_useForRestart: "Use this landmark for a teleport location when the region your in restarts?",
+            refreshImage: "Get the parcel image again from Second Life. You must be in the Landmark region first.",
             asn: "Scan for a nearby 'Alteran Stargate Network (ASN)' gate and save its address to this Landmark?"
         }
     },

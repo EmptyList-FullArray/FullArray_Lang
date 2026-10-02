@@ -456,8 +456,10 @@ export const LangJa = {
         },
         tooltip: {
             utility_useForRestart: "現在いるリージョンが再起動した際に、このランドマークをテレポート地点として使用しますか？",
-            asn: "近くにある「Alteran Stargate Network（ＡＳＮ）ゲートをスキャンして、そのアドレスをこのランドマークに保存しますか？"
-        }
+            asn: "近くにある「Alteran Stargate Network（ＡＳＮ）ゲートをスキャンして、そのアドレスをこのランドマークに保存しますか？",
+            refreshImage: "Get the parcel image again from Second Life. You must be in the Landmark region first."
+        },
+        refreshImage: "Refresh Landmark image"
     },
     inventory: {
         rezInstaller: "インストーラーをRez",
