@@ -126,6 +126,7 @@ export const LangEn = {
             outerwear: "Outerwear",
             underwear: "Underwear",
             nude:      "Nude",
+            nudeCut:   "Nude (Cut Off)",
         },
         slots:{
             head:      "Head",

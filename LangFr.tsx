@@ -62,7 +62,8 @@ export const LangFr = {
         states: {
             outerwear: "Vêtements extérieurs",
             underwear: "Sous-vêtements",
-            nude: "Nu"
+            nude: "Nu",
+            nudeCut: "Nude (Cut Off)"
         },
         slots: {
             head: "Tête",

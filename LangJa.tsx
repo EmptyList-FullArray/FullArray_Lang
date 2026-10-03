@@ -62,7 +62,8 @@ export const LangJa = {
         states: {
             outerwear: "アウターウェア",
             underwear: "アンダーウェア",
-            nude: "ヌード"
+            nude: "ヌード",
+            nudeCut: "Nude (Cut Off)"
         },
         slots: {
             head: "頭",
