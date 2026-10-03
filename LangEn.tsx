@@ -1075,6 +1075,9 @@ export const LangEn = {
         teleport:       "Teleport",
         calendars:      "Calendars",
         birthdays:      "Birthdays",
+        today:          "Today",
+        allDay:         "All Day",
+        noEventsToday:  "No events today.",
         placeholders:{
             googleCalendarName: "Google Calendar Name...",
             googleCalendarId:   "Google Calendar ID...",

@@ -1022,7 +1022,10 @@ export const LangFr = {
             googleCalendarId: "Google Calendar ID...",
             uuid: "UUID..."
         },
-        teleport: "Teleport"
+        teleport: "Teleport",
+        today: "Today",
+        allDay: "All Day",
+        noEventsToday: "No events today."
     },
     login: {
         error: {

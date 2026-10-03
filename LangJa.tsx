@@ -1022,7 +1022,10 @@ export const LangJa = {
             googleCalendarId: "GooglカレンダーＩＤ…",
             uuid: "ＵＵＩＤ…"
         },
-        teleport: "Teleport"
+        teleport: "Teleport",
+        today: "Today",
+        allDay: "All Day",
+        noEventsToday: "No events today."
     },
     login: {
         error: {
