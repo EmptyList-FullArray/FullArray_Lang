@@ -1176,6 +1176,9 @@ export const LangFr = {
         disabled: "Disabled",
         landDelete: "Delete this zone from your land?",
         landDeleteText: "Are you sure you want to delete !~NAME~! owned by !~OWNER~!?",
-        showZone: "Show zone bounds"
+        showZone: "Show zone bounds",
+        center: "Center",
+        size: "Size",
+        teleportZone: "Teleport to zone center"
     }
 }
