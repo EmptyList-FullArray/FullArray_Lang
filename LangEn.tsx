@@ -76,7 +76,7 @@ export const LangEn = {
         asn:         "ASN",
         kidnap:      "Kidnap",
         command:     "Commands",
-        environment: "Environment",
+        zones:       "Zones",
 
     },
     misc:{
@@ -556,6 +556,18 @@ export const LangEn = {
         }
     },
     environment:{
+        presets:  "Environment Presets",
+        preset:   "Environment preset",
+        errorBlank: "Fill in a name and an asset UUID.",
+        created:  "Preset created.",
+        save:     "Save",
+        updated:  "Preset updated.",
+        placeholders:{
+            presetName:    "Preset name...",
+            presetAssetId: "Environment asset UUID...",
+        },
+    },
+    zones:{
         tabs:{
             zones:   "Zones",
             presets: "Presets",
@@ -575,7 +587,9 @@ export const LangEn = {
         teleportZone:   "Teleport to zone center",
         landDelete:     "Delete this zone from your land?",
         landDeleteText: "Are you sure you want to delete !~NAME~! owned by !~OWNER~!?",
-        presets:  "Environment Presets",
+        forced:           "Forced",
+        forceEnvironment: "Force the environment on for everyone in the zone, ignoring their public zone setting (land owner only)",
+        forceNude:        "Force the Nude Place on for everyone in the zone, ignoring their public Nude Place setting (land owner only)",
         region:   "Region",
         cornerA:  "Corner A (down/south/west)",
         cornerB:  "Corner B (up/north/east)",
@@ -583,17 +597,16 @@ export const LangEn = {
         heightBottom: "Bottom height",
         heightTop:    "Top height",
         preset:   "Environment preset",
+        noPreset: "None",
         priority: "Priority",
         enabled:  "Enabled",
         public:   "Public",
-        errorBlank: "Fill in a name, a region (use the location buttons) and an environment.",
-        created:  "Environment zone created.",
-        save:     "Save",
-        updated:  "Preset updated.",
+        nude:        "Nude Place",
+        nudeTooltip: "Strips everyone inside to Nude and keeps them Nude while inside. Public Nude Places must be on your land, never in PG regions.",
+        errorBlank: "Fill in a name and a region (use the location buttons), and pick an environment or Nude Place.",
+        created:  "Zone created.",
         placeholders:{
-            zoneName:      "Zone name...",
-            presetName:    "Preset name...",
-            presetAssetId: "Environment asset UUID...",
+            zoneName: "Zone name...",
         },
     },
     autoGroup:{
@@ -751,7 +764,7 @@ export const LangEn = {
             autoGroup: "Auto Group",
             tempHuds: "Temp HUDs",
             landmark: "Landmark",
-            environment: "Environment",
+            zones: "Zones",
             advanced: "Advanced",
         },
         checkbox:{
@@ -792,6 +805,7 @@ export const LangEn = {
             outfit_keepSame:        "Keep same Outfit?",
             outfit_defaultIsAdult:  "New Outfits default to Adult?",
             environment_usePublicZones: "Apply others' public zones?",
+            outfit_usePublicNudeZones:  "Apply others' public Nude Places?",
             environment_keepIfNoMatch: "Keep environment if none found?",
         },
         textbox:{
@@ -862,6 +876,7 @@ export const LangEn = {
             autoGroup_autoHuds:     "Toggles whether the HUD will automatically attach the Temp HUDs folder when changing your group.",
             // Environment
             environment_usePublicZones: "When you walk into another user's Environment zone that they marked Public, it will change your sky/lighting to match. Turn this off to ignore other users' public zones. Your own zones always apply regardless of this setting.",
+            outfit_usePublicNudeZones:  "When you walk into another user's public Nude Place you will be stripped to Nude and kept Nude while inside. Turn this off to ignore other users' public Nude Places. Your own, and ones the land owner has forced on, always apply.",
             environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead.",
             // Temp HUDs
             autoCreateFolders:      "Toggles whether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",

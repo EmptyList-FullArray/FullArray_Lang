@@ -26,7 +26,8 @@ export const LangFr = {
         asn: "ASN",
         kidnap: "Kidnap",
         command: "Commands",
-        environment: "Environment"
+        environment: "Environment",
+        zones: "Zones"
     },
     misc: {
         settings: "Paramètres",
@@ -715,7 +716,8 @@ export const LangFr = {
             tempHuds: "HUDs temporaires",
             landmark: "Landmark",
             environment: "Environment",
-            advanced: "Advanced"
+            advanced: "Advanced",
+            zones: "Zones"
         },
         checkbox: {
             useGrid: "Utiliser la disposition en grille ?",
@@ -757,7 +759,8 @@ export const LangFr = {
             outfit_keepSame: "Keep same Outfit?",
             outfit_defaultIsAdult: "New Outfits default to Adult?",
             environment_usePublicZones: "Apply other users' public Environment zones?",
-            environment_keepIfNoMatch: "Keep environment if none found?"
+            environment_keepIfNoMatch: "Keep environment if none found?",
+            outfit_usePublicNudeZones: "Apply others' public Nude Places?"
         },
         textbox: {
             prefixPlaceholder: "Préfixe...",
@@ -827,7 +830,8 @@ export const LangFr = {
             outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits.",
             environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting.",
             homeTheme: "Switches between the classic Home layout and the widget-grid Home layout.",
-            environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead."
+            environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead.",
+            outfit_usePublicNudeZones: "When you walk into another user's public Nude Place you will be stripped to Nude and kept Nude while inside. Turn this off to ignore other users' public Nude Places. Your own, and ones the land owner has forced on, always apply."
         },
         color: {
             colorHeader: "Paramètres de Couleur",
@@ -1179,6 +1183,50 @@ export const LangFr = {
         showZone: "Show zone bounds",
         center: "Center",
         size: "Size",
-        teleportZone: "Teleport to zone center"
+        teleportZone: "Teleport to zone center",
+        forced: "Forced",
+        forcedTooltip: "Force this environment on for everyone in the zone, ignoring their public zone setting (land owner only)"
+    },
+    zones: {
+        tabs: {
+            zones: "Zones",
+            region: "Region",
+            presets: "Presets"
+        },
+        filters: {
+            all: "All",
+            mine: "Mine",
+            public: "Public",
+            private: "Private"
+        },
+        noZones: "No zones found.",
+        disabled: "Disabled",
+        center: "Center",
+        size: "Size",
+        showZone: "Show zone bounds",
+        teleportZone: "Teleport to zone center",
+        landDelete: "Delete this zone from your land?",
+        landDeleteText: "Are you sure you want to delete !~NAME~! owned by !~OWNER~!?",
+        forced: "Forced",
+        forceEnvironment: "Force the environment on for everyone in the zone, ignoring their public zone setting (land owner only)",
+        forceNude: "Force the Nude Place on for everyone in the zone, ignoring their public Nude Place setting (land owner only)",
+        region: "Region",
+        cornerA: "Corner A (down/south/west)",
+        cornerB: "Corner B (up/north/east)",
+        byHeight: "Height zone (whole region, just set bottom/top height)",
+        heightBottom: "Bottom height",
+        heightTop: "Top height",
+        preset: "Environment preset",
+        noPreset: "None",
+        priority: "Priority",
+        enabled: "Enabled",
+        public: "Public",
+        nude: "Nude Place",
+        nudeTooltip: "Strips everyone inside to Nude and keeps them Nude while inside. Public Nude Places must be on your land, never in PG regions.",
+        errorBlank: "Fill in a name and a region (use the location buttons), and pick an environment or Nude Place.",
+        created: "Zone created.",
+        placeholders: {
+            zoneName: "Zone name..."
+        }
     }
 }
