@@ -760,7 +760,8 @@ export const LangFr = {
             outfit_defaultIsAdult: "New Outfits default to Adult?",
             environment_usePublicZones: "Apply other users' public Environment zones?",
             environment_keepIfNoMatch: "Keep environment if none found?",
-            outfit_usePublicNudeZones: "Apply others' public Nude Places?"
+            outfit_usePublicNudeZones: "Apply others' public Nude Places?",
+            outfit_usePublicDressedZones: "Apply others' public Dressed Places?"
         },
         textbox: {
             prefixPlaceholder: "Préfixe...",
@@ -831,7 +832,8 @@ export const LangFr = {
             environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting.",
             homeTheme: "Switches between the classic Home layout and the widget-grid Home layout.",
             environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead.",
-            outfit_usePublicNudeZones: "When you walk into another user's public Nude Place you will be stripped to Nude and kept Nude while inside. Turn this off to ignore other users' public Nude Places. Your own, and ones the land owner has forced on, always apply."
+            outfit_usePublicNudeZones: "When you walk into another user's public Nude Place you will be stripped to Nude and kept Nude while inside. Turn this off to ignore other users' public Nude Places. Your own, and ones the land owner has forced on, always apply.",
+            outfit_usePublicDressedZones: "When you walk into another user's public Dressed Place any Nude parts of your outfit are dressed and you can't go Nude while inside. Underwear is left alone. Turn this off to ignore other users' public Dressed Places. Your own, and ones the land owner has forced on, always apply."
         },
         color: {
             colorHeader: "Paramètres de Couleur",
@@ -1227,6 +1229,10 @@ export const LangFr = {
         created: "Zone created.",
         placeholders: {
             zoneName: "Zone name..."
-        }
+        },
+        forceDressed: "Force the Dressed Place on for everyone in the zone, ignoring their public Dressed Place setting (land owner only)",
+        dressed: "Dressed Place",
+        dressedTooltip: "Dresses everyone inside out of Nude and stops them going Nude while inside. Underwear is left alone. Public Dressed Places must be on your land.",
+        errorConflict: "A zone can't be both a Nude Place and a Dressed Place."
     }
 }

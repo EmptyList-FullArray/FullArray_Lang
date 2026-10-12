@@ -590,6 +590,7 @@ export const LangEn = {
         forced:           "Forced",
         forceEnvironment: "Force the environment on for everyone in the zone, ignoring their public zone setting (land owner only)",
         forceNude:        "Force the Nude Place on for everyone in the zone, ignoring their public Nude Place setting (land owner only)",
+        forceDressed:     "Force the Dressed Place on for everyone in the zone, ignoring their public Dressed Place setting (land owner only)",
         region:   "Region",
         cornerA:  "Corner A (down/south/west)",
         cornerB:  "Corner B (up/north/east)",
@@ -603,7 +604,10 @@ export const LangEn = {
         public:   "Public",
         nude:        "Nude Place",
         nudeTooltip: "Strips everyone inside to Nude and keeps them Nude while inside. Public Nude Places must be on your land, never in PG regions.",
-        errorBlank: "Fill in a name and a region (use the location buttons), and pick an environment or Nude Place.",
+        dressed:        "Dressed Place",
+        dressedTooltip: "Dresses everyone inside out of Nude and stops them going Nude while inside. Underwear is left alone. Public Dressed Places must be on your land.",
+        errorConflict:  "A zone can't be both a Nude Place and a Dressed Place.",
+        errorBlank: "Fill in a name and a region (use the location buttons), and pick an environment, Nude Place or Dressed Place.",
         created:  "Zone created.",
         placeholders:{
             zoneName: "Zone name...",
@@ -806,6 +810,7 @@ export const LangEn = {
             outfit_defaultIsAdult:  "New Outfits default to Adult?",
             environment_usePublicZones: "Apply others' public zones?",
             outfit_usePublicNudeZones:  "Apply others' public Nude Places?",
+            outfit_usePublicDressedZones:  "Apply others' public Dressed Places?",
             environment_keepIfNoMatch: "Keep environment if none found?",
         },
         textbox:{
@@ -877,6 +882,7 @@ export const LangEn = {
             // Environment
             environment_usePublicZones: "When you walk into another user's Environment zone that they marked Public, it will change your sky/lighting to match. Turn this off to ignore other users' public zones. Your own zones always apply regardless of this setting.",
             outfit_usePublicNudeZones:  "When you walk into another user's public Nude Place you will be stripped to Nude and kept Nude while inside. Turn this off to ignore other users' public Nude Places. Your own, and ones the land owner has forced on, always apply.",
+            outfit_usePublicDressedZones:  "When you walk into another user's public Dressed Place any Nude parts of your outfit are dressed and you can't go Nude while inside. Underwear is left alone. Turn this off to ignore other users' public Dressed Places. Your own, and ones the land owner has forced on, always apply.",
             environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead.",
             // Temp HUDs
             autoCreateFolders:      "Toggles whether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",
