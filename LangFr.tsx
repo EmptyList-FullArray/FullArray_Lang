@@ -1233,6 +1233,9 @@ export const LangFr = {
         forceDressed: "Force the Dressed Place on for everyone in the zone, ignoring their public Dressed Place setting (land owner only)",
         dressed: "Dressed Place",
         dressedTooltip: "Dresses everyone inside out of Nude and stops them going Nude while inside. Underwear is left alone. Public Dressed Places must be on your land.",
-        errorConflict: "A zone can't be both a Nude Place and a Dressed Place."
+        errorConflict: "A zone can't be both a Nude Place and a Dressed Place.",
+        dressOnExit: "Restore outfit on leave",
+        dressOnExitTag: "Restores on leave",
+        dressOnExitTooltip: "Puts everyone's outfit back the way it was before they were stripped when they leave the Nude Place, unless they are still inside another Nude Place. Outerwear if they changed outfit while inside."
     }
 }
