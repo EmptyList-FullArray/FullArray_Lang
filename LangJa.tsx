@@ -761,7 +761,8 @@ export const LangJa = {
             environment_usePublicZones: "Apply other users' public Environment zones?",
             environment_keepIfNoMatch: "Keep environment if none found?",
             outfit_usePublicNudeZones: "Apply others' public Nude Places?",
-            outfit_usePublicDressedZones: "Apply others' public Dressed Places?"
+            outfit_usePublicDressedZones: "Apply others' public Dressed Places?",
+            outfit_usePublicZones: "Apply others' public Outfit zones?"
         },
         textbox: {
             prefixPlaceholder: "プレフィックス…",
@@ -833,7 +834,8 @@ export const LangJa = {
             homeTheme: "Switches between the classic Home layout and the widget-grid Home layout.",
             environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead.",
             outfit_usePublicNudeZones: "When you walk into another user's public Nude Place you will be stripped to Nude and kept Nude while inside. Turn this off to ignore other users' public Nude Places. Your own, and ones the land owner has forced on, always apply.",
-            outfit_usePublicDressedZones: "When you walk into another user's public Dressed Place any Nude parts of your outfit are dressed and you can't go Nude while inside. Underwear is left alone. Turn this off to ignore other users' public Dressed Places. Your own, and ones the land owner has forced on, always apply."
+            outfit_usePublicDressedZones: "When you walk into another user's public Dressed Place any Nude parts of your outfit are dressed and you can't go Nude while inside. Underwear is left alone. Turn this off to ignore other users' public Dressed Places. Your own, and ones the land owner has forced on, always apply.",
+            outfit_usePublicZones: "When you walk into another user's public Outfit zone your outfit is changed to its outfit on entry and you can't change to the states it blocks while inside. Turn this off to ignore other users' public Outfit zones. Your own, and ones the land owner has forced on, always apply."
         },
         color: {
             colorHeader: "カラー設定",
@@ -1236,6 +1238,19 @@ export const LangJa = {
         errorConflict: "A zone can't be both a Nude Place and a Dressed Place.",
         dressOnExit: "Restore outfit on leave",
         dressOnExitTag: "Restores on leave",
-        dressOnExitTooltip: "Puts everyone's outfit back the way it was before they were stripped when they leave the Nude Place, unless they are still inside another Nude Place. Outerwear if they changed outfit while inside."
+        dressOnExitTooltip: "Puts everyone's outfit back the way it was before they were stripped when they leave the Nude Place, unless they are still inside another Nude Place. Outerwear if they changed outfit while inside.",
+        forceOutfit: "Force the outfit rules on for everyone in the zone, ignoring their public Outfit zone setting (land owner only)",
+        outfit: "Outfit zone",
+        outfitTooltip: "Changes the outfit of everyone inside and keeps them out of the blocked states. Public Outfit zones must be on your land, ones that strip to Nude are never allowed in PG regions.",
+        entryState: "Outfit on entry",
+        entryStateTooltip: "State everyone is changed to when they walk in.",
+        entryNone: "No change",
+        entryTag: "On entry: !~STATE~!",
+        block: "Block",
+        blockTooltip: "States nobody can change to while inside. Parts of an outfit already in a blocked state are changed to the most dressed allowed state they have clothing for.",
+        blockTag: "Blocks: !~STATES~!",
+        outfitPriorityTooltip: "When Outfit zones overlap only the highest priority one applies, the last one entered wins a tie.",
+        errorAllBlocked: "At least one outfit state must be allowed.",
+        errorEntryBlocked: "The outfit on entry can't be a blocked state."
     }
 }
