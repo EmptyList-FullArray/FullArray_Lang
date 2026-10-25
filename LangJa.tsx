@@ -1251,6 +1251,7 @@ export const LangJa = {
         blockTag: "Blocks: !~STATES~!",
         outfitPriorityTooltip: "When Outfit zones overlap only the highest priority one applies, the last one entered wins a tie.",
         errorAllBlocked: "At least one outfit state must be allowed.",
-        errorEntryBlocked: "The outfit on entry can't be a blocked state."
+        errorEntryBlocked: "The outfit on entry can't be a blocked state.",
+        publicTooltip: "Applies to everyone wearing FullArray in the zone, unless they opted out of public zones. Public zones must be on land owned by you or your active group, and you must be in the region to make or move one."
     }
 }
