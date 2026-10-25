@@ -622,7 +622,8 @@ export const LangFr = {
                 isSelfOwner: "Toggles the owner status of your own HUD.\nWhen disabled you will not be able to control your own HUD without being added to your own Allowlist.",
                 isPublic: "Toggle public access for all modules marked as public.</br>When enabled, anyone not on your Blocklist can use them.</br>By default all modules are public.",
                 sameRegion: "Toggles if other users need to be in the same region as you to control your HUD.",
-                location: "Allows users to see and know where you are, and teleport to you."
+                location: "Allows users to see and know where you are, and teleport to you.",
+                zone: "Whose zones apply to you.</br>Your Owners, and Allowlist users at this level or higher, apply all their zones, public and private.</br>Public lets everyone else's public zones apply.</br>Zones from users on your Blocklist never apply, except zones forced by the land owner."
             }
         },
         allowlist: {

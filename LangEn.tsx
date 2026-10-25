@@ -588,8 +588,8 @@ export const LangEn = {
         landDelete:     "Delete this zone from your land?",
         landDeleteText: "Are you sure you want to delete !~NAME~! owned by !~OWNER~!?",
         forced:           "Forced",
-        forceEnvironment: "Force the environment on for everyone in the zone, ignoring their public zone setting (land owner only)",
-        forceOutfit:      "Force the outfit rules on for everyone in the zone, ignoring their public Outfit zone setting (land owner only)",
+        forceEnvironment: "Force the environment on for everyone in the zone, ignoring their Zone permission (land owner only)",
+        forceOutfit:      "Force the outfit rules on for everyone in the zone, ignoring their Zone permission (land owner only)",
         region:   "Region",
         cornerA:  "Corner A (down/south/west)",
         cornerB:  "Corner B (up/north/east)",
@@ -601,7 +601,7 @@ export const LangEn = {
         priority: "Priority",
         enabled:  "Enabled",
         public:   "Public",
-        publicTooltip: "Applies to everyone wearing FullArray in the zone, unless they opted out of public zones. Public zones must be on land owned by you or your active group, and you must be in the region to make or move one.",
+        publicTooltip: "Applies to everyone wearing FullArray in the zone who has the Zone permission set to public. Public zones must be on land owned by you or your active group, and you must be in the region to make or move one.",
         outfit:        "Outfit zone",
         outfitTooltip: "Changes the outfit of everyone inside and keeps them out of the blocked states. Ones that strip to Nude are never allowed in PG regions.",
         entryState:        "Outfit on entry",
@@ -691,6 +691,7 @@ export const LangEn = {
                 isPublic:    "Toggle public access for all modules marked as public.</br>When enabled, anyone not on your Blocklist can use them.</br>By default all modules are public.",
                 sameRegion:  "Toggles if other users need to be in the same region as you to control your HUD.",
                 location:    "Allows users to see and know where you are, and teleport to you.",
+                zone:        "Whose zones apply to you.</br>Your Owners, and Allowlist users at this level or higher, apply all their zones, public and private.</br>Public lets everyone else's public zones apply.</br>Zones from users on your Blocklist never apply, except zones forced by the land owner.",
             }
         },
         allowlist:{
@@ -818,8 +819,6 @@ export const LangEn = {
             general_showCategoryAttach: "Show category attach / detach?",
             outfit_keepSame:        "Keep same Outfit?",
             outfit_defaultIsAdult:  "New Outfits default to Adult?",
-            environment_usePublicZones: "Apply others' public zones?",
-            outfit_usePublicZones:  "Apply others' public Outfit zones?",
             environment_keepIfNoMatch: "Keep environment if none found?",
         },
         textbox:{
@@ -889,8 +888,6 @@ export const LangEn = {
             autoGroup_useNone:      "Toggles Auto Group to set your group to 'none' if no group is set.",
             autoGroup_autoHuds:     "Toggles whether the HUD will automatically attach the Temp HUDs folder when changing your group.",
             // Environment
-            environment_usePublicZones: "When you walk into another user's Environment zone that they marked Public, it will change your sky/lighting to match. Turn this off to ignore other users' public zones. Your own zones always apply regardless of this setting.",
-            outfit_usePublicZones:  "When you walk into another user's public Outfit zone your outfit is changed to its outfit on entry and you can't change to the states it blocks while inside. Turn this off to ignore other users' public Outfit zones. Your own, and ones the land owner has forced on, always apply.",
             environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead.",
             // Temp HUDs
             autoCreateFolders:      "Toggles whether the HUD will automatically create folders for newly created entries like Profile, Outfit, etc....",

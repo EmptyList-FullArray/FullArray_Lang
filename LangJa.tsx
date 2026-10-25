@@ -622,7 +622,8 @@ export const LangJa = {
                 isSelfOwner: "自分のＨＵＤの所有者ステータスを切り替えます。\n無効にすると、自分の許可リストに追加されない限り、自分のHUDを制御できなくなります。",
                 isPublic: "「パブリック」としてマークされているすべてのモジュールのパブリックアクセスを切り替えます。<br/>有効にすると、ブロックリストに登録されていないユーザも使用できます。<br/>デフォルトでは、すべてのモジュールが公開されています。",
                 sameRegion: "他のユーザがＨＵＤを操作するために、同じリージョンにいる必要があるかどうかを切り替えます。",
-                location: "ユーザがあなたの現在地を確認したり、あなたの場所にテレポートしたりすることを可能にします。"
+                location: "ユーザがあなたの現在地を確認したり、あなたの場所にテレポートしたりすることを可能にします。",
+                zone: "Whose zones apply to you.</br>Your Owners, and Allowlist users at this level or higher, apply all their zones, public and private.</br>Public lets everyone else's public zones apply.</br>Zones from users on your Blocklist never apply, except zones forced by the land owner."
             }
         },
         allowlist: {
