@@ -234,14 +234,20 @@ export const LangEn = {
             },
             list:{
                 title: "!~MODULE~! List",
-                content: "Here you can see all the !~MODULE~!s you have created.\n\nClicking on a !~MODULE~! name or picture will set it as your active !~MODULE~!.\n\nYour active !~MODULE~! is the one that has a highlight around it.",
+                content: "Here you can see all the !~MODULES~! you have created.\n\nClicking on a !~MODULE~! name or picture will set it as your active !~MODULE~!.\n\nYour active !~MODULE~! is the one that has a highlight around it.",
+            },
+            header:{
+                title: "List Buttons",
+                linkMode: "The link button switches the list to Link Mode, where clicking a !~MODULE~! links it to your active Profile instead.",
+                create: "The create button adds a new !~MODULE~!.",
             },
             settings:{
                 title: "!~MODULE~! Settings",
                 content: "This is where you can edit the settings of your active !~MODULE~!\n\nClicking this button in the list below will open the settings for that !~MODULE~!.",
+                contentList: "The settings button on a !~MODULE~! in the list opens its settings, where you can rename, change the image of, or delete it.",
             },
             search:{
-                title: "Search !~MODULE~!s",
+                title: "Search !~MODULES~!",
                 content: "Use the search box to quickly find a specific !~MODULE~! by name or prefix.",
             },
         },
@@ -305,6 +311,234 @@ export const LangEn = {
             permission:{
                 title: "Zone Permission",
                 content: "Whose zones apply to you is set by the Zone permission on the Permissions page.\n\nZones from users on your Blocklist never apply, except zones forced by the land owner.",
+            },
+        },
+        kidnap:{
+            welcome:{
+                title: "Kidnap",
+                content: "Kidnap lets you find other people playing and grab them to you, or chase after them.\n\nOnly people that turned Kidnap on can be found, and you can only be found if you turn it on too.",
+            },
+            enabled:{
+                title: "Enabled",
+                content: "Turn this on to show up in other people's Kidnap list and let them kidnap you.\n\nTurning it off also frees you if you are being held.",
+            },
+            allowTeleport:{
+                title: "Allow Teleporting",
+                content: "Lets people grab you, which force-teleports you to them.\n\nWith this off people can still chase you, but can't pull you to them.",
+            },
+            dnd:{
+                title: "Do Not Disturb",
+                content: "Stops anyone from grabbing or chasing you while it is on, without turning Kidnap off.\n\nIt does not free you if someone already holds you, use Break Free for that.",
+            },
+            search:{
+                title: "Search",
+                content: "Search for someone by name, or use the refresh button to show everyone recently active.\n\nThe list also refreshes itself every few seconds.",
+            },
+            list:{
+                title: "Kidnap List",
+                content: "The dot on the picture shows if they are online, offline, or can't be grabbed right now.\n\nThe ( i ) button shows their roleplay role and interests from their Profile.\n\nThe handcuffs grab them to you, and the running button teleports you to them.",
+            },
+            held:{
+                title: "Being Held",
+                content: "The first person to grab or chase you holds you, and only they can grab or chase you until you are free.\n\nWhile held a banner shows at the top of this page with a Break Free button to end it.\n\nThe access level your kidnapper gets to your HUD is set by Current Kidnapper on your Allowlist.",
+            },
+        },
+        command:{
+            welcome:{
+                title: "Chat Commands",
+                content: "Chat commands are messages the HUD says on a channel for you, like commands for other HUDs, collars, or furniture.\n\nYou make them here once, then link them to your Outfits, Accessories, and Profiles so they fire automatically.\n\nFullArray commands will NOT work as chat commands.",
+            },
+            create:{
+                title: "Create a Command",
+                content: "Give the command a name so you can find it when linking, the channel to say it on, and the message to say.\n\nChannel 0 is public chat, most other HUDs and items listen on their own channel.",
+            },
+            list:{
+                title: "Your Commands",
+                content: "Your commands are listed here, you can edit any field and use the save button to update it, or the trash button to delete it.\n\nEditing a command changes it everywhere it is linked.",
+            },
+            link:{
+                title: "Linking Commands",
+                content: "Open the settings of an Outfit, Accessory, or Profile and use Chat Commands to link a command to it.\n\nOutfits can fire when worn, removed, or changed to Outerwear, Underwear, or Nude.\nAccessories can fire when worn or removed.\nProfiles fire when the Profile is loaded.",
+            },
+        },
+        outfit:{
+            welcome:{
+                title: "Outfits",
+                content: "Outfits are what you wear on your active Profile, each one can be set to Outerwear, Underwear, or Nude from the home page or chat commands.\n\nThe Outfit settings let you pick the Outfit type, link slots together, and set a default Hair and Shoe.\n\nChat command: <prefix> Wear <name>",
+            },
+        },
+        hair:{
+            welcome:{
+                title: "Hair",
+                content: "Hair lets you save your hairs and switch between them.\n\nYou can go bald from the home page and change back to your active Hair at any time.\n\nChat command: <prefix> Change Hair <name>",
+            },
+        },
+        shoe:{
+            welcome:{
+                title: "Shoes",
+                content: "Shoes lets you save your shoes and switch between them.\n\nYou can go barefoot from the home page and change back to your active Shoe at any time.\n\nChat command: <prefix> Change Shoe <name>",
+            },
+        },
+        skin:{
+            welcome:{
+                title: "Skins",
+                content: "Skins lets you save your skins and switch between them.\n\nChat command: <prefix> Change Skin <name>",
+            },
+        },
+        ao:{
+            welcome:{
+                title: "Ao",
+                content: "The Ao (animation overrider) replaces your avatar's default animations, like standing, walking, and sitting.\n\nYou can save as many Aos as you like and switch between them.\n\nChat command: <prefix> Change Ao <name>",
+            },
+            controls:{
+                title: "Ao Controls",
+                content: "Quick controls for your active Ao, turn it on or off, and toggle the swimming, ground sit, and sit animations.\n\nThe arrow buttons set which direction the Ao HUD opens.",
+            },
+        },
+        camera:{
+            welcome:{
+                title: "Camera",
+                content: "Camera lets you save camera settings, like distance, pitch, and focus, and switch between them.\n\nChat command: <prefix> Change Camera <name>",
+            },
+            follow:{
+                title: "Follow User",
+                content: "Follow User points your camera at someone nearby and keeps following them.\n\nRelease Camera gives you back control of your camera.",
+            },
+        },
+        accessory:{
+            welcome:{
+                title: "Accessories",
+                content: "Accessories are things you wear on top of your Outfit, like jewellery, collars, or tails.\n\nUnlike most modules you can wear as many Accessories as you like at once.\n\nChat command: <prefix> Accessory Attach <name>",
+            },
+            detachAll:{
+                title: "Detach & Reload",
+                content: "Detach all takes off every Accessory you are wearing.\n\nReload Accessories detaches and reattaches everything you are wearing, useful if something did not attach properly.",
+            },
+            list: "Here you can see all the Accessories you have created.\n\nClicking an Accessory wears or removes it, worn Accessories are highlighted.\n\nAn exclusive tag in an Accessory's settings makes it remove the others with the same tag when worn.",
+            links:{
+                title: "Profile & Outfit Links",
+                content: "Accessories linked to your Profile are worn with every Outfit of that Profile.\n\nWhile you are wearing an Outfit, buttons above the list switch to Outfit Links, so you can link Accessories to just that Outfit or keep them off with it.\n\nThe Accessory settings let you pick which Outfit states it is worn at.",
+            },
+        },
+        bom:{
+            welcome:{
+                title: "BOM",
+                content: "BOM saves your Bakes on Mesh layers, like tattoos, makeup, or clothing layers, and lets you turn them on and off.\n\nYou can have as many layers on as you like at once.\n\nChat command: <prefix> Bom Attach <name>",
+            },
+            list: "Here you can see all the BOMs you have created.\n\nClicking a BOM turns it on or off, active BOMs are highlighted.\n\nAn exclusive tag in a BOM's settings turns off the others with the same tag when turned on.",
+            links:{
+                title: "Profile & Outfit Links",
+                content: "BOMs linked to your Profile are worn with every Outfit of that Profile.\n\nWhile you are wearing an Outfit, buttons above the list switch to Outfit Links, so you can link BOMs to just that Outfit.",
+            },
+        },
+        title:{
+            welcome:{
+                title: "Titles",
+                content: "Titles are floating text shown above your head.\n\nYou can make as many Titles as you like and switch between them.",
+            },
+            list: "Here you can see all the Titles you have created.\n\nClicking a Title sets it as your active Title, its settings let you edit the lines.",
+        },
+        landmark:{
+            welcome:{
+                title: "Landmarks",
+                content: "Landmarks save places you can teleport to from the HUD.\n\nChat command: <prefix> Tp <landmark>",
+            },
+            list: "Clicking a Landmark opens the teleport options, so you can teleport yourself, your target, or both.\n\nIf the Landmark has an ASN gate address it dials the gate instead.\n\nThe settings let you update the location, image, and gate address, or use it as your region restart location.",
+        },
+        autoGroup:{
+            welcome:{
+                title: "Auto Group",
+                content: "Auto Group changes your active group when you enter a region, so you always have the right group tag on.\n\nIt can also switch your Profile or Outfit when it triggers.",
+            },
+            list: "Here you can see all the Auto Groups you have created, each one is a region and the group and role to use there.\n\nThe default Auto Group is used in regions that don't have one set.",
+        },
+        huds:{
+            welcome:{
+                title: "HUDs",
+                content: "HUDs lets you use supported product HUDs from inside FullArray, without wearing them.",
+            },
+            list: "Here you can see the HUDs available to you, clicking one opens its controls.",
+        },
+        rlv:{
+            welcome:{
+                title: "RLV",
+                content: "RLV lets you, and people you trust, restrict what your avatar can do. You need a viewer with RLVa turned on, like Firestorm.\n\nWho else can change these is set by the access levels on your Allowlist.\n\nMost options are Allow options, untick one to restrict it.",
+            },
+            leash:{
+                title: "Leash",
+                content: "Leash yourself to another avatar or an object, and set how the leash particle looks.\n\nFollow Leash Holder On Teleport makes you follow them when they teleport.",
+            },
+            sit:{
+                title: "Sit",
+                content: "Allow or block sitting and standing up, force sit on an object or the ground, or force stand up.",
+            },
+            inventory:{
+                title: "Inventory",
+                content: "Restrict viewing your inventory, editing objects, and adding or removing attachments and BOM clothes.\n\nFolders lets you browse your #RLV folder and attach or detach folders.",
+            },
+            touch:{
+                title: "Touch",
+                content: "Restrict what you can touch, like the world, attachments, HUDs, or things far away.",
+            },
+            chat:{
+                title: "Chat",
+                content: "Restrict speaking, hearing, gestures, IMs, and your chat range.\n\nReplace Chat and Name Override change what you say and the name it shows.",
+            },
+            teleport:{
+                title: "Teleport",
+                content: "Restrict teleporting and receiving teleports, force teleports, and block regions.\n\nChain Home teleports you to a SLURL after a set time.",
+            },
+            info:{
+                title: "Info",
+                content: "Hide the world map, mini-map, your location, names, and hover text.",
+            },
+            vision:{
+                title: "Vision",
+                content: "Limit how far you can see with blind or blur, lock the camera, or force you to look at someone.",
+            },
+            movement:{
+                title: "Movement",
+                content: "Allow or block jumping, walking, running, and flying.",
+            },
+            moduleLock:{
+                title: "Module Lock",
+                content: "Lock the folders of your Profile, Outfit, Accessories, and other modules, so they can't be attached or detached until unlocked.",
+            },
+        },
+        asn:{
+            welcome:{
+                title: "ASN",
+                content: "ASN is a dialer for the Alteran Stargate Network, you need to be near an ASN gate to use it.",
+            },
+            address:{
+                title: "Address",
+                content: "The top row shows the address loaded from a Landmark, the bottom row shows the glyphs you have dialed.",
+            },
+            dhd:{
+                title: "Dial Home Device",
+                content: "Click the glyphs on the dial home device to dial a gate address.",
+            },
+            options:{
+                title: "Dial Options",
+                content: "Pick a Landmark with a saved gate address to load it.\n\nMilkyway and Pegasus switch the gate type, and Quick and Slow set the dial speed.\n\nWith an address loaded, Guided mode highlights the next glyph to press, and Direct Dial dials it for you.",
+            },
+        },
+        calendar:{
+            welcome:{
+                title: "Calendar",
+                content: "Calendar shows events from Google Calendars you add, and the SL birthdays of people you track.",
+            },
+            manage:{
+                title: "Manage Calendar",
+                content: "Add a Google Calendar by its name and calendar ID, or turn calendars on and off.\n\nAdd someone's UUID to show their SL birthday.",
+            },
+            view:{
+                title: "Calendar View",
+                content: "Move between dates, and switch between the month view and the weekly list.",
+            },
+            events:{
+                title: "Events",
+                content: "Click an event to see its details, with links to open a profile, open the map, or teleport.",
             },
         }
     },
