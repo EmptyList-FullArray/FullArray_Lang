@@ -206,6 +206,56 @@ export const LangJa = {
                 title: "インベントリ",
                 content: "インベントリを使用すると、必要なときにＨＵＤからアイテムを保存してすばやく再配置できます。\n\nＨＵＤは、アイテムをインベントリに保存し（オブジェクトが変更可能で、リンクの変更で壊れない場合）、アイテムに加えられた変更を保存できます。"
             }
+        },
+        zones: {
+            welcome: {
+                title: "Zones",
+                content: "Zones are areas in a region that change things for people wearing FullArray while they are inside.\n\nA zone can set an environment preset, outfit rules, or both."
+            },
+            tabs: {
+                title: "Zone Pages",
+                content: "Region shows every zone in the region you are in.\n\nZones is the list of zones you have created in every region.\n\nPresets is where you add environment presets to use in your zones."
+            },
+            region: {
+                title: "Current Region",
+                content: "The region you are in, use the refresh button after you teleport to see the zones in your new region."
+            },
+            filters: {
+                title: "Filters",
+                content: "Show all zones, only your zones, or only the public or private zones in the region."
+            },
+            cards: {
+                title: "Zone Cards",
+                content: "Zones are grouped by the user that created them.\n\nThe eye shows the zone bounds in world, and the portal teleports you to the center of the zone.\n\nOn your own zones you can toggle Public and open the settings.\n\nIf you own the land you can toggle Public, Force zones on for everyone, and delete other users' zones."
+            },
+            list: {
+                title: "Your Zones",
+                content: "Every zone you have created, shown as Region/Name.\n\nThe settings button lets you edit a zone from any region, unless you are moving a public zone or making it public."
+            },
+            create: {
+                title: "Create a Zone",
+                content: "Give the zone a name, then stand at one corner of the area and use the location button for Corner A, then the other corner for Corner B.\n\nThe location buttons also set the region the zone is in."
+            },
+            height: {
+                title: "Height Zone",
+                content: "A height zone covers the whole region between a bottom and top height, useful for skyboxes and floors of a build."
+            },
+            features: {
+                title: "Environment & Outfit",
+                content: "A zone needs an environment preset, an outfit rule, or both.\n\nOutfit on entry changes everyone's outfit when they walk in, and Block stops them changing to those states while inside.\n\nWhen zones overlap the highest priority applies."
+            },
+            public: {
+                title: "Public Zones",
+                content: "Private zones only apply to users that have you as an Owner, or on their Allowlist at their Zone permission level or higher.\n\nPublic zones apply to everyone with the Zone permission set to public, and must be on land owned by you or your active group."
+            },
+            presets: {
+                title: "Environment Presets",
+                content: "Add an environment preset with a name and the environment asset UUID, then pick it when creating or editing a zone."
+            },
+            permission: {
+                title: "Zone Permission",
+                content: "Whose zones apply to you is set by the Zone permission on the Permissions page.\n\nZones from users on your Blocklist never apply, except zones forced by the land owner."
+            }
         }
     },
     home: {
