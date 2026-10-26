@@ -302,7 +302,7 @@ export const LangEn = {
             },
             public:{
                 title: "Public Zones",
-                content: "Private zones apply to you, anyone you are an Owner of, and anyone that has you on their Allowlist at their Zone permission level or higher.\n\nPublic zones apply to everyone with the Zone permission set to public, and must be on land owned by you or your active group.",
+                content: "Private zones apply to you, anyone you are an Owner of, and anyone that has you on their Allowlist at their Zone permission level or higher.\n\nPublic zones apply to everyone with the Zone permission set to public.",
             },
             presets:{
                 title: "Environment Presets",
@@ -885,7 +885,7 @@ export const LangEn = {
         priority: "Priority",
         enabled:  "Enabled",
         public:   "Public",
-        publicTooltip: "Applies to everyone wearing FullArray in the zone who has the Zone permission set to public. Public zones must be on land owned by you or your active group, and you must be in the region to make or move one.",
+        publicTooltip: "Applies to everyone wearing FullArray in the zone who has the Zone permission set to public.",
         outfit:        "Outfit zone",
         outfitTooltip: "Changes the outfit of everyone inside and keeps them out of the blocked states. Ones that strip to Nude are never allowed in PG regions.",
         entryState:        "Outfit on entry",
