@@ -77,6 +77,7 @@ export const LangEn = {
         kidnap:      "Kidnap",
         command:     "Commands",
         zones:       "Zones",
+        admin:       "Admin",
 
     },
     misc:{
@@ -1433,5 +1434,21 @@ export const LangEn = {
             profileLinks: "BOMs linked to active profile",
             outfitLinks:  "BOMs linked to active outfit",
         }
+    },
+    admin:{
+        tabs:{
+            notifications: "Notifications",
+        },
+        notifications:{
+            title:              "Title",
+            message:            "Message (Markdown supported)",
+            preview:            "Preview",
+            previewEmpty:       "Nothing to preview yet.",
+            send:               "Send to everyone",
+            missing:            "Title and message are required.",
+            sent:               "Notification sent.",
+            confirmHeader:      "Send this notification?",
+            confirmBody:        "Every user will see \"!~NAME~!\" as a popup the next time they open the HUD. This can't be undone from here.",
+        },
     }
 }

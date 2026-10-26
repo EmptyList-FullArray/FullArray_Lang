@@ -27,7 +27,8 @@ export const LangFr = {
         kidnap: "Kidnap",
         command: "Commands",
         environment: "Environment",
-        zones: "Zones"
+        zones: "Zones",
+        admin: "Admin"
     },
     misc: {
         settings: "Paramètres",
@@ -1538,5 +1539,21 @@ export const LangFr = {
         errorAllBlocked: "At least one outfit state must be allowed.",
         errorEntryBlocked: "The outfit on entry can't be a blocked state.",
         publicTooltip: "Applies to everyone wearing FullArray in the zone, unless they opted out of public zones. Public zones must be on land owned by you or your active group, and you must be in the region to make or move one."
+    },
+    admin: {
+        tabs: {
+            notifications: "Notifications"
+        },
+        notifications: {
+            title: "Title",
+            message: "Message (Markdown supported)",
+            preview: "Preview",
+            previewEmpty: "Nothing to preview yet.",
+            send: "Send to everyone",
+            missing: "Title and message are required.",
+            sent: "Notification sent.",
+            confirmHeader: "Send this notification?",
+            confirmBody: "Every user will see \"!~NAME~!\" as a popup the next time they open the HUD. This can't be undone from here."
+        }
     }
 }
