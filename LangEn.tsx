@@ -435,7 +435,7 @@ export const LangEn = {
         title:{
             welcome:{
                 title: "Titles",
-                content: "Titles are floating text shown above your head.\n\nYou can make as many Titles as you like and switch between them.",
+                content: "Titles are floating text shown above your head.\n\nYou can make as many Titles as you like and switch between them.\n\nChat command: <prefix> Change Title <name>",
             },
             list: "Here you can see all the Titles you have created.\n\nClicking a Title sets it as your active Title, its settings let you edit the lines.",
         },
