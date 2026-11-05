@@ -1432,7 +1432,11 @@ export const LangFr = {
         tooltip: "Items sharing a tag are mutually exclusive - attaching one detaches the others.",
         none: "No tag",
         placeholder: "New tag name...",
-        errorNameBlank: "Error: Tag name cannot be blank."
+        errorNameBlank: "Error: Tag name cannot be blank.",
+        titleMulti: "Exclusive Tags",
+        tooltipMulti: "Click a tag to add or remove it. Items sharing any tag are mutually exclusive - attaching one detaches the others.",
+        add: "Add tag",
+        remove: "Remove tag"
     },
     environment: {
         presets: "Environment Presets",

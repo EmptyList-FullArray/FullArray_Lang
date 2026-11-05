@@ -33,6 +33,10 @@ export const LangEn = {
     tag:{
         title: "Exclusive Tag",
         tooltip: "Items sharing a tag are mutually exclusive - attaching one detaches the others.",
+        titleMulti: "Exclusive Tags",
+        tooltipMulti: "Click a tag to add or remove it. Items sharing any tag are mutually exclusive - attaching one detaches the others.",
+        add: "Add tag",
+        remove: "Remove tag",
         none: "No tag",
         placeholder: "New tag name...",
         errorNameBlank: "Error: Tag name cannot be blank.",
