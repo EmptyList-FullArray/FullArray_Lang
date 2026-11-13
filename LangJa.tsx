@@ -26,7 +26,6 @@ export const LangJa = {
         asn: "ＡＳＮ",
         kidnap: "誘拐",
         command: "コマンド",
-        environment: "環境",
         zones: "ゾーン"
     },
     misc: {
@@ -209,10 +208,6 @@ export const LangJa = {
         }
     },
     home: {
-        categories: {
-            tempHuds: "一時的なＨＵＤ",
-            interactDoll: "インタラクトドール"
-        },
         tooltip: {
             doll: {
                 outerwear: "アウトフィットの!~SLOT~!スロットを「アウターウェア」ステートとして設定します。<br/><br/>コマンド：@!~STATE~! !~SLOT~!",
@@ -221,13 +216,8 @@ export const LangJa = {
                 rip: "あなたのアウトフィットの!~SLOT~!スロットを剥ぎ取ります。<br/>戻すには、衣装修復を使用する必要があります。<br/><br/>コマンド：@Set Outfit Effect !~SLOT~! Rip",
                 steal: "あなたのアウトフィットの!~SLOT~!スロットを盗みます。<br/>あなたのアウトフィットを盗んだアバターをぶつけない場合は、衣装修理を使用して修理する必要があります。<br/><br/>コマンド：@Set Outfit Effect !~SLOT~! Steal",
                 throw: "あなたのアウトフィットの!~SLOT~!スロットを投げます。<br/>元に戻らない場合は、衣類修理を使って修理する必要があります。<br/>投げると、誰でも拾って盗むことができるプリムが復活します。ぶつかるか、クリックでプリムを相手の手から叩き落とし、地面をクリックすることで取り戻すことができます。<br/><br/>コマンド：@Set Outfit Effect !~SLOT~! Throw"
-            },
-            outfitOuterwear: "アウトフィットのステートを「アウターウェア」に設定します。<br/><br/>コマンド：@o （スロット名）",
-            outfitUnderwear: "アウトフィットのステートを「アンダーウェア」に設定します。<br/><br/>コマンド：@u （スロット名）",
-            outfitNude: "アウトフィットのステートを「ヌード」に設定します。<br/><br/>コマンド：@n （スロット名）<br/><br/>指のはさみアイコンは、性器のないヌードのアウトフィットとして設定します。<br/><br/>コマンド：@nc",
-            tempHuds: "モジュールの一時的なＨＵＤを取り付け[+]または、取り外し[-]ます。<br/><br/>コマンド：@&lt;モジュール&gt; huds &lt;+/-&gt;"
+            }
         },
-        hudLock: "ＨＵＤロック",
         bare: "ベア",
         bareTemp: "一時ベア",
         bald: "薄毛",
@@ -260,12 +250,9 @@ export const LangJa = {
         placeholders: {
             relayName: "リレー名…"
         },
-        errors: {
-        },
         errorChannelBlank: "エラー：チャットチャンネルは空白にできません。",
         errorCommandBlank: "エラー：チャットコマンドは空白にできません。",
-        bodyPartsCategory: "身体部位",
-        titleLabel: "タイトル"
+        bodyPartsCategory: "身体部位"
     },
     outfit: {
         setDefaultOutfit: "デフォルトのアウトフィットとして保存",
@@ -274,7 +261,6 @@ export const LangJa = {
         outfitTypeBasic: "基本",
         outfitTypeSimple: "簡易",
         linkMode: "リンクモード",
-        linkModeNone: "なし",
         linkModeTorso_Crotch: "胴体＆股間",
         linkModeTorso_Crotch_Waist: "胴体＆股間＆腰",
         linkMode_Crotch_Waist: "股間＆腰",
@@ -290,17 +276,13 @@ export const LangJa = {
         defaultHair: "デフォルトの髪型",
         defaultShoe: "デフォルトの靴",
         torsoGenitalSettings: "胴体の性器の設定",
-        crotchGenitalSettings: "股間の性器の設定",
-        none: "なし"
+        crotchGenitalSettings: "股間の性器の設定"
     },
     accessory: {
         detachAll: "すべてのアクセサリを取り外す",
         genitalSlotHeader: "性器スロットを上書きします。",
         reload: "アクセサリをリロードします。",
         genitalSlot: {
-            none: "なし",
-            crotch: "股間",
-            torso: "胴体",
             both: "両方"
         },
         tooltip: {
@@ -311,9 +293,7 @@ export const LangJa = {
             outfitLinks: "アクティブなアウトフィットにリンクされたアクセサリ",
             outfitLinkSettings: "このアクセサリの設定は、現在着用しているアウトフィットにリンクします。何もチェックが入っていない場合、アウトフィットを着用しているときはいつでも装着されます。",
             profileOnly: "このリンクは、アクティブなプロファイルが読み込まれている間のみ使用してください。「オフ」にすると、このアウトフィットを着用しているすべてのプロファイルに適用されます。",
-            outfitStates: "このアクセサリは、このスロットにチェックマークが付いている時のみ着用してください。チェックマークが付いているスロットはすべて一致している必要があります。",
             profileLinkSettings: "このアクセサリーは、チェックマークの状態が一致する場合、このプロファイルのすべてのアウトフィットに装着できます。何もチェックマークがない場合は装着できません。アクティブなアウトフィットによって上書きされる場合があります。",
-            profileStates: "このアクセサリは、このスロットにチェックマークが付いている時のみ着用してください。チェックマークが付いているスロットはすべて一致している必要があります。",
             outfitMode: "「プロファイルデフォルトに従う」は、プロファイルのデフォルト状態を使用します。「着用」と「着用しない」は、このアウトフィットに対してプロファイルのデフォルト状態を上書きします。"
         },
         outfitLinks: "アウトフィットのリンク",
@@ -328,10 +308,6 @@ export const LangJa = {
             never: "着用しない"
         }
     },
-    hair: {
-    },
-    shoe: {
-    },
     rlv: {
         categoryLeash: "リーシュ（鎖）",
         leashFollowTp: "テレポートでリーシュホルダーを追跡する",
@@ -342,7 +318,6 @@ export const LangJa = {
         leashYank: "リーシュを引っ張る",
         leashToObject: "オブジェクトにリーシュをつなぐ",
         leashToAvatar: "アバターにリーシュをつなぐ",
-        headerLeashPatricle: "リーシュのパーティクル",
         leashColor: "＜｜色｜＞",
         leashRibbon: "リボンのパーティクルを使用",
         leashPlaceholderUUID: "テクスチャのＵＵＩＤ…",
@@ -355,7 +330,6 @@ export const LangJa = {
         forceSit: "オブジェクトに座る",
         forceUnsit: "強制的に立たせる",
         categoryFolders: "フォルダ",
-        categoryinventory: "インベントリ",
         resetFolderView: "ＲＬＶフォルダをリセット",
         folderOpen: "フォルダを開く",
         folderAttach: "フォルダを装着",
@@ -446,16 +420,10 @@ export const LangJa = {
         leashScale: "スケール",
         leashAlpha: "アルファ"
     },
-    huds: {
-    },
     landmark: {
         updateLandmark: "ランドマーク更新",
         utility_useForRestart: "リージョン再起動時に使用しますか？",
         asn: "近くのＡＳＮゲートをスキャンしますか？",
-        tooltips: {
-            utility_useForRestart: "現在いるリージョンが再起動したときに、このランドマークをテレポート場所として使用しますか？",
-            asn: "近くにある「Alteran Stargate Network（ＡＳＮ）」ゲートをスキャンし、そのアドレスをこのランドマークに保存しますか？"
-        },
         tooltip: {
             utility_useForRestart: "現在いるリージョンが再起動した際に、このランドマークをテレポート地点として使用しますか？",
             asn: "近くにある「Alteran Stargate Network（ＡＳＮ）ゲートをスキャンして、そのアドレスをこのランドマークに保存しますか？",
@@ -479,11 +447,6 @@ export const LangJa = {
         cleanOnLeave: "去ったときにクリーンアップ",
         useForklift: "アイテムをRezするときTinesシステムを使用しますか？",
         deleteInworld: "インワールドのインベントリアイテムも削除しますか？",
-        tooltips: {
-            rezInstaller: "インストーラーボックスをRezして、ＨＵＤにアイテムを簡単に追加します。",
-            rezEmptyBox: "プレフィックスで使用するために空箱を再生成します。",
-            useForklift: "これにより、Rezされたオブジェクトへの変更を保存できるようになります。ただし、これはすべてに機能するわけではありません。"
-        },
         tooltip: {
             rezInstaller: "インストーラーボックスを配置し、ＨＵＤにアイテムを簡単に追加できるようにします。",
             rezEmptyBox: "接頭辞に使用するための空のボックスをRezします。",
@@ -530,8 +493,6 @@ export const LangJa = {
             hudMode1: "ＨＵＤを右方向に開くように切り替えます。"
         }
     },
-    skin: {
-    },
     bom: {
         outfitLinks: "アウトフィットのリンク",
         profileLinks: "プロファイルのリンク",
@@ -550,13 +511,6 @@ export const LangJa = {
             profile: "この自動グループがトリガーされたときに切り替えるプロファイル。",
             outfit: "この自動グループがトリガーされたときに切り替えるアウトフィット。",
             outfitPartialName: "この自動グループがトリガーされたときに、現在のプロファイルに登録されているアウトフィットの中から、このテキストに最も一致する名前のアウトフィットを探し出し、それを着用します。一致するアウトフィットがない場合はスキップされます。"
-        },
-        placeholder: {
-            roleName: "役割名…",
-            groupName: "グループ名…",
-            groupUuid: "グループのＵＵＩＤ…",
-            groupRole: "グループの役割…",
-            regionSlurl: "リージョンのＳＬＵＲＬ…"
         },
         errorBlank: "ＳＬＵＲＬかＵＵＩＤは、空白にはできません。",
         created: "作成しました。",
@@ -612,12 +566,6 @@ export const LangJa = {
             setAccessLevel: "!~MODULE~!のアクセスレベルを設定",
             setSelfAccessLevel: "!~MODULE~!のセルフアクセスレベルを設定",
             setPublicAccessLevel: "!~MODULE~!のパブリックアクセスレベルを設定",
-            tooltips: {
-                isSelfOwner: "自分のＨＵＤの所有者ステータスを切り替えます。\n無効にすると、自分の許可リストに追加されずに自分のＨＵＤを制御できなくなります。",
-                isPublic: "これは、「パブリック」にチェックが入っているすべてのモジュールのグローバルトグルです。\nモジュールをパブリックに設定すると、ブロックリストに登録されていないユーザもそのモジュールにアクセスできるようになります。",
-                sameRegion: "ＨＵＤを制御するために他のユーザが、あなたと同じリージョンにいる必要があるかどうかを切り替えます。",
-                location: "ユーザがあなたの現在位置を確認して知ることができ、あなたのところにテレポートできるようになります。"
-            },
             tooltip: {
                 isSelfOwner: "自分のＨＵＤの所有者ステータスを切り替えます。\n無効にすると、自分の許可リストに追加されない限り、自分のHUDを制御できなくなります。",
                 isPublic: "「パブリック」としてマークされているすべてのモジュールのパブリックアクセスを切り替えます。<br/>有効にすると、ブロックリストに登録されていないユーザも使用できます。<br/>デフォルトでは、すべてのモジュールが公開されています。",
@@ -631,11 +579,6 @@ export const LangJa = {
             friends: "ＳＬのフレンド",
             placeholders: {
                 addAllowlistUUID: "あなたの許可リストに追加したいＵＵＩＤ…"
-            },
-            tooltips: {
-                about: "許可リストは、ＨＵＤの一部を操作することが許可されているユーザのリストです。\n各モジュールとユーザには独自のアクセスできるレベルがあり、ユーザのレベルがモジュールのレベルと同じかそれ以上であれば、そのモジュールを使用できます。",
-                currentLeashHolder: "現在のあなたのアバターのＲＬＶリーシュのホルダーです。",
-                friends: "あなたのＳＬのフレンドのアクセスレベルのリストです。"
             },
             tooltip: {
                 about: "許可リストは、ＨＵＤの一部を操作することが許可されているユーザーのリストです。\n各モジュールとユーザーには独自のアクセスレベルがあり、ユーザーのレベルがモジュールのレベルと同じかそれ以上であれば、そのモジュールを使用できます。",
@@ -657,9 +600,6 @@ export const LangJa = {
             ownerlist: "所有者リスト",
             placeholders: {
                 addOwnerUUID: "あなたの所有者として追加したいＵＵＩＤ…"
-            },
-            tooltips: {
-                about: "所有者リストは、ＨＵＤに対するほぼ完全な制御が許可されているユーザのリストです。\n設定メニュー内の項目は、所有者リストのどのユーザも変更できません。"
             },
             tooltip: {
                 about: "所有者リストは、ＨＵＤをほぼ完全に制御できるユーザのリストです。設定メニューの項目は、所有者リストに登録されているユーザによって変更することはできません。"
@@ -715,7 +655,6 @@ export const LangJa = {
             autoGroup: "自動グループ",
             tempHuds: "一時的なＨＵＤ",
             landmark: "ランドマーク",
-            environment: "環境",
             advanced: "詳細",
             zones: "ゾーン"
         },
@@ -742,7 +681,6 @@ export const LangJa = {
             showIds: "リストにＩＤを表示しますか？",
             defaultNavState: "ホームにナビゲートされたときのデフォルトのステート。",
             defaultActiveCardState: "アクティブなカードのデフォルトのステート。",
-            defaultDollState: "インタラクトドールのデフォルトのステート。",
             showAfk: "ＡＦＫのオーバーレイを表示しますか？",
             autoGroup_power: "テレポート時にグループを自動変更しますか？",
             linkOnCreate: "新しく作成されたエントリを自動リンクしますか？",
@@ -751,7 +689,6 @@ export const LangJa = {
             hud_verbose: "詳細なＨＵＤメッセージを表示しますか？",
             log_permissions: "詳細な権限エラーのログを取ります。",
             protectedFolderLock: "保護フォルダをロックします。",
-            defaultTempHudState: "一時的なＨＵＤのデフォルトのステート。",
             autoCreateFolders: "フォルダを自動作成しますか？",
             hud_sideDock: "ＨＵＤはドックモードです。",
             landmark_asnFirst: "テレポートする前にＡＳＮスキャンしますか？",
@@ -760,8 +697,6 @@ export const LangJa = {
             outfit_defaultIsAdult: "新しいアウトフィットのデフォルトをAdultとしますか？",
             environment_usePublicZones: "他のユーザーの公開環境ゾーンを適用しますか？",
             environment_keepIfNoMatch: "環境が見つからない場合は、環境を保持しますか？",
-            outfit_usePublicNudeZones: "他人の公共のヌードスポットを利用しますか？",
-            outfit_usePublicDressedZones: "他人の公共の服装規定を適用しますか？",
             outfit_usePublicZones: "他人の公開アウトフィットゾーンを適用しますか？"
         },
         textbox: {
@@ -792,12 +727,10 @@ export const LangJa = {
             uiSize: "ＨＵＤ全体のＵＩスケールを変更します。",
             defaultNavState: "ナビゲーションバーがデフォルトで開いているか閉じているかを切り替えます。",
             defaultActiveCardState: "モジュールのアクティブカードをデフォルトで表示するか非表示にするかを切り替えます。",
-            defaultDollState: "インタラクトドールをデフォルトで表示するか非表示にするかを切り替えます。",
             showAfk: "数秒後にＡＦＫ画面が表示されるかどうかを切り替えます。",
             linkOnCreate: "新しく作成されたエントリをアクティブなプロファイルに自動的にリンクするかどうかを切り替えます。",
             hud_verbose: "起動時にＨＵＤに情報を表示するかどうかを切り替えます。",
             protectedFolderLock: "保護フォルダを常にロックするかどうかを切り替えます。",
-            defaultTempHudState: "一時的なＨＵＤコントロールをデフォルトで非表示にするかどうかを切り替えます。",
             hud_sideDock: "ＨＵＤをルートプリムの下にドッキングするか、移動先の場所にドッキングするかを制御します。",
             apiKey: "作成された製品のＡＰＩキーです。<br/><br/><strong>これを共有しないでください！</strong><br/><br/>このキーを再発行すると、古いキーを使用していた以前のコンテンツがすべて壊れます。",
             api_message: "ＨＵＤがＡＰＩメッセージを送信するかどうかを切り替えるチャンネル：698008",
@@ -831,17 +764,13 @@ export const LangJa = {
             outfit_defaultIsAdult: "新しく作成したアウトフィットに、デフォルトでAdultフラグを設定するかどうかを切り替えます。",
             outfit_defaultGenitals: "新しく作成したアウトフィットに適用する、性器の表示ステートのデフォルトを設定します。",
             environment_usePublicZones: "他のユーザが公開に設定した環境ゾーンに入ったときに、そのゾーンを自分にも適用するかどうかを切り替えます。自分のゾーンは、この設定に関係なく常に適用されます。",
-            homeTheme: "クラシックなホームレイアウトと、ウィジェットグリッドのホームレイアウトを切り替えます。",
             environment_keepIfNoMatch: "環境が割り当てられていないランドマークや自動グループが発動すると、通常は空や照明がデフォルトにリセットされます。これをオンにすると、代わりに現在適用されている環境を維持します。",
-            outfit_usePublicNudeZones: "他のユーザの公開ヌードプレイスに入ると、ヌードにされ、中にいる間はヌードのままになります。これをオフにすると、他のユーザの公開ヌードプレイスを無視します。自分のものと、土地所有者が強制しているものは常に適用されます。",
-            outfit_usePublicDressedZones: "他のユーザの公開着衣プレイスに入ると、アウトフィットのヌードの部分に衣装が着せられ、中にいる間はヌードになれなくなります。アンダーウェアはそのままです。これをオフにすると、他のユーザの公開着衣プレイスを無視します。自分のものと、土地所有者が強制しているものは常に適用されます。",
             outfit_usePublicZones: "他のユーザの公開アウトフィットゾーンに入ると、アウトフィットが入場時のアウトフィットに変更され、中にいる間はブロックされたステートに変更できなくなります。これをオフにすると、他のユーザの公開アウトフィットゾーンを無視します。自分のものと、土地所有者が強制しているものは常に適用されます。"
         },
         color: {
             colorHeader: "カラー設定",
             categoryPreset: {
                 header: "プリセット",
-                presetJsson: "プリセット設定をここにペーストしてください…",
                 presetJson: "ここにプリセット設定を貼り付けてください…"
             },
             preset: "",
@@ -851,7 +780,6 @@ export const LangJa = {
                 buttonActive: "アクティブなボタン",
                 static: "静的",
                 textbox: "テキストボックス",
-                exmpleHeader: "ヘッダ",
                 categoryHeader: "カテゴリヘッダ",
                 exampleHeader: "ヘッダ"
             },
@@ -911,9 +839,6 @@ export const LangJa = {
             },
             categoryDoll: {
                 header: "ドール",
-                outerwear: "アウターウェア",
-                underwear: "アンダーウェア",
-                nude: "ヌード",
                 disabled: "無効"
             },
             categoryScrollbar: {
@@ -950,11 +875,6 @@ export const LangJa = {
             logout: "ログアウト"
         },
         outfitDefaultsHeader: "新しいアウトフィットのデフォルト",
-        homeTheme: "ホーム画面のスタイル",
-        homeThemes: {
-            classic: "クラシック",
-            grid: "ウィジェットグリッド"
-        },
         search: "設定を検索…",
         noResults: "設定が見つかりません。"
     },
@@ -1020,11 +940,6 @@ export const LangJa = {
         openMap: "マップを開く",
         calendars: "カレンダー",
         birthdays: "誕生日",
-        placeholder: {
-            googleCalendarName: "Googlカレンダー名…",
-            googleCalendarId: "GooglカレンダーＩＤ…",
-            uuid: "ＵＵＩＤ…"
-        },
         placeholders: {
             googleCalendarName: "Googlカレンダー名…",
             googleCalendarId: "GooglカレンダーＩＤ…",
@@ -1080,8 +995,7 @@ export const LangJa = {
             bodyPlaceholder: "問題点または要望を詳しく説明してください。",
             submit: "送信",
             missing: "件名と説明文をご記入ください。",
-            success: "チケットは送信されました！",
-            viewTicket: "チケットを閲覧"
+            success: "チケットは送信されました！"
         },
         header: "ヘルプと情報",
         sectionLearn: "学ぶ",
@@ -1150,46 +1064,15 @@ export const LangJa = {
     },
     environment: {
         presets: "環境プリセット",
-        region: "リージョン",
-        cornerA: "コーナーＡ（下／南／西）",
-        cornerB: "コーナーＢ（上／北／東）",
         preset: "環境プリセット",
-        priority: "優先度",
-        enabled: "有効",
         errorBlank: "名前、リージョン（位置ボタンを使用）、環境を入力してください。",
         created: "環境ゾーンを作成しました。",
         placeholders: {
-            zoneName: "ゾーン名…",
             presetName: "プリセット名…",
             presetAssetId: "環境アセットのＵＵＩＤ…"
         },
-        public: "公開（リージョン内の全員に表示）",
-        tabs: {
-            zones: "ゾーン",
-            presets: "プリセット",
-            region: "リージョン"
-        },
         save: "保存",
-        updated: "プリセットを更新しました。",
-        byHeight: "高さゾーン（区画全体、下端／上端の高さのみを設定）",
-        heightBottom: "下端の高さ",
-        heightTop: "上端の高さ",
-        filters: {
-            all: "すべて",
-            mine: "自分",
-            public: "公開",
-            private: "非公開"
-        },
-        noZones: "ゾーンが見つかりません。",
-        disabled: "無効",
-        landDelete: "このゾーンをあなたの土地から削除しますか？",
-        landDeleteText: "!~OWNER~!が所有する!~NAME~!を削除してもよろしいですか？",
-        showZone: "ゾーンの境界を表示",
-        center: "中心",
-        size: "サイズ",
-        teleportZone: "ゾーンの中心へテレポート",
-        forced: "強制",
-        forcedTooltip: "公開ゾーンの設定に関係なく、ゾーン内の全員にこの環境を強制的に適用します（土地所有者のみ）"
+        updated: "プリセットを更新しました。"
     },
     zones: {
         tabs: {
@@ -1213,7 +1096,6 @@ export const LangJa = {
         landDeleteText: "!~OWNER~!が所有する!~NAME~!を削除してもよろしいですか？",
         forced: "強制",
         forceEnvironment: "公開ゾーンの設定に関係なく、ゾーン内の全員に環境を強制的に適用します（土地所有者のみ）",
-        forceNude: "公開ヌードプレイスの設定に関係なく、ゾーン内の全員にヌードプレイスを強制的に適用します（土地所有者のみ）",
         region: "リージョン",
         cornerA: "コーナーＡ（下／南／西）",
         cornerB: "コーナーＢ（上／北／東）",
@@ -1225,17 +1107,11 @@ export const LangJa = {
         priority: "優先度",
         enabled: "有効",
         public: "公開",
-        nude: "ヌードプレイス",
-        nudeTooltip: "中にいる全員をヌードにし、中にいる間はヌードのままにします。公開ヌードプレイスは自分の土地に設置する必要があり、ＰＧリージョンには設置できません。",
         errorBlank: "名前とリージョン（位置ボタンを使用）を入力し、環境、入場時のアウトフィット、またはブロックするステートを選択してください。",
         created: "ゾーンを作成しました。",
         placeholders: {
             zoneName: "ゾーン名…"
         },
-        forceDressed: "公開着衣プレイスの設定に関係なく、ゾーン内の全員に着衣プレイスを強制的に適用します（土地所有者のみ）",
-        dressed: "着衣プレイス",
-        dressedTooltip: "中にいる全員のヌードを解除して衣装を着せ、中にいる間はヌードになれないようにします。アンダーウェアはそのままです。公開着衣プレイスは自分の土地に設置する必要があります。",
-        errorConflict: "ゾーンをヌードプレイスと着衣プレイスの両方にすることはできません。",
         dressOnExit: "退出時にアウトフィットを復元",
         dressOnExitTag: "退出時に復元",
         dressOnExitTooltip: "退出時に、全員のアウトフィットを入場前の状態に戻します。ただし、別のアウトフィットゾーンの中にまだいる場合は除きます。中にいる間にアウトフィットを変更した場合はアウターウェアになります。",
