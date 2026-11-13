@@ -24,11 +24,10 @@ export const LangJa = {
         telepathy: "テレパシー",
         camera: "カメラ",
         asn: "ＡＳＮ",
-        kidnap: "Kidnap",
-        command: "Commands",
-        environment: "Environment",
-        zones: "Zones",
-        admin: "Admin"
+        kidnap: "誘拐",
+        command: "コマンド",
+        zones: "ゾーン",
+        admin: "管理"
     },
     misc: {
         settings: "設定",
@@ -65,7 +64,7 @@ export const LangJa = {
             outerwear: "アウターウェア",
             underwear: "アンダーウェア",
             nude: "ヌード",
-            nudeCut: "Nude (Cut Off)"
+            nudeCut: "ヌード（カットオフ）"
         },
         slots: {
             head: "頭",
@@ -190,16 +189,16 @@ export const LangJa = {
             settings: {
                 title: "!~MODULE~!設定",
                 content: "ここで、アクティブな!~MODULE~!の設定を編集できます。\n\n下のリストでこのボタンをクリックすると、その!~MODULE~!の設定が開きます。",
-                contentList: "The settings button on a !~MODULE~! in the list opens its settings, where you can rename, change the image of, or delete it."
+                contentList: "リストにある!~MODULE~!の設定ボタンを押すと設定が開き、名前の変更、画像の変更、削除ができます。"
             },
             search: {
                 title: "!~MODULE~!を検索",
                 content: "検索ボックスを使用すると、名前またはプレフィックスで特定の!~MODULE~!をすばやく見つけることができます。"
             },
             header: {
-                title: "List Buttons",
-                linkMode: "The link button switches the list to Link Mode, where clicking a !~MODULE~! links it to your active Profile instead.",
-                create: "The create button adds a new !~MODULE~!."
+                title: "リストのボタン",
+                linkMode: "リンクボタンを押すとリストがリンクモードに切り替わり、!~MODULE~!をクリックすると、代わりにアクティブなプロファイルにリンクされます。",
+                create: "作成ボタンで新しい!~MODULE~!を追加します。"
             }
         },
         profile: {
@@ -216,288 +215,284 @@ export const LangJa = {
         },
         zones: {
             welcome: {
-                title: "Zones",
-                content: "Zones are areas in a region that change things for people wearing FullArray while they are inside.\n\nA zone can set an environment preset, outfit rules, or both."
+                title: "ゾーン",
+                content: "ゾーンとは、リージョン内のエリアで、FullArrayを装着している人がその中にいる間、さまざまな変化を与えるものです。\n\nゾーンには、環境プリセット、アウトフィットのルール、またはその両方を設定できます。"
             },
             tabs: {
-                title: "Zone Pages",
-                content: "Region shows every zone in the region you are in.\n\nZones is the list of zones you have created in every region.\n\nPresets is where you add environment presets to use in your zones."
+                title: "ゾーンのページ",
+                content: "「リージョン」には、現在いるリージョンのすべてのゾーンが表示されます。\n\n「ゾーン」は、すべてのリージョンであなたが作成したゾーンの一覧です。\n\n「プリセット」では、ゾーンで使用する環境プリセットを追加できます。"
             },
             region: {
-                title: "Current Region",
-                content: "The region you are in, use the refresh button after you teleport to see the zones in your new region."
+                title: "現在のリージョン",
+                content: "現在いるリージョンです。テレポートした後は、更新ボタンを押すと新しいリージョンのゾーンが表示されます。"
             },
             filters: {
-                title: "Filters",
-                content: "Show all zones, only your zones, or only the public or private zones in the region."
+                title: "フィルタ",
+                content: "リージョン内のすべてのゾーン、自分のゾーンのみ、または公開・非公開のゾーンのみを表示します。"
             },
             cards: {
-                title: "Zone Cards",
-                content: "Zones are grouped by the user that created them.\n\nThe eye shows the zone bounds in world, and the portal teleports you to the center of the zone.\n\nOn your own zones you can toggle Public and open the settings.\n\nIf you own the land you can toggle Public, Force zones on for everyone, and delete other users' zones."
+                title: "ゾーンカード",
+                content: "ゾーンは、作成したユーザごとにまとめて表示されます。\n\n目のボタンでワールド内にゾーンの境界を表示し、ポータルのボタンでゾーンの中心へテレポートします。\n\n自分のゾーンでは、公開の切り替えと設定を開くことができます。\n\n土地を所有している場合は、公開の切り替え、全員へのゾーンの強制、他のユーザのゾーンの削除ができます。"
             },
             list: {
-                title: "Your Zones",
-                content: "Every zone you have created, shown as Region/Name.\n\nThe settings button lets you edit a zone from any region, unless you are moving a public zone or making it public."
+                title: "自分のゾーン",
+                content: "あなたが作成したすべてのゾーンが「リージョン／名前」の形式で表示されます。\n\n設定ボタンを使うと、どのリージョンからでもゾーンを編集できます。ただし、公開ゾーンを移動する場合や、ゾーンを公開にする場合は除きます。"
             },
             create: {
-                title: "Create a Zone",
-                content: "Give the zone a name, then stand at one corner of the area and use the location button for Corner A, then the other corner for Corner B.\n\nThe location buttons also set the region the zone is in."
+                title: "ゾーンを作成",
+                content: "ゾーンに名前を付け、エリアの一方の角に立ってコーナーＡの位置ボタンを押し、次にもう一方の角でコーナーＢの位置ボタンを押します。\n\n位置ボタンを押すと、ゾーンがあるリージョンも設定されます。"
             },
             height: {
-                title: "Height Zone",
-                content: "A height zone covers the whole region between a bottom and top height, useful for skyboxes and floors of a build."
+                title: "高さゾーン",
+                content: "高さゾーンは、下端と上端の高さの間にあるリージョン全体を範囲とします。スカイボックスや建物の階ごとに設定するのに便利です。"
             },
             features: {
-                title: "Environment & Outfit",
-                content: "A zone needs an environment preset, an outfit rule, or both.\n\nOutfit on entry changes everyone's outfit when they walk in, and Block stops them changing to those states while inside.\n\nWhen zones overlap the highest priority applies."
+                title: "環境とアウトフィット",
+                content: "ゾーンには、環境プリセット、アウトフィットのルール、またはその両方が必要です。\n\n「入場時のアウトフィット」は入ってきた全員のアウトフィットを変更し、「ブロック」は中にいる間、それらのステートに変更できないようにします。\n\nゾーンが重なっている場合は、優先度が最も高いものが適用されます。"
             },
             public: {
-                title: "Public Zones",
-                content: "Private zones only apply to users that have you as an Owner, or on their Allowlist at their Zone permission level or higher.\n\nPublic zones apply to everyone with the Zone permission set to public, and must be on land owned by you or your active group."
+                title: "公開ゾーン",
+                content: "非公開のゾーンは、あなたを所有者にしているユーザか、ゾーン権限のレベル以上であなたを許可リストに入れているユーザにのみ適用されます。\n\n公開ゾーンは、ゾーン権限を公開に設定している全員に適用され、あなたまたはアクティブなグループが所有する土地に設置する必要があります。"
             },
             presets: {
-                title: "Environment Presets",
-                content: "Add an environment preset with a name and the environment asset UUID, then pick it when creating or editing a zone."
+                title: "環境プリセット",
+                content: "名前と環境アセットのＵＵＩＤで環境プリセットを追加し、ゾーンの作成時や編集時に選択します。"
             },
             permission: {
-                title: "Zone Permission",
-                content: "Whose zones apply to you is set by the Zone permission on the Permissions page.\n\nZones from users on your Blocklist never apply, except zones forced by the land owner."
+                title: "ゾーン権限",
+                content: "誰のゾーンを自分に適用するかは、権限ページのゾーン権限で設定します。\n\nブロックリストのユーザのゾーンは、土地所有者が強制しているものを除き、適用されません。"
             }
         },
         kidnap: {
             welcome: {
-                title: "Kidnap",
-                content: "Kidnap lets you find other people playing and grab them to you, or chase after them.\n\nOnly people that turned Kidnap on can be found, and you can only be found if you turn it on too."
+                title: "誘拐",
+                content: "誘拐では、プレイしている他の人を見つけて自分のところへ連れてきたり、追いかけたりできます。\n\n見つけられるのは誘拐をオンにしている人だけで、あなたも見つけてもらうにはオンにする必要があります。"
             },
             enabled: {
-                title: "Enabled",
-                content: "Turn this on to show up in other people's Kidnap list and let them kidnap you.\n\nTurning it off also frees you if you are being held."
+                title: "有効",
+                content: "オンにすると、他の人の誘拐リストに表示され、あなたを誘拐できるようになります。\n\nオフにすると、拘束されている場合は解放されます。"
             },
             allowTeleport: {
-                title: "Allow Teleporting",
-                content: "Lets people grab you, which force-teleports you to them.\n\nWith this off people can still chase you, but can't pull you to them."
+                title: "テレポートの許可",
+                content: "他の人があなたを捕まえられるようにします。捕まえられると、相手のところへ強制的にテレポートされます。\n\nオフにしても追いかけられることはありますが、引き寄せられることはありません。"
             },
             dnd: {
-                title: "Do Not Disturb",
-                content: "Stops anyone from grabbing or chasing you while it is on, without turning Kidnap off.\n\nIt does not free you if someone already holds you, use Break Free for that."
+                title: "取り込み中",
+                content: "オンにしている間は、誘拐をオフにせずに、誰からも捕まえられたり追いかけられたりしないようにします。\n\nすでに誰かに拘束されている場合は解放されません。その場合は「自由になる」を使用してください。"
             },
             search: {
-                title: "Search",
-                content: "Search for someone by name, or use the refresh button to show everyone recently active.\n\nThe list also refreshes itself every few seconds."
+                title: "検索",
+                content: "名前で人を検索するか、更新ボタンで最近活動した全員を表示します。\n\nリストは数秒ごとに自動で更新されます。"
             },
             list: {
-                title: "Kidnap List",
-                content: "The dot on the picture shows if they are online, offline, or can't be grabbed right now.\n\nThe ( i ) button shows their roleplay role and interests from their Profile.\n\nThe handcuffs grab them to you, and the running button teleports you to them."
+                title: "誘拐リスト",
+                content: "画像の点は、その人がオンライン、オフライン、または今は捕まえられない状態かを示します。\n\n（ i ）ボタンで、プロファイルに設定されたロールプレイの役割や興味を表示します。\n\n手錠のボタンでその人を自分のところへ連れてきて、走るボタンでその人のところへテレポートします。"
             },
             held: {
-                title: "Being Held",
-                content: "The first person to grab or chase you holds you, and only they can grab or chase you until you are free.\n\nWhile held a banner shows at the top of this page with a Break Free button to end it.\n\nThe access level your kidnapper gets to your HUD is set by Current Kidnapper on your Allowlist."
+                title: "拘束中",
+                content: "最初にあなたを捕まえた人または追いかけた人があなたを拘束し、解放されるまでは、その人だけがあなたを捕まえたり追いかけたりできます。\n\n拘束中はこのページの上部にバナーが表示され、「自由になる」ボタンで終わらせることができます。\n\n誘拐者があなたのＨＵＤに対して持つアクセスレベルは、許可リストの「現在の誘拐者」で設定します。"
             }
         },
         command: {
             welcome: {
-                title: "Chat Commands",
-                content: "Chat commands are messages the HUD says on a channel for you, like commands for other HUDs, collars, or furniture.\n\nYou make them here once, then link them to your Outfits, Accessories, and Profiles so they fire automatically.\n\nFullArray commands will NOT work as chat commands."
+                title: "チャットコマンド",
+                content: "チャットコマンドは、ＨＵＤがあなたの代わりにチャンネルで発言するメッセージです。他のＨＵＤ、首輪、家具などへのコマンドに使います。\n\nここで一度作成しておけば、アウトフィット、アクセサリ、プロファイルにリンクして自動的に実行させることができます。\n\nFullArrayのコマンドは、チャットコマンドとしては機能しません。"
             },
             create: {
-                title: "Create a Command",
-                content: "Give the command a name so you can find it when linking, the channel to say it on, and the message to say.\n\nChannel 0 is public chat, most other HUDs and items listen on their own channel."
+                title: "コマンドを作成",
+                content: "リンクするときに見つけやすいようにコマンドに名前を付け、発言するチャンネルとメッセージを入力します。\n\nチャンネル0は公開チャットです。ほとんどのＨＵＤやアイテムは、それぞれ独自のチャンネルで待ち受けています。"
             },
             list: {
-                title: "Your Commands",
-                content: "Your commands are listed here, you can edit any field and use the save button to update it, or the trash button to delete it.\n\nEditing a command changes it everywhere it is linked."
+                title: "自分のコマンド",
+                content: "あなたのコマンドがここに一覧表示されます。各項目を編集して保存ボタンで更新するか、ゴミ箱ボタンで削除できます。\n\nコマンドを編集すると、リンクしているすべての場所で変更されます。"
             },
             link: {
-                title: "Linking Commands",
-                content: "Open the settings of an Outfit, Accessory, or Profile and use Chat Commands to link a command to it.\n\nOutfits can fire when worn, removed, or changed to Outerwear, Underwear, or Nude.\nAccessories can fire when worn or removed.\nProfiles fire when the Profile is loaded."
+                title: "コマンドのリンク",
+                content: "アウトフィット、アクセサリ、プロファイルの設定を開き、「チャットコマンド」からコマンドをリンクします。\n\nアウトフィットは、着用時、取り外し時、アウターウェア・アンダーウェア・ヌードへの変更時に実行できます。\nアクセサリは、装着時または取り外し時に実行できます。\nプロファイルは、プロファイルを読み込んだときに実行されます。"
             }
         },
         outfit: {
             welcome: {
-                title: "Outfits",
-                content: "Outfits are what you wear on your active Profile, each one can be set to Outerwear, Underwear, or Nude from the home page or chat commands.\n\nThe Outfit settings let you pick the Outfit type, link slots together, and set a default Hair and Shoe.\n\nChat command: <prefix> Wear <name>"
+                title: "アウトフィット",
+                content: "アウトフィットは、アクティブなプロファイルで着用するもので、ホームページやチャットコマンドから、それぞれアウターウェア、アンダーウェア、ヌードに設定できます。\n\nアウトフィットの設定では、アウトフィット種別の選択、スロットのリンク、デフォルトの髪型と靴の設定ができます。\n\nチャットコマンド：<prefix> Wear <name>"
             }
         },
         hair: {
             welcome: {
-                title: "Hair",
-                content: "Hair lets you save your hairs and switch between them.\n\nYou can go bald from the home page and change back to your active Hair at any time.\n\nChat command: <prefix> Change Hair <name>"
+                title: "髪型",
+                content: "髪型では、髪を保存して切り替えることができます。\n\nホームページからいつでも薄毛にしたり、アクティブな髪型に戻したりできます。\n\nチャットコマンド：<prefix> Change Hair <name>"
             }
         },
         shoe: {
             welcome: {
-                title: "Shoes",
-                content: "Shoes lets you save your shoes and switch between them.\n\nYou can go barefoot from the home page and change back to your active Shoe at any time.\n\nChat command: <prefix> Change Shoe <name>"
+                title: "靴",
+                content: "靴では、靴を保存して切り替えることができます。\n\nホームページからいつでも裸足になったり、アクティブな靴に戻したりできます。\n\nチャットコマンド：<prefix> Change Shoe <name>"
             }
         },
         skin: {
             welcome: {
-                title: "Skins",
-                content: "Skins lets you save your skins and switch between them.\n\nChat command: <prefix> Change Skin <name>"
+                title: "スキン",
+                content: "スキンでは、スキンを保存して切り替えることができます。\n\nチャットコマンド：<prefix> Change Skin <name>"
             }
         },
         ao: {
             welcome: {
-                title: "Ao",
-                content: "The Ao (animation overrider) replaces your avatar's default animations, like standing, walking, and sitting.\n\nYou can save as many Aos as you like and switch between them.\n\nChat command: <prefix> Change Ao <name>"
+                title: "ＡＯ",
+                content: "ＡＯ（アニメーションオーバーライダー）は、立つ、歩く、座るなど、アバターのデフォルトのアニメーションを置き換えます。\n\nＡＯはいくつでも保存でき、切り替えることができます。\n\nチャットコマンド：<prefix> Change Ao <name>"
             },
             controls: {
-                title: "Ao Controls",
-                content: "Quick controls for your active Ao, turn it on or off, and toggle the swimming, ground sit, and sit animations.\n\nThe arrow buttons set which direction the Ao HUD opens."
+                title: "ＡＯのコントロール",
+                content: "アクティブなＡＯのクイックコントロールです。ＡＯのオン／オフや、泳ぐ、地面に座る、座るアニメーションの切り替えができます。\n\n矢印ボタンで、ＡＯのＨＵＤが開く方向を設定します。"
             }
         },
         camera: {
             welcome: {
-                title: "Camera",
-                content: "Camera lets you save camera settings, like distance, pitch, and focus, and switch between them.\n\nChat command: <prefix> Change Camera <name>"
+                title: "カメラ",
+                content: "カメラでは、距離、ピッチ、フォーカスなどのカメラ設定を保存して切り替えることができます。\n\nチャットコマンド：<prefix> Change Camera <name>"
             },
             follow: {
-                title: "Follow User",
-                content: "Follow User points your camera at someone nearby and keeps following them.\n\nRelease Camera gives you back control of your camera."
+                title: "ユーザをフォロー",
+                content: "「ユーザをフォロー」は、近くにいる人にカメラを向け、その人を追い続けます。\n\n「カメラを開放」で、カメラの操作を自分に戻します。"
             }
         },
         accessory: {
             welcome: {
-                title: "Accessories",
-                content: "Accessories are things you wear on top of your Outfit, like jewellery, collars, or tails.\n\nUnlike most modules you can wear as many Accessories as you like at once.\n\nChat command: <prefix> Accessory Attach <name>"
+                title: "アクセサリ",
+                content: "アクセサリは、ジュエリー、首輪、しっぽなど、アウトフィットの上に身に着けるものです。\n\nほとんどのモジュールと違い、アクセサリは同時にいくつでも装着できます。\n\nチャットコマンド：<prefix> Accessory Attach <name>"
             },
             detachAll: {
-                title: "Detach & Reload",
-                content: "Detach all takes off every Accessory you are wearing.\n\nReload Accessories detaches and reattaches everything you are wearing, useful if something did not attach properly."
+                title: "取り外しとリロード",
+                content: "「すべて取り外す」は、装着しているすべてのアクセサリを取り外します。\n\n「アクセサリをリロード」は、装着しているものをすべて取り外して再装着します。うまく装着されなかったものがある場合に便利です。"
             },
-            list: "Here you can see all the Accessories you have created.\n\nClicking an Accessory wears or removes it, worn Accessories are highlighted.\n\nAn exclusive tag in an Accessory's settings makes it remove the others with the same tag when worn.",
+            list: "ここでは、作成したすべてのアクセサリを見ることができます。\n\nアクセサリをクリックすると装着または取り外しができ、装着中のアクセサリはハイライト表示されます。\n\nアクセサリの設定で排他タグを付けると、装着したときに同じタグを持つ他のアクセサリが取り外されます。",
             links: {
-                title: "Profile & Outfit Links",
-                content: "Accessories linked to your Profile are worn with every Outfit of that Profile.\n\nWhile you are wearing an Outfit, buttons above the list switch to Outfit Links, so you can link Accessories to just that Outfit or keep them off with it.\n\nThe Accessory settings let you pick which Outfit states it is worn at."
+                title: "プロファイルとアウトフィットのリンク",
+                content: "プロファイルにリンクしたアクセサリは、そのプロファイルのすべてのアウトフィットと一緒に装着されます。\n\nアウトフィットを着用している間は、リストの上のボタンでアウトフィットのリンクに切り替えられ、そのアウトフィットだけにアクセサリをリンクしたり、そのアウトフィットでは装着しないようにしたりできます。\n\nアクセサリの設定で、どのアウトフィットのステートで装着するかを選べます。"
             }
         },
         bom: {
             welcome: {
-                title: "BOM",
-                content: "BOM saves your Bakes on Mesh layers, like tattoos, makeup, or clothing layers, and lets you turn them on and off.\n\nYou can have as many layers on as you like at once.\n\nChat command: <prefix> Bom Attach <name>"
+                title: "ＢＯＭ",
+                content: "ＢＯＭでは、タトゥー、メイク、衣類のレイヤーなど、Bakes on Meshのレイヤーを保存し、オン／オフを切り替えることができます。\n\nレイヤーは同時にいくつでもオンにできます。\n\nチャットコマンド：<prefix> Bom Attach <name>"
             },
-            list: "Here you can see all the BOMs you have created.\n\nClicking a BOM turns it on or off, active BOMs are highlighted.\n\nAn exclusive tag in a BOM's settings turns off the others with the same tag when turned on.",
+            list: "ここでは、作成したすべてのＢＯＭを見ることができます。\n\nＢＯＭをクリックするとオン／オフが切り替わり、アクティブなＢＯＭはハイライト表示されます。\n\nＢＯＭの設定で排他タグを付けると、オンにしたときに同じタグを持つ他のＢＯＭがオフになります。",
             links: {
-                title: "Profile & Outfit Links",
-                content: "BOMs linked to your Profile are worn with every Outfit of that Profile.\n\nWhile you are wearing an Outfit, buttons above the list switch to Outfit Links, so you can link BOMs to just that Outfit."
+                title: "プロファイルとアウトフィットのリンク",
+                content: "プロファイルにリンクしたＢＯＭは、そのプロファイルのすべてのアウトフィットと一緒に着用されます。\n\nアウトフィットを着用している間は、リストの上のボタンでアウトフィットのリンクに切り替えられ、そのアウトフィットだけにＢＯＭをリンクできます。"
             }
         },
         title: {
             welcome: {
-                title: "Titles",
-                content: "Titles are floating text shown above your head.\n\nYou can make as many Titles as you like and switch between them."
+                title: "タイトル",
+                content: "タイトルは、頭上に表示されるフローティングテキストです。\n\nタイトルはいくつでも作成でき、切り替えることができます。"
             },
-            list: "Here you can see all the Titles you have created.\n\nClicking a Title sets it as your active Title, its settings let you edit the lines."
+            list: "ここでは、作成したすべてのタイトルを見ることができます。\n\nタイトルをクリックするとアクティブなタイトルに設定され、その設定で各行を編集できます。"
         },
         landmark: {
             welcome: {
-                title: "Landmarks",
-                content: "Landmarks save places you can teleport to from the HUD.\n\nChat command: <prefix> Tp <landmark>"
+                title: "ランドマーク",
+                content: "ランドマークは、ＨＵＤからテレポートできる場所を保存します。\n\nチャットコマンド：<prefix> Tp <landmark>"
             },
-            list: "Clicking a Landmark opens the teleport options, so you can teleport yourself, your target, or both.\n\nIf the Landmark has an ASN gate address it dials the gate instead.\n\nThe settings let you update the location, image, and gate address, or use it as your region restart location."
+            list: "ランドマークをクリックするとテレポートのオプションが開き、自分、対象、またはその両方をテレポートできます。\n\nランドマークにＡＳＮゲートのアドレスがある場合は、代わりにゲートをダイアルします。\n\n設定では、場所、画像、ゲートのアドレスを更新したり、リージョン再起動時の場所として使用したりできます。"
         },
         autoGroup: {
             welcome: {
-                title: "Auto Group",
-                content: "Auto Group changes your active group when you enter a region, so you always have the right group tag on.\n\nIt can also switch your Profile or Outfit when it triggers."
+                title: "自動グループ",
+                content: "自動グループは、リージョンに入ったときにアクティブなグループを変更し、常に正しいグループタグを表示させます。\n\n発動したときに、プロファイルやアウトフィットを切り替えることもできます。"
             },
-            list: "Here you can see all the Auto Groups you have created, each one is a region and the group and role to use there.\n\nThe default Auto Group is used in regions that don't have one set."
+            list: "ここでは、作成したすべての自動グループを見ることができます。それぞれがリージョンと、そこで使用するグループと役割の組み合わせです。\n\nデフォルトの自動グループは、設定のないリージョンで使用されます。"
         },
         huds: {
             welcome: {
-                title: "HUDs",
-                content: "HUDs lets you use supported product HUDs from inside FullArray, without wearing them."
+                title: "ＨＵＤ",
+                content: "ＨＵＤでは、対応している製品のＨＵＤを、装着せずにFullArrayの中から使用できます。"
             },
-            list: "Here you can see the HUDs available to you, clicking one opens its controls."
+            list: "ここでは、利用できるＨＵＤを見ることができます。クリックするとそのコントロールが開きます。"
         },
         rlv: {
             welcome: {
-                title: "RLV",
-                content: "RLV lets you, and people you trust, restrict what your avatar can do. You need a viewer with RLVa turned on, like Firestorm.\n\nWho else can change these is set by the access levels on your Allowlist.\n\nMost options are Allow options, untick one to restrict it."
+                title: "ＲＬＶ",
+                content: "ＲＬＶでは、あなたや信頼する人が、アバターができることを制限できます。FirestormなどのＲＬＶａを有効にしたビューアが必要です。\n\n他に誰がこれらを変更できるかは、許可リストのアクセスレベルで設定します。\n\nほとんどのオプションは「許可」のオプションで、チェックを外すと制限されます。"
             },
             leash: {
-                title: "Leash",
-                content: "Leash yourself to another avatar or an object, and set how the leash particle looks.\n\nFollow Leash Holder On Teleport makes you follow them when they teleport."
+                title: "リーシュ（鎖）",
+                content: "自分を他のアバターやオブジェクトにリーシュでつなぎ、リーシュのパーティクルの見た目を設定します。\n\n「テレポートでリーシュホルダーを追跡する」を有効にすると、相手がテレポートしたときに付いていきます。"
             },
             sit: {
-                title: "Sit",
-                content: "Allow or block sitting and standing up, force sit on an object or the ground, or force stand up."
+                title: "座る",
+                content: "座ることや立ち上がることを許可またはブロックしたり、オブジェクトや地面に強制的に座らせたり、強制的に立ち上がらせたりします。"
             },
             inventory: {
-                title: "Inventory",
-                content: "Restrict viewing your inventory, editing objects, and adding or removing attachments and BOM clothes.\n\nFolders lets you browse your #RLV folder and attach or detach folders."
+                title: "インベントリ",
+                content: "インベントリの表示、オブジェクトの編集、アタッチメントやＢＯＭ衣装の追加・削除を制限します。\n\n「フォルダ」では、#RLVフォルダを閲覧し、フォルダを装着または取り外しできます。"
             },
             touch: {
-                title: "Touch",
-                content: "Restrict what you can touch, like the world, attachments, HUDs, or things far away."
+                title: "触る",
+                content: "ワールド、アタッチメント、ＨＵＤ、遠くのものなど、触れられるものを制限します。"
             },
             chat: {
-                title: "Chat",
-                content: "Restrict speaking, hearing, gestures, IMs, and your chat range.\n\nReplace Chat and Name Override change what you say and the name it shows."
+                title: "チャット",
+                content: "発言、聞き取り、ジェスチャー、ＩＭ、チャットの範囲を制限します。\n\n「チャット置き換え」と「名前の上書き」で、発言内容と表示される名前を変更します。"
             },
             teleport: {
-                title: "Teleport",
-                content: "Restrict teleporting and receiving teleports, force teleports, and block regions.\n\nChain Home teleports you to a SLURL after a set time."
+                title: "テレポート",
+                content: "テレポートやテレポートの受け取りを制限したり、強制的にテレポートさせたり、リージョンをブロックしたりします。\n\n「チェインホーム」は、設定した時間が経過するとＳＬＵＲＬへテレポートさせます。"
             },
             info: {
-                title: "Info",
-                content: "Hide the world map, mini-map, your location, names, and hover text."
+                title: "情報",
+                content: "世界地図、ミニマップ、現在地、名前、ホバーテキストを非表示にします。"
             },
             vision: {
-                title: "Vision",
-                content: "Limit how far you can see with blind or blur, lock the camera, or force you to look at someone."
+                title: "視覚",
+                content: "目隠しやぼかしで見える範囲を制限したり、カメラをロックしたり、誰かを強制的に見させたりします。"
             },
             movement: {
-                title: "Movement",
-                content: "Allow or block jumping, walking, running, and flying."
+                title: "移動",
+                content: "ジャンプ、歩行、走行、飛行を許可またはブロックします。"
             },
             moduleLock: {
-                title: "Module Lock",
-                content: "Lock the folders of your Profile, Outfit, Accessories, and other modules, so they can't be attached or detached until unlocked."
+                title: "モジュールロック",
+                content: "プロファイル、アウトフィット、アクセサリなどのモジュールのフォルダをロックし、ロックを解除するまで装着や取り外しができないようにします。"
             }
         },
         asn: {
             welcome: {
-                title: "ASN",
-                content: "ASN is a dialer for the Alteran Stargate Network, you need to be near an ASN gate to use it."
+                title: "ＡＳＮ",
+                content: "ＡＳＮは、Alteran Stargate Network用のダイアラーです。使用するには、ＡＳＮゲートの近くにいる必要があります。"
             },
             address: {
-                title: "Address",
-                content: "The top row shows the address loaded from a Landmark, the bottom row shows the glyphs you have dialed."
+                title: "アドレス",
+                content: "上の段にはランドマークから読み込んだアドレスが、下の段にはダイアルしたグリフが表示されます。"
             },
             dhd: {
-                title: "Dial Home Device",
-                content: "Click the glyphs on the dial home device to dial a gate address."
+                title: "ダイアルホームデバイス",
+                content: "ダイアルホームデバイスのグリフをクリックして、ゲートのアドレスをダイアルします。"
             },
             options: {
-                title: "Dial Options",
-                content: "Pick a Landmark with a saved gate address to load it.\n\nMilkyway and Pegasus switch the gate type, and Quick and Slow set the dial speed.\n\nWith an address loaded, Guided mode highlights the next glyph to press, and Direct Dial dials it for you."
+                title: "ダイアルのオプション",
+                content: "ゲートのアドレスが保存されたランドマークを選択すると、そのアドレスを読み込みます。\n\n銀河とペガサスでゲートの種類を切り替え、クイックとスローでダイアルの速度を設定します。\n\nアドレスを読み込んでいる場合、ガイドモードでは次に押すグリフがハイライト表示され、直接ダイアルでは自動的にダイアルします。"
             }
         },
         calendar: {
             welcome: {
-                title: "Calendar",
-                content: "Calendar shows events from Google Calendars you add, and the SL birthdays of people you track."
+                title: "カレンダー",
+                content: "カレンダーには、追加したGoogleカレンダーのイベントと、追跡している人のＳＬでの誕生日が表示されます。"
             },
             manage: {
-                title: "Manage Calendar",
-                content: "Add a Google Calendar by its name and calendar ID, or turn calendars on and off.\n\nAdd someone's UUID to show their SL birthday."
+                title: "カレンダーの管理",
+                content: "名前とカレンダーＩＤでGoogleカレンダーを追加したり、カレンダーのオン／オフを切り替えたりします。\n\n誰かのＵＵＩＤを追加すると、その人のＳＬでの誕生日が表示されます。"
             },
             view: {
-                title: "Calendar View",
-                content: "Move between dates, and switch between the month view and the weekly list."
+                title: "カレンダーの表示",
+                content: "日付を移動したり、月表示と週ごとのリスト表示を切り替えたりします。"
             },
             events: {
-                title: "Events",
-                content: "Click an event to see its details, with links to open a profile, open the map, or teleport."
+                title: "イベント",
+                content: "イベントをクリックすると詳細が表示され、プロフィールを開く、マップを開く、テレポートするためのリンクがあります。"
             }
         }
     },
     home: {
-        categories: {
-            tempHuds: "一時的なＨＵＤ",
-            interactDoll: "インタラクトドール"
-        },
         tooltip: {
             doll: {
                 outerwear: "アウトフィットの!~SLOT~!スロットを「アウターウェア」ステートとして設定します。<br/><br/>コマンド：@!~STATE~! !~SLOT~!",
@@ -506,13 +501,8 @@ export const LangJa = {
                 rip: "あなたのアウトフィットの!~SLOT~!スロットを剥ぎ取ります。<br/>戻すには、衣装修復を使用する必要があります。<br/><br/>コマンド：@Set Outfit Effect !~SLOT~! Rip",
                 steal: "あなたのアウトフィットの!~SLOT~!スロットを盗みます。<br/>あなたのアウトフィットを盗んだアバターをぶつけない場合は、衣装修理を使用して修理する必要があります。<br/><br/>コマンド：@Set Outfit Effect !~SLOT~! Steal",
                 throw: "あなたのアウトフィットの!~SLOT~!スロットを投げます。<br/>元に戻らない場合は、衣類修理を使って修理する必要があります。<br/>投げると、誰でも拾って盗むことができるプリムが復活します。ぶつかるか、クリックでプリムを相手の手から叩き落とし、地面をクリックすることで取り戻すことができます。<br/><br/>コマンド：@Set Outfit Effect !~SLOT~! Throw"
-            },
-            outfitOuterwear: "アウトフィットのステートを「アウターウェア」に設定します。<br/><br/>コマンド：@o （スロット名）",
-            outfitUnderwear: "アウトフィットのステートを「アンダーウェア」に設定します。<br/><br/>コマンド：@u （スロット名）",
-            outfitNude: "アウトフィットのステートを「ヌード」に設定します。<br/><br/>コマンド：@n （スロット名）<br/><br/>指のはさみアイコンは、性器のないヌードのアウトフィットとして設定します。<br/><br/>コマンド：@nc",
-            tempHuds: "モジュールの一時的なＨＵＤを取り付け[+]または、取り外し[-]ます。<br/><br/>コマンド：@&lt;モジュール&gt; huds &lt;+/-&gt;"
+            }
         },
-        hudLock: "ＨＵＤロック",
         bare: "ベア",
         bareTemp: "一時ベア",
         bald: "薄毛",
@@ -545,12 +535,9 @@ export const LangJa = {
         placeholders: {
             relayName: "リレー名…"
         },
-        errors: {
-        },
         errorChannelBlank: "エラー：チャットチャンネルは空白にできません。",
         errorCommandBlank: "エラー：チャットコマンドは空白にできません。",
-        bodyPartsCategory: "身体部位",
-        titleLabel: "タイトル"
+        bodyPartsCategory: "身体部位"
     },
     outfit: {
         setDefaultOutfit: "デフォルトのアウトフィットとして保存",
@@ -559,13 +546,12 @@ export const LangJa = {
         outfitTypeBasic: "基本",
         outfitTypeSimple: "簡易",
         linkMode: "リンクモード",
-        linkModeNone: "なし",
         linkModeTorso_Crotch: "胴体＆股間",
         linkModeTorso_Crotch_Waist: "胴体＆股間＆腰",
         linkMode_Crotch_Waist: "股間＆腰",
         tooltip: {
             setDefaultOutfit: "このアウトフィットをデフォルトのアウトフィットとして設定します。<br/>設定すると、プロファイルの変更時にこのアウトフィットが読み込まれます。",
-            outfitType: "アウトフィット種別を選択します。<br/><br/>詳細：アウトフィットスロットで３種類のステートをすべて使用します。<br/><br/>基本：「詳細」と似ていますが、アウトフィットスロットを使用する必要はありません。<br/><br/>簡易：「アウターウェア」のステートのみを使用します。これは、簡単な装着または取り外しです。",
+            outfitType: "アウトフィット種別を選択します。<br><br>詳細：アウターウェア、アンダーウェア、ヌードのフォルダが、スロットフォルダ（頭、胴体、股間…）に分かれています。各スロットはそれぞれ独自のステートにでき、スロットコマンドや効果はそのスロットだけを変更します。<br><br>基本：アウターウェア、アンダーウェア、ヌードのフォルダのみで、中にスロットフォルダはありません。アウトフィット全体が常に１つのステートになり、スロットコマンドや効果はアウトフィット全体を変更します。効果を受けるとステートが１段階下がります。<br><br>簡易：アウターウェアのフォルダのみで、アウトフィットは着用（アウターウェア）か取り外し（ヌード）のどちらかです。アンダーウェアのステートはありません。効果を受けると取り外されます。<br><br>GlobalフォルダとHudsフォルダは、すべての種別で機能します。",
             linkMode: "アウトフィットのリンクモードを選択します。リンクされたスロットは一緒に接続および解除されます。<br/><br/>なし：アウトフィットをリンクしません。<br/><br/>胴体＆股間：胴体と股間のみをリンクします。<br/><br/>胴体＆股間＆腰：胴体、股間、腰をリンクします。",
             genitalsCrotch: "アウトフィットのステートに応じて、プロファイル内の「genitalsCrotch」フォルダを装着または取り外します。",
             genitalsTorso: "アウトフィットのステートに応じて、プロファイル内の「genitalsTorso」フォルダを装着または取り外します。",
@@ -575,47 +561,37 @@ export const LangJa = {
         defaultHair: "デフォルトの髪型",
         defaultShoe: "デフォルトの靴",
         torsoGenitalSettings: "胴体の性器の設定",
-        crotchGenitalSettings: "股間の性器の設定",
-        none: "なし"
+        crotchGenitalSettings: "股間の性器の設定"
     },
     accessory: {
         detachAll: "すべてのアクセサリを取り外す",
         genitalSlotHeader: "性器スロットを上書きします。",
         reload: "アクセサリをリロードします。",
         genitalSlot: {
-            none: "なし",
-            crotch: "股間",
-            torso: "胴体",
             both: "両方"
         },
         tooltip: {
             detachAll: "アクティブなプロファイルからすべてのアクセサリを切り離し、非アクティブに設定します。",
             genitalSlot: "アクセサリを装着すると、性器を取り外すことができるようになります。",
             reload: "これにより、装着しているアクセサリをすべて取り外して、再装着する処理が行われます。",
-            profileLinks: "Accessories linked to active profile",
-            outfitLinks: "Accessories linked to active outfit",
-            outfitLinkSettings: "Settings for this Accessory's link to the active outfit. With no states ticked it is worn whenever the outfit is worn.",
-            profileOnly: "Only use this link while the active profile is loaded. Off applies it to every profile wearing this outfit.",
-            outfitStates: "Only wear this Accessory when this slot is in a ticked state. Every slot with a tick must match.",
-            profileLinkSettings: "Wear this Accessory with every outfit of this profile when the ticked states match. Nothing ticked turns it off. The active outfit can override it.",
-            profileStates: "Only wear this Accessory when this slot is in a ticked state. Every slot with a tick must match.",
-            outfitMode: "Follow Profile Default uses the Profile Default States. Wear and Never Wear override them for this outfit."
+            profileLinks: "アクティブなプロファイルにリンクされたアクセサリ",
+            outfitLinks: "アクティブなアウトフィットにリンクされたアクセサリ",
+            outfitLinkSettings: "このアクセサリの設定は、現在着用しているアウトフィットにリンクします。何もチェックが入っていない場合、アウトフィットを着用しているときはいつでも装着されます。",
+            profileOnly: "このリンクは、アクティブなプロファイルが読み込まれている間のみ使用してください。「オフ」にすると、このアウトフィットを着用しているすべてのプロファイルに適用されます。",
+            profileLinkSettings: "このアクセサリーは、チェックマークの状態が一致する場合、このプロファイルのすべてのアウトフィットに装着できます。何もチェックマークがない場合は装着できません。アクティブなアウトフィットによって上書きされる場合があります。",
+            outfitMode: "「プロファイルデフォルトに従う」は、プロファイルのデフォルト状態を使用します。「着用」と「着用しない」は、このアウトフィットに対してプロファイルのデフォルト状態を上書きします。"
         },
-        outfitLinks: "Outfit Links",
-        profileLinks: "Profile Links",
-        outfitLinkSettings: "Outfit Link",
-        profileOnly: "Only for this Profile",
-        profileLinkSettings: "Profile Default States",
-        outfitMode: "This Outfit",
+        outfitLinks: "アウトフィットのリンク",
+        profileLinks: "プロファイルのリンク",
+        outfitLinkSettings: "アウトフィットリンク",
+        profileOnly: "このプロファイルのみ",
+        profileLinkSettings: "プロファイルのデフォルトのステート",
+        outfitMode: "このアウトフィット",
         outfitModes: {
-            none: "Follow Profile Default",
-            wear: "Wear",
-            never: "Never Wear"
+            none: "プロファイルのデフォルトに従う",
+            wear: "着用",
+            never: "着用しない"
         }
-    },
-    hair: {
-    },
-    shoe: {
     },
     rlv: {
         categoryLeash: "リーシュ（鎖）",
@@ -627,7 +603,6 @@ export const LangJa = {
         leashYank: "リーシュを引っ張る",
         leashToObject: "オブジェクトにリーシュをつなぐ",
         leashToAvatar: "アバターにリーシュをつなぐ",
-        headerLeashPatricle: "リーシュのパーティクル",
         leashColor: "＜｜色｜＞",
         leashRibbon: "リボンのパーティクルを使用",
         leashPlaceholderUUID: "テクスチャのＵＵＩＤ…",
@@ -640,7 +615,6 @@ export const LangJa = {
         forceSit: "オブジェクトに座る",
         forceUnsit: "強制的に立たせる",
         categoryFolders: "フォルダ",
-        categoryinventory: "インベントリ",
         resetFolderView: "ＲＬＶフォルダをリセット",
         folderOpen: "フォルダを開く",
         folderAttach: "フォルダを装着",
@@ -727,26 +701,20 @@ export const LangJa = {
         regionBlocklistErrorBlank: "リージョンのＳＬＵＲＬは空白にできません。",
         headerLeashParticle: "鎖のパーティクル",
         categoryInventory: "インベントリ",
-        leashLinkStartEnd: "Link Start/End",
-        leashScale: "Scale",
-        leashAlpha: "Alpha"
-    },
-    huds: {
+        leashLinkStartEnd: "リンクの始点／終点",
+        leashScale: "スケール",
+        leashAlpha: "アルファ"
     },
     landmark: {
         updateLandmark: "ランドマーク更新",
         utility_useForRestart: "リージョン再起動時に使用しますか？",
         asn: "近くのＡＳＮゲートをスキャンしますか？",
-        tooltips: {
-            utility_useForRestart: "現在いるリージョンが再起動したときに、このランドマークをテレポート場所として使用しますか？",
-            asn: "近くにある「Alteran Stargate Network（ＡＳＮ）」ゲートをスキャンし、そのアドレスをこのランドマークに保存しますか？"
-        },
         tooltip: {
             utility_useForRestart: "現在いるリージョンが再起動した際に、このランドマークをテレポート地点として使用しますか？",
             asn: "近くにある「Alteran Stargate Network（ＡＳＮ）ゲートをスキャンして、そのアドレスをこのランドマークに保存しますか？",
-            refreshImage: "Get the parcel image again from Second Life. You must be in the Landmark region first."
+            refreshImage: "SecondLifeから再度区画画像を取得してください。まずランドマークのリージョンにいる必要があります。"
         },
-        refreshImage: "Refresh Landmark image"
+        refreshImage: "ランドマーク画像をリフレッシュ"
     },
     inventory: {
         rezInstaller: "インストーラーをRez",
@@ -763,12 +731,7 @@ export const LangJa = {
         derez: "Rez解除",
         cleanOnLeave: "去ったときにクリーンアップ",
         useForklift: "アイテムをRezするときTinesシステムを使用しますか？",
-        deleteInworld: "Delete inworld inventory item aswell?",
-        tooltips: {
-            rezInstaller: "インストーラーボックスをRezして、ＨＵＤにアイテムを簡単に追加します。",
-            rezEmptyBox: "プレフィックスで使用するために空箱を再生成します。",
-            useForklift: "これにより、Rezされたオブジェクトへの変更を保存できるようになります。ただし、これはすべてに機能するわけではありません。"
-        },
+        deleteInworld: "インワールドのインベントリアイテムも削除しますか？",
         tooltip: {
             rezInstaller: "インストーラーボックスを配置し、ＨＵＤにアイテムを簡単に追加できるようにします。",
             rezEmptyBox: "接頭辞に使用するための空のボックスをRezします。",
@@ -815,8 +778,6 @@ export const LangJa = {
             hudMode1: "ＨＵＤを右方向に開くように切り替えます。"
         }
     },
-    skin: {
-    },
     bom: {
         outfitLinks: "アウトフィットのリンク",
         profileLinks: "プロファイルのリンク",
@@ -832,16 +793,9 @@ export const LangJa = {
         tooltip: {
             isDefault: "リージョンに何も設定されていない場合は、このグループをデフォルトのグループとして使用するかどうかを切り替えます。",
             roleName: "このグループに使用する役割名（タイトルではありません）。",
-            profile: "Profile to switch to when this Auto Group triggers.",
-            outfit: "Outfit to switch to when this Auto Group triggers.",
-            outfitPartialName: "Finds the outfit on your current profile whose name best matches this text and wears it when this Auto Group triggers. Skipped if no outfit matches."
-        },
-        placeholder: {
-            roleName: "役割名…",
-            groupName: "グループ名…",
-            groupUuid: "グループのＵＵＩＤ…",
-            groupRole: "グループの役割…",
-            regionSlurl: "リージョンのＳＬＵＲＬ…"
+            profile: "この自動グループがトリガーされたときに切り替えるプロファイル。",
+            outfit: "この自動グループがトリガーされたときに切り替えるアウトフィット。",
+            outfitPartialName: "この自動グループがトリガーされたときに、現在のプロファイルに登録されているアウトフィットの中から、このテキストに最も一致する名前のアウトフィットを探し出し、それを着用します。一致するアウトフィットがない場合はスキップされます。"
         },
         errorBlank: "ＳＬＵＲＬかＵＵＩＤは、空白にはできません。",
         created: "作成しました。",
@@ -851,11 +805,11 @@ export const LangJa = {
             groupUuid: "グループのＵＵＩＤ…",
             groupRole: "グループの役割…",
             regionSlurl: "リージョンのＳＬＵＲＬ…",
-            outfitPartialName: "Outfit name contains..."
+            outfitPartialName: "アウトフィットの名前に含まれる…"
         },
-        profileLabel: "Profile",
-        outfitLabel: "Outfit",
-        outfitPartialNameOption: "Partial Name..."
+        profileLabel: "プロファイル",
+        outfitLabel: "アウトフィット",
+        outfitPartialNameOption: "一部の名前…"
     },
     relay: {
         hudLock: "あなたのＨＵＤをロックしますか？",
@@ -897,18 +851,12 @@ export const LangJa = {
             setAccessLevel: "!~MODULE~!のアクセスレベルを設定",
             setSelfAccessLevel: "!~MODULE~!のセルフアクセスレベルを設定",
             setPublicAccessLevel: "!~MODULE~!のパブリックアクセスレベルを設定",
-            tooltips: {
-                isSelfOwner: "自分のＨＵＤの所有者ステータスを切り替えます。\n無効にすると、自分の許可リストに追加されずに自分のＨＵＤを制御できなくなります。",
-                isPublic: "これは、「パブリック」にチェックが入っているすべてのモジュールのグローバルトグルです。\nモジュールをパブリックに設定すると、ブロックリストに登録されていないユーザもそのモジュールにアクセスできるようになります。",
-                sameRegion: "ＨＵＤを制御するために他のユーザが、あなたと同じリージョンにいる必要があるかどうかを切り替えます。",
-                location: "ユーザがあなたの現在位置を確認して知ることができ、あなたのところにテレポートできるようになります。"
-            },
             tooltip: {
                 isSelfOwner: "自分のＨＵＤの所有者ステータスを切り替えます。\n無効にすると、自分の許可リストに追加されない限り、自分のHUDを制御できなくなります。",
                 isPublic: "「パブリック」としてマークされているすべてのモジュールのパブリックアクセスを切り替えます。<br/>有効にすると、ブロックリストに登録されていないユーザも使用できます。<br/>デフォルトでは、すべてのモジュールが公開されています。",
                 sameRegion: "他のユーザがＨＵＤを操作するために、同じリージョンにいる必要があるかどうかを切り替えます。",
                 location: "ユーザがあなたの現在地を確認したり、あなたの場所にテレポートしたりすることを可能にします。",
-                zone: "Whose zones apply to you.</br>Your Owners, and Allowlist users at this level or higher, apply all their zones, public and private.</br>Public lets everyone else's public zones apply.</br>Zones from users on your Blocklist never apply, except zones forced by the land owner."
+                zone: "誰のゾーンを自分に適用するかを設定します。</br>所有者と、このレベル以上の許可リストのユーザは、公開・非公開を問わず、すべてのゾーンが適用されます。</br>「公開」にすると、それ以外のユーザの公開ゾーンも適用されます。</br>ブロックリストのユーザのゾーンは、土地所有者が強制しているものを除き、適用されません。"
             }
         },
         allowlist: {
@@ -918,18 +866,13 @@ export const LangJa = {
             placeholders: {
                 addAllowlistUUID: "あなたの許可リストに追加したいＵＵＩＤ…"
             },
-            tooltips: {
-                about: "許可リストは、ＨＵＤの一部を操作することが許可されているユーザのリストです。\n各モジュールとユーザには独自のアクセスできるレベルがあり、ユーザのレベルがモジュールのレベルと同じかそれ以上であれば、そのモジュールを使用できます。",
-                currentLeashHolder: "現在のあなたのアバターのＲＬＶリーシュのホルダーです。",
-                friends: "あなたのＳＬのフレンドのアクセスレベルのリストです。"
-            },
             tooltip: {
                 about: "許可リストは、ＨＵＤの一部を操作することが許可されているユーザーのリストです。\n各モジュールとユーザーには独自のアクセスレベルがあり、ユーザーのレベルがモジュールのレベルと同じかそれ以上であれば、そのモジュールを使用できます。",
                 currentLeashHolder: "現在のあなたのアバターのＲＬＶリーシュ保持者です。",
                 friends: "あなたのＳＬフレンドリストへのアクセスレベル。",
-                kidnapper: "The access level for the avatar currently holding you kidnapped."
+                kidnapper: "現在あなたを誘拐しているアバターのアクセスレベル。"
             },
-            kidnapper: "Current Kidnapper"
+            kidnapper: "現在の誘拐者"
         },
         blocklist: {
             header: "ブロックリスト",
@@ -943,9 +886,6 @@ export const LangJa = {
             ownerlist: "所有者リスト",
             placeholders: {
                 addOwnerUUID: "あなたの所有者として追加したいＵＵＩＤ…"
-            },
-            tooltips: {
-                about: "所有者リストは、ＨＵＤに対するほぼ完全な制御が許可されているユーザのリストです。\n設定メニュー内の項目は、所有者リストのどのユーザも変更できません。"
             },
             tooltip: {
                 about: "所有者リストは、ＨＵＤをほぼ完全に制御できるユーザのリストです。設定メニューの項目は、所有者リストに登録されているユーザによって変更することはできません。"
@@ -1001,9 +941,8 @@ export const LangJa = {
             autoGroup: "自動グループ",
             tempHuds: "一時的なＨＵＤ",
             landmark: "ランドマーク",
-            environment: "Environment",
-            advanced: "Advanced",
-            zones: "Zones"
+            advanced: "詳細",
+            zones: "ゾーン"
         },
         checkbox: {
             useGrid: "グリッドレイアウトを使用しますか？",
@@ -1028,7 +967,6 @@ export const LangJa = {
             showIds: "リストにＩＤを表示しますか？",
             defaultNavState: "ホームにナビゲートされたときのデフォルトのステート。",
             defaultActiveCardState: "アクティブなカードのデフォルトのステート。",
-            defaultDollState: "インタラクトドールのデフォルトのステート。",
             showAfk: "ＡＦＫのオーバーレイを表示しますか？",
             autoGroup_power: "テレポート時にグループを自動変更しますか？",
             linkOnCreate: "新しく作成されたエントリを自動リンクしますか？",
@@ -1037,18 +975,13 @@ export const LangJa = {
             hud_verbose: "詳細なＨＵＤメッセージを表示しますか？",
             log_permissions: "詳細な権限エラーのログを取ります。",
             protectedFolderLock: "保護フォルダをロックします。",
-            defaultTempHudState: "一時的なＨＵＤのデフォルトのステート。",
             autoCreateFolders: "フォルダを自動作成しますか？",
             hud_sideDock: "ＨＵＤはドックモードです。",
             landmark_asnFirst: "テレポートする前にＡＳＮスキャンしますか？",
             general_showCategoryAttach: "カテゴリの装着／取り外しを表示しますか？",
             outfit_keepSame: "アウトフィットを保持しますか？",
-            outfit_defaultIsAdult: "New Outfits default to Adult?",
-            environment_usePublicZones: "Apply other users' public Environment zones?",
-            environment_keepIfNoMatch: "Keep environment if none found?",
-            outfit_usePublicNudeZones: "Apply others' public Nude Places?",
-            outfit_usePublicDressedZones: "Apply others' public Dressed Places?",
-            outfit_usePublicZones: "Apply others' public Outfit zones?"
+            outfit_defaultIsAdult: "新しいアウトフィットのデフォルトをAdultとしますか？",
+            environment_keepIfNoMatch: "環境が見つからない場合は、環境を保持しますか？"
         },
         textbox: {
             prefixPlaceholder: "プレフィックス…",
@@ -1078,12 +1011,10 @@ export const LangJa = {
             uiSize: "ＨＵＤ全体のＵＩスケールを変更します。",
             defaultNavState: "ナビゲーションバーがデフォルトで開いているか閉じているかを切り替えます。",
             defaultActiveCardState: "モジュールのアクティブカードをデフォルトで表示するか非表示にするかを切り替えます。",
-            defaultDollState: "インタラクトドールをデフォルトで表示するか非表示にするかを切り替えます。",
             showAfk: "数秒後にＡＦＫ画面が表示されるかどうかを切り替えます。",
             linkOnCreate: "新しく作成されたエントリをアクティブなプロファイルに自動的にリンクするかどうかを切り替えます。",
             hud_verbose: "起動時にＨＵＤに情報を表示するかどうかを切り替えます。",
             protectedFolderLock: "保護フォルダを常にロックするかどうかを切り替えます。",
-            defaultTempHudState: "一時的なＨＵＤコントロールをデフォルトで非表示にするかどうかを切り替えます。",
             hud_sideDock: "ＨＵＤをルートプリムの下にドッキングするか、移動先の場所にドッキングするかを制御します。",
             apiKey: "作成された製品のＡＰＩキーです。<br/><br/><strong>これを共有しないでください！</strong><br/><br/>このキーを再発行すると、古いキーを使用していた以前のコンテンツがすべて壊れます。",
             api_message: "ＨＵＤがＡＰＩメッセージを送信するかどうかを切り替えるチャンネル：698008",
@@ -1113,21 +1044,15 @@ export const LangJa = {
             prefix: "現在のプレフィックス：",
             userChannel: "このチャンネルは、他のユーザまたは自分自身からのチャットコマンドを介してＨＵＤを制御するために使用されます。<br/><br/>注：これを変更すると、以前に使用したコマンドは機能しなくなり、新しいチャンネルを使用する必要があります。<br/><br/>現在のチャンネル：",
             general_showCategoryAttach: "カテゴリ内の装着／取り外しボタンを表示するかどうかを切り替えます。",
-            logout: "Log out of the HUD website on this device.",
-            outfit_defaultIsAdult: "Toggles whether newly created Outfits will have the Adult flag set by default.",
-            outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits.",
-            environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting.",
-            homeTheme: "Switches between the classic Home layout and the widget-grid Home layout.",
-            environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead.",
-            outfit_usePublicNudeZones: "When you walk into another user's public Nude Place you will be stripped to Nude and kept Nude while inside. Turn this off to ignore other users' public Nude Places. Your own, and ones the land owner has forced on, always apply.",
-            outfit_usePublicDressedZones: "When you walk into another user's public Dressed Place any Nude parts of your outfit are dressed and you can't go Nude while inside. Underwear is left alone. Turn this off to ignore other users' public Dressed Places. Your own, and ones the land owner has forced on, always apply.",
-            outfit_usePublicZones: "When you walk into another user's public Outfit zone your outfit is changed to its outfit on entry and you can't change to the states it blocks while inside. Turn this off to ignore other users' public Outfit zones. Your own, and ones the land owner has forced on, always apply."
+            logout: "このデバイスからＨＵＤウェブサイトをログアウトします。",
+            outfit_defaultIsAdult: "新しく作成したアウトフィットに、デフォルトでAdultフラグを設定するかどうかを切り替えます。",
+            outfit_defaultGenitals: "新しく作成したアウトフィットに適用する、性器の表示ステートのデフォルトを設定します。",
+            environment_keepIfNoMatch: "環境が割り当てられていないランドマークや自動グループが発動すると、通常は空や照明がデフォルトにリセットされます。これをオンにすると、代わりに現在適用されている環境を維持します。"
         },
         color: {
             colorHeader: "カラー設定",
             categoryPreset: {
                 header: "プリセット",
-                presetJsson: "プリセット設定をここにペーストしてください…",
                 presetJson: "ここにプリセット設定を貼り付けてください…"
             },
             preset: "",
@@ -1137,7 +1062,6 @@ export const LangJa = {
                 buttonActive: "アクティブなボタン",
                 static: "静的",
                 textbox: "テキストボックス",
-                exmpleHeader: "ヘッダ",
                 categoryHeader: "カテゴリヘッダ",
                 exampleHeader: "ヘッダ"
             },
@@ -1197,9 +1121,6 @@ export const LangJa = {
             },
             categoryDoll: {
                 header: "ドール",
-                outerwear: "アウターウェア",
-                underwear: "アンダーウェア",
-                nude: "ヌード",
                 disabled: "無効"
             },
             categoryScrollbar: {
@@ -1211,9 +1132,9 @@ export const LangJa = {
             colorTitle: "色",
             showBorder: "枠を表示",
             categoryUserSelect: {
-                header: "User Select",
-                name: "Name",
-                outfit: "Profile / Outfit"
+                header: "ユーザ選択",
+                name: "名前",
+                outfit: "プロファイル／アウトフィット"
             }
         },
         landmark: {
@@ -1233,16 +1154,11 @@ export const LangJa = {
         },
         errorUpdateLocal: "ローカルでの設定の更新に失敗しました。",
         button: {
-            logout: "Logout"
+            logout: "ログアウト"
         },
-        outfitDefaultsHeader: "New Outfit Defaults",
-        homeTheme: "Home Screen Style",
-        homeThemes: {
-            classic: "Classic",
-            grid: "Widget Grid"
-        },
-        search: "Search settings...",
-        noResults: "No settings found."
+        outfitDefaultsHeader: "新しいアウトフィットのデフォルト",
+        search: "設定を検索…",
+        noResults: "設定が見つかりません。"
     },
     pantyRaid: {
         noTrophySelected: "以下からトロフィーを選択してください。",
@@ -1276,7 +1192,7 @@ export const LangJa = {
         unread: "（未読）",
         markAllNotificationsRead: "すべての通知を既読にします。",
         markAllChangelogsRead: "すべての更新ログを既読にします。",
-        dismiss: "Mark as read and close."
+        dismiss: "既読にして閉じます。"
     },
     camera: {
         followUser: "ユーザをフォロー",
@@ -1306,20 +1222,15 @@ export const LangJa = {
         openMap: "マップを開く",
         calendars: "カレンダー",
         birthdays: "誕生日",
-        placeholder: {
-            googleCalendarName: "Googlカレンダー名…",
-            googleCalendarId: "GooglカレンダーＩＤ…",
-            uuid: "ＵＵＩＤ…"
-        },
         placeholders: {
             googleCalendarName: "Googlカレンダー名…",
             googleCalendarId: "GooglカレンダーＩＤ…",
             uuid: "ＵＵＩＤ…"
         },
-        teleport: "Teleport",
-        today: "Today",
-        allDay: "All Day",
-        noEventsToday: "No events today."
+        teleport: "テレポート",
+        today: "今日",
+        allDay: "終日",
+        noEventsToday: "今日の予定はありません。"
     },
     login: {
         error: {
@@ -1353,211 +1264,172 @@ export const LangJa = {
         guidedMode: "ガイドモード",
         manualMode: "手動モード",
         directDial: "直接ダイアル",
-        selectLandmark: "Select landmark",
-        landmarks: "Landmarks",
-        errorLandmarkAddress: "Failed to read landmark gate address"
+        selectLandmark: "ランドマークを選択",
+        landmarks: "ランドマーク",
+        errorLandmarkAddress: "ランドマークゲートアドレスの読み込みに失敗しました。"
     },
     help: {
         ticketPopup: {
-            header: "Submit a Ticket",
-            typeSupport: "Bug / Support Issue",
-            typeRequest: "Feature Request",
-            subjectPlaceholder: "Subject",
-            bodyPlaceholder: "Describe the issue or request in detail...",
-            submit: "Submit",
-            missing: "Please fill in a subject and description.",
-            success: "Ticket submitted!",
-            viewTicket: "View Ticket"
+            header: "チケットを送信",
+            typeSupport: "バグ／問題のサポート",
+            typeRequest: "機能のリクエスト",
+            subjectPlaceholder: "件名",
+            bodyPlaceholder: "問題点または要望を詳しく説明してください。",
+            submit: "送信",
+            missing: "件名と説明文をご記入ください。",
+            success: "チケットは送信されました！"
         },
-        header: "Help and Information",
-        sectionLearn: "Learn",
-        wiki: "Open Wiki",
-        wikiTooltip: "Opens the wiki page for the module you're currently on, if one exists.",
-        guide: "Page Guide",
-        guideTooltip: "Starts a guided walkthrough of the current page."
+        header: "ヘルプと情報",
+        sectionLearn: "学ぶ",
+        wiki: "Wikiを拓く",
+        wikiTooltip: "現在開いているモジュールのWikiページが存在する場合、そのページを開きます。",
+        guide: "ページガイド",
+        guideTooltip: "現在のページのガイド付きチュートリアルを開始します。"
     },
     kidnap: {
-        searchPlaceholder: "Search by name...",
-        none: "No matching users. You can only see people who let you teleport them.",
-        grab: "Grab them to you",
-        chase: "Teleport yourself to them",
-        searchButton: "Search",
-        refresh: "Show recently active",
-        enabled: "Enabled",
-        enabledTip: "Let other people find and kidnap you.",
-        allowTeleport: "Allow teleporting",
-        allowTeleportTip: "Allow being force-teleported by people who can kidnap you.",
-        grabDisabled: "This user does not allow being teleported",
-        lockedDisabled: "This user can't be grabbed right now",
-        dnd: "Do Not Disturb",
-        dndTip: "Stop anyone from kidnapping or teleporting you. Does not release a captor who already holds you - use Break Free for that.",
-        heldBy: "Held by %s",
-        heldNoName: "You have been kidnapped.",
-        breakFree: "Break free",
-        breakFreeTip: "End the kidnapping and free yourself.",
-        grabConfirmHeader: "Grab %s?",
-        grabConfirmBody: "This force-teleports %s to your location right now.",
-        chaseConfirmHeader: "Chase %s?",
-        chaseConfirmBody: "This teleports you to %s right now.",
-        viewRp: "View roleplay info",
-        rpNone: "No roleplay info set."
+        searchPlaceholder: "名前で検索…",
+        none: "一致するユーザがいません。テレポートを許可したユーザのみが表示されます。",
+        grab: "彼らを取得する",
+        chase: "彼らのところへテレポート",
+        searchButton: "検索",
+        refresh: "最近の活動を表示",
+        enabled: "有効",
+        enabledTip: "他の人にあなたを見つけさせ誘拐させる",
+        allowTeleport: "テレポートの許可",
+        allowTeleportTip: "あなたを誘拐する許可がある人物による強制テレポートを許可",
+        grabDisabled: "このユーザはテレポートを許可していません",
+        lockedDisabled: "このユーザは現在取得できません",
+        dnd: "取り込み中",
+        dndTip: "誘拐やテレポートを阻止します。既に拘束されている相手を解放するものではありません。その場合は「解放」を使用してください。",
+        heldBy: "%sに拘束されています",
+        heldNoName: "あなたは誘拐されました。",
+        breakFree: "自由になる",
+        breakFreeTip: "誘拐を終わらせて、自由になります。",
+        grabConfirmHeader: "%sを取得しますか？",
+        grabConfirmBody: "これにより、あなたのいる場所に%sが強制的にテレポートされます。",
+        chaseConfirmHeader: "%sを追跡しますか？",
+        chaseConfirmBody: "これにより、あなたは今すぐ%sにテレポートします。",
+        viewRp: "ロールプレイ情報を閲覧",
+        rpNone: "ロールプレイはこのセットにありません。"
     },
     command: {
-        title: "Chat Commands",
-        manage: "Manage chat commands",
-        namePlaceholder: "Name...",
-        channelPlaceholder: "Channel...",
-        messagePlaceholder: "Message to say...",
-        empty: "No chat commands yet.",
-        linkTitle: "Chat Commands",
-        linkTooltip: "Chat commands fired when this is worn or removed. FullArray commands will NOT work here.",
-        addLink: "Link a command",
-        onWear: "On wear",
-        onRemove: "On remove",
-        errorNameBlank: "Error: Command name cannot be blank.",
-        errorChannelBlank: "Error: Channel cannot be blank.",
-        errorMessageBlank: "Error: Message cannot be blank.",
-        errorPickCommand: "Error: Pick a command to link.",
-        onOuterwear: "Fire when the outfit changes to Outerwear",
-        onUnderwear: "Fire when the outfit changes to Underwear",
-        onNude: "Fire when the outfit changes to Nude",
-        trigWear: "Wear",
-        trigRemove: "Remove",
-        trigOuterwear: "Outer",
-        trigUnderwear: "Under",
-        trigNude: "Nude"
+        title: "チャットコマンド",
+        manage: "チャットコマンドの管理",
+        namePlaceholder: "名前…",
+        channelPlaceholder: "チャンネル…",
+        messagePlaceholder: "発言するメッセージ…",
+        empty: "チャットコマンドはまだありません。",
+        linkTitle: "チャットコマンド",
+        linkTooltip: "このアイテムを装着または取り外した際に、チャットコマンドが実行されます。FullArrayコマンドはここでは機能しません。",
+        addLink: "コマンドをリンク",
+        onWear: "装着時",
+        onRemove: "取り外し時",
+        errorNameBlank: "エラー：コマンド名は空白にできません。",
+        errorChannelBlank: "エラー：チャンネルは空白にできません。",
+        errorMessageBlank: "エラー：メッセージは空白にできません。",
+        errorPickCommand: "エラー：リンクするコマンドを選択してください。",
+        onOuterwear: "アウトフィットをアウターウェアに変更した時に発火",
+        onUnderwear: "アウトフィットをアンダーウェアに変更した時に発火",
+        onNude: "アウトフィットをヌードに変更した時に発火",
+        trigWear: "着用",
+        trigRemove: "取り外し",
+        trigOuterwear: "アウター",
+        trigUnderwear: "アンダー",
+        trigNude: "ヌード"
     },
     tag: {
-        title: "Exclusive Tag",
-        tooltip: "Items sharing a tag are mutually exclusive - attaching one detaches the others.",
-        none: "No tag",
-        placeholder: "New tag name...",
-        errorNameBlank: "Error: Tag name cannot be blank.",
-        titleMulti: "Exclusive Tags",
-        tooltipMulti: "Click a tag to add or remove it. Items sharing any tag are mutually exclusive - attaching one detaches the others.",
-        add: "Add tag",
-        remove: "Remove tag"
+        title: "排他タグ",
+        tooltip: "同じタグを持つアイテムは排他的です。いずれかを装着すると、他のアイテムは取り外されます。",
+        none: "タグなし",
+        placeholder: "新しいタグ名…",
+        errorNameBlank: "エラー：タグ名は空白にできません。",
+        titleMulti: "排他タグ",
+        tooltipMulti: "タグをクリックすると追加または削除できます。いずれかのタグを共有するアイテムは排他的です。いずれかを装着すると、他のアイテムは取り外されます。",
+        add: "タグを追加",
+        remove: "タグを削除"
     },
     environment: {
-        presets: "Environment Presets",
-        region: "Region",
-        cornerA: "Corner A (down/south/west)",
-        cornerB: "Corner B (up/north/east)",
-        preset: "Environment preset",
-        priority: "Priority",
-        enabled: "Enabled",
-        errorBlank: "Fill in a name, a region (use the location buttons) and an environment.",
-        created: "Environment zone created.",
+        presets: "環境プリセット",
+        preset: "環境プリセット",
+        errorBlank: "名前、リージョン（位置ボタンを使用）、環境を入力してください。",
+        created: "環境ゾーンを作成しました。",
         placeholders: {
-            zoneName: "Zone name...",
-            presetName: "Preset name...",
-            presetAssetId: "Environment asset UUID..."
+            presetName: "プリセット名…",
+            presetAssetId: "環境アセットのＵＵＩＤ…"
         },
-        public: "Public (visible to everyone in the region)",
-        tabs: {
-            zones: "Zones",
-            presets: "Presets",
-            region: "Region"
-        },
-        save: "Save",
-        updated: "Preset updated.",
-        byHeight: "Height zone (whole parcel, just set bottom/top height)",
-        heightBottom: "Bottom height",
-        heightTop: "Top height",
-        filters: {
-            all: "All",
-            mine: "Mine",
-            public: "Public",
-            private: "Private"
-        },
-        noZones: "No zones found.",
-        disabled: "Disabled",
-        landDelete: "Delete this zone from your land?",
-        landDeleteText: "Are you sure you want to delete !~NAME~! owned by !~OWNER~!?",
-        showZone: "Show zone bounds",
-        center: "Center",
-        size: "Size",
-        teleportZone: "Teleport to zone center",
-        forced: "Forced",
-        forcedTooltip: "Force this environment on for everyone in the zone, ignoring their public zone setting (land owner only)"
+        save: "保存",
+        updated: "プリセットを更新しました。"
     },
     zones: {
         tabs: {
-            zones: "Zones",
-            region: "Region",
-            presets: "Presets"
+            zones: "ゾーン",
+            region: "リージョン",
+            presets: "プリセット"
         },
         filters: {
-            all: "All",
-            mine: "Mine",
-            public: "Public",
-            private: "Private"
+            all: "すべて",
+            mine: "自分",
+            public: "公開",
+            private: "非公開"
         },
-        noZones: "No zones found.",
-        disabled: "Disabled",
-        center: "Center",
-        size: "Size",
-        showZone: "Show zone bounds",
-        teleportZone: "Teleport to zone center",
-        landDelete: "Delete this zone from your land?",
-        landDeleteText: "Are you sure you want to delete !~NAME~! owned by !~OWNER~!?",
-        forced: "Forced",
-        forceEnvironment: "Force the environment on for everyone in the zone, ignoring their public zone setting (land owner only)",
-        forceNude: "Force the Nude Place on for everyone in the zone, ignoring their public Nude Place setting (land owner only)",
-        region: "Region",
-        cornerA: "Corner A (down/south/west)",
-        cornerB: "Corner B (up/north/east)",
-        byHeight: "Height zone (whole region, just set bottom/top height)",
-        heightBottom: "Bottom height",
-        heightTop: "Top height",
-        preset: "Environment preset",
-        noPreset: "None",
-        priority: "Priority",
-        enabled: "Enabled",
-        public: "Public",
-        nude: "Nude Place",
-        nudeTooltip: "Strips everyone inside to Nude and keeps them Nude while inside. Public Nude Places must be on your land, never in PG regions.",
-        errorBlank: "Fill in a name and a region (use the location buttons), and pick an environment or Nude Place.",
-        created: "Zone created.",
+        noZones: "ゾーンが見つかりません。",
+        disabled: "無効",
+        center: "中心",
+        size: "サイズ",
+        showZone: "ゾーンの境界を表示",
+        teleportZone: "ゾーンの中心へテレポート",
+        landDelete: "このゾーンをあなたの土地から削除しますか？",
+        landDeleteText: "!~OWNER~!が所有する!~NAME~!を削除してもよろしいですか？",
+        forced: "強制",
+        forceEnvironment: "ゾーン権限に関係なく、ゾーン内の全員に環境を強制的に適用します（土地所有者のみ）",
+        region: "リージョン",
+        cornerA: "コーナーＡ（下／南／西）",
+        cornerB: "コーナーＢ（上／北／東）",
+        byHeight: "高さゾーン（リージョン全体、下端／上端の高さのみを設定）",
+        heightBottom: "下端の高さ",
+        heightTop: "上端の高さ",
+        preset: "環境プリセット",
+        noPreset: "なし",
+        priority: "優先度",
+        enabled: "有効",
+        public: "公開",
+        errorBlank: "名前とリージョン（位置ボタンを使用）を入力し、環境、入場時のアウトフィット、またはブロックするステートを選択してください。",
+        created: "ゾーンを作成しました。",
         placeholders: {
-            zoneName: "Zone name..."
+            zoneName: "ゾーン名…"
         },
-        forceDressed: "Force the Dressed Place on for everyone in the zone, ignoring their public Dressed Place setting (land owner only)",
-        dressed: "Dressed Place",
-        dressedTooltip: "Dresses everyone inside out of Nude and stops them going Nude while inside. Underwear is left alone. Public Dressed Places must be on your land.",
-        errorConflict: "A zone can't be both a Nude Place and a Dressed Place.",
-        dressOnExit: "Restore outfit on leave",
-        dressOnExitTag: "Restores on leave",
-        dressOnExitTooltip: "Puts everyone's outfit back the way it was before they were stripped when they leave the Nude Place, unless they are still inside another Nude Place. Outerwear if they changed outfit while inside.",
-        forceOutfit: "Force the outfit rules on for everyone in the zone, ignoring their public Outfit zone setting (land owner only)",
-        outfit: "Outfit zone",
-        outfitTooltip: "Changes the outfit of everyone inside and keeps them out of the blocked states. Public Outfit zones must be on your land, ones that strip to Nude are never allowed in PG regions.",
-        entryState: "Outfit on entry",
-        entryStateTooltip: "State everyone is changed to when they walk in.",
-        entryNone: "No change",
-        entryTag: "On entry: !~STATE~!",
-        block: "Block",
-        blockTooltip: "States nobody can change to while inside. Parts of an outfit already in a blocked state are changed to the most dressed allowed state they have clothing for.",
-        blockTag: "Blocks: !~STATES~!",
-        outfitPriorityTooltip: "When Outfit zones overlap only the highest priority one applies, the last one entered wins a tie.",
-        errorAllBlocked: "At least one outfit state must be allowed.",
-        errorEntryBlocked: "The outfit on entry can't be a blocked state.",
-        publicTooltip: "Applies to everyone wearing FullArray in the zone, unless they opted out of public zones. Public zones must be on land owned by you or your active group, and you must be in the region to make or move one."
+        dressOnExit: "退出時にアウトフィットを復元",
+        dressOnExitTag: "退出時に復元",
+        dressOnExitTooltip: "退出時に、全員のアウトフィットを入場前の状態に戻します。ただし、別のアウトフィットゾーンの中にまだいる場合は除きます。中にいる間にアウトフィットを変更した場合はアウターウェアになります。",
+        forceOutfit: "ゾーン権限に関係なく、ゾーン内の全員にアウトフィットのルールを強制的に適用します（土地所有者のみ）",
+        outfit: "アウトフィットゾーン",
+        outfitTooltip: "中にいる全員のアウトフィットを変更し、ブロックされたステートにならないようにします。ヌードにするものはＰＧリージョンでは許可されません。",
+        entryState: "入場時のアウトフィット",
+        entryStateTooltip: "入場したときに全員が変更されるステートです。",
+        entryNone: "変更なし",
+        entryTag: "入場時：!~STATE~!",
+        block: "ブロック",
+        blockTooltip: "中にいる間、誰も変更できないステートです。すでにブロックされたステートになっているアウトフィットの部分は、衣装がある中で最も着込んだ許可済みのステートに変更されます。",
+        blockTag: "ブロック：!~STATES~!",
+        outfitPriorityTooltip: "アウトフィットゾーンが重なっている場合は、優先度が最も高いものだけが適用されます。同じ優先度の場合は、最後に入ったものが優先されます。",
+        errorAllBlocked: "少なくとも1つのアウトフィットのステートを許可する必要があります。",
+        errorEntryBlocked: "入場時のアウトフィットに、ブロックされたステートは指定できません。",
+        publicTooltip: "ゾーン権限を公開に設定している、ゾーン内でFullArrayを装着している全員に適用されます。"
     },
     admin: {
         tabs: {
-            notifications: "Notifications"
+            notifications: "通知"
         },
         notifications: {
-            title: "Title",
-            message: "Message (Markdown supported)",
-            preview: "Preview",
-            previewEmpty: "Nothing to preview yet.",
-            send: "Send to everyone",
-            missing: "Title and message are required.",
-            sent: "Notification sent.",
-            confirmHeader: "Send this notification?",
-            confirmBody: "Every user will see \"!~NAME~!\" as a popup the next time they open the HUD. This can't be undone from here."
+            title: "タイトル",
+            message: "メッセージ（Markdown対応）",
+            preview: "プレビュー",
+            previewEmpty: "プレビューする内容はまだありません。",
+            send: "全員に送信",
+            missing: "タイトルとメッセージは必須です。",
+            sent: "通知を送信しました。",
+            confirmHeader: "この通知を送信しますか？",
+            confirmBody: "すべてのユーザが、次にＨＵＤを開いたときに「!~NAME~!」をポップアップで目にします。ここから取り消すことはできません。"
         }
     }
 }
