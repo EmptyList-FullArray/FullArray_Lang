@@ -24,10 +24,10 @@ export const LangJa = {
         telepathy: "テレパシー",
         camera: "カメラ",
         asn: "ＡＳＮ",
-        kidnap: "Kidnap",
-        command: "Commands",
-        environment: "Environment",
-        zones: "Zones"
+        kidnap: "誘拐",
+        command: "コマンド",
+        environment: "環境",
+        zones: "ゾーン"
     },
     misc: {
         settings: "設定",
@@ -64,7 +64,7 @@ export const LangJa = {
             outerwear: "アウターウェア",
             underwear: "アンダーウェア",
             nude: "ヌード",
-            nudeCut: "Nude (Cut Off)"
+            nudeCut: "ヌード（カットオフ）"
         },
         slots: {
             head: "頭",
@@ -307,25 +307,25 @@ export const LangJa = {
             detachAll: "アクティブなプロファイルからすべてのアクセサリを切り離し、非アクティブに設定します。",
             genitalSlot: "アクセサリを装着すると、性器を取り外すことができるようになります。",
             reload: "これにより、装着しているアクセサリをすべて取り外して、再装着する処理が行われます。",
-            profileLinks: "Accessories linked to active profile",
-            outfitLinks: "Accessories linked to active outfit",
-            outfitLinkSettings: "Settings for this Accessory's link to the active outfit. With no states ticked it is worn whenever the outfit is worn.",
-            profileOnly: "Only use this link while the active profile is loaded. Off applies it to every profile wearing this outfit.",
-            outfitStates: "Only wear this Accessory when this slot is in a ticked state. Every slot with a tick must match.",
-            profileLinkSettings: "Wear this Accessory with every outfit of this profile when the ticked states match. Nothing ticked turns it off. The active outfit can override it.",
-            profileStates: "Only wear this Accessory when this slot is in a ticked state. Every slot with a tick must match.",
-            outfitMode: "Follow Profile Default uses the Profile Default States. Wear and Never Wear override them for this outfit."
+            profileLinks: "アクティブなプロファイルにリンクされたアクセサリ",
+            outfitLinks: "アクティブなアウトフィットにリンクされたアクセサリ",
+            outfitLinkSettings: "このアクセサリの設定は、現在着用しているアウトフィットにリンクします。何もチェックが入っていない場合、アウトフィットを着用しているときはいつでも装着されます。",
+            profileOnly: "このリンクは、アクティブなプロファイルが読み込まれている間のみ使用してください。「オフ」にすると、このアウトフィットを着用しているすべてのプロファイルに適用されます。",
+            outfitStates: "このアクセサリは、このスロットにチェックマークが付いている時のみ着用してください。チェックマークが付いているスロットはすべて一致している必要があります。",
+            profileLinkSettings: "このアクセサリーは、チェックマークの状態が一致する場合、このプロファイルのすべてのアウトフィットに装着できます。何もチェックマークがない場合は装着できません。アクティブなアウトフィットによって上書きされる場合があります。",
+            profileStates: "このアクセサリは、このスロットにチェックマークが付いている時のみ着用してください。チェックマークが付いているスロットはすべて一致している必要があります。",
+            outfitMode: "「プロファイルデフォルトに従う」は、プロファイルのデフォルト状態を使用します。「着用」と「着用しない」は、このアウトフィットに対してプロファイルのデフォルト状態を上書きします。"
         },
-        outfitLinks: "Outfit Links",
-        profileLinks: "Profile Links",
-        outfitLinkSettings: "Outfit Link",
-        profileOnly: "Only for this Profile",
-        profileLinkSettings: "Profile Default States",
-        outfitMode: "This Outfit",
+        outfitLinks: "アウトフィットのリンク",
+        profileLinks: "プロファイルのリンク",
+        outfitLinkSettings: "アウトフィットリンク",
+        profileOnly: "このプロファイルのみ",
+        profileLinkSettings: "プロファイルのデフォルトのステート",
+        outfitMode: "このアウトフィット",
         outfitModes: {
-            none: "Follow Profile Default",
-            wear: "Wear",
-            never: "Never Wear"
+            none: "プロファイルのデフォルトに従う",
+            wear: "着用",
+            never: "着用しない"
         }
     },
     hair: {
@@ -442,9 +442,9 @@ export const LangJa = {
         regionBlocklistErrorBlank: "リージョンのＳＬＵＲＬは空白にできません。",
         headerLeashParticle: "鎖のパーティクル",
         categoryInventory: "インベントリ",
-        leashLinkStartEnd: "Link Start/End",
-        leashScale: "Scale",
-        leashAlpha: "Alpha"
+        leashLinkStartEnd: "リンクの始点／終点",
+        leashScale: "スケール",
+        leashAlpha: "アルファ"
     },
     huds: {
     },
@@ -459,9 +459,9 @@ export const LangJa = {
         tooltip: {
             utility_useForRestart: "現在いるリージョンが再起動した際に、このランドマークをテレポート地点として使用しますか？",
             asn: "近くにある「Alteran Stargate Network（ＡＳＮ）ゲートをスキャンして、そのアドレスをこのランドマークに保存しますか？",
-            refreshImage: "Get the parcel image again from Second Life. You must be in the Landmark region first."
+            refreshImage: "SecondLifeから再度区画画像を取得してください。まずランドマークのリージョンにいる必要があります。"
         },
-        refreshImage: "Refresh Landmark image"
+        refreshImage: "ランドマーク画像をリフレッシュ"
     },
     inventory: {
         rezInstaller: "インストーラーをRez",
@@ -478,7 +478,7 @@ export const LangJa = {
         derez: "Rez解除",
         cleanOnLeave: "去ったときにクリーンアップ",
         useForklift: "アイテムをRezするときTinesシステムを使用しますか？",
-        deleteInworld: "Delete inworld inventory item aswell?",
+        deleteInworld: "インワールドのインベントリアイテムも削除しますか？",
         tooltips: {
             rezInstaller: "インストーラーボックスをRezして、ＨＵＤにアイテムを簡単に追加します。",
             rezEmptyBox: "プレフィックスで使用するために空箱を再生成します。",
@@ -547,9 +547,9 @@ export const LangJa = {
         tooltip: {
             isDefault: "リージョンに何も設定されていない場合は、このグループをデフォルトのグループとして使用するかどうかを切り替えます。",
             roleName: "このグループに使用する役割名（タイトルではありません）。",
-            profile: "Profile to switch to when this Auto Group triggers.",
-            outfit: "Outfit to switch to when this Auto Group triggers.",
-            outfitPartialName: "Finds the outfit on your current profile whose name best matches this text and wears it when this Auto Group triggers. Skipped if no outfit matches."
+            profile: "この自動グループがトリガーされたときに切り替えるプロファイル。",
+            outfit: "この自動グループがトリガーされたときに切り替えるアウトフィット。",
+            outfitPartialName: "この自動グループがトリガーされたときに、現在のプロファイルに登録されているアウトフィットの中から、このテキストに最も一致する名前のアウトフィットを探し出し、それを着用します。一致するアウトフィットがない場合はスキップされます。"
         },
         placeholder: {
             roleName: "役割名…",
@@ -566,11 +566,11 @@ export const LangJa = {
             groupUuid: "グループのＵＵＩＤ…",
             groupRole: "グループの役割…",
             regionSlurl: "リージョンのＳＬＵＲＬ…",
-            outfitPartialName: "Outfit name contains..."
+            outfitPartialName: "アウトフィットの名前に含まれる…"
         },
-        profileLabel: "Profile",
-        outfitLabel: "Outfit",
-        outfitPartialNameOption: "Partial Name..."
+        profileLabel: "プロファイル",
+        outfitLabel: "アウトフィット",
+        outfitPartialNameOption: "一部の名前…"
     },
     relay: {
         hudLock: "あなたのＨＵＤをロックしますか？",
@@ -641,9 +641,9 @@ export const LangJa = {
                 about: "許可リストは、ＨＵＤの一部を操作することが許可されているユーザーのリストです。\n各モジュールとユーザーには独自のアクセスレベルがあり、ユーザーのレベルがモジュールのレベルと同じかそれ以上であれば、そのモジュールを使用できます。",
                 currentLeashHolder: "現在のあなたのアバターのＲＬＶリーシュ保持者です。",
                 friends: "あなたのＳＬフレンドリストへのアクセスレベル。",
-                kidnapper: "The access level for the avatar currently holding you kidnapped."
+                kidnapper: "現在あなたを誘拐しているアバターのアクセスレベル。"
             },
-            kidnapper: "Current Kidnapper"
+            kidnapper: "現在の誘拐者"
         },
         blocklist: {
             header: "ブロックリスト",
@@ -715,9 +715,9 @@ export const LangJa = {
             autoGroup: "自動グループ",
             tempHuds: "一時的なＨＵＤ",
             landmark: "ランドマーク",
-            environment: "Environment",
-            advanced: "Advanced",
-            zones: "Zones"
+            environment: "環境",
+            advanced: "詳細",
+            zones: "ゾーン"
         },
         checkbox: {
             useGrid: "グリッドレイアウトを使用しますか？",
@@ -757,12 +757,12 @@ export const LangJa = {
             landmark_asnFirst: "テレポートする前にＡＳＮスキャンしますか？",
             general_showCategoryAttach: "カテゴリの装着／取り外しを表示しますか？",
             outfit_keepSame: "アウトフィットを保持しますか？",
-            outfit_defaultIsAdult: "New Outfits default to Adult?",
-            environment_usePublicZones: "Apply other users' public Environment zones?",
-            environment_keepIfNoMatch: "Keep environment if none found?",
-            outfit_usePublicNudeZones: "Apply others' public Nude Places?",
-            outfit_usePublicDressedZones: "Apply others' public Dressed Places?",
-            outfit_usePublicZones: "Apply others' public Outfit zones?"
+            outfit_defaultIsAdult: "新しいアウトフィットのデフォルトをAdultとしますか？",
+            environment_usePublicZones: "他のユーザーの公開環境ゾーンを適用しますか？",
+            environment_keepIfNoMatch: "環境が見つからない場合は、環境を保持しますか？",
+            outfit_usePublicNudeZones: "他人の公共のヌードスポットを利用しますか？",
+            outfit_usePublicDressedZones: "他人の公共の服装規定を適用しますか？",
+            outfit_usePublicZones: "他人の公開アウトフィットゾーンを適用しますか？"
         },
         textbox: {
             prefixPlaceholder: "プレフィックス…",
@@ -827,15 +827,15 @@ export const LangJa = {
             prefix: "現在のプレフィックス：",
             userChannel: "このチャンネルは、他のユーザまたは自分自身からのチャットコマンドを介してＨＵＤを制御するために使用されます。<br/><br/>注：これを変更すると、以前に使用したコマンドは機能しなくなり、新しいチャンネルを使用する必要があります。<br/><br/>現在のチャンネル：",
             general_showCategoryAttach: "カテゴリ内の装着／取り外しボタンを表示するかどうかを切り替えます。",
-            logout: "Log out of the HUD website on this device.",
-            outfit_defaultIsAdult: "Toggles whether newly created Outfits will have the Adult flag set by default.",
-            outfit_defaultGenitals: "Sets the default Genital visibility states applied to newly created Outfits.",
-            environment_usePublicZones: "Toggles whether Environment zones marked Public by other users will apply to you when you enter them. Your own zones always apply regardless of this setting.",
-            homeTheme: "Switches between the classic Home layout and the widget-grid Home layout.",
-            environment_keepIfNoMatch: "When a Landmark or Auto Group with no Environment assigned triggers, your sky/lighting is normally reset to default. Turn this on to keep whatever environment is currently applied instead.",
-            outfit_usePublicNudeZones: "When you walk into another user's public Nude Place you will be stripped to Nude and kept Nude while inside. Turn this off to ignore other users' public Nude Places. Your own, and ones the land owner has forced on, always apply.",
-            outfit_usePublicDressedZones: "When you walk into another user's public Dressed Place any Nude parts of your outfit are dressed and you can't go Nude while inside. Underwear is left alone. Turn this off to ignore other users' public Dressed Places. Your own, and ones the land owner has forced on, always apply.",
-            outfit_usePublicZones: "When you walk into another user's public Outfit zone your outfit is changed to its outfit on entry and you can't change to the states it blocks while inside. Turn this off to ignore other users' public Outfit zones. Your own, and ones the land owner has forced on, always apply."
+            logout: "このデバイスからＨＵＤウェブサイトをログアウトします。",
+            outfit_defaultIsAdult: "新しく作成したアウトフィットに、デフォルトでAdultフラグを設定するかどうかを切り替えます。",
+            outfit_defaultGenitals: "新しく作成したアウトフィットに適用する、性器の表示ステートのデフォルトを設定します。",
+            environment_usePublicZones: "他のユーザが公開に設定した環境ゾーンに入ったときに、そのゾーンを自分にも適用するかどうかを切り替えます。自分のゾーンは、この設定に関係なく常に適用されます。",
+            homeTheme: "クラシックなホームレイアウトと、ウィジェットグリッドのホームレイアウトを切り替えます。",
+            environment_keepIfNoMatch: "環境が割り当てられていないランドマークや自動グループが発動すると、通常は空や照明がデフォルトにリセットされます。これをオンにすると、代わりに現在適用されている環境を維持します。",
+            outfit_usePublicNudeZones: "他のユーザの公開ヌードプレイスに入ると、ヌードにされ、中にいる間はヌードのままになります。これをオフにすると、他のユーザの公開ヌードプレイスを無視します。自分のものと、土地所有者が強制しているものは常に適用されます。",
+            outfit_usePublicDressedZones: "他のユーザの公開着衣プレイスに入ると、アウトフィットのヌードの部分に衣装が着せられ、中にいる間はヌードになれなくなります。アンダーウェアはそのままです。これをオフにすると、他のユーザの公開着衣プレイスを無視します。自分のものと、土地所有者が強制しているものは常に適用されます。",
+            outfit_usePublicZones: "他のユーザの公開アウトフィットゾーンに入ると、アウトフィットが入場時のアウトフィットに変更され、中にいる間はブロックされたステートに変更できなくなります。これをオフにすると、他のユーザの公開アウトフィットゾーンを無視します。自分のものと、土地所有者が強制しているものは常に適用されます。"
         },
         color: {
             colorHeader: "カラー設定",
@@ -925,9 +925,9 @@ export const LangJa = {
             colorTitle: "色",
             showBorder: "枠を表示",
             categoryUserSelect: {
-                header: "User Select",
-                name: "Name",
-                outfit: "Profile / Outfit"
+                header: "ユーザ選択",
+                name: "名前",
+                outfit: "プロファイル／アウトフィット"
             }
         },
         landmark: {
@@ -947,16 +947,16 @@ export const LangJa = {
         },
         errorUpdateLocal: "ローカルでの設定の更新に失敗しました。",
         button: {
-            logout: "Logout"
+            logout: "ログアウト"
         },
-        outfitDefaultsHeader: "New Outfit Defaults",
-        homeTheme: "Home Screen Style",
+        outfitDefaultsHeader: "新しいアウトフィットのデフォルト",
+        homeTheme: "ホーム画面のスタイル",
         homeThemes: {
-            classic: "Classic",
-            grid: "Widget Grid"
+            classic: "クラシック",
+            grid: "ウィジェットグリッド"
         },
-        search: "Search settings...",
-        noResults: "No settings found."
+        search: "設定を検索…",
+        noResults: "設定が見つかりません。"
     },
     pantyRaid: {
         noTrophySelected: "以下からトロフィーを選択してください。",
@@ -990,7 +990,7 @@ export const LangJa = {
         unread: "（未読）",
         markAllNotificationsRead: "すべての通知を既読にします。",
         markAllChangelogsRead: "すべての更新ログを既読にします。",
-        dismiss: "Mark as read and close."
+        dismiss: "既読にして閉じます。"
     },
     camera: {
         followUser: "ユーザをフォロー",
@@ -1030,10 +1030,10 @@ export const LangJa = {
             googleCalendarId: "GooglカレンダーＩＤ…",
             uuid: "ＵＵＩＤ…"
         },
-        teleport: "Teleport",
-        today: "Today",
-        allDay: "All Day",
-        noEventsToday: "No events today."
+        teleport: "テレポート",
+        today: "今日",
+        allDay: "終日",
+        noEventsToday: "今日の予定はありません。"
     },
     login: {
         error: {
@@ -1067,190 +1067,190 @@ export const LangJa = {
         guidedMode: "ガイドモード",
         manualMode: "手動モード",
         directDial: "直接ダイアル",
-        selectLandmark: "Select landmark",
-        landmarks: "Landmarks",
-        errorLandmarkAddress: "Failed to read landmark gate address"
+        selectLandmark: "ランドマークを選択",
+        landmarks: "ランドマーク",
+        errorLandmarkAddress: "ランドマークゲートアドレスの読み込みに失敗しました。"
     },
     help: {
         ticketPopup: {
-            header: "Submit a Ticket",
-            typeSupport: "Bug / Support Issue",
-            typeRequest: "Feature Request",
-            subjectPlaceholder: "Subject",
-            bodyPlaceholder: "Describe the issue or request in detail...",
-            submit: "Submit",
-            missing: "Please fill in a subject and description.",
-            success: "Ticket submitted!",
-            viewTicket: "View Ticket"
+            header: "チケットを送信",
+            typeSupport: "バグ／問題のサポート",
+            typeRequest: "機能のリクエスト",
+            subjectPlaceholder: "件名",
+            bodyPlaceholder: "問題点または要望を詳しく説明してください。",
+            submit: "送信",
+            missing: "件名と説明文をご記入ください。",
+            success: "チケットは送信されました！",
+            viewTicket: "チケットを閲覧"
         },
-        header: "Help and Information",
-        sectionLearn: "Learn",
-        wiki: "Open Wiki",
-        wikiTooltip: "Opens the wiki page for the module you're currently on, if one exists.",
-        guide: "Page Guide",
-        guideTooltip: "Starts a guided walkthrough of the current page."
+        header: "ヘルプと情報",
+        sectionLearn: "学ぶ",
+        wiki: "Wikiを拓く",
+        wikiTooltip: "現在開いているモジュールのWikiページが存在する場合、そのページを開きます。",
+        guide: "ページガイド",
+        guideTooltip: "現在のページのガイド付きチュートリアルを開始します。"
     },
     kidnap: {
-        searchPlaceholder: "Search by name...",
-        none: "No matching users. You can only see people who let you teleport them.",
-        grab: "Grab them to you",
-        chase: "Teleport yourself to them",
-        searchButton: "Search",
-        refresh: "Show recently active",
-        enabled: "Enabled",
-        enabledTip: "Let other people find and kidnap you.",
-        allowTeleport: "Allow teleporting",
-        allowTeleportTip: "Allow being force-teleported by people who can kidnap you.",
-        grabDisabled: "This user does not allow being teleported",
-        lockedDisabled: "This user can't be grabbed right now",
-        dnd: "Do Not Disturb",
-        dndTip: "Stop anyone from kidnapping or teleporting you. Does not release a captor who already holds you - use Break Free for that.",
-        heldBy: "Held by %s",
-        heldNoName: "You have been kidnapped.",
-        breakFree: "Break free",
-        breakFreeTip: "End the kidnapping and free yourself.",
-        grabConfirmHeader: "Grab %s?",
-        grabConfirmBody: "This force-teleports %s to your location right now.",
-        chaseConfirmHeader: "Chase %s?",
-        chaseConfirmBody: "This teleports you to %s right now.",
-        viewRp: "View roleplay info",
-        rpNone: "No roleplay info set."
+        searchPlaceholder: "名前で検索…",
+        none: "一致するユーザがいません。テレポートを許可したユーザのみが表示されます。",
+        grab: "彼らを取得する",
+        chase: "彼らのところへテレポート",
+        searchButton: "検索",
+        refresh: "最近の活動を表示",
+        enabled: "有効",
+        enabledTip: "他の人にあなたを見つけさせ誘拐させる",
+        allowTeleport: "テレポートの許可",
+        allowTeleportTip: "あなたを誘拐する許可がある人物による強制テレポートを許可",
+        grabDisabled: "このユーザはテレポートを許可していません",
+        lockedDisabled: "このユーザは現在取得できません",
+        dnd: "取り込み中",
+        dndTip: "誘拐やテレポートを阻止します。既に拘束されている相手を解放するものではありません。その場合は「解放」を使用してください。",
+        heldBy: "%sに拘束されています",
+        heldNoName: "あなたは誘拐されました。",
+        breakFree: "自由になる",
+        breakFreeTip: "誘拐を終わらせて、自由になります。",
+        grabConfirmHeader: "%sを取得しますか？",
+        grabConfirmBody: "これにより、あなたのいる場所に%sが強制的にテレポートされます。",
+        chaseConfirmHeader: "%sを追跡しますか？",
+        chaseConfirmBody: "これにより、あなたは今すぐ%sにテレポートします。",
+        viewRp: "ロールプレイ情報を閲覧",
+        rpNone: "ロールプレイはこのセットにありません。"
     },
     command: {
-        title: "Chat Commands",
-        manage: "Manage chat commands",
-        namePlaceholder: "Name...",
-        channelPlaceholder: "Channel...",
-        messagePlaceholder: "Message to say...",
-        empty: "No chat commands yet.",
-        linkTitle: "Chat Commands",
-        linkTooltip: "Chat commands fired when this is worn or removed. FullArray commands will NOT work here.",
-        addLink: "Link a command",
-        onWear: "On wear",
-        onRemove: "On remove",
-        errorNameBlank: "Error: Command name cannot be blank.",
-        errorChannelBlank: "Error: Channel cannot be blank.",
-        errorMessageBlank: "Error: Message cannot be blank.",
-        errorPickCommand: "Error: Pick a command to link.",
-        onOuterwear: "Fire when the outfit changes to Outerwear",
-        onUnderwear: "Fire when the outfit changes to Underwear",
-        onNude: "Fire when the outfit changes to Nude",
-        trigWear: "Wear",
-        trigRemove: "Remove",
-        trigOuterwear: "Outer",
-        trigUnderwear: "Under",
-        trigNude: "Nude"
+        title: "チャットコマンド",
+        manage: "チャットコマンドの管理",
+        namePlaceholder: "名前…",
+        channelPlaceholder: "チャンネル…",
+        messagePlaceholder: "発言するメッセージ…",
+        empty: "チャットコマンドはまだありません。",
+        linkTitle: "チャットコマンド",
+        linkTooltip: "このアイテムを装着または取り外した際に、チャットコマンドが実行されます。FullArrayコマンドはここでは機能しません。",
+        addLink: "コマンドをリンク",
+        onWear: "装着時",
+        onRemove: "取り外し時",
+        errorNameBlank: "エラー：コマンド名は空白にできません。",
+        errorChannelBlank: "エラー：チャンネルは空白にできません。",
+        errorMessageBlank: "エラー：メッセージは空白にできません。",
+        errorPickCommand: "エラー：リンクするコマンドを選択してください。",
+        onOuterwear: "アウトフィットをアウターウェアに変更した時に発火",
+        onUnderwear: "アウトフィットをアンダーウェアに変更した時に発火",
+        onNude: "アウトフィットをヌードに変更した時に発火",
+        trigWear: "着用",
+        trigRemove: "取り外し",
+        trigOuterwear: "アウター",
+        trigUnderwear: "アンダー",
+        trigNude: "ヌード"
     },
     tag: {
-        title: "Exclusive Tag",
-        tooltip: "Items sharing a tag are mutually exclusive - attaching one detaches the others.",
-        none: "No tag",
-        placeholder: "New tag name...",
-        errorNameBlank: "Error: Tag name cannot be blank."
+        title: "排他タグ",
+        tooltip: "同じタグを持つアイテムは排他的です。いずれかを装着すると、他のアイテムは取り外されます。",
+        none: "タグなし",
+        placeholder: "新しいタグ名…",
+        errorNameBlank: "エラー：タグ名は空白にできません。"
     },
     environment: {
-        presets: "Environment Presets",
-        region: "Region",
-        cornerA: "Corner A (down/south/west)",
-        cornerB: "Corner B (up/north/east)",
-        preset: "Environment preset",
-        priority: "Priority",
-        enabled: "Enabled",
-        errorBlank: "Fill in a name, a region (use the location buttons) and an environment.",
-        created: "Environment zone created.",
+        presets: "環境プリセット",
+        region: "リージョン",
+        cornerA: "コーナーＡ（下／南／西）",
+        cornerB: "コーナーＢ（上／北／東）",
+        preset: "環境プリセット",
+        priority: "優先度",
+        enabled: "有効",
+        errorBlank: "名前、リージョン（位置ボタンを使用）、環境を入力してください。",
+        created: "環境ゾーンを作成しました。",
         placeholders: {
-            zoneName: "Zone name...",
-            presetName: "Preset name...",
-            presetAssetId: "Environment asset UUID..."
+            zoneName: "ゾーン名…",
+            presetName: "プリセット名…",
+            presetAssetId: "環境アセットのＵＵＩＤ…"
         },
-        public: "Public (visible to everyone in the region)",
+        public: "公開（リージョン内の全員に表示）",
         tabs: {
-            zones: "Zones",
-            presets: "Presets",
-            region: "Region"
+            zones: "ゾーン",
+            presets: "プリセット",
+            region: "リージョン"
         },
-        save: "Save",
-        updated: "Preset updated.",
-        byHeight: "Height zone (whole parcel, just set bottom/top height)",
-        heightBottom: "Bottom height",
-        heightTop: "Top height",
+        save: "保存",
+        updated: "プリセットを更新しました。",
+        byHeight: "高さゾーン（区画全体、下端／上端の高さのみを設定）",
+        heightBottom: "下端の高さ",
+        heightTop: "上端の高さ",
         filters: {
-            all: "All",
-            mine: "Mine",
-            public: "Public",
-            private: "Private"
+            all: "すべて",
+            mine: "自分",
+            public: "公開",
+            private: "非公開"
         },
-        noZones: "No zones found.",
-        disabled: "Disabled",
-        landDelete: "Delete this zone from your land?",
-        landDeleteText: "Are you sure you want to delete !~NAME~! owned by !~OWNER~!?",
-        showZone: "Show zone bounds",
-        center: "Center",
-        size: "Size",
-        teleportZone: "Teleport to zone center",
-        forced: "Forced",
-        forcedTooltip: "Force this environment on for everyone in the zone, ignoring their public zone setting (land owner only)"
+        noZones: "ゾーンが見つかりません。",
+        disabled: "無効",
+        landDelete: "このゾーンをあなたの土地から削除しますか？",
+        landDeleteText: "!~OWNER~!が所有する!~NAME~!を削除してもよろしいですか？",
+        showZone: "ゾーンの境界を表示",
+        center: "中心",
+        size: "サイズ",
+        teleportZone: "ゾーンの中心へテレポート",
+        forced: "強制",
+        forcedTooltip: "公開ゾーンの設定に関係なく、ゾーン内の全員にこの環境を強制的に適用します（土地所有者のみ）"
     },
     zones: {
         tabs: {
-            zones: "Zones",
-            region: "Region",
-            presets: "Presets"
+            zones: "ゾーン",
+            region: "リージョン",
+            presets: "プリセット"
         },
         filters: {
-            all: "All",
-            mine: "Mine",
-            public: "Public",
-            private: "Private"
+            all: "すべて",
+            mine: "自分",
+            public: "公開",
+            private: "非公開"
         },
-        noZones: "No zones found.",
-        disabled: "Disabled",
-        center: "Center",
-        size: "Size",
-        showZone: "Show zone bounds",
-        teleportZone: "Teleport to zone center",
-        landDelete: "Delete this zone from your land?",
-        landDeleteText: "Are you sure you want to delete !~NAME~! owned by !~OWNER~!?",
-        forced: "Forced",
-        forceEnvironment: "Force the environment on for everyone in the zone, ignoring their public zone setting (land owner only)",
-        forceNude: "Force the Nude Place on for everyone in the zone, ignoring their public Nude Place setting (land owner only)",
-        region: "Region",
-        cornerA: "Corner A (down/south/west)",
-        cornerB: "Corner B (up/north/east)",
-        byHeight: "Height zone (whole region, just set bottom/top height)",
-        heightBottom: "Bottom height",
-        heightTop: "Top height",
-        preset: "Environment preset",
-        noPreset: "None",
-        priority: "Priority",
-        enabled: "Enabled",
-        public: "Public",
-        nude: "Nude Place",
-        nudeTooltip: "Strips everyone inside to Nude and keeps them Nude while inside. Public Nude Places must be on your land, never in PG regions.",
-        errorBlank: "Fill in a name and a region (use the location buttons), and pick an environment or Nude Place.",
-        created: "Zone created.",
+        noZones: "ゾーンが見つかりません。",
+        disabled: "無効",
+        center: "中心",
+        size: "サイズ",
+        showZone: "ゾーンの境界を表示",
+        teleportZone: "ゾーンの中心へテレポート",
+        landDelete: "このゾーンをあなたの土地から削除しますか？",
+        landDeleteText: "!~OWNER~!が所有する!~NAME~!を削除してもよろしいですか？",
+        forced: "強制",
+        forceEnvironment: "公開ゾーンの設定に関係なく、ゾーン内の全員に環境を強制的に適用します（土地所有者のみ）",
+        forceNude: "公開ヌードプレイスの設定に関係なく、ゾーン内の全員にヌードプレイスを強制的に適用します（土地所有者のみ）",
+        region: "リージョン",
+        cornerA: "コーナーＡ（下／南／西）",
+        cornerB: "コーナーＢ（上／北／東）",
+        byHeight: "高さゾーン（リージョン全体、下端／上端の高さのみを設定）",
+        heightBottom: "下端の高さ",
+        heightTop: "上端の高さ",
+        preset: "環境プリセット",
+        noPreset: "なし",
+        priority: "優先度",
+        enabled: "有効",
+        public: "公開",
+        nude: "ヌードプレイス",
+        nudeTooltip: "中にいる全員をヌードにし、中にいる間はヌードのままにします。公開ヌードプレイスは自分の土地に設置する必要があり、ＰＧリージョンには設置できません。",
+        errorBlank: "名前とリージョン（位置ボタンを使用）を入力し、環境、入場時のアウトフィット、またはブロックするステートを選択してください。",
+        created: "ゾーンを作成しました。",
         placeholders: {
-            zoneName: "Zone name..."
+            zoneName: "ゾーン名…"
         },
-        forceDressed: "Force the Dressed Place on for everyone in the zone, ignoring their public Dressed Place setting (land owner only)",
-        dressed: "Dressed Place",
-        dressedTooltip: "Dresses everyone inside out of Nude and stops them going Nude while inside. Underwear is left alone. Public Dressed Places must be on your land.",
-        errorConflict: "A zone can't be both a Nude Place and a Dressed Place.",
-        dressOnExit: "Restore outfit on leave",
-        dressOnExitTag: "Restores on leave",
-        dressOnExitTooltip: "Puts everyone's outfit back the way it was before they were stripped when they leave the Nude Place, unless they are still inside another Nude Place. Outerwear if they changed outfit while inside.",
-        forceOutfit: "Force the outfit rules on for everyone in the zone, ignoring their public Outfit zone setting (land owner only)",
-        outfit: "Outfit zone",
-        outfitTooltip: "Changes the outfit of everyone inside and keeps them out of the blocked states. Public Outfit zones must be on your land, ones that strip to Nude are never allowed in PG regions.",
-        entryState: "Outfit on entry",
-        entryStateTooltip: "State everyone is changed to when they walk in.",
-        entryNone: "No change",
-        entryTag: "On entry: !~STATE~!",
-        block: "Block",
-        blockTooltip: "States nobody can change to while inside. Parts of an outfit already in a blocked state are changed to the most dressed allowed state they have clothing for.",
-        blockTag: "Blocks: !~STATES~!",
-        outfitPriorityTooltip: "When Outfit zones overlap only the highest priority one applies, the last one entered wins a tie.",
-        errorAllBlocked: "At least one outfit state must be allowed.",
-        errorEntryBlocked: "The outfit on entry can't be a blocked state."
+        forceDressed: "公開着衣プレイスの設定に関係なく、ゾーン内の全員に着衣プレイスを強制的に適用します（土地所有者のみ）",
+        dressed: "着衣プレイス",
+        dressedTooltip: "中にいる全員のヌードを解除して衣装を着せ、中にいる間はヌードになれないようにします。アンダーウェアはそのままです。公開着衣プレイスは自分の土地に設置する必要があります。",
+        errorConflict: "ゾーンをヌードプレイスと着衣プレイスの両方にすることはできません。",
+        dressOnExit: "退出時にアウトフィットを復元",
+        dressOnExitTag: "退出時に復元",
+        dressOnExitTooltip: "退出時に、全員のアウトフィットを入場前の状態に戻します。ただし、別のアウトフィットゾーンの中にまだいる場合は除きます。中にいる間にアウトフィットを変更した場合はアウターウェアになります。",
+        forceOutfit: "公開アウトフィットゾーンの設定に関係なく、ゾーン内の全員にアウトフィットのルールを強制的に適用します（土地所有者のみ）",
+        outfit: "アウトフィットゾーン",
+        outfitTooltip: "中にいる全員のアウトフィットを変更し、ブロックされたステートにならないようにします。公開アウトフィットゾーンは自分の土地に設置する必要があり、ヌードにするものはＰＧリージョンでは許可されません。",
+        entryState: "入場時のアウトフィット",
+        entryStateTooltip: "入場したときに全員が変更されるステートです。",
+        entryNone: "変更なし",
+        entryTag: "入場時：!~STATE~!",
+        block: "ブロック",
+        blockTooltip: "中にいる間、誰も変更できないステートです。すでにブロックされたステートになっているアウトフィットの部分は、衣装がある中で最も着込んだ許可済みのステートに変更されます。",
+        blockTag: "ブロック：!~STATES~!",
+        outfitPriorityTooltip: "アウトフィットゾーンが重なっている場合は、優先度が最も高いものだけが適用されます。同じ優先度の場合は、最後に入ったものが優先されます。",
+        errorAllBlocked: "少なくとも1つのアウトフィットのステートを許可する必要があります。",
+        errorEntryBlocked: "入場時のアウトフィットに、ブロックされたステートは指定できません。"
     }
 }
