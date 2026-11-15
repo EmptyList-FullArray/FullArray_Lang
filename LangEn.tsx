@@ -605,7 +605,11 @@ export const LangEn = {
         linkModeTorso_Crotch_Waist: "Torso & Crotch & Waist",
         linkMode_Crotch_Waist:       "Crotch & Waist",
         defaultHair:              "Default Hair",
-        defaultShoe:              "Default Shoe",
+        defaultShoe:              "Default Shoe: Outerwear",
+        defaultShoeUnderwear:     "Default Shoe: Underwear",
+        defaultShoeNude:          "Default Shoe: Nude",
+        shoeSameAsOuterwear:      "Same as Outerwear",
+        barefoot:                 "Barefoot",
         torsoGenitalSettings:     "Torso Genital Settings",
         crotchGenitalSettings:    "Crotch Genital Settings",
         tooltip:{
@@ -615,7 +619,9 @@ export const LangEn = {
             genitalsCrotch: "Will attach and detach the genitalsCrotch folder in your Profile depending on the state of your Outfit.",
             genitalsTorso: "Will attach and detach the genitalsTorso folder in your Profile depending on the state of your Outfit.",
             defaultHair: "Sets the default hair to attach when this outfit is loaded.",
-            defaultShoe: "Sets the default shoe to attach when this outfit is loaded.",
+            defaultShoe: "Sets the default shoe to attach when this outfit is loaded with Outerwear feet.",
+            defaultShoeUnderwear: "Sets the default shoe to attach when this outfit has Underwear feet.<br>Same as Outerwear uses the Outerwear shoe.",
+            defaultShoeNude: "Sets the default shoe to attach when this outfit has Nude feet.<br>Barefoot takes shoes off.",
         }
     },
     accessory:{

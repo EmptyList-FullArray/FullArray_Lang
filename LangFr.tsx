@@ -570,10 +570,16 @@ export const LangFr = {
             genitalsCrotch: "Attachera et détachera le dossier genitalsCrotch dans votre Profil en fonction de l'état de votre Tenue.",
             genitalsTorso: "Attachera et détachera le dossier genitalsTorso dans votre Profil en fonction de l'état de votre Tenue.",
             defaultHair: "Sets the default hair to attach when this outfit is loaded.",
-            defaultShoe: "Sets the default shoe to attach when this outfit is loaded."
+            defaultShoe: "Sets the default shoe to attach when this outfit is loaded.",
+            defaultShoeUnderwear: "Chaussures portées avec cette tenue quand les pieds sont en sous-vêtements.<br>Comme en tenue : celles de la tenue.",
+            defaultShoeNude: "Chaussures portées avec cette tenue quand les pieds sont nus.<br>Pieds nus : retirées."
         },
         defaultHair: "Default Hair",
-        defaultShoe: "Default Shoe",
+        defaultShoe: "Chaussures par défaut : Tenue",
+        defaultShoeUnderwear: "Chaussures par défaut : Sous-vêtements",
+        defaultShoeNude: "Chaussures par défaut : Nu",
+        shoeSameAsOuterwear: "Comme en tenue",
+        barefoot: "Pieds nus",
         torsoGenitalSettings: "Torso Genital Settings",
         crotchGenitalSettings: "Crotch Genital Settings",
         none: "None"

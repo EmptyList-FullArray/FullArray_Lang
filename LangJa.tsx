@@ -570,10 +570,16 @@ export const LangJa = {
             genitalsCrotch: "アウトフィットのステートに応じて、プロファイル内の「genitalsCrotch」フォルダを装着または取り外します。",
             genitalsTorso: "アウトフィットのステートに応じて、プロファイル内の「genitalsTorso」フォルダを装着または取り外します。",
             defaultHair: "このアウトフィットが読み込まれた際にデフォルトで適用される髪型を設定します。",
-            defaultShoe: "このアウトフィットが読み込まれた際にデフォルトで装着される靴を設定します。"
+            defaultShoe: "このアウトフィットが読み込まれた際にデフォルトで装着される靴を設定します。",
+            defaultShoeUnderwear: "足が下着のとき、このアウトフィットと一緒に履く靴です。<br>アウターと同じ：アウターの靴。",
+            defaultShoeNude: "足が裸のとき、このアウトフィットと一緒に履く靴です。<br>裸足：靴を脱ぎます。"
         },
         defaultHair: "デフォルトの髪型",
-        defaultShoe: "デフォルトの靴",
+        defaultShoe: "デフォルトの靴：アウター",
+        defaultShoeUnderwear: "デフォルトの靴：下着",
+        defaultShoeNude: "デフォルトの靴：裸",
+        shoeSameAsOuterwear: "アウターと同じ",
+        barefoot: "裸足",
         torsoGenitalSettings: "胴体の性器の設定",
         crotchGenitalSettings: "股間の性器の設定",
         none: "なし"
