@@ -1563,7 +1563,19 @@ export const LangJa = {
             missing: "Title and message are required.",
             sent: "Notification sent.",
             confirmHeader: "Send this notification?",
-            confirmBody: "Every user will see \"!~NAME~!\" as a popup the next time they open the HUD. This can't be undone from here."
+            confirmBody: "Every user will see \"!~NAME~!\" !~POPUP~!. This can't be undone from here.",
+            everyone: "Everyone",
+            everyoneTooltip: "Off: only the avatars you add below.",
+            popup: "Popup",
+            popupTooltip: "Off: it's only counted on the envelope and listed in Notifications, without the popup.",
+            avatar: "Avatar name, UUID or profile link",
+            addAvatar: "Add avatar",
+            removeAvatar: "Remove",
+            noRecipients: "Add at least one avatar, or turn on Everyone.",
+            sendTo: "Send to !~COUNT~! avatar(s)",
+            confirmBodyTo: "!~NAMES~! will see \"!~NAME~!\" !~POPUP~!. This can't be undone from here.",
+            asPopup: "as a popup the next time they open the HUD",
+            noPopup: "in their notifications, without a popup"
         }
     }
 }
