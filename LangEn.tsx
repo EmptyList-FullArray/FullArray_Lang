@@ -1373,6 +1373,8 @@ export const LangEn = {
         dismiss: "Mark as read and close.",
         markAllNotificationsRead: "Mark all notifications as read.",
         markAllChangelogsRead:    "Mark all changelogs as read.",
+        remove: "Remove from your list (read).",
+        removeAllRead: "Remove all read notifications from your list.",
     },
     camera:{
         followUser: "Follow User",

@@ -1282,6 +1282,8 @@ export const LangJa = {
         unread: "（未読）",
         markAllNotificationsRead: "すべての通知を既読にします。",
         markAllChangelogsRead: "すべての更新ログを既読にします。",
+        remove: "リストから削除します（既読）。",
+        removeAllRead: "既読の通知をすべてリストから削除します。",
         dismiss: "Mark as read and close."
     },
     camera: {

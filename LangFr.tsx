@@ -1282,6 +1282,8 @@ export const LangFr = {
         unread: "(Non lu)",
         markAllNotificationsRead: "Mark all notifications as read.",
         markAllChangelogsRead: "Mark all changelogs as read.",
+        remove: "Retirer de votre liste (lue).",
+        removeAllRead: "Retirer de votre liste toutes les notifications lues.",
         dismiss: "Mark as read and close."
     },
     camera: {
